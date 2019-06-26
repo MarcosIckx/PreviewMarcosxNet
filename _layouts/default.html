@@ -1,30 +1,14 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>{{ page.title }}</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css"
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Accueil</a></li>
-	        	<li><a href="/apropos">À propos</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    			
-			{{ content }}
-			
+	{% include head.html %}
 
+	<body>
+	{% include nav.html %}
+		<div class="container">
+    		
+		{{ content }}
+		
 		</div><!-- /.container -->
-		<footer>
-    		<ul>
-			<li>&copy; Marcos Ickx 2019</li>
-        		<li><a href="https://twitter.com/MarcosIckx">Twitter</a></li>
-        		<li><a href="https://MarcosX.net">MarcosX.net</a></li>
-			</ul>
-		</footer>
+	{% include footer.html %}
 	</body>
 </html>
