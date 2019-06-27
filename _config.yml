@@ -1,4 +1,4 @@
 name: Le Blog de Marcos Ickx
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+permalink: /:year/:month/:day/:title
 theme: jekyll-theme-minimal
