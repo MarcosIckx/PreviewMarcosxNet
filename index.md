@@ -20,7 +20,7 @@ Tous les article publiés sur ce site m´appartiennent et ne peuvent être recop
 sans avoir obtenu au préalable mon autorisation.
 
         
-<a href="/a-propos">Si vous désirez en savoir plus sur moi...</a>
+<a href="/apropos">Si vous désirez en savoir plus sur moi...</a>
 
 
 {% include posts.html %}
