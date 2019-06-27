@@ -3,7 +3,7 @@ layout: default
 title: Page d´Accueil de Marcos Ickx
 ---
 
-<div class="blurb">
+
 # Bonjour à tous. Je me présente. Je m'appelle Marcos Ickx!!! #
 	
 Sur ce site, je ne publierai que mon avis personnel, qui n´engage que moi, 
@@ -20,7 +20,7 @@ Tous les article publiés sur ce site m´appartiennent et ne peuvent être recop
 sans avoir obtenu au préalable mon autorisation.
 
         
-<a href="/a-propos">Si vous désirez en savoir plus sur moi...</a></p>
-</div><!-- /.blurb -->
+<a href="/a-propos">Si vous désirez en savoir plus sur moi...</a>
+
 
 {% include posts.html %}
