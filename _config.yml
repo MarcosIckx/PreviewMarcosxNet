@@ -3,6 +3,11 @@ markdown: kramdown
 permalink: /:year/:month/:day/:title
 theme: jekyll-theme-minimal
 
+gems:
+   - jekyll-paginate
+
+paginate: 10
+
 defaults:
   -
     scope:
