@@ -1,4 +1,24 @@
+:root {
+    --primary-color: #999;
+    --secondary-color: #333;
+    --font-color: #424242;
+    --bg-color: #fff;
+    --step-bgcolor: #4679BD;
+    --heading-color: #292922;
+}
+
+[data-theme="dark"] {
+    --primary-color: #9A97F3;
+    --secondary-color: #818cab;
+    --font-color: #e1e1ff;
+    --bg-color: #161625;
+    --step-bgcolor: #0ff;
+    --heading-color: #818cab;
+}
+
 body {
+    background-color: var(--bg-color);
+    color: var(--font-color);
     margin: 60px auto;
     width: 70%;
 }
@@ -14,7 +34,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: var(--primary-color);
 }
 a:hover {
     text-decoration: underline;
@@ -26,7 +46,7 @@ h1 {
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
+    color: var(--secondary-color);
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -47,8 +67,8 @@ ul.posts li {
 	-webkit-border-radius: 50%; 
 	width: 35px; 
 	height: 35px; 
-	background: #4679BD; 
-	color: #FFF; 
+	background: var(--step-bgcolor);
+	color: var(--bg-color); 
 	float: left;
 	text-align: center;
 	font-size: 24px;
