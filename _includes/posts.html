@@ -2,7 +2,7 @@
 	<p>Les billets de Marcos</p>
   <ul class="posts">
 	  {% for post in paginator.posts %}
-	    <li>
+	    <li>billet
 				<div>
 					<span>{{ post.date | date: "%d/%m/%Y" }}</span>
 					<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
