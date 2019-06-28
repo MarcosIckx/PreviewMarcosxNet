@@ -1,6 +1,5 @@
 name: Le Blog de Marcos Ickx
 markdown: kramdown
-permalink: /:year/:month/:day/:title
 theme: jekyll-theme-minimal
 
 gems:
