@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Le Blog de Marcos Ickx -- vie 2"
-date: 20a9-06-26
+date: 2019-06-26
 ---
 
 Et bien voilà.
