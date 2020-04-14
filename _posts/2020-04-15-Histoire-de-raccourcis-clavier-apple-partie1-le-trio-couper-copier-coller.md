@@ -4,9 +4,9 @@ title: "Histoire de raccourcis clavier célèbres - Partie 1 : Couper/Copier/Col
 date: 2020-04-15
 ---
 
-#Histoire de raccourcis clavier célèbres
+# Histoire de raccourcis clavier célèbres
 
-##Introduction
+## Introduction
 
 J’avais lu sur MacG au début de cette année un article que j’ai trouvé fabuleusement bien écrit et raconté par Jean-Baptiste Leheup [^*1], retraçant l’histoire de la touche commande ⌘ aussi appelée la touche pomme car à l’époque du Lisa et du premier Mac, c’était le symbole  qui figurait sur ces touches, et non le symbole ⌘.
 
