@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Histoire de raccoircis clavier célèbres - Partie 1 : Couper/Copier/Coller"
+title: "Histoire de raccourcis clavier célèbres - Partie 1 : Couper/Copier/Coller"
 date: 2020-04-15
 ---
 
