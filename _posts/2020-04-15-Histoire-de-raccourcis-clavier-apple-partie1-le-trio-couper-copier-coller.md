@@ -8,62 +8,94 @@ date: 2020-04-15
 
 ## Introduction
 
-J’avais lu sur MacG au début de cette année un article que j’ai trouvé fabuleusement bien écrit et raconté par Jean-Baptiste Leheup [^*1], retraçant l’histoire de la touche commande ⌘ aussi appelée la touche pomme car à l’époque du Lisa et du premier Mac, c’était le symbole  qui figurait sur ces touches, et non le symbole ⌘.
-
-[*1 Lien de l’article : https://www.macg.co/aapl/2020/02/dou-vient-la-touche-commande-de-nos-claviers-111943]
-
-Et plus ou moins à la même époque, Jean-Baptiste Leheup a publié, toujours sur MacG, une série d’ articles «Xerox, le vrai père du Macintosh ?»
-1. La visite au PARC
-2. La naissance du Lisa
-3. Le procès
-
-Ensuite, en février, MacG a écrit deux articles consacré à Larry Tesler suite à son décès.
-
-https://www.macg.co/ailleurs/2020/02/deces-de-larry-tesler-lhomme-qui-naimait-pas-les-modes-112053
-mais aussi 
-https://www.macg.co/ailleurs/2020/02/1985-quand-larry-tesler-racontait-laventure-du-lisa-112057
+J’avais lu sur MacG au début de cette année 
+[un article que j’ai trouvé fabuleusement bien écrit 
+et raconté par Jean-Baptiste Leheup](https://www.macg.co/aapl/2020/02/dou-vient-la-touche-commande-de-nos-claviers-111943), retraçant l’histoire de la touche ⌘ 
+aussi appelée la touche commande, 
+ou touche pomme car à l’époque du Lisa, 
+c’était le symbole  qui figurait sur cette touche, 
+et non le symbole ⌘.
 
 
-Mais c’est suite à la sortie du livre d’Audrey Couleau, publié par MacGeneration, consacré aux raccourcis clavier sur Mac que j’ai eu du coup l’envie de vous raconter la fabuleuse histoire des raccourcis clavier les plus célèbres au monde.
-Le copier/coller (qui forme en fait un trio avec le nom moins célèbre couper)
+Et plus ou moins à la même époque, Jean-Baptiste Leheup, 
+toujours lui, a publié, toujours sur MacG, 
+une série d’ articles intitulés «Xerox, le vrai père du Macintosh ?»
+1. [La visite au PARC](https://www.macg.co/aapl/2020/01/lisa-et-macintosh-et-si-xerox-avait-en-fait-tout-invente-111081)
+1. [La naissance du Lisa](https://www.macg.co/aapl/2020/01/lisa-et-macintosh-et-si-xerox-avait-en-fait-tout-invente-partie-2-111085)
+1. [Le procès](https://www.macg.co/aapl/2020/01/lisa-et-macintosh-et-si-xerox-avait-en-fait-tout-invente-partie-3-111087)
 
-Le trio Couper/Copier/Coller
+Ensuite, en février, MacG a écrit 
+deux articles consacré à Larry Tesler 
+suite à son décès.
+
+* [Décès de Larry Tesler, l'homme qui n'aimait pas les modes](https://www.macg.co/ailleurs/2020/02/deces-de-larry-tesler-lhomme-qui-naimait-pas-les-modes-112053)
+* [Quand Larry Tesler racontait l'aventure du Lisa](https://www.macg.co/ailleurs/2020/02/1985-quand-larry-tesler-racontait-laventure-du-lisa-112057)
+
+Mais j'avais lu ces différents articles passionnants qui racontaient 
+l'histoire du Mac et du Lisa, sans pour autant aller plus loin.
+
+Or, vendredi passé, le 10 avril 2020, 
+MacGénération annonce la précommande d'un nouveau livre 
+écrit par Audrey Couleau elle-même et consacré aux raccourcis clavier sur Mac.
+
+
+et là, de suite, les articles de Jean-Baptiste Leheup sur la touche Commande ⌘, le naissance du Lisa et kes articlss consacrés à Larry Tesler me reviennent en mémoire.
+
+Et du coup, tout cela m'a donné l'envie de vous raconter la fabuleuse histoire des raccourcis clavier les plus célèbres au monde : Le Coier/Coller. Qui forme en fait un trio si on n'oublie pas le non moins célèbre couper.
+
+Voilà donc sans plus attendre la fabuleuse histoire du trio Couper/Copier/Coller.
+
+
+## Le trio Couper/Copier/Coller
 
 
 Dans les années 60 et 70, comme nous le rappelle trop  brièvement Florian Innocente dans l’article
-
-« Décès de Larry Tesler, l’homme qui n’aimait pas les modes », 
-
+[Décès de Larry Tesler, l'homme qui n'aimait pas les modes](https://www.macg.co/ailleurs/2020/02/deces-de-larry-tesler-lhomme-qui-naimait-pas-les-modes-112053), 
 les éditeurs de texte suivaient une logique de Mode.
 
-Pour faire simple, l’utilisateur devait rentrer en mode action (pour une action bien précise) pour ensuite indiquer le texte sur lequel l’action s’applique, pour finalement sortir de ce mode d’action là.
+Pour faire simple, l’utilisateur devait rentrer en mode action (pour une action bien précise)
+pour ensuite indiquer le texte sur lequel l’action s’applique, pour finalement sortir de ce mode d’action là.
 Et ainsi de suite.
 
-Par exemple, on pouvait se déplacer dans le texte, mais il fallait basculer dans le mode Insérer pour pouvoir insérer du texte à un endroit donné. Puis sortir de ce mode pour rentrer dans le mode de suppression pour supprimer du texte à un endroit donné, ...
+Par exemple, on pouvait se déplacer dans le texte, mais il fallait basculer dans le mode Insertion pour pouvoir insérer du texte à l'endroit où on avait positionné le curseur à l'écran. 
+Puis il fallait sortir de ce mode pour pouvoir à nouveau déplacer le curseur de texte à l'écran, pour ensuite rentrer dans le mode de suppression pour supprimer du texte à un endroit donné, ...
 
 D’ailleurs, cette façon de faire est toujours bien connues des personnes qui utilisent encore aujourd’hui des éditeurs comme vi.
 
-Larry ne voulait pas imposer à l’utilisateur cette gymnastique de devoir toujours basculer d’un mode à l’autre pour pouvoir faire des actions. Il a donc inverser cette logique en permettant à l’utilisateur de sélectionner du texte pour ensuite indiquer l’action à appliquer à ce texte.
+Larry n'aimait pas les modes. Il ne voulait pas imposer à l’utilisateur cette gymnastique de devoir toujours basculer d’un mode à l’autre pour pouvoir faire des actions. Il voulait inverser cela et permettre à l'utilsateur de directement insérer ou suprimer du texte là où le curseur de texte se trouvait, mais il a aussi inverser cette logique en permettant à l’utilisateur de d'abord sélectionner du texte pour ensuite indiquer l'ction à appliquer à ce texte.
 
-Et l’on a vu ainsi les premières applications de cela dans le PARC où il a travaillé.
+Et c'est ainsi que Larry a cassé les règles du jeu de l'édition.
 
-Lorsque Larry a rejoint Apple pour travailler sur le projet Lisa, il a continuer à peaufiner son idée, en inventant le concept du presse-papiers.
+Et l’on a vu ainsi les premières applications de cela dans le PARC de Xerox où Larry a travaillé.
 
-Jusqu’alors, lorsqu’on sélectionnait du texte pour le copier, on le rangeait dans un buffer mémoire. Et lorsqu’on le collait, on insérait à l’endroit désiré ce qui se trouvait dans le buffer mémoire.
+Parc de Xerox qui a été visité par Steve Jobs et d'autres personnes de chee Apple.
 
-Avec le concept du presse-papiers, Larry va plus loin en mettant dans le presse-papiers plusieurs représentation de l’élément original à copier. On retrouvait dans le presse-papiers une copie en texte brute de la source, à coté d’une copie où les éléments de style étaient gardés (la police, la couleur, la taille, le style gras ou italique , …)
-Et c’est l’application destination qui choisissait dans le presse-papiers la version qu’il désirait. Le texte brute ou le texte stylé.
+Je ne vais pas vous raconter à nouveau cela, Florian Innoncente l'a raconté bien mieux que moi.
 
-Les développeurs chez Apple ont eu l’idée d’associer des raccourcis-clavier à ces actions.
+Lorsque Larry a rejoint Apple pour travailler sur le projet Lisa, 
+il a continuer à peaufiner son idée, en allant encore plus loin inventant le concept du presse-papiers.
 
-Je ne vais pas vous refaire tout l’historique des claviers Apple et de la touche ⌘ .
-Jean-Baptiste Leheup l’a déjà fait.
+Jusqu’alors, lorsqu’on sélectionnait du texte pour le copier, il était rangé dans un buffer mémoire propore à l'application ouverte. Et lorsqu’on le collait, on insérait à l’endroit désiré ce qui se trouvait dans le buffer mémoire de cette application.
 
-Mais ce que vous devez savoir, c’est que lorsque le Lisa sort en 1983, il n’a pas encore de touche ⌘ mais il a encore la touche  héritée des précédents ordinateurs.
+Mais il n'atait pas prévu de copier depuis une application A pour coller dans une application B.
+
+Avec le concept du presse-papiers, Larry va alors permetrre aux applications de se partager ce buffer mémoire. mais l'idée géniale qu'il a eu est de mettre dans le presse-papiers plusieurs représentation de l’élément original à copier. On retrouvait dans le presse-papiers une copie en texte brute de la source, à coté d’une copie où les éléments de style étaient gardés (la police, la couleur, la taille, le style gras ou italique , …)
+Et c’est l’application de destination qui choisissait dans le presse-papiers la version qui était la plus adaptée pour elle :  Le texte brute ou le texte stylé.
+
+Tout en mettant en place ce mécaisme, il fallait maintenant associer des raccourcis clavier à ces nouvelles actions que sont le couper/copier/coller.
+
+Je ne vais pas vous refaire tout l’historique des claviers Apple et en particulier de la touche commande ⌘ / pomme .
+Jean-Baptiste Leheup l’a déjà fait pour moi, et avec brio.
+
+Mais ce que vous devez savoir, c’est que lorsque le Lisa sort en 1983, il n’a pas encore de touche commande ⌘. Il a encore la touche  héritée des précédents ordinateurs.
 
 Et lorsque Larry décide d’associer des raccourcis clavier à ces nouvelles actions que sont le couper/copier/coller, ils les associent aux combinaisons de touches X, C et V.
 
+Les touches X, C, et V sont les touches les plus proche de la touche , et ce que vous ayez un clavier azerty, qwerty, qwertz.
+
 Lorsqu’en 1984 le clavier du premier Macintosh sort, il n’a pas de touche  mais seulement de touche ⌘.
+Pourquoi ? Parce que Steve Jobs trouvait hideux 
+
 Et à coté de cette touche ⌘ il y avait une touche option.
 Il est important de noter que le clavier du premier Apple Macintosh n’avait pas de touches de contrôle. Uniquement la touche ⌘ et la touche OPTION.  
 Or donc, le Macintosh reprend les raccourcis clavier similaires à celui du Lisa.
