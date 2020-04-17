@@ -8,7 +8,7 @@ date: 2020-04-15
 
 ## Introduction
 
-J’avais lu sur MacG au début de cette année 
+J’avais lu sur MacG au début de cette année 2020
 [un article que j’ai trouvé fabuleusement bien écrit 
 et raconté par Jean-Baptiste Leheup][lien-1]
 , retraçant l’histoire de la touche ⌘ 
@@ -27,7 +27,7 @@ une série d’ articles intitulés «Xerox, le vrai père du Macintosh ?»
 1. [La naissance du Lisa](https://www.macg.co/aapl/2020/01/lisa-et-macintosh-et-si-xerox-avait-en-fait-tout-invente-partie-2-111085)
 1. [Le procès](https://www.macg.co/aapl/2020/01/lisa-et-macintosh-et-si-xerox-avait-en-fait-tout-invente-partie-3-111087)
 
-Ensuite, en février, MacG a écrit 
+Ensuite, en février 2020, MacG a écrit 
 deux articles consacré à Larry Tesler 
 suite à son décès.
 
