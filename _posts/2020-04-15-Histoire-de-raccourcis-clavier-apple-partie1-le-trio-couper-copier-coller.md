@@ -10,11 +10,14 @@ date: 2020-04-15
 
 J’avais lu sur MacG au début de cette année 
 [un article que j’ai trouvé fabuleusement bien écrit 
-et raconté par Jean-Baptiste Leheup](https://www.macg.co/aapl/2020/02/dou-vient-la-touche-commande-de-nos-claviers-111943), retraçant l’histoire de la touche ⌘ 
+et raconté par Jean-Baptiste Leheup][lien-1]
+, retraçant l’histoire de la touche ⌘ 
 aussi appelée la touche commande, 
 ou touche pomme car à l’époque du Lisa, 
 c’était le symbole  qui figurait sur cette touche, 
 et non le symbole ⌘.
+
+[lien-1]: https://www.macg.co/aapl/2020/02/dou-vient-la-touche-commande-de-nos-claviers-111943 "D’où vient la touche commande ⌘ de nos claviers"
 
 
 Et plus ou moins à la même époque, Jean-Baptiste Leheup, 
