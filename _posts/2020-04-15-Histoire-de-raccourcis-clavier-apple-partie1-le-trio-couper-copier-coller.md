@@ -1,50 +1,50 @@
----
+—
 layout: post
-title: "Histoire de raccourcis clavier célèbres - Partie 1 : Couper/Copier/Coller"
+title: « Histoire de raccourcis clavier célèbres - Partie 1 : Couper/Copier/Coller »
 date: 2020-04-15
----
+—
 
 # Histoire de raccourcis clavier célèbres
 
 ## Introduction
 
 J’avais lu sur MacG au début de cette année 2020
-[un article que j’ai trouvé fabuleusement bien écrit 
-et raconté par Jean-Baptiste Leheup][lien-1]
+[un article que j’ai trouvé fabuleusement bien écrit et raconté par Jean-Baptiste Leheup][article-touche-cmd]
 , retraçant l’histoire de la touche ⌘ 
 aussi appelée la touche commande, 
 ou touche pomme car à l’époque du Lisa, 
 c’était le symbole  qui figurait sur cette touche, 
 et non le symbole ⌘.
 
-[lien-1]: https://www.macg.co/aapl/2020/02/dou-vient-la-touche-commande-de-nos-claviers-111943 "D’où vient la touche commande ⌘ de nos claviers"
-
-
 Et plus ou moins à la même époque, Jean-Baptiste Leheup, 
 toujours lui, a publié, toujours sur MacG, 
 une série d’ articles intitulés «Xerox, le vrai père du Macintosh ?»
-1. [La visite au PARC](https://www.macg.co/aapl/2020/01/lisa-et-macintosh-et-si-xerox-avait-en-fait-tout-invente-111081)
-1. [La naissance du Lisa](https://www.macg.co/aapl/2020/01/lisa-et-macintosh-et-si-xerox-avait-en-fait-tout-invente-partie-2-111085)
-1. [Le procès](https://www.macg.co/aapl/2020/01/lisa-et-macintosh-et-si-xerox-avait-en-fait-tout-invente-partie-3-111087)
 
-Ensuite, en février 2020, MacG a écrit 
+1. [La visite au PARC][xerox-1]
+1. [La naissance du Lisa][xerox-2]
+1. [Le procès][xerox-3]
+
+Ensuite, en février, MacG a écrit 
 deux articles consacré à Larry Tesler 
 suite à son décès.
 
-* [Décès de Larry Tesler, l'homme qui n'aimait pas les modes](https://www.macg.co/ailleurs/2020/02/deces-de-larry-tesler-lhomme-qui-naimait-pas-les-modes-112053)
-* [Quand Larry Tesler racontait l'aventure du Lisa](https://www.macg.co/ailleurs/2020/02/1985-quand-larry-tesler-racontait-laventure-du-lisa-112057)
+* [Larry Tesler, l’homme qui n’aimait pas les modes][larry-tesler-1]
+* [Quand Larry Tesler racontait l’aventure du Lisa][larry-tesler-2]
 
-Mais j'avais lu ces différents articles passionnants qui racontaient 
-l'histoire du Mac et du Lisa, sans pour autant aller plus loin.
+
+
+
+Mais j’avais lu ces différents articles passionnants qui racontaient 
+l’histoire du Mac et du Lisa, sans pour autant aller plus loin.
 
 Or, vendredi passé, le 10 avril 2020, 
-MacGénération annonce la précommande d'un nouveau livre 
+MacGénération annonce la précommande d’un nouveau livre 
 écrit par Audrey Couleau elle-même et consacré aux raccourcis clavier sur Mac.
 
 
 et là, de suite, les articles de Jean-Baptiste Leheup sur la touche Commande ⌘, le naissance du Lisa et kes articlss consacrés à Larry Tesler me reviennent en mémoire.
 
-Et du coup, tout cela m'a donné l'envie de vous raconter la fabuleuse histoire des raccourcis clavier les plus célèbres au monde : Le Coier/Coller. Qui forme en fait un trio si on n'oublie pas le non moins célèbre couper.
+Et du coup, tout cela m’a donné l’envie de vous raconter la fabuleuse histoire des raccourcis clavier les plus célèbres au monde : Le Coier/Coller. Qui forme en fait un trio si on n’oublie pas le non moins célèbre couper.
 
 Voilà donc sans plus attendre la fabuleuse histoire du trio Couper/Copier/Coller.
 
@@ -53,36 +53,36 @@ Voilà donc sans plus attendre la fabuleuse histoire du trio Couper/Copier/Colle
 
 
 Dans les années 60 et 70, comme nous le rappelle trop  brièvement Florian Innocente dans l’article
-[Décès de Larry Tesler, l'homme qui n'aimait pas les modes](https://www.macg.co/ailleurs/2020/02/deces-de-larry-tesler-lhomme-qui-naimait-pas-les-modes-112053), 
+[Décès de Larry Tesler, l’homme qui n’aimait pas les modes][Larry-Tesler-1], 
 les éditeurs de texte suivaient une logique de Mode.
 
 Pour faire simple, l’utilisateur devait rentrer en mode action (pour une action bien précise)
 pour ensuite indiquer le texte sur lequel l’action s’applique, pour finalement sortir de ce mode d’action là.
 Et ainsi de suite.
 
-Par exemple, on pouvait se déplacer dans le texte, mais il fallait basculer dans le mode Insertion pour pouvoir insérer du texte à l'endroit où on avait positionné le curseur à l'écran. 
-Puis il fallait sortir de ce mode pour pouvoir à nouveau déplacer le curseur de texte à l'écran, pour ensuite rentrer dans le mode de suppression pour supprimer du texte à un endroit donné, ...
+Par exemple, on pouvait se déplacer dans le texte, mais il fallait basculer dans le mode Insertion pour pouvoir insérer du texte à l’endroit où on avait positionné le curseur à l’écran. 
+Puis il fallait sortir de ce mode pour pouvoir à nouveau déplacer le curseur de texte à l’écran, pour ensuite rentrer dans le mode de suppression pour supprimer du texte à un endroit donné, ...
 
 D’ailleurs, cette façon de faire est toujours bien connues des personnes qui utilisent encore aujourd’hui des éditeurs comme vi.
 
-Larry n'aimait pas les modes. Il ne voulait pas imposer à l’utilisateur cette gymnastique de devoir toujours basculer d’un mode à l’autre pour pouvoir faire des actions. Il voulait inverser cela et permettre à l'utilsateur de directement insérer ou suprimer du texte là où le curseur de texte se trouvait, mais il a aussi inverser cette logique en permettant à l’utilisateur de d'abord sélectionner du texte pour ensuite indiquer l'ction à appliquer à ce texte.
+Larry n’aimait pas les modes. Il ne voulait pas imposer à l’utilisateur cette gymnastique de devoir toujours basculer d’un mode à l’autre pour pouvoir faire des actions. Il voulait inverser cela et permettre à l’utilsateur de directement insérer ou suprimer du texte là où le curseur de texte se trouvait, mais il a aussi inverser cette logique en permettant à l’utilisateur de d’abord sélectionner du texte pour ensuite indiquer l’ction à appliquer à ce texte.
 
-Et c'est ainsi que Larry a cassé les règles du jeu de l'édition.
+Et c’est ainsi que Larry a cassé les règles du jeu de l’édition.
 
 Et l’on a vu ainsi les premières applications de cela dans le PARC de Xerox où Larry a travaillé.
 
-Parc de Xerox qui a été visité par Steve Jobs et d'autres personnes de chee Apple.
+Parc de Xerox qui a été visité par Steve Jobs et d’autres personnes de chee Apple.
 
-Je ne vais pas vous raconter à nouveau cela, Florian Innoncente l'a raconté bien mieux que moi.
+Je ne vais pas vous raconter à nouveau cela, Florian Innoncente l’a raconté bien mieux que moi.
 
 Lorsque Larry a rejoint Apple pour travailler sur le projet Lisa, 
 il a continuer à peaufiner son idée, en allant encore plus loin inventant le concept du presse-papiers.
 
-Jusqu’alors, lorsqu’on sélectionnait du texte pour le copier, il était rangé dans un buffer mémoire propore à l'application ouverte. Et lorsqu’on le collait, on insérait à l’endroit désiré ce qui se trouvait dans le buffer mémoire de cette application.
+Jusqu’alors, lorsqu’on sélectionnait du texte pour le copier, il était rangé dans un buffer mémoire propore à l’application ouverte. Et lorsqu’on le collait, on insérait à l’endroit désiré ce qui se trouvait dans le buffer mémoire de cette application.
 
-Mais il n'atait pas prévu de copier depuis une application A pour coller dans une application B.
+Mais il n’atait pas prévu de copier depuis une application A pour coller dans une application B.
 
-Avec le concept du presse-papiers, Larry va alors permetrre aux applications de se partager ce buffer mémoire. mais l'idée géniale qu'il a eu est de mettre dans le presse-papiers plusieurs représentation de l’élément original à copier. On retrouvait dans le presse-papiers une copie en texte brute de la source, à coté d’une copie où les éléments de style étaient gardés (la police, la couleur, la taille, le style gras ou italique , …)
+Avec le concept du presse-papiers, Larry va alors permetrre aux applications de se partager ce buffer mémoire. mais l’idée géniale qu’il a eu est de mettre dans le presse-papiers plusieurs représentation de l’élément original à copier. On retrouvait dans le presse-papiers une copie en texte brute de la source, à coté d’une copie où les éléments de style étaient gardés (la police, la couleur, la taille, le style gras ou italique , …)
 Et c’est l’application de destination qui choisissait dans le presse-papiers la version qui était la plus adaptée pour elle :  Le texte brute ou le texte stylé.
 
 Tout en mettant en place ce mécaisme, il fallait maintenant associer des raccourcis clavier à ces nouvelles actions que sont le couper/copier/coller.
@@ -158,3 +158,11 @@ Les caractères de contrôles n’étant pas des caractères qui pouvaient être
 Et donc, le symbole ^ était le symbole le plus approprié pour la touche de contrôle CTRL.
 
 Voilà, je suis bien conscient que cet article n’est pas publiable tel quel mais je suis sûr que Jean-Baptise Leheup pourra en faire un article merveilleux, voire même 2 articles (un sur la touche CTRL et un autre sur le copier/coller).
+
+[article-touche-cmd]: https://www.macg.co/aapl/2020/02/dou-vient-la-touche-commande-de-nos-claviers-111943 (D’où vient la touche commande ⌘ de nos claviers)
+[xerox-1]: https://www.macg.co/aapl/2020/01/lisa-et-macintosh-et-si-xerox-avait-en-fait-tout-invente-111081 (Lisa et Macintosh: Et si Xerox avait en fait tout inventé - Partie 1: La visite au PARC)
+[xerox-2]: https://www.macg.co/aapl/2020/01/lisa-et-macintosh-et-si-xerox-avait-en-fait-tout-invente-partie-2-111085 (Lisa et Macintosh: Et si Xerox avait en fait tout inventé - Partie 2: La naissance du Lisa)
+[xerox-3]: https://www.macg.co/aapl/2020/01/lisa-et-macintosh-et-si-xerox-avait-en-fait-tout-invente-partie-3-111087 (Lisa et Macintosh: Et si Xerox avait en fait tout inventé - Partie 3: Le procès)
+[larry-tesler-1]: https://www.macg.co/ailleurs/2020/02/deces-de-larry-tesler-lhomme-qui-naimait-pas-les-modes-112053 (Larry Tesler, l’homme qui n’aimait pas les modes)
+[larry-tesler-2]: https://www.macg.co/ailleurs/2020/02/1985-quand-larry-tesler-racontait-laventure-du-lisa-112057 (Quand Larry Tesler racontait l’aventure du Lisa)
+
