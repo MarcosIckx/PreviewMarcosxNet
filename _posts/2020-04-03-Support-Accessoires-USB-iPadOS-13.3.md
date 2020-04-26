@@ -6,7 +6,7 @@ date: 2020-04-03
 
 # Support des accessoires USB sous iPadOS 13.3
 
-L'année passée, j'avais testé le branchement de certains accessoires USB sous iOS12.
+L'année passée, [j'avais testé le branchement de certains accessoires USB sous iOS12][Lien-1].
 
 Cette année, je profite du fait que je suis confiné à la maison
 pour vous refaire un test mais cette fois-ci sous iPadOS 13.3.1.
@@ -70,7 +70,7 @@ Allons voir de plus près dans les réglages.
 
 Avec AssistiveTouch, même sous iOS 12, on pouvait déjà faire apparaître un « curseur » à l’écran qui nous montrait où on appuyait sur l’écran et on pouvait les déclencher par le bouton maison qui s’affiche à l’écran. Je vous montre cela en vidéo.
 
-[Vidéo montrant affichage du curseur tel qu'on pouvait le voir sous iOS 12][Vidéo-Curseur-iOS-12]
+[Vidéo montrant affichage du curseur tel qu'on pouvait le voir sous iOS 12][Lien-Vidéo-1]
 
 Je  tiens à préciser qu’aucun dispositif n’était connecté à l’iPad à ce moment là.
 Ça montre juste qu’on pouvait déjà même afficher un pointeur symbolisant un doigt.
@@ -81,12 +81,12 @@ Tout cela se trouvant dans les réglages de l’AssistiveTouch, comme on peut le
 
 (Toujours sans appareils  connectés. Uniquement les doigts)
 
-[Vidéo montrant comment régler la taille et la coukeur du curseur, tel qu'on pouvait le voir sous iOS 12][Vidéo-Réglage-Curseur-iOS-12]
+[Vidéo montrant comment régler la taille et la coukeur du curseur, tel qu'on pouvait le voir sous iOS 12][Lien-Vidéo-2]
 
 
 Voyons maintenant ce qui se passe lorsqu’on branche une souris (tout en s’assurant  qu’AssistiveTouch soit bien activé. Sinon, rien ne se passe à priori).
 
-[Vidéo montrant ce qui se passe une fois qu'on branche une souris USB sous ios 13][Vidéo-Branchement-Souris-iOS-13]
+[Vidéo montrant ce qui se passe une fois qu'on branche une souris USB sous iPadOS 13][Lien-Vidéo-3]
 
 Dès que je branche la souris, vu que AssistiveTouch est activé, le pointeur apparaît furtivement pendant 2 secondes.
 
@@ -202,12 +202,12 @@ Aura-t-on une belle surprise ?
 
 [Vidéo-Réglages-Cacher-Bouton-Accueil]:‪https://twitter.com/MarcosIckx/status/1245839560912842752/video/1‬
 
-[Vidéo-Curseur-iOS-12]:https://twitter.com/MarcosIckx/status/1245838818458112002/video/1‬
+[Vidéo-Utilisation-Boutons-Souris-iPadOS-13]:https://twitter.com/MarcosIckx/status/1245839337708797953/video/1‬
 
-[Vidéo-Utilisation-Boutons-Souris-iOS-13]:https://twitter.com/MarcosIckx/status/1245839337708797953/video/1‬
+[Vidéo-Réglages-Boutons-Souris-iPadOS-13]:https://twitter.com/MarcosIckx/status/1245839250441945092/video/1‬
 
-[Vidéo-Réglages-Boutons-Souris-iOS-13]:https://twitter.com/MarcosIckx/status/1245839250441945092/video/1‬
+[Lien-Vidéo-3]:‪https://twitter.com/MarcosIckx/status/1245838974498877441/video/1‬
 
-[Vidéo-Branchement-Souris-iOS-13]:‪https://twitter.com/MarcosIckx/status/1245838974498877441/video/1‬
+[Lien-Vidéo-]:https://twitter.com/MarcosIckx/status/1245838818458112002/video/1‬
 
-[Vidéo-Réglage-Curseur-iOS-12]:https://twitter.com/MarcosIckx/status/1245838895402684417/video/1
+[Lien-Vidéo-2]:https://twitter.com/MarcosIckx/status/1245838895402684417/video/1
