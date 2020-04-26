@@ -89,7 +89,7 @@ le voir sous iOS 12][Lien-Vidéo-2]
 
 Voyons maintenant ce qui se passe lorsqu’on branche une souris (tout en s’assurant  qu’AssistiveTouch soit bien activé. Sinon, rien ne se passe à priori).
 
-[Vidéo montrant ce qui se passe une fois 
+[Vidéo montrant ce qui se passe une fois
 qu'on branche une souris USB sous iPadOS 13][Lien-Vidéo-3]
 
 Dès que je branche la souris, vu que AssistiveTouch est activé, le pointeur apparaît furtivement pendant 2 secondes.
@@ -116,8 +116,9 @@ On peut également utiliser la molette pour se déplacer facilement dans les men
 
 Mais profitons en pour cacher par défaut le bouton d’accueil dès que la souris est branchée.
 
-[Vidéo illustrant l'utilisation de la molette de la souris 
-et expliquant où se rendre pour cacher le bouton d'accueil][Lien-Vidéo-6]
+[Vidéo illustrant l'utilisation de 
+la molette de la souris et expliquant 
+où se rendre pour cacher le bouton d'accueil][Lien-Vidéo-6]
 
 Le support de la souris sous cette version d’iPadOS 13.3.1 ne fait que simuler l’interaction du doigt à l’écran. 
 
@@ -157,7 +158,8 @@ Après cela, **et uniquement après cela**, on peut réduire le temps au minimum
 
 Voyons cela en vidéo :
 
-[Vidéo illustrant comment activer le rétablissement automatique ][Lien-Vidéo-7]
+[Vidéo illustrant comment activer le 
+rétablissement automatique ][Lien-Vidéo-7]
 
 Maintenant nous pouvons désigner des actions à chacun des 4 coins de l’écran.
 
@@ -179,7 +181,8 @@ Et maintenant il nous suffit de placer ce curseur dans chacun des coins de l’�
 
 Voyons cela en action.
 
-[Vidéo illustrant l'utilisation des coins actifs][Lien-Vidéo-9]
+[Vidéo illustrant l'utilisation 
+des coins actifs][Lien-Vidéo-9]
 
 
 
