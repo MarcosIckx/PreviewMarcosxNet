@@ -22,7 +22,7 @@ Il m’affiche un message disant que l’écran doit être déverrouillé pour q
 Je déverrouille donc l’écran de mon iPad.
 Et hop, je vois surgir cette popup. 
 
-![Alerte Mise à Jour d'accesoire disponible] (https://pbs.twimg.com/media/EA6HUGdWsAQsaMC.jpg "popup d'alerte mise à jour accessoire disponible")
+![Alerte Mise à Jour d'accesoire disponible] (https://pbs.twimg.com/media/EA6HUGdWsAQsaMC.jpg?name=small "popup d'alerte mise à jour accessoire disponible")
 
 
 Je choisi de mettre à jour plus tard.
@@ -31,12 +31,12 @@ En attendant, je vais dans les Paramètres | Général | Informations.
 
 Une nouvelle ligne apparaît pour l’adaptateur. 
 
-![Nouvelle entrée dans Paramètres | Général | Informations pour l'adaptateur Lightning - USB 3] (https://pbs.twimg.com/media/EA6HUj0X4AwFBr3.jpg "La nouvelle entrée dans Informations pour l'adaptateur Lighning-USB3")
+![Nouvelle entrée dans Paramètres | Général | Informations pour l'adaptateur Lightning - USB 3] (https://pbs.twimg.com/media/EA6HUj0X4AwFBr3.jpg?name=small "La nouvelle entrée dans Informations pour l'adaptateur Lighning-USB3")
 
 Et dans les infos détaillées, on apprend que la version du programme interne est la version 1.0.1.
 
 ![Version du programme interne de l'adaptateur Lightning - USB 3]
-(https://pbs.twimg.com/media/EA6HUj9WkAA2j9V.jpg "Version du programme interne de l'adaptateur Lightning - USB 3")
+(https://pbs.twimg.com/media/EA6HUj9WkAA2j9V.jpg?name=small "Version du programme interne de l'adaptateur Lightning - USB 3")
 
 
 Mais rien à cet endroit ne m’indique qu’une nouvelle version du programme interne de l’adaptateur est disponible et rien ne me permet maintenant d’appliquer la mise à jour.
@@ -64,7 +64,7 @@ Bref, voilà, la mise à jour est faite.
 La version du programme interne de l’adaptateur est donc passé de la version 1.0.1 à 1.0.5.
 
 ![Version du programme interne de l'adaptateur Lightning - USB 3 après mise à jour]
-(https://pbs.twimg.com/media/EA6HVUaXoAARfS0?format=jpg "Version du programme interne de l'adaptateur Lightning - USB 3 après la mise a jour")
+(https://pbs.twimg.com/media/EA6HVUaXoAARfS0?format=jpg&name=small "Version du programme interne de l'adaptateur Lightning - USB 3 après la mise a jour")
 
 # En route pour quelques tests.
 
@@ -163,9 +163,9 @@ Du coup, j’ai découvert que la photo de  fond d’écran de mon iPhone n’é
 
 Mais j’ai découvert également ceci:
 
-![Dans les Réglages, entre Wi-Fi et Bluetooth apparait une entrée Ethernet dont l'interface est nommée USB iPhone](https://pbs.twimg.com/media/EA6HXN6XsAA6otv?format=jpg&name=large "Entrée Ethernet dans les réglages")
+![Dans les Réglages, entre Wi-Fi et Bluetooth apparait une entrée Ethernet dont l'interface est nommée USB iPhone](https://pbs.twimg.com/media/EA6HXN6XsAA6otv?format=jpg&name=small "Entrée Ethernet dans les réglages")
 
-![Les infos détaillées de la connection Ethernet](https://pbs.twimg.com/media/EA6HXmQWsAExUXQ?format=jpg&name=medium "Les infos détaillées de la connection Ethernet") 
+![Les infos détaillées de la connection Ethernet](https://pbs.twimg.com/media/EA6HXmQWsAExUXQ?format=jpg&name=small "Les infos détaillées de la connection Ethernet") 
 
 Oui. Mon iPad a maintenant une connection câblée ethernet via l’iPhone connecté en USB. 
 
@@ -244,9 +244,9 @@ Pour résumer, j’ai donc l’iPad connecté via les prises lightning et USB de
 
 Par contre, point de vue câblage, on est d’accord que c’est juste l’horreur. 
 
-![Le Hub USB connecté à l'adaptateur Lightning - USB d'un coté pour l'alimenter. D'un autre coté pour faire office de Hub USB. Et le clavier/trackpad, l'iPhone et le casque micro branchés au Hub USB](https://pbs.twimg.com/media/EA6HYLUXkAAZvD1?format=jpg&name=large "Le câblage. Photo prise avec l'iPhone SE")
+![Le Hub USB connecté à l'adaptateur Lightning - USB d'un coté pour l'alimenter. D'un autre coté pour faire office de Hub USB. Et le clavier/trackpad, l'iPhone et le casque micro branchés au Hub USB](https://pbs.twimg.com/media/EA6HYLUXkAAZvD1?format=jpg&name=small "Le câblage. Photo prise avec l'iPhone SE")
 
-![Le HUb USB connecté à l'adaptateur Lightning - USB d'un coté pour l'alimenter. D'un autre coté poir faire office de Hub USB. Et le clavier/Trackpad, l'iPhone, le casque micro, et finalement la clef USB. Tout cela branché au Hub USB](https://pbs.twimg.com/media/EA6HYLUXUAIEPKG?format=jpg&name=large "Le câblage. Photo prise avec l'iPad 2018")
+![Le HUb USB connecté à l'adaptateur Lightning - USB d'un coté pour l'alimenter. D'un autre coté poir faire office de Hub USB. Et le clavier/Trackpad, l'iPhone, le casque micro, et finalement la clef USB. Tout cela branché au Hub USB](https://pbs.twimg.com/media/EA6HYLUXUAIEPKG?format=jpg&name=small "Le câblage. Photo prise avec l'iPad 2018")
 
 Et avoir toujours cet adaptateur qui pendouille à l’iPad, c’est pas vraiment le top. 
 
@@ -254,10 +254,10 @@ Combien de temps tiendra-t-il ?
 Mystère.
 
 
-[macOS-10.13.4-Disables-DisplayLink]: (https://plugable.com/2018/03/30/macos-10-13-4-disables-displaylink-duet-display-devices/)
-[Amazon-Casque-Micro-USB]: (https://www.amazon.fr/dp/B0775S8X5C/)
-[Amazon-Hub-USB-3.0-7Ports]: (https://www.amazon.fr/gp/product/B07JGRTPJS/)
+[macOS-10.13.4-Disables-DisplayLink]: https://plugable.com/2018/03/30/macos-10-13-4-disables-displaylink-duet-display-devices/
+[Amazon-Casque-Micro-USB]: https://www.amazon.fr/dp/B0775S8X5C/
+[Amazon-Hub-USB-3.0-7Ports]: https://www.amazon.fr/gp/product/B07JGRTPJS/
 
-[Amazon-Clavier-Trackpad-Dongle]: (https://www.amazon.fr/gp/product/B071L2CL4Y/)
+[Amazon-Clavier-Trackpad-Dongle]: https://www.amazon.fr/gp/product/B071L2CL4Y/
 
-[Amazon-Adaptateur-Lightning-USB3]: (https://www.amazon.fr/gp/product/B01DGDNL2G/) 
+[Amazon-Adaptateur-Lightning-USB3]: https://www.amazon.fr/gp/product/B01DGDNL2G/ 
