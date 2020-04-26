@@ -8,7 +8,7 @@ date: 2019-08-01
 
 En prévision de la sortie d’iPadOS, je me suis acheté l’adaptateur lightning-USB 3
 
-[![Photo de l’adaptateur Lightning-USB 3 d’Apple](https://pbs.twimg.com/media/EA6HTohXkAEK-bW.jpg?name=small)[Amazon-Adaptateur-Lightning-USB3]
+[![Photo de l’adaptateur Lightning-USB 3 d’Apple](https://pbs.twimg.com/media/EA6HTohXkAEK-bW.jpg?name=small)][Amazon-Adaptateur-Lightning-USB3]
 
 avant que ce ne soit la ruée et qu’ils soient en rupture de stock.
 
@@ -26,16 +26,15 @@ Et hop, je vois surgir cette popup.
 
 Je choisi de mettre à jour plus tard.
 
-En attendant, je vais dans les Paramètres | Général | Informations.
+En attendant, je vais dans les Réglages > Général > Informations.
 
 Une nouvelle ligne apparaît pour l’adaptateur. 
 
-![Nouvelle entrée dans Paramètres | Général | Informations pour l'adaptateur Lightning - USB 3](https://pbs.twimg.com/media/EA6HUj0X4AwFBr3.jpg?name=small "La nouvelle entrée dans Informations pour l'adaptateur Lighning-USB3")
+![Nouvelle entrée dans Réglages > Général > Informations pour l'adaptateur Lightning - USB 3](https://pbs.twimg.com/media/EA6HUj0X4AwFBr3.jpg?name=small "La nouvelle entrée dans Informations pour l'adaptateur Lighning-USB3")
 
 Et dans les infos détaillées, on apprend que la version du programme interne est la version 1.0.1.
 
 ![Version du programme interne de l'adaptateur Lightning - USB 3](https://pbs.twimg.com/media/EA6HUj9WkAA2j9V.jpg?name=small "Version du programme interne de l'adaptateur Lightning - USB 3")
-
 
 Mais rien à cet endroit ne m’indique qu’une nouvelle version du programme interne de l’adaptateur est disponible et rien ne me permet maintenant d’appliquer la mise à jour.
 
