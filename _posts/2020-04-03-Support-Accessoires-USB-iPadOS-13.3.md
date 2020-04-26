@@ -98,24 +98,19 @@ On va définir le bouton droit comme étant le bouton principal. Et le bouton ga
 le bouton de la molette servira à afficher le Dock.
 Allons-y, Alonso.
 
-[Vidéo montrant comment régler les boutons de la souris][Vidéo-Réglages-Boutons-Souris-iOS-13]
+[Vidéo montrant comment régler les boutons de la souris][Lien-Vidéo-4]
 
 Voyons maintenant ce qui se passe lorsqu’on clique sur les différents boutons.
 
 Tout d’abord on va cliquer sur le bouton de gauche pour revenir à l’accueil, ensuite après avoir déplacer le curseur sur l'icône Twitter, on cliquera sur le bouton de droite pour afficher Twitter. Et finalement on cliquera sur le bouton de la molette pour faire apparaitre le dock au bas de l'écran.
 
-[Vidéo illustrant l'utilisation des boutons de la souris après les avoir réglés][Vidéo-Utilisation-Boutons-Souris-iOS-13]
+[Vidéo illustrant l'utilisation des boutons de la souris après les avoir réglés][Lien-Vidéo-5]
 
 On peut également utiliser la molette pour se déplacer facilement dans les menus des réglages ou encore dans Safari par exemple.
 
 Mais profitons en pour cacher par défaut le bouton d’accueil dès que la souris est branchée.
 
-[Vidéo illustrant l'utilisation de la molette de la souris et expliquant où se rendre pour cacher le bouton d'accueil][Vidéo-Réglages-Cacher-Bouton-Accueil]
-
-
-
-
-
+[Vidéo illustrant l'utilisation de la molette de la souris et expliquant où se rendre pour cacher le bouton d'accueil][Lien-Vidéo-6]
 
 Le support de la souris sous cette version d’iPadOS 13.3.1 ne fait que simuler l’interaction du doigt à l’écran. 
 
@@ -155,7 +150,7 @@ Mais on peut y remédier en activant le rétablissement automatique et en sélec
 Après cela, **et uniquement après cela**, on peut réduire le temps au minimum,,soit 0,25secondes.
 
 Voyons cela en vidéo :
-[Vidéo illustrant comment activer le rétablissement automatique ][Vidéo-Réglages-Rétablissement-Automatique]
+[Vidéo illustrant comment activer le rétablissement automatique ][Lien-Vidéo-7]
 
 Maintenant nous pouvons désigner des actions à chacun des 4 coins de l’écran.
 
@@ -170,13 +165,13 @@ Et finalement pour le coin inférieur droit, je vais activer Spotlight.
 Voyons comment configurer cela :
 
 
-[Vidéo illustrant comment on associe à chaque coin de l'écran une action donnée][Vidéo-Réglages-Coins-Actifs]
+[Vidéo illustrant comment on associe à chaque coin de l'écran une action donnée][Lien-Vidéo-8]
 
 Et maintenant il nous suffit de placer ce curseur dans chacun des coins de l’écran pendant 1 quart de seconde pour déclencher l’action.
 
 Voyons cela en action.
 
-[Vidéo illustrant l'utilisation des coins actifs][Vidéo-Utilisation-Coins-Actifs]
+[Vidéo illustrant l'utilisation des coins actifs][Lien-Vidéo-9]
 
 
 
@@ -194,20 +189,20 @@ Aura-t-on une belle surprise ?
 
 À voir.
 
-[Vidéo-Utilisation-Coins-Actifs]:https://twitter.com/MarcosIckx/status/1245840194625875968/video/1
+[Lien-Vidéo-9]:https://twitter.com/MarcosIckx/status/1245840194625875968/video/1
 
-[Vidéo-Réglages-Coins-Actifs]:‪https://twitter.com/MarcosIckx/status/1245840030658105345/video/1‬
+[Lien-Vidéo-8]:‪https://twitter.com/MarcosIckx/status/1245840030658105345/video/1‬
 
-[Vidéo-Réglages-Rétablissement-Automatique]:‪https://twitter.com/MarcosIckx/status/1245839850848366593/video/1‬
+[Lien-Vidéo-7]:‪https://twitter.com/MarcosIckx/status/1245839850848366593/video/1‬
 
-[Vidéo-Réglages-Cacher-Bouton-Accueil]:‪https://twitter.com/MarcosIckx/status/1245839560912842752/video/1‬
+[Lien-Vidéo-6]:‪https://twitter.com/MarcosIckx/status/1245839560912842752/video/1‬
 
-[Vidéo-Utilisation-Boutons-Souris-iPadOS-13]:https://twitter.com/MarcosIckx/status/1245839337708797953/video/1‬
+[Lien-Vidéo-5]:https://twitter.com/MarcosIckx/status/1245839337708797953/video/1‬
 
-[Vidéo-Réglages-Boutons-Souris-iPadOS-13]:https://twitter.com/MarcosIckx/status/1245839250441945092/video/1‬
+[Lien-Vidéo-4]:https://twitter.com/MarcosIckx/status/1245839250441945092/video/1‬
 
 [Lien-Vidéo-3]:‪https://twitter.com/MarcosIckx/status/1245838974498877441/video/1‬
 
-[Lien-Vidéo-]:https://twitter.com/MarcosIckx/status/1245838818458112002/video/1‬
+[Lien-Vidéo-1]:https://twitter.com/MarcosIckx/status/1245838818458112002/video/1‬
 
 [Lien-Vidéo-2]:https://twitter.com/MarcosIckx/status/1245838895402684417/video/1
