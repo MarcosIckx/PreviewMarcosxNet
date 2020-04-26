@@ -1,8 +1,9 @@
------
+---
 layout: post
 title: « Support des accessoires USB sous iOS 12 »
 date: 2019-08-01
------
+---
+
 #Support des accessoires USB sous iOS 12
 
 En prévision de la sortie d’iPadOS, je me suis acheté l’adaptateur lightning-USB 3
