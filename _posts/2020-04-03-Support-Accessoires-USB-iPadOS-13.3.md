@@ -4,7 +4,7 @@ title: « support des accessoires USB sous iPadOS 13.3»
 date: 2020-04-03
 ---
 
-#Support des accessoires USB sous iPadOS 13.3
+# Support des accessoires USB sous iPadOS 13.3
 
 L'année passée, j'avais testé le branchement de certains accessoires USB sous iOS12.
 
@@ -17,13 +17,13 @@ Mais on en reparlera plus tard.
 
 ![version d'iPadOS dans les réglages : 13.3.1](https://pbs.twimg.com/media/EUobh4iWsAIId_u?format=jpg&name=large "Version 13.3.1 d'iPadOS")
 
-##Clavier/Trackpad 
+## Clavier/Trackpad 
 Tout d’abord, j’ai rebranché mon petit clavier/trackpad dont j’avais parlé dans le test précédent sous iOS 12.
 
 Comme auparavant, le clavier est reconnu.
 Mais toujours pas le trackpad (pour rappel, je suis sous iPadOS 13.3.1. Pas encore sous iPadOS 13.4).
 
-##Clef USB
+## Clef USB
 J’ai ensuite branché une clef USB, comme sous iOS 12. 
 Mais cette fois-ci rien ne se passe. 
 
@@ -53,7 +53,7 @@ Rien ne change pour la prise en charge du hub USB ni pour le casque micro. Je ne
 
 Vous n'allez qu'à voir ce que je disais à ce propos dans l'article de 2019 consacré à l'adaptateur Lightning - USB 3 et iOS 12.
 
-##La Souris
+## La Souris
 Passons maintenant au support de la souris.
 
 Avec iOS 13 et iPadOS 13, Apple a rajouté le support de la souris.
@@ -129,7 +129,7 @@ Mais ça reste un appui long.
 
 Par contre, le support de la molette permet de naviguer plus rapidement dans une page web ou ailleurs.
 
-##Les coins actifs
+## Les coins actifs
 
 Mais iOS 13.3 a rajouté le support des coins actifs.
 
@@ -180,7 +180,7 @@ Voyons cela en action.
 
 
 
-#Conclusion
+# Conclusion
 
 * Sous iPadOS 13.3.1, je n’ai toujours pas de support du petit Trackpad intégré à mon petit clavier USB
 * le support des clefs USB a été libéré et c’est un vrai plaisir😍
