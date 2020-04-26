@@ -21,6 +21,7 @@ body {
     color: var(--font-color);
     margin: 60px auto;
     width: 90%;
+    font-size: 1.5em;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
