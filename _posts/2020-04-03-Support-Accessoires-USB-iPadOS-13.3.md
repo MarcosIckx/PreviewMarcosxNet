@@ -15,7 +15,7 @@ Je voulais faire ce test avant de faire la mise à jour vers iPadOS 13.4.1 car A
 
 Mais on en reparlera plus tard.
 
-![version d'iPadOS dans les réglages : 13.3.1](https://pbs.twimg.com/media/EUobh4iWsAIId_u?format=jpg&name=large "Version 13.3.1 d'iPadOS")
+![version d'iPadOS dans les réglages : 13.3.1](https://pbs.twimg.com/media/EUobh4iWsAIId_u?format=jpg&name=small "Version 13.3.1 d'iPadOS")
 
 ## Clavier/Trackpad 
 Tout d’abord, j’ai rebranché mon petit clavier/trackpad dont j’avais parlé dans le test précédent sous iOS 12.
@@ -38,7 +38,7 @@ Heureusement que non.
 
 En fait, il nous faut ouvrir l'App Fichiers pour y voir la clef et son contenu.
 
-![L'App Fichier où l'on voit la clef USB à gauche, et son contenu à droite](https://pbs.twimg.com/media/EUobjEmXkAIegPZ?format=jpg&name=large "L'App Fichier où l'on voit la clef USB à gauche, et son contenu à droite")
+![L'App Fichier où l'on voit la clef USB à gauche, et son contenu à droite](https://pbs.twimg.com/media/EUobjEmXkAIegPZ?format=jpg&name=small "L'App Fichier où l'on voit la clef USB à gauche, et son contenu à droite")
 
 Et contrairement à ce qui se pasait sous iOS 12, cette fois-ci, je peux voir tous les fichiers, et plus seulement les fichiers vidéo et audio.
 
@@ -194,31 +194,22 @@ Aura-t-on une belle surprise ?
 
 À voir.
 
-[Vidéo-Utilisation-Coins-Actifs]:
-(https://twitter.com/MarcosIckx/status/1245840194625875968/video/1)
+[Vidéo-Utilisation-Coins-Actifs]:(https://twitter.com/MarcosIckx/status/1245840194625875968/video/1)
 
 
-[Vidéo-Réglages-Coins-Actifs]:
-(‪https://twitter.com/MarcosIckx/status/1245840030658105345/video/1‬)
+[Vidéo-Réglages-Coins-Actifs]:(‪https://twitter.com/MarcosIckx/status/1245840030658105345/video/1‬)
 
-[Vidéo-Réglages-Rétablissement-Automatique]:
-(‪https://twitter.com/MarcosIckx/status/1245839850848366593/video/1‬)
+[Vidéo-Réglages-Rétablissement-Automatique]:(‪https://twitter.com/MarcosIckx/status/1245839850848366593/video/1‬)
 
-[Vidéo-Réglages-Cacher-Bouton-Accueil]:
-(‪https://twitter.com/MarcosIckx/status/1245839560912842752/video/1‬)
+[Vidéo-Réglages-Cacher-Bouton-Accueil]:(‪https://twitter.com/MarcosIckx/status/1245839560912842752/video/1‬)
 
 
-[Vidéo-Curseur-iOS-12]:
-(https://twitter.com/MarcosIckx/status/1245838818458112002/video/1‬)
+[Vidéo-Curseur-iOS-12]:(https://twitter.com/MarcosIckx/status/1245838818458112002/video/1‬)
 
-[Vidéo-Utilisation-Boutons-Souris-iOS-13]:
-(https://twitter.com/MarcosIckx/status/1245839337708797953/video/1‬)
+[Vidéo-Utilisation-Boutons-Souris-iOS-13]:(https://twitter.com/MarcosIckx/status/1245839337708797953/video/1‬)
 
-[Vidéo-Réglages-Boutons-Souris-iOS-13]:
-(https://twitter.com/MarcosIckx/status/1245839250441945092/video/1‬)
+[Vidéo-Réglages-Boutons-Souris-iOS-13]:(https://twitter.com/MarcosIckx/status/1245839250441945092/video/1‬)
 
-[Vidéo-Branchement-Souris-iOS-13]:
-(‪https://twitter.com/MarcosIckx/status/1245838974498877441/video/1‬)
+[Vidéo-Branchement-Souris-iOS-13]:(‪https://twitter.com/MarcosIckx/status/1245838974498877441/video/1‬)
 
-[Vidéo-Réglage-Curseur-iOS-12]:
-(https://twitter.com/MarcosIckx/status/1245838895402684417/video/1)
+[Vidéo-Réglage-Curseur-iOS-12]:(https://twitter.com/MarcosIckx/status/1245838895402684417/video/1)
