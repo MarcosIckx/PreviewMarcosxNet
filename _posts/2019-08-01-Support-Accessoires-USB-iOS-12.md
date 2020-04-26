@@ -4,7 +4,7 @@ title: « Support des accessoires USB sous iOS 12 »
 date: 2019-08-01
 ---
 
-#Support des accessoires USB sous iOS 12
+# Support des accessoires USB sous iOS 12
 
 En prévision de la sortie d’iPadOS, je me suis acheté l’adaptateur lightning-USB 3
 
@@ -15,7 +15,7 @@ avant que ce ne soit la ruée et qu’ils soient en rupture de stock.
 
 Je l’ai reçu aujourd’hui. Voici mes premières impressions.
 
-#Premier Branchement
+# Premier Branchement
 
 Premier branchement de l’adaptateur au lightning à l’iPad (2018) sous iOS 12.4.
 Il m’affiche un message disant que l’écran doit être déverrouillé pour que je puisse utiliser l’adaptateur.
@@ -66,9 +66,9 @@ La version du programme interne de l’adaptateur est donc passé de la version 
 ![Version du programme interne de l'adaptateur Lightning - USB 3 après mise à jour]
 (https://pbs.twimg.com/media/EA6HVUaXoAARfS0?format=jpg "Version du programme interne de l'adaptateur Lightning - USB 3 après la mise a jour")
 
-#En route pour quelques tests.
+# En route pour quelques tests.
 
-##Clavier
+## Clavier
 
 J’avais acheté en 2017 un petit clavier/trackpad pour dépanner quelqu’un (la moitié de l’écran de sa tablette Android ne répondait plus au toucher)
 
@@ -91,7 +91,7 @@ Sauf le trackpad 🙁
 
 Ce qui est tout à fait normal puisque je suis actuellement sous iOS 12.4.
 
-##Hub Alimenté
+## Hub Alimenté
 Essayons maintenant d’y connecter un hub USB alimenté.
 
 Qui servira non seulement à alimenter l’iPad mais aussi à brancher le dongle USB du clavier.
@@ -124,7 +124,7 @@ Et …
 
 Mais j’ai encore 5 ports USB de libres.
 
-##Casque Micro USB
+## Casque Micro USB
 Et si on branchait un casque-micro USB ?
 
 J’ai un casque plantronics similaire à celui mentionné dans le lien sous la main 
@@ -137,7 +137,7 @@ Et ça marche.
 
 Essayons maintenant le micro. Je lance donc l’app Dictaphone, j’appuie sur le bouton record. Et ça enregistre ma voix depuis le micro-casque. Superbe nouvelle.
 
-##clef USB
+## Clef USB
 
 Essayons une clef USB
 
@@ -153,7 +153,7 @@ J’ai donc maintenant un clavier avec un dongle USB, in micro-casque USB et une
 
 Et tous les 3 sont reconnus.
 
-##L'iPhone
+## L'iPhone
 
 Et si je branche mon iPhone ?
 
@@ -195,14 +195,14 @@ Surtout que cela est possible lorsque l’iPhone est raccordé en USB à un Mac.
 
 Mais c'est un poil exotique comme configuration en même temps…
 
-##Lecteur de carte d'identité
+## Lecteur de carte d'identité
 J’ai essayé un lecteur de carte d’identité, fort utilisé en Belgique pour accéder aux sites du gouvernement. 
 
 Malheureusement, ça ne marche pas 🙁 mais c’est plus un soucis logiciel que matériel. 
 
 Maintenant, aucune idée si iPadOS va contenir les briques pour cela. Wait & See.
 
-##Écran USB
+## Écran USB
 j'ai également un écran LG Flatron L206WU qui a la particularité de supporter le DisplayLink via un câble USB.
 
 Il fallait donc que je teste cela aussi.
@@ -231,7 +231,7 @@ DisplayLink a du sortir des drivers 5.1 pour Mojave.
 
 Mais bon, ça ne coûtait rien d’essayer ce qui se passerait avec l’iPad.
 
-#Résumé
+# Résumé
 
 Pour résumer, j’ai donc l’iPad connecté via les prises lightning et USB de l’adaptateur au hub USB alimenté. 
 
