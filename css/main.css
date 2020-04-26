@@ -1,14 +1,14 @@
 :root {
-    --primary-color: #999;
-    --secondary-color: #333;
+    --primary-color: #111;
+    --secondary-color: #222;
     --font-color: #424242;
-    --bg-color: #ddd;
-    --step-bgcolor: #4679BD;
+    --bg-color: #eee;
+    --step-bgcolor: #4679bd;
     --heading-color: #292922;
 }
 
 [data-theme="dark"] {
-    --primary-color: #9A97F3;
+    --primary-color: #9A97f3;
     --secondary-color: #818cab;
     --font-color: #e1e1ff;
     --bg-color: #161625;
