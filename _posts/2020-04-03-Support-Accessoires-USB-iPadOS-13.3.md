@@ -70,7 +70,8 @@ Allons voir de plus près dans les réglages.
 
 Avec AssistiveTouch, même sous iOS 12, on pouvait déjà faire apparaître un « curseur » à l’écran qui nous montrait où on appuyait sur l’écran et on pouvait les déclencher par le bouton maison qui s’affiche à l’écran. Je vous montre cela en vidéo.
 
-[Vidéo montrant affichage du curseur tel qu'on pouvait le voir sous iOS 12][Lien-Vidéo-1]
+[Vidéo montrant affichage du curseur 
+tel qu'on pouvait le voir sous iOS 12][Lien-Vidéo-1]
 
 Je  tiens à préciser qu’aucun dispositif n’était connecté à l’iPad à ce moment là.
 Ça montre juste qu’on pouvait déjà même afficher un pointeur symbolisant un doigt.
@@ -81,12 +82,15 @@ Tout cela se trouvant dans les réglages de l’AssistiveTouch, comme on peut le
 
 (Toujours sans appareils  connectés. Uniquement les doigts)
 
-[Vidéo montrant comment régler la taille et la coukeur du curseur, tel qu'on pouvait le voir sous iOS 12][Lien-Vidéo-2]
+[Vidéo montrant comment régler la taille 
+et la coukeur du curseur, tel qu'on pouvait 
+le voir sous iOS 12][Lien-Vidéo-2]
 
 
 Voyons maintenant ce qui se passe lorsqu’on branche une souris (tout en s’assurant  qu’AssistiveTouch soit bien activé. Sinon, rien ne se passe à priori).
 
-[Vidéo montrant ce qui se passe une fois qu'on branche une souris USB sous iPadOS 13][Lien-Vidéo-3]
+[Vidéo montrant ce qui se passe une fois 
+qu'on branche une souris USB sous iPadOS 13][Lien-Vidéo-3]
 
 Dès que je branche la souris, vu que AssistiveTouch est activé, le pointeur apparaît furtivement pendant 2 secondes.
 
@@ -98,19 +102,22 @@ On va définir le bouton droit comme étant le bouton principal. Et le bouton ga
 le bouton de la molette servira à afficher le Dock.
 Allons-y, Alonso.
 
-[Vidéo montrant comment régler les boutons de la souris][Lien-Vidéo-4]
+[Vidéo montrant comment régler 
+les boutons de la souris][Lien-Vidéo-4]
 
 Voyons maintenant ce qui se passe lorsqu’on clique sur les différents boutons.
 
 Tout d’abord on va cliquer sur le bouton de gauche pour revenir à l’accueil, ensuite après avoir déplacer le curseur sur l'icône Twitter, on cliquera sur le bouton de droite pour afficher Twitter. Et finalement on cliquera sur le bouton de la molette pour faire apparaitre le dock au bas de l'écran.
 
-[Vidéo illustrant l'utilisation des boutons de la souris après les avoir réglés][Lien-Vidéo-5]
+[Vidéo illustrant l'utilisation des boutons de la souris 
+après les avoir réglés][Lien-Vidéo-5]
 
 On peut également utiliser la molette pour se déplacer facilement dans les menus des réglages ou encore dans Safari par exemple.
 
 Mais profitons en pour cacher par défaut le bouton d’accueil dès que la souris est branchée.
 
-[Vidéo illustrant l'utilisation de la molette de la souris et expliquant où se rendre pour cacher le bouton d'accueil][Lien-Vidéo-6]
+[Vidéo illustrant l'utilisation de la molette de la souris 
+et expliquant où se rendre pour cacher le bouton d'accueil][Lien-Vidéo-6]
 
 Le support de la souris sous cette version d’iPadOS 13.3.1 ne fait que simuler l’interaction du doigt à l’écran. 
 
@@ -140,7 +147,6 @@ Et il faut bien configurer les options pour ne pas avoir d’effet de bord.
 
 Voyons d’abord comment paramétrer tout cela.
 
-
 Il nous faut d’abord activer le contrôle d’attente. Dès cet instant le pointeur va se mettre à cliquer tout seul après un certain temps une fois le curseur mobilisé.
 
 Ce qui est assez désagréable à l’usage. 
@@ -150,6 +156,7 @@ Mais on peut y remédier en activant le rétablissement automatique et en sélec
 Après cela, **et uniquement après cela**, on peut réduire le temps au minimum,,soit 0,25secondes.
 
 Voyons cela en vidéo :
+
 [Vidéo illustrant comment activer le rétablissement automatique ][Lien-Vidéo-7]
 
 Maintenant nous pouvons désigner des actions à chacun des 4 coins de l’écran.
@@ -165,7 +172,8 @@ Et finalement pour le coin inférieur droit, je vais activer Spotlight.
 Voyons comment configurer cela :
 
 
-[Vidéo illustrant comment on associe à chaque coin de l'écran une action donnée][Lien-Vidéo-8]
+[Vidéo illustrant comment on associe à chaque 
+coin de l'écran une action donnée][Lien-Vidéo-8]
 
 Et maintenant il nous suffit de placer ce curseur dans chacun des coins de l’écran pendant 1 quart de seconde pour déclencher l’action.
 
