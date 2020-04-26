@@ -23,6 +23,10 @@ body {
     width: 90%;
     font-size: 1.5em;
 }
+
+ul, ul li {
+    font-size: 1.5em;
+}
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -34,11 +38,13 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: var(--primary-color);
+    
 }
 a:hover {
     text-decoration: underline;
+    font-weight: bold;
 }
 h1 {
     font-size: 3em;
