@@ -4,11 +4,8 @@
 	  {% for post in paginator.posts %}
 	    <li>
 				<div>
-					<span>{{ post.date | date: "%d/%m/%Y" }} par {{ post.author }} </span>
 					<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-				</div>
-				<div>
-					{{ post.excerpt }}
+					<span>{{ post.date | date: "%d/%m/%Y" }} par {{ post.author }} </span>
 				</div>
 				
 		</li>
