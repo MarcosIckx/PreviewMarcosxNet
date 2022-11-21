@@ -85,3 +85,7 @@ ul.posts li {
 	margin: 0.3125em 0.9375 0em 0em;
 	font-family: 'Helvetica', 'Arial', 'sans-serif'; }
 
+@media (prefers-color-scheme: dark) {
+data-theme="dark"
+}
+
