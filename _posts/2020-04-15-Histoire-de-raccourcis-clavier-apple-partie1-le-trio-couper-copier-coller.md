@@ -105,7 +105,7 @@ Or donc, le Macintosh reprend les raccourcis clavier similaires à celui du Lisa
 Mais le Lisa avait la touche pomme  et la touche option.
 Quand le Macintosh sort, les développeurs décident d’utiliser les touches ⌘X, ⌘C et ⌘V pour les actions de couper/copier/coller.
 
-Ce n’est qu’en 1987 avec la sortie des clavier ADB qui pouvaient servir aussi bien pour les Apple ///GS et les Macintosh \|| qu’on retrouve le symbole  à coté du symbole ⌘ sur les mêmes touches du clavier.
+Ce n’est qu’en 1987 avec la sortie des clavier ADB qui pouvaient servir aussi bien pour les Apple ///GS et les Macintosh \|\| qu’on retrouve le symbole  à coté du symbole ⌘ sur les mêmes touches du clavier.
 
 Du coté d’IBM, les claviers des terminaux IBM sont équipés de touche de contrôle CTRL. Ces touches CTRL permettent aux opérateurs d’introduire des, vous l’aurez deviner, caractères de contrôle qui correspondent aux valeurs décimale 0 à 31 du tableau de caractères ASCII.
 Ces caractères de contrôle sont introduit par l’opérateur en pressant la touche CTRL et une autre touche du clavier.
@@ -136,16 +136,18 @@ Combinaisons de touches que l’on retrouve encore sous Windows actuellement.
 
 Lorsque Microsoft dirigé à l’époque par Bill Gates a sorti les premières versions de Windows, il avait déjà des applications tournant sous Macintosh, qui utilisaient les raccourcis clavier ⌘X, ⌘C, ⌘V.
 Et Bill Gates pour une raison qu’on ignore, au lieu de suivre les guidelines d’IBM pour ce qui était des raccourcis clavier dans le monde PC a voulu introduire sur Windows  les guidelines pour Mac, tout du moins pour les raccourcis clavier du Coupez/Copier/Coller. 
+
 Mais voilà, les claviers des PC n’avait pas de touche de commande ⌘ et encore moins de touche .
 Et il a du faire avec les claviers qui existaient à l’époque dans le monde du PC. Et il a donc introduit les raccourcis clavier CTR-X, CTRL-C et CTRL-V pour le couper/copier/coller.
+
 Mais ces raccourcis clavier ne fonctionnaient que sous le GUI Windows. Dès qu’on repassait sur des applications tournant sous ms-dos, le caractère de contrôle numéro 3 reprenait le dessus lorsque l’on presse CTRL-C.
 
 Allez faire un tour sur les forums de discussions chez Microsoft et vous verrez qu’ils y a de nombreuses discussion quand à comment faire un copier/coller depuis la console de ligne de commande (l’équivalent de Terminal, sous Windows).
 
 Ce n’est que très récemment que le support du CTRL-C/CTRL-V pour le Copier/Coller a été introduit, mais vous devez passer par des settings se trouvant sur l’onglet experimental
-Et il y a une forte opposition entre les personés pour que CTRL-C fasse le COPIER contre ceux pour qui CTRL-C doit envoyer le caractère de contrôle.
+Et il y a une forte opposition entre les personnes pour que CTRL-C fasse le COPIER contre ceux pour qui CTRL-C doit envoyer le caractère de contrôle.
 
-Plus tard, Microsoft, avec la montée en puissance de Windows à réussir, à imposer à l’industrie des PC de rajouter une touche Windows. Touche qui aurait été la bienvenue pour jouer le même rôle que la touche /⌘ sous mac.
+Plus tard, Microsoft, avec la montée en puissance de Windows va réussir, à imposer à l’industrie des PC de rajouter une touche Windows. Touche qui aurait été la bienvenue pour jouer le même rôle que la touche /⌘ sous mac.
 
 Mais voilà, le mal était déjà fait puisque Microsoft avait imposé le CTRL-X, CTRL-C et CTRL-V sous Windows.
 
@@ -153,7 +155,7 @@ L’ironie de l’histoire est que la première chose dont se plaint généralem
 
 À notez qu’entre temps, le clavier QWERTY possède officiellement aux cotés des touches ALT et CTRL une touche système qui dépend donc du Système d’exploitation.
 
-Pourquoi le symbole ^ sur la touche de contrôle ?
+## Pourquoi le symbole ^ sur la touche de contrôle ?
 Les caractères de contrôles n’étant pas des caractères qui pouvaient être affiché tel quel à l’écran, on affichait à la place un substitut. Et à l’époque, il a été décidé que la combinaison de touche CTRL-C, s’afficherait ^C.
 Et donc, le symbole ^ était le symbole le plus approprié pour la touche de contrôle CTRL.
 
