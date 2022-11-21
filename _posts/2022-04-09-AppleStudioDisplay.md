@@ -1,5 +1,5 @@
 ---
-layout: draft
+layout: post
 title: "Apple Studio Display : ce que j´en pense personellement"
 date: 2022-04-09
 ---
