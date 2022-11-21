@@ -8,14 +8,14 @@
 }
 
 @media (prefers-color-scheme: dark) {
-:root {
+  :root {
     --primary-color: #9A97f3;
     --secondary-color: #818cab;
     --font-color: #e1e1ff;
     --bg-color: #161625;
     --step-bgcolor: #0ff;
     --heading-color: #818cab;
-}
+  }
 }
 
 body {
