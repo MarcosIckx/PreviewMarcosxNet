@@ -19,7 +19,7 @@
 body {
     background-color: var(--bg-color);
     color: var(--font-color);
-    margin: 60px auto;
+    margin: 4em auto;
     width: 90%;
     font-size: 1.5em;
 }
@@ -27,13 +27,13 @@ body {
 
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
+    padding: 0em;
     list-style: none;
     font-weight: bold;
 }
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 1.25em;
 }
 
 ul, ul li {
@@ -58,12 +58,12 @@ p {
     color: var(--secondary-color);
 }
 footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    border-top: 0.0625em solid #d5d5d5;
+    font-size: 0.8em;
 }
 
 ul.posts { 
-    margin: 20px auto 40px; 
+    margin: 1.25em auto 2.5em; 
     font-size: 1.5em;
 }
 
@@ -74,14 +74,14 @@ ul.posts li {
 .step { border-radius: 50%; 
 	-moz-border-radius: 50%; 
 	-webkit-border-radius: 50%; 
-	width: 35px; 
-	height: 35px; 
+	width: 2.1875em; 
+	height: 2.1875em; 
 	background: var(--step-bgcolor);
 	color: var(--bg-color); 
 	float: left;
 	text-align: center;
-	font-size: 24px;
-	padding-top: 5.5px;
-	margin: 5px 15px 0px 0px;
+	font-size: 1.5em;
+	padding-top: 0.34375em;
+	margin: 0.3125em 0.9375 0em 0em;
 	font-family: 'Helvetica', 'Arial', 'sans-serif'; }
 
