@@ -5,8 +5,8 @@
 	    <li>
 				<div>
 					<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-					<span>{{ post.date | date: "%d/%m/%Y" }} par {{ post.author }} </span>
-					<br />
+					<span>{{ post.date | date: "%d/%m/%Y" }} par <a href="/apropos">{{ post.author }}</a>.</span>
+					<p></p>
 				</div>
 				
 		</li>
