@@ -39,7 +39,7 @@ nav ul li, footer ul li {
 }
 
 ul, ul li {
-    font-size: 1em;
+    font-size: 1.5em;
 }
 a {
     text-decoration: underline;
@@ -55,13 +55,12 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-    font-size: 1.5em;
     line-height: 1.4em;
     color: var(--secondary-color);
 }
 footer {
     border-top: 0.0625em solid #d5d5d5;
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 ul.posts { 
