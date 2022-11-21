@@ -105,7 +105,7 @@ Or donc, le Macintosh reprend les raccourcis clavier similaires à celui du Lisa
 Mais le Lisa avait la touche pomme  et la touche option.
 Quand le Macintosh sort, les développeurs décident d’utiliser les touches ⌘X, ⌘C et ⌘V pour les actions de couper/copier/coller.
 
-Ce n’est qu’en 1987 avec la sortie des clavier ADB qui pouvaient servir aussi bien pour les Apple ///GS et les Macintosh || qu’on retrouve le symbole  à coté du symbole ⌘ sur les mêmes touches du clavier.
+Ce n’est qu’en 1987 avec la sortie des clavier ADB qui pouvaient servir aussi bien pour les Apple ///GS et les Macintosh \|| qu’on retrouve le symbole  à coté du symbole ⌘ sur les mêmes touches du clavier.
 
 Du coté d’IBM, les claviers des terminaux IBM sont équipés de touche de contrôle CTRL. Ces touches CTRL permettent aux opérateurs d’introduire des, vous l’aurez deviner, caractères de contrôle qui correspondent aux valeurs décimale 0 à 31 du tableau de caractères ASCII.
 Ces caractères de contrôle sont introduit par l’opérateur en pressant la touche CTRL et une autre touche du clavier.
