@@ -80,8 +80,7 @@ p img {
   margin-right: auto;
 }
 
-p img:hover {
-  border: 0.1rem solid var(--border-color-hover); 
+p img:hover { 
   max-width: 100%;
 }
 
@@ -91,6 +90,7 @@ a img {
 
 a img:hover {
   border: 0.3rem solid var(--border-color-hover);
+  max-width: 80%;
 }
 footer {
     border-top: 0.0625rem solid #d5d5d5;
