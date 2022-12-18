@@ -162,7 +162,7 @@ Mais c’est déjà une obligation pour pouvoir activer l'identification à deux
 
 P.S. si vous désirez en savoir plus votre identifiant Apple et la double authentification, la formation, offerte gratuitement par @AudreyCouleau, vous sera d'une grande utilité.
 
-![Formation Gratuite Identifiant Apple par Audrey Couleau](/img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Formation-Identifiant-Apple-AudreyCouleau.jpeg)[Formation-Identifiant-AudreyCouleau]
+![Formation Gratuite Identifiant Apple par Audrey Couleau](/img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Formation-Identifiant-Apple-AudreyCouleau.jpeg)[https://www.appleavecaudrey.fr/view/courses/identifiant-apple-gratuit]
 
 ## 7. Avoir configuré  la récupération du compte 
 
@@ -171,11 +171,11 @@ Il faudra également avoir configuré la récupération du compte.
 
 Deux possibilités s'offrent à vous :
 
-Vous pouvez [rajouter un ou plusieurs contact de récupération][### Ajouter des contacts de récupération].
+Vous pouvez rajouter un ou plusieurs contact de récupération.
 
 (À ne pas confondre avec numéro de confiance)
 
-Vous pouvez également [obtenir une clé de secours][### Obtenir une clé de secours]
+Vous pouvez également obtenir une clé de secours.
 
 ### Ajouter des contacts de récupération
 D'emblée, il est bon de rappeler que les contacts de récupération n'ont pas accès à vos données. 
