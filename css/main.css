@@ -6,7 +6,7 @@
     --step-bgcolor: #4679bd;
     --heading-color: #292922;
     --border-color: #ddd;
-    --bordee-color-hover: #00f;
+    --border-color-hover: #00f;
 }
 
 @media (prefers-color-scheme: dark) {
