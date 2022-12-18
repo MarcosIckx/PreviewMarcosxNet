@@ -363,14 +363,16 @@ Merci à [Laurent], [Julien], [David], [Audrey] et [Sylvain] pour leur retour, a
 [N´hésitez pas à me contacter sur Twitter][MarcosIckx]
 
 
-[Formation-Identifiant-AudreyCouleau]: https://www.appleavecaudrey.fr/view/courses/identifiant-apple-gratuit (Tout savoir sur votre identifiant Apple, par Audrey Couleau)
+[Formation-Identifiant-AudreyCouleau]: https://www.appleavecaudrey.fr/view/courses/identifiant-apple-gratuit
+
 [Twitter-Fil-MarcosIckx]: https://twitter.com/marcosickx/status/1603786967396880395
-[Source-Apple-1]: https://support.apple.com/fr-fr/guide/security/sec973254c5f/web (Protection Avancée des Données iCloud)
-[Source-Apple-2]: https://support.apple.com/fr-fr/HT202303 (Présentation de la sécurité des données iCloud)
-[Source-Apple-3]: https://support.apple.com/fr-fr/HT212523 (Gérer l’accès à vos données iCloud sur le Web)
-[Source-Apple-4]: https://support.apple.com/fr-fr/HT204915 (Identification à deux facteurs pour l’identifiant Apple)
-[Source-Apple-5]: https://support.apple.com/fr-fr/HT212513 (Créer un contact de récupération de compte)
-[Source-Apple-6]: https://support.apple.com/fr-fr/HT208072 (Comment générer une clé de secours)
+
+[Source-Apple-1]: https://support.apple.com/fr-fr/guide/security/sec973254c5f/web
+[Source-Apple-2]: https://support.apple.com/fr-fr/HT202303
+[Source-Apple-3]: https://support.apple.com/fr-fr/HT212523
+[Source-Apple-4]: https://support.apple.com/fr-fr/HT204915
+[Source-Apple-5]: https://support.apple.com/fr-fr/HT212513
+[Source-Apple-6]: https://support.apple.com/fr-fr/HT208072
 
 [Laurent]: https://twitter.com/lolopb
 [David]: https://twitter.com/DavTechFr
