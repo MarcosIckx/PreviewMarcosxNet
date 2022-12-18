@@ -68,14 +68,14 @@ p {
     color: var(--secondary-color);
 }
 
-p img {
+img {
   border: 0.1rem solid #ddd;
   border-radius: 0.3rem;
   padding: 0.4rem;
   max-width: 80%;
 }
 
-p img:hover {
+img:hover {
 max-width: 100%;
 }
 
