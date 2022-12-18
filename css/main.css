@@ -6,6 +6,7 @@
     --step-bgcolor: #4679bd;
     --heading-color: #292922;
     --border-color: #ddd;
+    --bordee-color-hover: #00f;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,7 +17,8 @@
     --bg-color: #161625;
     --step-bgcolor: #0ff;
     --heading-color: #818cab;
-    --borderl-color: #eee;
+    --border-color: #eee;
+    --border-color-hover: #fff;
   }
 }
 
@@ -68,17 +70,28 @@ p {
     color: var(--secondary-color);
 }
 
-img {
-  border: 0.1rem solid #ddd;
+p img {
+  border: 0.1rem solid var(--border-color);
   border-radius: 0.3rem;
   padding: 0.4rem;
   max-width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-img:hover {
-max-width: 100%;
+p img:hover {
+  border: 0.1rem solid var(--border-color-hover); 
+  max-width: 100%;
 }
 
+a img {
+  max-width: 80%;
+}
+
+a img:hover {
+  border: 0.3rem solid var(--border-color-hover);
+}
 footer {
     border-top: 0.0625rem solid #d5d5d5;
     font-size: 1rem;
