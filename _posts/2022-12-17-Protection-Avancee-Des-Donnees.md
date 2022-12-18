@@ -58,6 +58,7 @@ Par contre, Apple ne stocke pas sur ses serveurs les clés 🔑permettant de dé
 
 Soit 14 types de données, sur 26. Juste au dessus de la moitier.
 
+![Tableau Récapitulatif Protection Standard](/img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Tableau-Protection-Standard.png)
 
 ### Quelles sont les données protégées par la Protection Avancée des Données iCloud ?
 
@@ -109,6 +110,9 @@ Soit un total de **23** types de données (sur **26**) dont Apple n'aura plus le
 
 Seuls vos e-mails, contacts et calendriers pourront encore être vues aux yeux d'Apple et donc communiqués aux autorités.
 
+
+![Tableau Récapitulatif Protection Avancée](/img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Tableau-Protection-Avancee.png)
+
 # Quelles sont les conditions à remplir pour pouvoir activer la Protection Avancées des Données iCloud ?
 
 J’en ai relevé au moins 9 :
@@ -139,6 +143,8 @@ Voilà les versions minimales des OS pour pouvoir activer la Protection Avancée
 - Apple TV : tvOS 16.2
 - Apple Watch : watchOS 9.2
 
+![Tableau Versions OS](/img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Versions-OS.png)
+
 ## 5. Avoir la dernière version de iCloud pour Windows en date de décembre 2022.
 
 Si vous avez un appareil Windows sur lequel votre identifiant est enregistré, il faudra onligatoirement qu’il ait la dernière version en date de iCloud pour Windows.
@@ -152,7 +158,11 @@ De plus, tous vos appareils Apple doivent être protégés à l’aide d’un mo
 
 Mais c’est déjà une obligation pour pouvoir activer l'identification à deux facteurs, donc cela ne devrait pas être un frein.
 
+![Capture d´écran Réglages / Identifiant / Sécurité / Authentification à deux facteurs](/img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Capture-Reglages-2FA.png)
+
 P.S. si vous désirez en savoir plus votre identifiant Apple et la double authentification, la formation, offerte gratuitement par @AudreyCouleau, vous sera d'une grande utilité.
+
+![Formation Gratuite Identifiant Apple par Audrey Couleau](/img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Formation-Identifiant-Apple-AudreyCouleau.jpeg)[Formation-Identifiant-AudreyCouleau]
 
 ## 7. Avoir configuré  la récupération du compte 
 
