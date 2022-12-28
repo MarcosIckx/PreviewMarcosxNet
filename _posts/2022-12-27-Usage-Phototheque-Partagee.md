@@ -39,7 +39,7 @@ mais alors je perdais la facilité de Photos et l’accès aux outils
 certes simples mais ô combien utiles et efficaces de retouche photos /vidéos 
 intégrés directement à l’app Photos.
 
-## La PHotothèque Partagée
+## La Photothèque Partagée
 
 Du coup j’ai eu cette idée d’activer la photothèque partagée, 
 mais de ne la partager avec personne.
