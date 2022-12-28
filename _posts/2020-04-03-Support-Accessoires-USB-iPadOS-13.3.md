@@ -70,15 +70,13 @@ Allons voir de plus près dans les réglages.
 
 Avec AssistiveTouch, même sous iOS 12, on pouvait déjà faire apparaître un « curseur » à l’écran qui nous montrait où on appuyait sur l’écran et on pouvait les déclencher par le bouton maison qui s’affiche à l’écran. Je vous montre cela en vidéo.
 
-<div class="text-center text-sm-left">
-  <video controls loop>
-    <source src="/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Curseur-Assistive-Touch-iOS12.mp4"
-            type="video/mp4" />
-Votre navigateur ne supporte pas le tag video.
-Mais vous pouvez regardee cette vidéo depuis ce lien : 
-[Vidéo montrant affichage du curseur tel qu'on pouvait le voir sous iOS 12][Vidéo-Curseur-iOS-12]
-  </video>
-</div>
+- - -
+{% include video.html
+    src="/img/2020/04/05-send-loop.mp4"
+    type="video/mp4"
+    description="Vidéo montrant affichage du curseur tel qu'on pouvait le voir sous iOS 12" 
+%}
+- - -
 
 [Vidéo montrant affichage du curseur tel qu'on pouvait le voir sous iOS 12][Vidéo-Curseur-iOS-12]
 
