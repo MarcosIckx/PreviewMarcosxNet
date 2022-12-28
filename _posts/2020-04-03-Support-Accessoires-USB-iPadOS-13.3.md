@@ -72,7 +72,7 @@ Avec AssistiveTouch, même sous iOS 12, on pouvait déjà faire apparaître un �
 
 - - -
 {% include video.html
-    src="/img/2020/04/05-send-loop.mp4"
+    src="/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Curseur-Assistive-Touch-iOS12.mp4"
     type="video/mp4"
     description="Vidéo montrant affichage du curseur tel qu'on pouvait le voir sous iOS 12" 
 %}
