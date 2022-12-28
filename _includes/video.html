@@ -1,0 +1,14 @@
+{% assign src=include.src %}
+{% assign descr=include.description %}
+{% assign type=include.type %}
+
+<div class="video-box">
+  <video controls loop>
+    <source src="{{ src }}">
+            type="{{ type }}" />
+    <p>Votre navigateur ne semble pas gérer le tag video</p>
+    <p>Mais vous pouvez cliquer sur le lien ci-après pour voir la vidéo</p>
+    <a href="{{ src }}" title="{{ descr }}">{{ descr }}</a>
+  </video>
+  <p>{{ descr | markdownify }}</p>
+</div>
