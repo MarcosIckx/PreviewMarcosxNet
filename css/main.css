@@ -8,6 +8,7 @@
     --border-color: #ddd;
     --border-color-hover: #00f;
     --bg-box-color: #cecece;
+    --footer-color: #d5d5d5;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,6 +22,7 @@
     --border-color: #eee;
     --border-color-hover: #fff;
     --bg-box-color: #9e9e9e;
+    --footer-color: #e5e5e5;
   }
 }
 
@@ -74,15 +76,17 @@ p {
 
 .video-box {
     background-color: var(--bg-box-color);
-    padding: 0.4rem;
+    padding: 1rem;
 }
 
 .video-box p {
+  color: var(--font-color);
   max-width: 80%;
   display: block;
   margin-left: auto;
   margin-right: auto; 
 }
+
 video {
   max-width: 80%;
   display: block;
@@ -113,7 +117,7 @@ a img:hover {
   max-width: 80%;
 }
 footer {
-    border-top: 0.0625rem solid #d5d5d5;
+    border-top: 0.0625rem solid var(--footer-color);
     font-size: 1rem;
 }
 
@@ -138,6 +142,7 @@ ul.posts li {
 	font-size: 1.5rem;
 	padding-top: 0.34375rem;
 	margin: 0.3125rem 0.9375rem 0rem 0rem;
-	font-family: 'Helvetica', 'Arial', 'sans-serif'; }
+	font-family: 'Helvetica', 'Arial', 'sans-serif'; 
+}
 
 
