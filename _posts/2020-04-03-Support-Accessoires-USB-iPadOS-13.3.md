@@ -71,7 +71,7 @@ Allons voir de plus près dans les réglages.
 Avec AssistiveTouch, même sous iOS 12, on pouvait déjà faire apparaître un « curseur » à l’écran qui nous montrait où on appuyait sur l’écran et on pouvait les déclencher par le bouton maison qui s’affiche à l’écran. Je vous montre cela en vidéo.
 
 {% include video.html
-    src="/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Curseur-Assistive-Touch-iOS12.mp4"
+    src="/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Curseur-iOS-12.mp4"
     type="video/mp4"
     description="Vidéo montrant affichage du curseur tel qu'on pouvait le voir sous iOS 12" 
 %}
@@ -203,7 +203,7 @@ Et finalement pour le coin inférieur droit, je vais activer Spotlight.
 Voyons comment configurer cela :
 
 {% include video.html
-    src="/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Coins-intelligents.mp4"
+    src="/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglages-Coins-Actifs.mp4"
     type="video/mp4"
     description="Vidéo illustrant comment on associe à chaque coin de l'écran une action donnée sous iPadOS 13" 
 %}
@@ -244,23 +244,35 @@ Aura-t-on une belle surprise ?
 
 [L'App Fichier où l'on voit la clef USB à gauche, et son contenu à droite]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/App-Fichiers-Cle-USB.jpeg "L'App Fichier où l'on voit la clef USB à gauche, et son contenu à droite"
 
-[Vidéo-Utilisation-Coins-Actifs]: https://twitter.com/MarcosIckx/status/1245840194625875968/video/1
+
+[Vidéo-Curseur-iOS-12]: 
+/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Curseur-iOS-12.mp4 
+"Lien vers vidéo illustrant l´utilisation du curseur sous iOS 12 avec Assistive Touch"
+
+[Vidéo-Réglage-Curseur-iOS-12]: 
+/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglage-Curseur-iOS-12.mp4
+
+[Vidéo-Branchement-Souris-iPadOS-13]: 
+/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Branchement-Souris-iPadOS-13.mp4
+
+[Vidéo-Réglages-Boutons-Souris-iPadOS-13]: 
+/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglages-Boutons-Souris-iPadOS-13.mp4
+
+[Vidéo-Utilisation-Boutons-Souris-iPadOS-13]: 
+/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Utilisation-Boutons-Souris-iPadOS-13.mp4
+
+[Vidéo-Réglages-Cacher-Bouton-Accueil]: 
+/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglages-Cacher-Bouton-Accueil.mp4
+
+[Vidéo-Réglages-Rétablissement-Automatique]: 
+/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglages-Retablissement-Automatique.mp4
+
+[Vidéo-Réglages-Coins-Actifs]: 
+/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglages-Coins-Actifs.mp4 "Lien vers video illustrant comment régler les coins actifs sous iPadOS 13"
+
+[Vidéo-Utilisation-Coins-Actifs]: 
+/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Utilisation-Coins-Actifs.mp4 "Lien vers video illustrant comment utiliser les coins actifs sous iPadOS 13"
 
 
-[Vidéo-Réglages-Coins-Actifs]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Coins-intelligents.mp4 "Lien vers video illustrant les coins actifs ou coins intelligents"
 
-[Vidéo-Réglages-Rétablissement-Automatique]: https://twitter.com/MarcosIckx/status/1245839850848366593/video/1
-
-[Vidéo-Réglages-Cacher-Bouton-Accueil]: https://twitter.com/MarcosIckx/status/1245839560912842752/video/1
-
-
-[Vidéo-Curseur-iOS-12]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Curseur-Assistive-Touch-iOS12.mp4 "Lien vers video illustrant l´utilisation du curseur sous iOS 12 avec Assistive Touch"
-
-[Vidéo-Utilisation-Boutons-Souris-iPadOS-13]: https://twitter.com/MarcosIckx/status/1245839337708797953/video/1
-
-[Vidéo-Réglages-Boutons-Souris-iPadOS-13]: https://twitter.com/MarcosIckx/status/1245839250441945092/video/1
-
-[Vidéo-Branchement-Souris-iPadOS-13]: https://twitter.com/MarcosIckx/status/1245838974498877441/video/1
-
-[Vidéo-Réglage-Curseur-iOS-12]: https://twitter.com/MarcosIckx/status/1245838895402684417/video/1
 
