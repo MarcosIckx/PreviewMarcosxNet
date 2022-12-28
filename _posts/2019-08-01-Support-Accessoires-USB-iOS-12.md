@@ -262,27 +262,27 @@ Mystère.
 [Amazon-Adaptateur-Lightning-USB3]: https://www.amazon.fr/gp/product/B01DGDNL2G/ "Lien vers Amazon.fr pour l´Adaptateur Lightning USB3 d´Apple"
 
 
-[Photo de l’adaptateur Lightning-USB 3 d’Apple]: https://pbs.twimg.com/media/EA6HTohXkAEK-bW.jpg?name=small "Photot Adaptateur Lightning - USB3 d´Apple"
+[Photo de l’adaptateur Lightning-USB 3 d’Apple]: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Adaptateur-lightning-usb3.jpg "Photot Adaptateur Lightning - USB3 d´Apple"
 
-[Alerte Mise à Jour d'accesoire disponible]: https://pbs.twimg.com/media/EA6HUGdWsAQsaMC.jpg?name=small "Alerte pour indiquer qu'une Mise à jour du firmware est disponible pour l'accessoire"
-
-
-[Nouvelle entrée dans Réglages > Général > Informations pour l'adaptateur Lightning - USB 3]: https://pbs.twimg.com/media/EA6HUj0X4AwFBr3.jpg?name=small "La nouvelle entrée dans Informations pour l'adaptateur Lighning-USB3"
-
-[Version du programme interne de l'adaptateur Lightning - USB 3]: https://pbs.twimg.com/media/EA6HUj9WkAA2j9V.jpg?name=small "Version du programme interne de l'adaptateur Lightning - USB 3 lors de son premoer branchement"
-
-[Version du programme interne de l'adaptateur Lightning - USB 3 après mise à jour]: https://pbs.twimg.com/media/EA6HVUaXoAARfS0?format=jpg&name=small "Version du programme interne de l'adaptateur Lightning - USB 3 après la mise a jour"
-
-[Clavier/Trackpad avec Dongle USB]: https://pbs.twimg.com/media/EA6HVssWwAArTjz?format=jpg&name=small "Photo du mini clavier trackpad avec dongle USB"
-
-[Le symbole 🎧 apparait dans l'icône de l'App Musique à la droite du Dock]: https://pbs.twimg.com/media/EA6HWqEWwAYj3Sv?format=jpg&name=small "L'App Musique dans le Dock avec le symbole 🎧"
+[Alerte Mise à Jour d'accesoire disponible]: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Alerte-miseajour-accessoire.jpg "Alerte pour indiquer qu'une Mise à jour du firmware est disponible pour l'accessoire"
 
 
-[Dans les Réglages, entre Wi-Fi et Bluetooth apparait une entrée Ethernet dont l'interface est nommée USB iPhone]: https://pbs.twimg.com/media/EA6HXN6XsAA6otv?format=jpg&name=small "Entrée Ethernet dans les réglages"
+[Nouvelle entrée dans Réglages > Général > Informations pour l'adaptateur Lightning - USB 3]: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Reglages-General-Information.jpg "La nouvelle entrée dans Informations pour l'adaptateur Lighning-USB3"
 
-[Les infos détaillées de la connection Ethernet]: https://pbs.twimg.com/media/EA6HXmQWsAExUXQ?format=jpg&name=small "Les infos détaillées de la connection Ethernet"
+[Version du programme interne de l'adaptateur Lightning - USB 3]: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Version-Programme-Interne-Adaptateur-1.0.1.jpg "Version du programme interne de l'adaptateur Lightning - USB 3 lors de son premoer branchement"
+
+[Version du programme interne de l'adaptateur Lightning - USB 3 après mise à jour]: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Version-Programme-Interne-Adaptateur-1.0.5.jpeg "Version du programme interne de l'adaptateur Lightning - USB 3 après la mise a jour"
+
+[Clavier/Trackpad avec Dongle USB]: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Clavier-trackpad-dongle-usb.jpeg "Photo du mini clavier trackpad avec dongle USB"
+
+[Le symbole 🎧 apparait dans l'icône de l'App Musique à la droite du Dock]: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Icone-Apple-music-casque.jpeg "L'App Musique dans le Dock avec le symbole 🎧"
 
 
-[Le Hub USB connecté à l'adaptateur Lightning - USB d'un coté pour l'alimenter. D'un autre coté pour faire office de Hub USB. Et le clavier/trackpad, l'iPhone et le casque micro branchés au Hub USB]: https://pbs.twimg.com/media/EA6HYLUXkAAZvD1?format=jpg&name=small "Le câblage. Photo prise avec l'iPhone SE"
+[Dans les Réglages, entre Wi-Fi et Bluetooth apparait une entrée Ethernet dont l'interface est nommée USB iPhone]: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Reglages-Ethernet.jpeg "Entrée Ethernet dans les réglages"
 
-[Le HUb USB connecté à l'adaptateur Lightning - USB d'un coté pour l'alimenter. D'un autre coté poir faire office de Hub USB. Et le clavier/Trackpad, l'iPhone, le casque micro, et finalement la clef USB. Tout cela branché au Hub USB]: https://pbs.twimg.com/media/EA6HYLUXUAIEPKG?format=jpg&name=small "Le câblage. Photo prise avec l'iPad 2018"
+[Les infos détaillées de la connection Ethernet]: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Reglages-Ethernet-details.jpeg "Les infos détaillées de la connection Ethernet"
+
+
+[Le Hub USB connecté à l'adaptateur Lightning - USB d'un coté pour l'alimenter. D'un autre coté pour faire office de Hub USB. Et le clavier/trackpad, l'iPhone et le casque micro branchés au Hub USB]: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/cablage-iPhone.jpeg "Le câblage. Photo prise avec l'iPhone SE"
+
+[Le HUb USB connecté à l'adaptateur Lightning - USB d'un coté pour l'alimenter. D'un autre coté poir faire office de Hub USB. Et le clavier/Trackpad, l'iPhone, le casque micro, et finalement la clef USB. Tout cela branché au Hub USB]: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/cablage-iPad.jpeg "Le câblage. Photo prise avec l'iPad 2018"
