@@ -2,6 +2,7 @@
 {% assign descr=include.description %}
 {% assign type=include.type %}
 
+<hr>
 <div class="video-box">
   <video controls loop>
     <source src="{{ src }}"
@@ -12,3 +13,4 @@
   </video>
   <p>{{ descr | markdownify }}</p>
 </div>
+<hr>
