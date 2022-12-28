@@ -71,10 +71,12 @@ Allons voir de plus près dans les réglages.
 Avec AssistiveTouch, même sous iOS 12, on pouvait déjà faire apparaître un « curseur » à l’écran qui nous montrait où on appuyait sur l’écran et on pouvait les déclencher par le bouton maison qui s’affiche à l’écran. Je vous montre cela en vidéo.
 
 <div class="text-center text-sm-left">
-  <video controls loop width="100%">
-    <source src="https://twitter.com/MarcosIckx/status/1245838818458112002/video/1‬"
-            type="video/mp4">
-    Votre navigateur ne gère pas les vidéos.
+  <video controls loop>
+    <source src="/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Curseur-Assistive-Touch-iOS12.mp4"
+            type="video/mp4" />
+Votre navigateur ne supporte pas le tag video.
+Mais vous pouvez regardee cette vidéo depuis ce lien : 
+[Vidéo montrant affichage du curseur tel qu'on pouvait le voir sous iOS 12][Vidéo-Curseur-iOS-12]
   </video>
 </div>
 
@@ -209,14 +211,14 @@ Aura-t-on une belle surprise ?
 [Vidéo-Utilisation-Coins-Actifs]: https://twitter.com/MarcosIckx/status/1245840194625875968/video/1
 
 
-[Vidéo-Réglages-Coins-Actifs]: https://twitter.com/MarcosIckx/status/1245840030658105345/video/1
+[Vidéo-Réglages-Coins-Actifs]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Coins-intelligents.mp4 "Lien vers video illustrant les coins actifs ou coins intelligents"
 
 [Vidéo-Réglages-Rétablissement-Automatique]: https://twitter.com/MarcosIckx/status/1245839850848366593/video/1
 
 [Vidéo-Réglages-Cacher-Bouton-Accueil]: https://twitter.com/MarcosIckx/status/1245839560912842752/video/1
 
 
-[Vidéo-Curseur-iOS-12]: https://twitter.com/MarcosIckx/status/1245838818458112002/video/1
+[Vidéo-Curseur-iOS-12]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Curseur-Assistive-Touch-iOS12.mp4 "Lien vers video illustrant l´utilisation du curseur sous iOS 12 avec Assistive Touch"
 
 [Vidéo-Utilisation-Boutons-Souris-iPadOS-13]: https://twitter.com/MarcosIckx/status/1245839337708797953/video/1
 
