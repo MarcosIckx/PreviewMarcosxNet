@@ -209,19 +209,20 @@ Aura-t-on une belle surprise ?
 [Vidéo-Utilisation-Coins-Actifs]: https://twitter.com/MarcosIckx/status/1245840194625875968/video/1
 
 
-[Vidéo-Réglages-Coins-Actifs]: https://twitter.com/MarcosIckx/status/1245840030658105345/video/1‬
+[Vidéo-Réglages-Coins-Actifs]: https://twitter.com/MarcosIckx/status/1245840030658105345/video/1
 
-[Vidéo-Réglages-Rétablissement-Automatique]: https://twitter.com/MarcosIckx/status/1245839850848366593/video/1‬
+[Vidéo-Réglages-Rétablissement-Automatique]: https://twitter.com/MarcosIckx/status/1245839850848366593/video/1
 
-[Vidéo-Réglages-Cacher-Bouton-Accueil]: https://twitter.com/MarcosIckx/status/1245839560912842752/video/1‬
+[Vidéo-Réglages-Cacher-Bouton-Accueil]: https://twitter.com/MarcosIckx/status/1245839560912842752/video/1
 
 
-[Vidéo-Curseur-iOS-12]: https://twitter.com/MarcosIckx/status/1245838818458112002/video/1‬
+[Vidéo-Curseur-iOS-12]: https://twitter.com/MarcosIckx/status/1245838818458112002/video/1
 
-[Vidéo-Utilisation-Boutons-Souris-iPadOS-13]: https://twitter.com/MarcosIckx/status/1245839337708797953/video/1‬
+[Vidéo-Utilisation-Boutons-Souris-iPadOS-13]: https://twitter.com/MarcosIckx/status/1245839337708797953/video/1
 
-[Vidéo-Réglages-Boutons-Souris-iPadOS-13]: https://twitter.com/MarcosIckx/status/1245839250441945092/video/1‬
+[Vidéo-Réglages-Boutons-Souris-iPadOS-13]: https://twitter.com/MarcosIckx/status/1245839250441945092/video/1
 
-[Vidéo-Branchement-Souris-iPadOS-13]: https://twitter.com/MarcosIckx/status/1245838974498877441/video/1‬
+[Vidéo-Branchement-Souris-iPadOS-13]: https://twitter.com/MarcosIckx/status/1245838974498877441/video/1
 
 [Vidéo-Réglage-Curseur-iOS-12]: https://twitter.com/MarcosIckx/status/1245838895402684417/video/1
+
