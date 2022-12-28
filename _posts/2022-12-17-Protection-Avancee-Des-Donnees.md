@@ -58,7 +58,7 @@ Par contre, Apple ne stocke pas sur ses serveurs les clés 🔑permettant de dé
 
 Soit 14 types de données, sur 26. Juste au dessus de la moitier.
 
-![Tableau Récapitulatif Protection Standard](/img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Tableau-Protection-Standard.png)
+![Tableau Récapitulatif Protection Standard]
 
 ### Quelles sont les données protégées par la Protection Avancée des Données iCloud ?
 
@@ -111,7 +111,7 @@ Soit un total de **23** types de données (sur **26**) dont Apple n'aura plus le
 Seuls vos e-mails, contacts et calendriers pourront encore être vues aux yeux d'Apple et donc communiqués aux autorités.
 
 
-![Tableau Récapitulatif Protection Avancée](/img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Tableau-Protection-Avancee.png)
+![Tableau Récapitulatif Protection Avancée]
 
 # Quelles sont les conditions à remplir pour pouvoir activer la Protection Avancées des Données iCloud ?
 
@@ -143,7 +143,7 @@ Voilà les versions minimales des OS pour pouvoir activer la Protection Avancée
 - Apple TV : tvOS 16.2
 - Apple Watch : watchOS 9.2
 
-![Tableau Versions OS](/img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Versions-OS.png)
+![Tableau Versions OS]
 
 ## 5. Avoir la dernière version de iCloud pour Windows en date de décembre 2022.
 
@@ -158,11 +158,12 @@ De plus, tous vos appareils Apple doivent être protégés à l’aide d’un mo
 
 Mais c’est déjà une obligation pour pouvoir activer l'identification à deux facteurs, donc cela ne devrait pas être un frein.
 
-![Capture d´écran Réglages / Identifiant / Sécurité / Authentification à deux facteurs](/img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Capture-Reglages-2FA.png)
+![Capture d´écran Réglages / Identifiant / Sécurité / Authentification à deux facteurs]
+
 
 P.S. si vous désirez en savoir plus votre identifiant Apple et la double authentification, la formation, offerte gratuitement par @AudreyCouleau, vous sera d'une grande utilité.
 
-[![Formation Gratuite Identifiant Apple par Audrey Couleau](/img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Formation-Identifiant-Apple-AudreyCouleau.jpeg)][Formation-Identifiant-AudreyCouleau]
+[![Formation Gratuite Identifiant Apple par Audrey Couleau]][Formation-Identifiant-AudreyCouleau]
 
 ## 7. Avoir configuré  la récupération du compte 
 
@@ -354,7 +355,7 @@ J'espere pouvoir tester cela une fois que ce sera disponible dans la région où
 # Liens Utiles
 
 1. [Formation Gratuite : Tout savoir sur votre identifiant Apple, par Audrey Couleau][Formation-Identifiant-AudreyCouleau]
-2. [Le fil twitter, agrémenté d´images et captures d´écran où vois retrouverez ce qui a donné naissance à cet article][Twitter-Fil-MarcosIckx]
+2. [Le fil Twitter, agrémenté d´images et captures d´écran où vous retrouverez ce qui a donné naissance à cet article][Twitter-Fil-MarcosIckx]
 
 # Remerciements
 
@@ -363,23 +364,33 @@ Merci à [Laurent], [Julien], [David], [Audrey] et [Sylvain] pour leur retour, a
 [N´hésitez pas à me contacter sur Twitter][MarcosIckx]
 
 
-[Formation-Identifiant-AudreyCouleau]: https://www.appleavecaudrey.fr/view/courses/identifiant-apple-gratuit
+[Formation-Identifiant-AudreyCouleau]: https://www.appleavecaudrey.fr/view/courses/identifiant-apple-gratuit "Lien vers le tutoriel gratuit de Audrey Couleau concernant l'identifiant Apple, et où est abordé l'authentification à deux facteurs"
 
-[Twitter-Fil-MarcosIckx]: https://twitter.com/marcosickx/status/1603786967396880395
+[Twitter-Fil-MarcosIckx]: https://twitter.com/marcosickx/status/1603786967396880395 "Lien vers le fil Twitter, agrémenté d´images et captures d´écran où vous retrouverez ce qui a donné naissance à cet article"
 
-[Source-Apple-1]: https://support.apple.com/fr-fr/guide/security/sec973254c5f/web
-[Source-Apple-2]: https://support.apple.com/fr-fr/HT202303
-[Source-Apple-3]: https://support.apple.com/fr-fr/HT212523
-[Source-Apple-4]: https://support.apple.com/fr-fr/HT204915
-[Source-Apple-5]: https://support.apple.com/fr-fr/HT212513
-[Source-Apple-6]: https://support.apple.com/fr-fr/HT208072
+[Source-Apple-1]: https://support.apple.com/fr-fr/guide/security/sec973254c5f/web "Liens vers la page du guide de sécurité concernant Protection Avancée des Données iCloud"
+[Source-Apple-2]: https://support.apple.com/fr-fr/HT202303 "Lien vers la page de support Apple Présentation de la sécurité des données iCloud"
+[Source-Apple-3]: https://support.apple.com/fr-fr/HT212523 "Lien vers la page de support Apple Gérer l’accès à vos données iCloud sur le Web"
+[Source-Apple-4]: https://support.apple.com/fr-fr/HT204915 "Lien vers la page de support Apple Identification à deux facteurs pour l’identifiant Apple"
+[Source-Apple-5]: https://support.apple.com/fr-fr/HT212513 "Lien vers la page de support Apple Créer un contact de récupération de compte"
+[Source-Apple-6]: https://support.apple.com/fr-fr/HT208072 "Lien vers la page de support Apple Comment Générer une clé de secours"
 
-[Laurent]: https://twitter.com/lolopb
-[David]: https://twitter.com/DavTechFr
-[Julien]: https://twitter.com/_JuCos_
-[Audrey]: https://twitter.com/AudreyCouleau
-[Sylvain]: https://twitter.com/sgamel
-[MarcosIckx]: https://twitter.com/MarcosIckx
+[Laurent]: https://twitter.com/lolopb "Le compte Twitter de Laurent"
+[David]: https://twitter.com/DavTechFr "Le'compte Twitter de David"
+[Julien]: https://twitter.com/_JuCos_ "Le commpte Twitter de Julien"
+[Audrey]: https://twitter.com/AudreyCouleau "Le compte Twitter de Audrey Couleau"
+[Sylvain]: https://twitter.com/sgamel "Le compte Twitter de Sylvain Gamel"
+[MarcosIckx]: https://twitter.com/MarcosIckx "Le compte Twitter de Marcos Ickx"
 
-[iCloud.com]: https://icloud.com 
-[iCloud.com/find/]: https://icloud.com/find/
+[iCloud.com]: https://icloud.com "La page principale de iCloud"
+[iCloud.com/find/]: https://icloud.com/find/ "La page de iCloud permettant de retrouver ses appareils liés à son identifiant Apple"
+
+[Tableau Récapitulatif Protection Standard]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Tableau-Protection-Standard.png "Tableau Récapitulatif de la Protection Standard des Données iCloud"
+
+[Tableau Récapitulatif Protection Avancée]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Tableau-Protection-Avancee.png "Tableau Récapitulatif de la Protection Avancée des Données iCloud"
+
+[Tableau Versions OS]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Versions-OS.png "Tableau indiquant quelle version d´OS il faut pour chacun des appareils Apple"
+
+[Capture d´écran Réglages / Identifiant / Sécurité / Authentification à deux facteurs]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Capture-Reglages-2FA.png "Capture d´écran de la page Réglages / Identifiant / Sécurité / Authentification à deux facteurs sous iPadOS"
+
+[Formation Gratuite Identifiant Apple par Audrey Couleau]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Formation-Identifiant-Apple-AudreyCouleau.jpeg "Image Formation gratuite de Audrey Couleau concernant l´identifiant Apple"
