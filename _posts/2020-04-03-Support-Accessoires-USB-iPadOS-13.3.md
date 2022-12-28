@@ -15,7 +15,7 @@ Je voulais faire ce test avant de faire la mise à jour vers iPadOS 13.4.1 car A
 
 Mais on en reparlera plus tard.
 
-![version d'iPadOS dans les réglages : 13.3.1](https://pbs.twimg.com/media/EUobh4iWsAIId_u?format=jpg&name=small "Version 13.3.1 d'iPadOS")
+![version d'iPadOS dans les réglages : 13.3.1]
 
 ## Clavier/Trackpad 
 Tout d’abord, j’ai rebranché mon petit clavier/trackpad dont j’avais parlé dans le test précédent sous iOS 12.
@@ -38,7 +38,7 @@ Heureusement que non.
 
 En fait, il nous faut ouvrir l'App Fichiers pour y voir la clef et son contenu.
 
-![L'App Fichier où l'on voit la clef USB à gauche, et son contenu à droite](https://pbs.twimg.com/media/EUobjEmXkAIegPZ?format=jpg&name=small "L'App Fichier où l'on voit la clef USB à gauche, et son contenu à droite")
+![L'App Fichier où l'on voit la clef USB à gauche, et son contenu à droite]
 
 Et contrairement à ce qui se pasait sous iOS 12, cette fois-ci, je peux voir tous les fichiers, et plus seulement les fichiers vidéo et audio.
 
@@ -101,8 +101,6 @@ Allons-y, Alonso.
 [Vidéo montrant comment régler les boutons de la souris][Vidéo-Réglages-Boutons-Souris-iPadOS-13]
 
 
-
-
 Voyons maintenant ce qui se passe lorsqu’on clique sur les différents boutons.
 
 Tout d’abord on va cliquer sur le bouton de gauche pour revenir à l’accueil, ensuite après avoir déplacer le curseur sur l'icône Twitter, on cliquera sur le bouton de droite pour afficher Twitter. Et finalement on cliquera sur le bouton de la molette pour faire apparaitre le dock au bas de l'écran.
@@ -114,8 +112,6 @@ On peut également utiliser la molette pour se déplacer facilement dans les men
 Mais profitons en pour cacher par défaut le bouton d’accueil dès que la souris est branchée.
 
 [Vidéo illustrant l'utilisation de la molette de la souris et expliquant où se rendre pour cacher le bouton d'accueil][Vidéo-Réglages-Cacher-Bouton-Accueil]
-
-
 
 Le support de la souris sous cette version d’iPadOS 13.3.1 ne fait que simuler l’interaction du doigt à l’écran. 
 
@@ -194,24 +190,30 @@ Aura-t-on une belle surprise ?
 
 À voir.
 
-[Lien-1]:https://blog.marcosx.net/2019/08/01/Support-Accessoires-USB-iOS-12.html
 
-[Vidéo-Utilisation-Coins-Actifs]:https://twitter.com/MarcosIckx/status/1245840194625875968/video/1
+[Lien-1]:/2019/08/01/Support-Accessoires-USB-iOS-12.html
 
-
-[Vidéo-Réglages-Coins-Actifs]:https://twitter.com/MarcosIckx/status/1245840030658105345/video/1‬
-
-[Vidéo-Réglages-Rétablissement-Automatique]:https://twitter.com/MarcosIckx/status/1245839850848366593/video/1‬
-
-[Vidéo-Réglages-Cacher-Bouton-Accueil]:https://twitter.com/MarcosIckx/status/1245839560912842752/video/1‬
+[version d'iPadOS dans les réglages : 13.3.1]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/iPadOS-Version-13.3.1.jpeg "Version 13.3.1 d'iPadOS"
 
 
-[Vidéo-Curseur-iOS-12]:https://twitter.com/MarcosIckx/status/1245838818458112002/video/1‬
+[L'App Fichier où l'on voit la clef USB à gauche, et son contenu à droite]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/App-Fichiers-Cle-USB.jpeg "L'App Fichier où l'on voit la clef USB à gauche, et son contenu à droite"
 
-[Vidéo-Utilisation-Boutons-Souris-iPadOS-13]:https://twitter.com/MarcosIckx/status/1245839337708797953/video/1‬
+[Vidéo-Utilisation-Coins-Actifs]: https://twitter.com/MarcosIckx/status/1245840194625875968/video/1
 
-[Vidéo-Réglages-Boutons-Souris-iPadOS-13]:https://twitter.com/MarcosIckx/status/1245839250441945092/video/1‬
 
-[Vidéo-Branchement-Souris-iPadOS-13]:https://twitter.com/MarcosIckx/status/1245838974498877441/video/1‬
+[Vidéo-Réglages-Coins-Actifs]: https://twitter.com/MarcosIckx/status/1245840030658105345/video/1‬
 
-[Vidéo-Réglage-Curseur-iOS-12]:https://twitter.com/MarcosIckx/status/1245838895402684417/video/1
+[Vidéo-Réglages-Rétablissement-Automatique]: https://twitter.com/MarcosIckx/status/1245839850848366593/video/1‬
+
+[Vidéo-Réglages-Cacher-Bouton-Accueil]: https://twitter.com/MarcosIckx/status/1245839560912842752/video/1‬
+
+
+[Vidéo-Curseur-iOS-12]: https://twitter.com/MarcosIckx/status/1245838818458112002/video/1‬
+
+[Vidéo-Utilisation-Boutons-Souris-iPadOS-13]: https://twitter.com/MarcosIckx/status/1245839337708797953/video/1‬
+
+[Vidéo-Réglages-Boutons-Souris-iPadOS-13]: https://twitter.com/MarcosIckx/status/1245839250441945092/video/1‬
+
+[Vidéo-Branchement-Souris-iPadOS-13]: https://twitter.com/MarcosIckx/status/1245838974498877441/video/1‬
+
+[Vidéo-Réglage-Curseur-iOS-12]: https://twitter.com/MarcosIckx/status/1245838895402684417/video/1
