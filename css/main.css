@@ -7,6 +7,7 @@
     --heading-color: #292922;
     --border-color: #ddd;
     --border-color-hover: #00f;
+    --bg-box-color: #111;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,6 +20,7 @@
     --heading-color: #818cab;
     --border-color: #eee;
     --border-color-hover: #fff;
+    --bg-box-color: #000;
   }
 }
 
@@ -68,6 +70,10 @@ h2 {
 p {
     line-height: 1.6rem;
     color: var(--secondary-color);
+}
+
+.video-box {
+    background-color: var(--bg-box-color);
 }
 
 video {
