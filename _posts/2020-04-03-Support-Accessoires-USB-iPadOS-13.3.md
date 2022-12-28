@@ -70,17 +70,15 @@ Allons voir de plus près dans les réglages.
 
 Avec AssistiveTouch, même sous iOS 12, on pouvait déjà faire apparaître un « curseur » à l’écran qui nous montrait où on appuyait sur l’écran et on pouvait les déclencher par le bouton maison qui s’affiche à l’écran. Je vous montre cela en vidéo.
 
-- - -
 {% include video.html
     src="/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Curseur-Assistive-Touch-iOS12.mp4"
     type="video/mp4"
     description="Vidéo montrant affichage du curseur tel qu'on pouvait le voir sous iOS 12" 
 %}
-- - -
 
 [Vidéo montrant affichage du curseur tel qu'on pouvait le voir sous iOS 12][Vidéo-Curseur-iOS-12]
 
-Je  tiens à préciser qu’aucun dispositif n’était connecté à l’iPad à ce moment là.
+Je tiens à préciser qu’aucun dispositif n’était connecté à l’iPad à ce moment là.
 Ça montre juste qu’on pouvait déjà même afficher un pointeur symbolisant un doigt.
 
 On peut également changer la grosseur du pointeur et la couleur de l’anneau externe de ce pointeur. 
@@ -89,11 +87,21 @@ Tout cela se trouvant dans les réglages de l’AssistiveTouch, comme on peut le
 
 (Toujours sans appareils  connectés. Uniquement les doigts)
 
+{% include video.html
+    src="/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglage-Curseur-iOS-12.mp4"
+    type="video/mp4"
+    description="Vidéo montrant comment régler la taille et la coukeur du curseur, tel qu'on pouvait le voir sous iOS 12" 
+%}
 [Vidéo montrant comment régler la taille et la coukeur du curseur, tel qu'on pouvait le voir sous iOS 12][Vidéo-Réglage-Curseur-iOS-12]
 
 
 Voyons maintenant ce qui se passe lorsqu’on branche une souris (tout en s’assurant  qu’AssistiveTouch soit bien activé. Sinon, rien ne se passe à priori).
 
+{% include video.html
+    src="/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Branchement-Souris-iPadOS-13.mp4"
+    type="video/mp4"
+    description="Vidéo montrant ce qui se passe une fois qu'on branche une souris USB sous iPadOS 13" 
+%}
 [Vidéo montrant ce qui se passe une fois qu'on branche une souris USB sous iPadOS 13][Vidéo-Branchement-Souris-iPadOS-13]
 
 Dès que je branche la souris, vu que AssistiveTouch est activé, le pointeur apparaît furtivement pendant 2 secondes.
@@ -106,6 +114,11 @@ On va définir le bouton droit comme étant le bouton principal. Et le bouton ga
 le bouton de la molette servira à afficher le Dock.
 Allons-y, Alonso.
 
+{% include video.html
+    src="/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglages-Boutons-Souris-iPadOS-13.mp4"
+    type="video/mp4"
+    description="Vidéo montrant comment régler les boutons de la souris sous iPadOS 13" 
+%}
 [Vidéo montrant comment régler les boutons de la souris][Vidéo-Réglages-Boutons-Souris-iPadOS-13]
 
 
@@ -113,12 +126,22 @@ Voyons maintenant ce qui se passe lorsqu’on clique sur les différents boutons
 
 Tout d’abord on va cliquer sur le bouton de gauche pour revenir à l’accueil, ensuite après avoir déplacer le curseur sur l'icône Twitter, on cliquera sur le bouton de droite pour afficher Twitter. Et finalement on cliquera sur le bouton de la molette pour faire apparaitre le dock au bas de l'écran.
 
+{% include video.html
+    src="/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Utilisation-Boutons-Souris-iPadOS-13.mp4"
+    type="video/mp4"
+    description="Vidéo illustrant l'utilisation des boutons de la souris après les avoir réglés sous iPadOS 13" 
+%}
 [Vidéo illustrant l'utilisation des boutons de la souris après les avoir réglés][Vidéo-Utilisation-Boutons-Souris-iPadOS-13]
 
 On peut également utiliser la molette pour se déplacer facilement dans les menus des réglages ou encore dans Safari par exemple.
 
 Mais profitons en pour cacher par défaut le bouton d’accueil dès que la souris est branchée.
 
+{% include video.html
+    src="/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglages-Cacher-Bouton-Accueil.mp4"
+    type="video/mp4"
+    description="Vidéo illustrant l'utilisation de la molette de la souris et expliquant où se rendre pour cacher le bouton d'accueil sous iPadOS 13" 
+%}
 [Vidéo illustrant l'utilisation de la molette de la souris et expliquant où se rendre pour cacher le bouton d'accueil][Vidéo-Réglages-Cacher-Bouton-Accueil]
 
 Le support de la souris sous cette version d’iPadOS 13.3.1 ne fait que simuler l’interaction du doigt à l’écran. 
@@ -159,6 +182,12 @@ Mais on peut y remédier en activant le rétablissement automatique et en sélec
 Après cela, **et uniquement après cela**, on peut réduire le temps au minimum,,soit 0,25secondes.
 
 Voyons cela en vidéo :
+
+{% include video.html
+    src="/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglages-Retablissement-Automatique.mp4"
+    type="video/mp4"
+    description="Vidéo illustrant comment activer le rétablissement automatique sous iPadOS 13" 
+%}
 [Vidéo illustrant comment activer le rétablissement automatique][Vidéo-Réglages-Rétablissement-Automatique]
 
 Maintenant nous pouvons désigner des actions à chacun des 4 coins de l’écran.
@@ -173,13 +202,22 @@ Et finalement pour le coin inférieur droit, je vais activer Spotlight.
 
 Voyons comment configurer cela :
 
-
+{% include video.html
+    src="/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Coins-intelligents.mp4"
+    type="video/mp4"
+    description="Vidéo illustrant comment on associe à chaque coin de l'écran une action donnée sous iPadOS 13" 
+%}
 [Vidéo illustrant comment on associe à chaque coin de l'écran une action donnée][Vidéo-Réglages-Coins-Actifs]
 
 Et maintenant il nous suffit de placer ce curseur dans chacun des coins de l’écran pendant 1 quart de seconde pour déclencher l’action.
 
 Voyons cela en action.
 
+{% include video.html
+    src="/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Utilisation-Coins-Actifs.mp4"
+    type="video/mp4"
+    description="Vidéo illustrant l'utilisation des coins actifs sous iPadOS 13" 
+%}
 [Vidéo illustrant l'utilisation des coins actifs][Vidéo-Utilisation-Coins-Actifs]
 
 
