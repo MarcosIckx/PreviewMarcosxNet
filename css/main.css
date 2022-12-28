@@ -70,6 +70,13 @@ p {
     color: var(--secondary-color);
 }
 
+video {
+  max-width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 p img {
   border: 0.1rem solid var(--border-color);
   border-radius: 0.3rem;
