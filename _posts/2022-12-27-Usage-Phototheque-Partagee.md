@@ -2,9 +2,10 @@
 layout: post
 title: "J´ai finalement trouvé une utilité à la Photothèque Partagée"
 date: 2022-12-27
+categories: iCloud,Photos
 ---
 
-# J´ai enfin trouvé une utilité à la Photothèsue Partagée
+# J´ai enfin trouvé une utilité à la Photothèque Partagée
 
 ![Quelle est l'utilité d'une Photothèque Partagée avec personne ?]
 
