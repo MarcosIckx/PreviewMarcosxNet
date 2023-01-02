@@ -161,10 +161,10 @@ Et donc, le symbole ^ était le symbole le plus approprié pour la touche de con
 
 Voilà, je suis bien conscient que cet article n’est pas publiable tel quel mais je suis sûr que Jean-Baptise Leheup pourra en faire un article merveilleux, voire même 2 articles (un sur la touche CTRL et un autre sur le copier/coller).
 
-[article-touche-cmd]: https://www.macg.co/aapl/2020/02/dou-vient-la-touche-commande-de-nos-claviers-111943 (D’où vient la touche commande ⌘ de nos claviers)
-[xerox-1]: https://www.macg.co/aapl/2020/01/lisa-et-macintosh-et-si-xerox-avait-en-fait-tout-invente-111081 (Lisa et Macintosh: Et si Xerox avait en fait tout inventé - Partie 1: La visite au PARC)
-[xerox-2]: https://www.macg.co/aapl/2020/01/lisa-et-macintosh-et-si-xerox-avait-en-fait-tout-invente-partie-2-111085 (Lisa et Macintosh: Et si Xerox avait en fait tout inventé - Partie 2: La naissance du Lisa)
-[xerox-3]: https://www.macg.co/aapl/2020/01/lisa-et-macintosh-et-si-xerox-avait-en-fait-tout-invente-partie-3-111087 (Lisa et Macintosh: Et si Xerox avait en fait tout inventé - Partie 3: Le procès)
-[larry-tesler-1]: https://www.macg.co/ailleurs/2020/02/deces-de-larry-tesler-lhomme-qui-naimait-pas-les-modes-112053 (Larry Tesler, l’homme qui n’aimait pas les modes)
-[larry-tesler-2]: https://www.macg.co/ailleurs/2020/02/1985-quand-larry-tesler-racontait-laventure-du-lisa-112057 (Quand Larry Tesler racontait l’aventure du Lisa)
+[article-touche-cmd]: https://www.macg.co/aapl/2020/02/dou-vient-la-touche-commande-de-nos-claviers-111943 "D’où vient la touche commande ⌘ de nos claviers"
+[xerox-1]: https://www.macg.co/aapl/2020/01/lisa-et-macintosh-et-si-xerox-avait-en-fait-tout-invente-111081 "Lisa et Macintosh: Et si Xerox avait en fait tout inventé - Partie 1: La visite au PARC"
+[xerox-2]: https://www.macg.co/aapl/2020/01/lisa-et-macintosh-et-si-xerox-avait-en-fait-tout-invente-partie-2-111085 "Lisa et Macintosh: Et si Xerox avait en fait tout inventé - Partie 2: La naissance du Lisa"
+[xerox-3]: https://www.macg.co/aapl/2020/01/lisa-et-macintosh-et-si-xerox-avait-en-fait-tout-invente-partie-3-111087 "Lisa et Macintosh: Et si Xerox avait en fait tout inventé - Partie 3: Le procès"
+[larry-tesler-1]: https://www.macg.co/ailleurs/2020/02/deces-de-larry-tesler-lhomme-qui-naimait-pas-les-modes-112053 "Larry Tesler, l’homme qui n’aimait pas les modes"
+[larry-tesler-2]: https://www.macg.co/ailleurs/2020/02/1985-quand-larry-tesler-racontait-laventure-du-lisa-112057 "Quand Larry Tesler racontait l’aventure du Lisa"
 
