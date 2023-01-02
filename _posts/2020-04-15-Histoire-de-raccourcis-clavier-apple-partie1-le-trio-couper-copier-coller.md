@@ -2,6 +2,8 @@
 layout: post
 title: "Histoire de raccourcis clavier célèbres - Partie 1 : Couper/Copier/Coller"
 date: 2020-04-15
+tags: [Raccourcis Clavier, Petites Histoires]
+category: iPadOS
 ---
 
 # Histoire de raccourcis clavier célèbres
