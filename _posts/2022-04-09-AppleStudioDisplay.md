@@ -2,6 +2,8 @@
 layout: post
 title: "Apple Studio Display : ce que j´en pense personellement"
 date: 2022-04-09
+tags: [Écran, Apple Studio Display]
+category: Avis Personnel
 ---
 
 # Apple Studio Display
