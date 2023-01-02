@@ -384,6 +384,7 @@ Merci à [Laurent], [Julien], [David], [Audrey] et [Sylvain] pour leur retour, a
 
 [iCloud.com]: https://icloud.com "La page principale de iCloud"
 [iCloud.com/find/]: https://icloud.com/find/ "La page de iCloud permettant de retrouver ses appareils liés à son identifiant Apple"
+[privacy.apple.com]: https://privacy.apple.com "La page d´Apple consacrée aux données et à la confidentialité"
 
 [Capture d´écran Réglages / Identifiant / Sécurité / Authentification à deux facteurs]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Capture-Reglages-2FA.png "Capture d´écran de la page Réglages / Identifiant / Sécurité / Authentification à deux facteurs sous iPadOS"
 
