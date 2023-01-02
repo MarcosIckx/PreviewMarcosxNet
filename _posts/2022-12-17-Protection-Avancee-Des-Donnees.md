@@ -2,6 +2,8 @@
 layout: post
 title: "Introduction à la Protection Avancée des Données iCloud (PADi)"
 date: 2022-12-17
+tags: [Sécurité, Protection des Données, iCloud]
+category: Confidentialité
 ---
 
 # Protection Avancée des Données iCloud (PADi)
