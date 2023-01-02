@@ -2,6 +2,8 @@
 layout: post
 title: "Le Blog de Marcos Ickx -- vie 2"
 date: 2019-06-26
+tags: [Résurection]
+category: Blog
 ---
 
 Et bien voilà.
