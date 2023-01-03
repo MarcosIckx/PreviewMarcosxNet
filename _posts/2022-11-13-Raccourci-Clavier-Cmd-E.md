@@ -96,7 +96,7 @@ Comment faire le rechercher/remplacer si on n’a pas de clavier à portée de m
 
 ![Option Barre de recherche pour activer Rechercher et Remplacer]
 
-![La barre de Rechercher/Remplacer]
+![La barre de Rechercher et Remplacer]
 
 Imaginons, comme tantôt que l’on désire remplacer l’expression pom-E par cmd-E.
 
@@ -144,5 +144,5 @@ https://www.macg.co/ailleurs/2020/02/1985-quand-larry-tesler-racontait-laventure
 [Option Barre de recherche pour activer Rechercher et Remplacer]: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Rechercher-Remplacer-4.png
 "Capture d´écran où l´on voit la barre de recherche avec un menu dévoilant des options (encadré en rouge sur la capture d´écran) dont celle de Rechercher et Remplacer. Une nouveauté iOS 16."
 
-[La barre de Rechercher/Remplacer]: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Rechercher-Remplacer-5.png
+[La barre de Rechercher et Remplacer]: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Rechercher-Remplacer-5.png
 "Capture d´écran où l´on voit au dessus du clavier virtuel la barre de Rechercher Remplacer (encadrée en rouge sur la capture d´écran). À la droite du champ de recherche, on a maintenant le champ qui accueillera le texte de remplacement. À droite de ce champ se situe un bouton Remplacer. En appuyant sur celui-ci, on remplacera lˋoccurrence du texte recherché par le texte de remplacement."
