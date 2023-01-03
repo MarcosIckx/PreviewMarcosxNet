@@ -135,8 +135,7 @@ https://www.macg.co/ailleurs/2020/02/1985-quand-larry-tesler-racontait-laventure
 [Capture d´écran de la fenêtre Rechercher sous iOS 15]: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Rechercher-Remplacer-1.png
 "Capture d´écran de la fenêtre Rechercher sous iOS 15. Avec les fleches Haut et Bas situées à gauche pour rechercher l´occurrence précédente ou suivante. On y voit aussi le nombre d´occurrences trouvées, et le texte recherché. À droite, le bouton OK"
 
-[Menu Contextuel Rechercher la sélection]: 
-/img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Rechercher-Remplacer-2.png
+[Menu Contextuel Rechercher la sélection]: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Rechercher-Remplacer-2.png
 "Capture d´écran d´une note où on a sélectionné le texte pom-E et l'on voit dans le menu contextuel l'option Rechercher la sélection, encadrée en rouge sur la capture d'écran."
 
 [Barre de recherche avec le champ de recherche prérempli avec la sélection]: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Rechercher-Remplacer-3.png
@@ -145,6 +144,5 @@ https://www.macg.co/ailleurs/2020/02/1985-quand-larry-tesler-racontait-laventure
 [Option Barre de recherche pour activer Rechercher et Remplacer]: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Rechercher-Remplacer-4.png
 "Capture d´écran où l´on voit la barre de recherche avec un menu dévoilant des options (encadré en rouge sur la capture d´écran) dont celle de Rechercher et Remplacer. Une nouveauté iOS 16."
 
-[La barre de Rechercher/Remplacer]: 
-/img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Rechercher-Remplacer-5.png
+[La barre de Rechercher/Remplacer]: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Rechercher-Remplacer-5.png
 "Capture d´écran où l´on voit au dessus du clavier virtuel la barre de Rechercher Remplacer (encadrée en rouge sur la capture d´écran). À la droite du champ de recherche, on a maintenant le champ qui accueillera le texte de remplacement. À droite de ce champ se situe un bouton Remplacer. En appuyant sur celui-ci, on remplacera lˋoccurrence du texte recherché par le texte de remplacement."
