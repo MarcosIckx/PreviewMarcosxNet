@@ -83,7 +83,7 @@ Imaginons, comme tantôt que l’on désire remplacer l’expression pom-E par c
 Voici les étapes que l’on voit dans la vidéo au thread qui suit 
 
 1. Sélection de « cmd-E »
-2, Option « Copier »
+2. Option « Copier »
 3. Sélection de « pom-E »
 4. Option« Rechercher la sélection »
 5. Se positionner dans le champs « Remplacer » et appuyer sur le bouton « coller »
@@ -98,7 +98,11 @@ Plus d’information sur Larry Tesler:
 - [Larry Tesler : l’homme qui n’aimait pas les modes][LarryTesler-1]
 - [1985 : Quand Larry Tesler raccontait l’aventure du Lisa][LarryTesler-2]
 
-[LarryTesler-1]: https://www.macg.co/ailleurs/2020/02/deces-de-larry-tesler-lhomme-qui-naimait-pas-les-modes-112053 « Larry Tesler : l’homme qui n’aimait pas les modes »
+[LarryTesler-1]: 
+https://www.macg.co/ailleurs/2020/02/deces-de-larry-tesler-lhomme-qui-naimait-pas-les-modes-112053 
+"Larry Tesler : l’homme qui n’aimait pas les modes"
 
-[LarryTesler-2]: https://www.macg.co/ailleurs/2020/02/1985-quand-larry-tesler-racontait-laventure-du-lisa-112057 « 1985 : Quand Larry Tesler raccontait l’aventure du Lisa »
+[LarryTesler-2]: 
+https://www.macg.co/ailleurs/2020/02/1985-quand-larry-tesler-racontait-laventure-du-lisa-112057 
+"1985 : Quand Larry Tesler raccontait l’aventure du Lisa"
 
