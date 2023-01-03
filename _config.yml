@@ -2,6 +2,8 @@ name: Le Blog de Marcos Ickx
 markdown: kramdown
 theme: jekyll-theme-minimal
 
+permalink: /:year/:month/:day/:title.html
+
 gems:
    - jekyll-paginate
 
