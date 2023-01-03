@@ -118,11 +118,9 @@ Plus d’information sur Larry Tesler:
 - [Larry Tesler : l’homme qui n’aimait pas les modes][LarryTesler-1]
 - [1985 : Quand Larry Tesler raccontait l’aventure du Lisa][LarryTesler-2]
 
-[LarryTesler-1]: 
-https://www.macg.co/ailleurs/2020/02/deces-de-larry-tesler-lhomme-qui-naimait-pas-les-modes-112053 "Larry Tesler : l’homme qui n’aimait pas les modes"
+[LarryTesler-1]: https://www.macg.co/ailleurs/2020/02/deces-de-larry-tesler-lhomme-qui-naimait-pas-les-modes-112053 "Larry Tesler : l’homme qui n’aimait pas les modes"
 
-[LarryTesler-2]: 
-https://www.macg.co/ailleurs/2020/02/1985-quand-larry-tesler-racontait-laventure-du-lisa-112057 "1985 : Quand Larry Tesler raccontait l’aventure du Lisa"
+[LarryTesler-2]: https://www.macg.co/ailleurs/2020/02/1985-quand-larry-tesler-racontait-laventure-du-lisa-112057 "1985 : Quand Larry Tesler raccontait l’aventure du Lisa"
 
 [Un raccourci clavier qui gagne à être connu]: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Accroche-Raccourci-Clavier-Cmd-E.png "Command-E : Un raccourci clavier qui gagne à être connu"
 
