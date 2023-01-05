@@ -8,7 +8,7 @@ kramdown:
   
 permalink: /:year/:month/:day/:title.html
 
-gems:
+plugins:
    - jekyll-paginate
 
 paginate: 10
