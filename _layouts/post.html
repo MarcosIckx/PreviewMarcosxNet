@@ -8,13 +8,8 @@ layout: default
   {{ content }}
 </div>
 
-{% if page.otherLinks %}
-<div class="otherLinks">
-  <p>Vous aimerez aussi lire </p>
-  <ul>
-  {% for anotherLink in page.otherLinks %}
-    <li>{% link {{ anotherLink }} %}</li>
-  {% endfor %}
-  </ul>
+{% if page.otherLink %}
+<div class="otherLink">
+  <p>Vous aimerez aussi lire {% post_url {{ page.otherLink }} %}</p>
 </div>
 {% endif %}
