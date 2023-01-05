@@ -1,6 +1,6 @@
 ---
 title: Module d´impression grandement amélioré sous iOS 16
-date: 2022-10-30
+date: 2022-10-31
 layout: post
 tags: [Impression, iOS16, iPadOS16]
 category: Module d´impression
@@ -105,7 +105,26 @@ Le résultat est 17 pages en miniatures tenant sur deux feuille A4, mais ci-dess
 
 ## Exemple avec les vignettes du podcast de iWeek La Semaine Apple
 
+Ici, ce sont quelques vignettes des numéros de [@iWeekNews] #iweekLQI et [@iFiveFR] qui grâce au nouveau module d’impression ont été regroupée en planche sur une page A4.
+
+![Miniature @iWeekNews 4 fois 16 pages]
+
 ## Exemple avec les vignettes du podcast de David Saez
+Un dernier exemple avec les vignettes de [@saezdavid]
+
+ci-dessous, 32 vignettes sauvegardées dans ma photothèque et que j’ai fait passé par le module d’impression pour obtenir cette planche.
+On fait d´abord l´impression des photos qu´on repasse dans le module d´impression poir avoor 16 pages par feuille et ensuite 2 pages par feuille. Et voilà le resultat.
+
+![Miniature @david 2 fois 16 pages]
+
+Ci-dessous, on fait d’abord l’impression des photos, qu’on repasse dans le module d’impression pour avoir 9 pages par feuille et ensuite 4 pages par feuille.
+Et voilà la capture d’écran de la planche qu’on obtient à l’arrivée.
+
+![Miniature @david 4 fois 9 pages]
+
+
+# Conclusion
+Et vous, que pensez-vous du nouveau module d´impression d´iOS16 / iPadOS 16 ?
 
 [Module-Impression-Options]: /img/posts/2022/10/31/Module-Impression-iOS16/Options-Impression.jpeg "capture d´écran du module d´impression sous iOS16 où l´on voit les différentes options d´impression qui s´offrent à nous"
 
@@ -119,28 +138,21 @@ Le résultat est 17 pages en miniatures tenant sur deux feuille A4, mais ci-dess
 [l´historique du site VVmac hebdo]: https://www.vvmac.com/pages/historique.php "historique des numéros de VVMac hebdo"
 [le numéro 10 de VVMac hebdo]: https://www.vvmac.com/pages/LL_NUMEROS/01028378427466324787/VVMac_hebdo_010.pdf "VVMac hebdo numéro 10, disponible gratuitement"
 
-[Miniature PDF @ggete 16 pages]: /img/posts/2022/10/31/Module-Impression-iOS16/Miniatures-ggete-16-pages.jpeg
-[Miniature PDF @ggete 9 pages]: /img/posts/2022/10/31/Module-Impression-iOS16/Miniature-ggete-9-pages.jpeg
-[Miniature PDF @ggete 2 fois 4 pages]: /img/posts/2022/10/31/Module-Impression-iOS16/Miniature-ggete-2-fois-4-pages.jpeg
+[Miniature PDF @ggete 16 pages]: /img/posts/2022/10/31/Module-Impression-iOS16/Miniatures-ggete-16-pages.jpeg "Miniature de l'impression où l'on voit 16 pages sur une feuille A4. Come le,document d´origine n´en contient que 8, elles sont toutes situées dans la partie supérieure de la feuille A4."
+[Miniature PDF @ggete 9 pages]: /img/posts/2022/10/31/Module-Impression-iOS16/Miniature-ggete-9-pages.jpeg "Miniature de l'impression où l'on voit 9 pages sur une feuille A4"
+[Miniature PDF @ggete 2 fois 4 pages]: /img/posts/2022/10/31/Module-Impression-iOS16/Miniature-ggete-2-fois-4-pages.jpeg "Miniature de l´impression où l´on voit les 8 pages du document regroupées par 4. Les 4 premières à gauche. Les 4 dernières à droite"
 
-[Miniature VVMac hebdo 10 2 fois 9 pages]: /img/posts/2022/10/31/Module-Impression-iOS16/Miniature-VVMac-hebdo-2-fois-9-pages.jpeg
-[Miniature VVMac hebdo 10 2 fois 16 pages]: /img/posts/2022/10/31/Module-Impression-iOS16/Miniature-VVMac-hebdo-2-fois-16-pages.jpeg
-[Miniature VVMac hebdo 10 1 fois 16 pages]: /img/posts/2022/10/31/Module-Impression-iOS16/Miniature-VVMac-hebdo-1-fois-16-pages.jpeg
+[Miniature VVMac hebdo 10 2 fois 9 pages]: /img/posts/2022/10/31/Module-Impression-iOS16/Miniature-VVMac-hebdo-2-fois-9-pages.jpeg "Miniature de l'impression du numéro 10 de VVmac hebdo, en 2 blocs de 9 pages"
+[Miniature VVMac hebdo 10 2 fois 16 pages]: /img/posts/2022/10/31/Module-Impression-iOS16/Miniature-VVMac-hebdo-2-fois-16-pages.jpeg "Miniature de l'impression du numéro 10 de VVmac hebdo, en 2 blocs de 16 pages"
+[Miniature VVMac hebdo 10 1 fois 16 pages]: /img/posts/2022/10/31/Module-Impression-iOS16/Miniature-VVMac-hebdo-1-fois-16-pages.jpeg "Miniature de l'impression du numéro 10 de VVmac hebdo, en 16 pages par feuille A4. On ne voit ici que la première feuille."
 
-[Miniature @iWeekNews 4 fois 16 pages]: /img/posts/2022/10/31/Module-Impression-iOS16/Miniature-iWeekNews-4-fois-16-pages.jpeg
+[Miniature @iWeekNews 4 fois 16 pages]: /img/posts/2022/10/31/Module-Impression-iOS16/Miniature-iWeek-4-fois-16-pages.jpeg "Miniatures de l'impression des vignettes de iWeek La Semaine Apple, et iWeek La Quotidienne Apple."
 
-[Miniature @david 4 fois 9 pages]: /img/posts/2022/10/31/Module-Impression-iOS16/Miniature-David-4-fois-9-pages.jpeg
-[Miniature @david 2 fois 16 pages]: /img/posts/2022/10/31/Module-Impression-iOS16/Miniature-David-2-fois-16-pages.jpeg
-
-[ggete-1-fois-16-pages]: /assets/module-impression/ggete-16pages-par-feuille.pdf "document PDF de Guillaume Gete passé par le module d´impression avec 16 pages par feuille"
-[ggete-1-fois-9-pages]: /assets/module-impression/ggete-9pages-par-feuille.pdf "document PDF de Guillaume Gete passé par le module d´impression avec 9 pages par feuille"
-[ggete-2-fois-4-pages]: /assets/module-impression/ggete-2-fois-4-pages.pdf "document PDF de Guillaume Gete passé 2 fois par le module d´impression pour obtenir 2 fois 4 pages"
-
-[VVMac-2-fois-9-pages]: /assets/module-impression/vvmachebdo-2-fois-9-pages.pdf "document PDF de VVMac hebdo passé 2 fois par le module d´impression pour obtenir 2 fois 9 pages"
-[VVMac-2-fois-16-pages]: /assets/module-impression/vvmachebdo-2-fois-16-pages.pdf "document PDF de VVMac hebdo passé 2 fois par le module d´impression pour obtenir 2 fois 9 pages"
-[VVMac-1-fois-16-pages]: /assets/module-impression/vvmachebdo-1-fois-16-pages.pdf "document PDF de VVMac hebdo passé 2 fois par le module d´impression pour obtenir 2 fois 9 pages"
+[Miniature @david 4 fois 9 pages]: /img/posts/2022/10/31/Module-Impression-iOS16/Miniature-David-4-fois-9-pages.jpeg "Miniature de l'impresssion des vignette de David Saez on l'on a au final 4 blocs de 9 pages sur une feuille A4."
+[Miniature @david 2 fois 16 pages]: /img/posts/2022/10/31/Module-Impression-iOS16/Miniature-David-2-fois-16-pages.jpeg "Miniature de l'impresssion des vignette de David Saez on l'on a au final 2 blocs de 16 pages sur une feuille A4."
 
 [@ggete]: https://twitter.com/ggete "Le compte Twitter de Guillaume Gete"
 [@VVMAC_FR]: https://twitter.com/VVMAC_FR "Le compte Twitter de VVMac hebdo"
 [@iWeekNews]: https://twitter.com/iWeekNews "Le compte Twitter de iWeek, la semaine Apple, et iWeek, la quotidienne iWeek"
-[@David]: https://twitter.com/SaezDavid "Le compte Twitter de David Saez, podcasteur de « C'est Pour Ma Pomme »"
+[@iFiveFR]: https://twitter.com/iFiveFR "Le compte Twitter de iFive, ancien nom de la quotidienne iWeek"
+[@saezdavid]: https://twitter.com/SaezDavid "Le compte Twitter de David Saez, podcasteur de « C'est Pour Ma Pomme »"
