@@ -3,11 +3,10 @@ layout: post
 title: "Apple Studio Display : ce que j´en pense personellement"
 date: 2022-04-09
 tags: [Écran, Apple Studio Display]
-category: Avis Personnel
+category: Matériel
 ---
 
 # Apple Studio Display
-
 
 Lors du keynote de mars 2022, Apple a devoilé, en plus du Mac Studio (j´en parlerai probablement plus tard),
 un écran 5K, de 27 pouces comme étant le compagnon idéal du Mac Studio, mais pas que, évidemment, puisqu´il 
