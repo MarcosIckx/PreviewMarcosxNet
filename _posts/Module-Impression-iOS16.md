@@ -62,7 +62,7 @@ Voici ce que cela donne avec [un livre bonus] de [@ggete]
 Ci-dessous, le même fichier mais où on a demandé d’avoir 9 pages sur une feuille.
 Ça donne 3 rangées de 3 pages sur une feuille A4 en portrait.
 
-[![Miniature PDF @ggete 9 pages]][ggete-1-fois-9-pages]
+![Miniature PDF @ggete 9 pages]
 
 Capture d’écran du fichier PDF après être passé deux fois par le module d’impression.
 La première fois, j’ai choisi de mettre 4 pages par feuille avec une bordure fine.
@@ -70,12 +70,12 @@ Le résultat repasse pour la deuxième fois à l’impression, en choisissant ce
 Le résultat est une feuille en mode paysage avec 2 fois 4 pages.
 Ce qui donne une bonne idée de ce à quoi ressemblerait le document.
 
-[![Miniature PDF @ggete 2 fois 4 pages]][ggete-2-fois-4-pages]
+![Miniature PDF @ggete 2 fois 4 pages]
 
 Ci-dessous, toujours le même fichier, mais on a demandé d´avoir 16 pages par feuilles.
 Vu que le document n´a que 8 pages, on a donc sur une feuille A4 en mode portrait, 2 rangées de 4 pages ayant une bordure occupant la moitier supérieure de la feuille A4.
 
-[![Miniature PDF @ggete 16 pages]][ggete-1-fois-16-pages]
+![Miniature PDF @ggete 16 pages]
 
 ## Exemple avec le numéro 10 de VVMac
 
@@ -87,12 +87,21 @@ La premier fois que je le fais passer par le module d’impression, je choisi 9 
 Le résultat, je le fais passer une deuxième fois par le module d’impression, avec 2 pages par feuille.
 Le résultat est 17 pages en miniatures tenant sur une seule feuille A4, ce qui donne une idée assez précise de l’ensemble de l’hebdo sans qu’on puisse vraiment lire le contenu.
 
-[![Miniature VVMac hebdo 10 2 fois 9 pages]][PDF VVMac hebdo 10 2 fois 9 pages]
+![Miniature VVMac hebdo 10 2 fois 9 pages]
 
 Ci-dessous, capture d’écran du PDF obtenu après avoir passé le numéro 010 de VVMac hebdo, que vous pouvez télécharger gratuitement depuis [l´historique du site VVmac hebdo]
-La premier fois que je le fais passer par le module d’impression, je choisi 9 pages par feuille, sans bordure.
+La premier fois que je le fais passer par le module d’impression, je choisi 16 pages par feuille, sans bordure.
 Le résultat, je le fais passer une deuxième fois par le module d’impression, avec 2 pages par feuille.
 Le résultat est 17 pages en miniatures tenant sur une seule feuille A4, ce qui donne une idée assez précise de l’ensemble de l’hebdo sans qu’on puisse vraiment lire le contenu.
+
+![Miniature VVMac hebdo 10 2 fois 16 pages]
+
+Ci-dessous, capture d’écran du PDF obtenu après avoir passé le numéro 010 de VVMac hebdo, que vous pouvez télécharger gratuitement depuis [l´historique du site VVmac hebdo]
+Je le fais passer par le module d’impression, je choisi 16 pages par feuille, avec bordure.
+Le résultat est 17 pages en miniatures tenant sur deux feuille A4, mais ci-dessous on ne voit que la premiere feuille.
+
+![Miniature VVMac hebdo 10 1 fois 16 pages]
+
 
 ## Exemple avec les vignettes du podcast de iWeek La Semaine Apple
 
