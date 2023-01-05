@@ -250,34 +250,20 @@ Aura-t-on une belle surprise ?
 [L'App Fichier où l'on voit la clef USB à gauche, et son contenu à droite]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/App-Fichiers-Cle-USB.jpeg "L'App Fichier où l'on voit la clef USB à gauche, et son contenu à droite"
 
 
-[Vidéo-Curseur-iOS-12]: 
-/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Curseur-iOS-12.mp4 
-"Lien vers vidéo illustrant l´utilisation du curseur sous iOS 12 avec Assistive Touch"
+[Vidéo-Curseur-iOS-12]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Curseur-iOS-12.mp4  "Lien vers vidéo illustrant l´utilisation du curseur sous iOS 12 avec Assistive Touch"
 
-[Vidéo-Réglage-Curseur-iOS-12]: 
-/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglage-Curseur-iOS-12.mp4
+[Vidéo-Réglage-Curseur-iOS-12]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglage-Curseur-iOS-12.mp4
 
-[Vidéo-Branchement-Souris-iPadOS-13]: 
-/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Branchement-Souris-iPadOS-13.mp4
+[Vidéo-Branchement-Souris-iPadOS-13]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Branchement-Souris-iPadOS-13.mp4
 
-[Vidéo-Réglages-Boutons-Souris-iPadOS-13]: 
-/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglages-Boutons-Souris-iPadOS-13.mp4
+[Vidéo-Réglages-Boutons-Souris-iPadOS-13]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglages-Boutons-Souris-iPadOS-13.mp4
 
-[Vidéo-Utilisation-Boutons-Souris-iPadOS-13]: 
-/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Utilisation-Boutons-Souris-iPadOS-13.mp4
+[Vidéo-Utilisation-Boutons-Souris-iPadOS-13]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Utilisation-Boutons-Souris-iPadOS-13.mp4
 
-[Vidéo-Réglages-Cacher-Bouton-Accueil]: 
-/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglages-Cacher-Bouton-Accueil.mp4
+[Vidéo-Réglages-Cacher-Bouton-Accueil]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglages-Cacher-Bouton-Accueil.mp4
 
-[Vidéo-Réglages-Rétablissement-Automatique]: 
-/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglages-Retablissement-Automatique.mp4
+[Vidéo-Réglages-Rétablissement-Automatique]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglages-Retablissement-Automatique.mp4
 
-[Vidéo-Réglages-Coins-Actifs]: 
-/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglages-Coins-Actifs.mp4 "Lien vers video illustrant comment régler les coins actifs sous iPadOS 13"
+[Vidéo-Réglages-Coins-Actifs]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglages-Coins-Actifs.mp4 "Lien vers video illustrant comment régler les coins actifs sous iPadOS 13"
 
-[Vidéo-Utilisation-Coins-Actifs]: 
-/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Utilisation-Coins-Actifs.mp4 "Lien vers video illustrant comment utiliser les coins actifs sous iPadOS 13"
-
-
-
-
+[Vidéo-Utilisation-Coins-Actifs]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Utilisation-Coins-Actifs.mp4 "Lien vers video illustrant comment utiliser les coins actifs sous iPadOS 13"
