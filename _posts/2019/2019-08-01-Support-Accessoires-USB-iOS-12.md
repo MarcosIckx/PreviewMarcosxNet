@@ -4,6 +4,9 @@ title: Support des accessoires USB sous iOS 12
 date: 2019-08-01
 tags: [Accessoires, USB, iOS12]
 category: iOS12
+otherLinks:
+   - title: Support des accessoires USB sous iOS 13.3
+     url: /2020/04/03/Support-Accessoires-USB-iPadOS-13.3.html
 ---
 
 # Support des accessoires USB sous iOS 12
