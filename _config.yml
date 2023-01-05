@@ -2,6 +2,10 @@ name: Le Blog de Marcos Ickx
 markdown: kramdown
 theme: jekyll-theme-minimal
 
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  
 permalink: /:year/:month/:day/:title.html
 
 gems:
@@ -15,5 +19,5 @@ defaults:
       path: "" # an empty string here means all files in the project
       type: "posts" # previously `post` in Jekyll 2.2.
     values:
-      layout: "default"
+      layout: "post"
       author: "Marcos Ickx"
