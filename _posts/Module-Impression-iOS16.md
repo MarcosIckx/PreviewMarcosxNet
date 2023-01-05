@@ -114,14 +114,14 @@ Le résultat est 17 pages en miniatures tenant sur une seule feuille A4, ce qui 
 [Miniature PDF @ggete 9 pages]: /img/posts/2022/10/31/Module-Impression-iOS16/Miniature-ggete-9-pages.jpeg
 [Miniature PDF @ggete 2 fois 4 pages]: /img/posts/2022/10/31/Module-Impression-iOS16/Miniature-ggete-2-fois-4-pages.jpeg
 
-[Miniature VVMac hebdo 10 2 fois 9 pages]: /img/post/2022/10/31/Module-Impression-iOS16/Miniature-VVMac-hebdo-2-fois-9-pages.jpeg
-[Miniature VVMac hebdo 10 2 fois 16 pages]: /img/post/2022/10/31/Module-Impression-iOS16/Miniature-VVMac-hebdo-2-fois-16-pages.jpeg
-[Miniature VVMac hebdo 10 1 fois 16 pages]: /img/post/2022/10/31/Module-Impression-iOS16/Miniature-VVMac-hebdo-1-fois-16-pages.jpeg
+[Miniature VVMac hebdo 10 2 fois 9 pages]: /img/posts/2022/10/31/Module-Impression-iOS16/Miniature-VVMac-hebdo-2-fois-9-pages.jpeg
+[Miniature VVMac hebdo 10 2 fois 16 pages]: /img/posts/2022/10/31/Module-Impression-iOS16/Miniature-VVMac-hebdo-2-fois-16-pages.jpeg
+[Miniature VVMac hebdo 10 1 fois 16 pages]: /img/posts/2022/10/31/Module-Impression-iOS16/Miniature-VVMac-hebdo-1-fois-16-pages.jpeg
 
-[Miniature @iWeekNews 4 fois 16 pages]: /img/post/2022/10/31/Module-Impression-iOS16/Miniature-iWeekNews-4-fois-16-pages.jpeg
+[Miniature @iWeekNews 4 fois 16 pages]: /img/posts/2022/10/31/Module-Impression-iOS16/Miniature-iWeekNews-4-fois-16-pages.jpeg
 
-[Miniature @david 4 fois 9 pages]: /img/post/2022/10/31/Module-Impression-iOS16/Miniature-David-4-fois-9-pages.jpeg
-[Miniature @david 2 fois 16 pages]: /img/post/2022/10/31/Module-Impression-iOS16/Miniature-David-2-fois-16-pages.jpeg
+[Miniature @david 4 fois 9 pages]: /img/posts/2022/10/31/Module-Impression-iOS16/Miniature-David-4-fois-9-pages.jpeg
+[Miniature @david 2 fois 16 pages]: /img/posts/2022/10/31/Module-Impression-iOS16/Miniature-David-2-fois-16-pages.jpeg
 
 [ggete-1-fois-16-pages]: /assets/module-impression/ggete-16pages-par-feuille.pdf "document PDF de Guillaume Gete passé par le module d´impression avec 16 pages par feuille"
 [ggete-1-fois-9-pages]: /assets/module-impression/ggete-9pages-par-feuille.pdf "document PDF de Guillaume Gete passé par le module d´impression avec 9 pages par feuille"
