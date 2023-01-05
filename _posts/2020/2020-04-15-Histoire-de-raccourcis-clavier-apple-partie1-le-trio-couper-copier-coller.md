@@ -4,6 +4,9 @@ title: "Histoire de raccourcis clavier célèbres - Partie 1 : Couper/Copier/Col
 date: 2020-04-15
 tags: [Raccourcis Clavier, Petites Histoires]
 category: iPadOS
+otherLinks:
+   - title: Un Raccourci clavier qui gagne à être connu : Cmd E
+     url: /2022/11/13/Raccourci-Clavier-Cmd-E.html
 ---
 
 # Histoire de raccourcis clavier célèbres
