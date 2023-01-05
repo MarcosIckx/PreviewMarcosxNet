@@ -13,7 +13,7 @@ layout: default
   <p>Vous aimerez aussi lire </p>
   <ul>
   {% for anotherLink in page.otherLinks %}
-    <li> {{ anotherLink }} </li>
+    <li>{% link {{ anotherLink }} %}</li>
   {% endfor %}
   </ul>
 </div>
