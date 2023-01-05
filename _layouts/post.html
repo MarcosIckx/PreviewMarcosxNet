@@ -7,3 +7,14 @@ layout: default
 <div class="post">
   {{ content }}
 </div>
+
+{% if page.otherLinks %}
+<div class="otherLinks">
+  <p>Vous aimerez aussi lire </p>
+  <ul>
+  {% for anotherLink in page.otherLinks %}
+    <li>{% post_url {{ anotherLink }} %}</li>
+  {% endfor %}
+  </ul>
+</div>
+{% endif %}
