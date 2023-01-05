@@ -1,6 +1,6 @@
 ---
 layout: post
-title: « Support des accessoires USB sous iOS 12 »
+title: Support des accessoires USB sous iOS 12
 date: 2019-08-01
 tags: [Accessoires, USB, iOS12]
 category: iOS12
