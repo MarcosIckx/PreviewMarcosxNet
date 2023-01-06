@@ -41,9 +41,15 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
 }
-nav ul li, footer ul li {
+nav ul li {
     display: inline;
     margin-right: 1.25rem;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 1.25rem;
+    font-size: 0.8rem;
 }
 
 ul, ul li {
@@ -116,6 +122,17 @@ a img:hover {
   border: 0.3rem solid var(--border-color-hover);
   max-width: 80%;
 }
+
+.Precedent-Suivant {
+  border: 0.2rem solid var(--footer-color);
+  border-radius: 0.3rem;
+  padding: 0.3rem;
+  max-width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 footer {
     border-top: 0.0625rem solid var(--footer-color);
     font-size: 1rem;
