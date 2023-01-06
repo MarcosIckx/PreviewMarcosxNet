@@ -3,6 +3,13 @@ layout: default
 postname: 2020-04-15-Histoire-de-raccourcis-clavier-apple-partie1-le-trio-couper-copier-coller.md
 ---
 
-{% for post in site.posts[{{ page.postname}} ] %}
+# {{ page.postname }}
+{% for post in site.posts[{{ page.postname }}] %}
 <p> {{ post.url }} </p>
 {% endfor %}
+
+# /2020/{{ page.postname }}
+{% for post in site.posts[/2020/{{ page.postname }}] %}
+<p> {{ post.url }} </p>
+{% endfor %}
+
