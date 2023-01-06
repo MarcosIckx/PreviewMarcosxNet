@@ -12,7 +12,7 @@ permalink: /:year/:month/:day/:title.html
 plugins:
    - jekyll-paginate
 
-paginate: 10
+paginate: 3
 
 include: ['_pages']
 
