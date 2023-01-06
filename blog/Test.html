@@ -11,10 +11,20 @@ postname: 2020-04-15-Histoire-de-raccourcis-clavier-apple-partie1-le-trio-couper
 {% capture post_url %}{{ post.url }}{% endcapture %}
 <p>  post_url:  {{ post_url }} </p>
 <p>  post.url:  {{ post.url }} </p>
-## info of given id
+<p>  post.name:  {{ post.name }} </p>
+
+## infos for that given post url 
 {% for post in site.posts[ post_url ] %}
 <p> id:  {{ post.id }} </p>
 <p> url: {{ post.url }} </p>
 <p> path: {{ post.path }} </p>
 {% endfor %}
+
+## infos for that given post name 
+{% for post in site.posts[ post.name ] %}
+<p> id:  {{ post.id }} </p>
+<p> url: {{ post.url }} </p>
+<p> path: {{ post.path }} </p>
+{% endfor %}
+
 {% endfor %}
