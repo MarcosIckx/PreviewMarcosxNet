@@ -2,43 +2,22 @@
 layout: default
 postname: 2020-04-15-Histoire-de-raccourcis-clavier-apple-partie1-le-trio-couper-copier-coller.md
 ---
-# posts
-### {{ page.postname }}
-
-{% for item in site.posts %}
-## id:  {{ item.id }}
-
-{% capture item_url %}{{ item.url }}{% endcapture %}
-<p>  item_url:  {{ item_url }} </p>
-<p>  item.url:  {{ item.url }} </p>
-<p>  item.name:  {{ item.name }} </p>
-<p>  item.collection:  {{ item.collection }} </p>
-
-## infos for that given {{ item.collection }} item_url:  {{ item_url }}
-{% for item in site.posts[ item_url ] %}
-<p> id:  {{ item.id }} </p>
-<p> url: {{ item.url }} </p>
-<p> path: {{ item.path }} </p>
-<p> collection: {{ item.collection }} </p>
-{% endfor %}
-
-
-{% endfor %}
-
 
 
 # categories
-{% for item in site.categories %}
-## id:  {{ item.id }}
 
-### {{{item | jsonify }}}
+{% assign my_variable = "iOS12" %}
+
+{% for item in site.categories [ my_variable] %}
+
 {% capture item_name %}{{ item.name }}{% endcapture %}
 <p>  item_name:  {{ item_name }} </p>
 <p>  item.name:  {{ item.name }} </p>
 
 ## infos for that given item.name: {{ item.name }}
   {% for item in site.categories[ item.name ] %}
-    <p> id:  {{ item.id }} </p>
+    <p> name:  {{ item.name }} </p>
+    <p> collection:  {{ item.collection }} </p>
   {% endfor %}
 
 
