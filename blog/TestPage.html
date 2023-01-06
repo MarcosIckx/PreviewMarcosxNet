@@ -3,8 +3,11 @@ layout: default
 ---
 # Pages
 
-{{ site:pages }}
+{{site:pages | jsonify }}
+
 
 # Posts
 
-{{ site:posts }}
+
+{{site:posts | jsonify }}
+
