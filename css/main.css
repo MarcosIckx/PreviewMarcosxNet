@@ -50,9 +50,19 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
 }
+nav {
+    border-bottom: 0.1250rem solid var(--footer-color);
+    font-size: 1rem;
+}
+
 nav ul li {
     display: inline;
     margin-right: 1.25rem;
+}
+
+footer {
+    border-top: 0.1250rem solid var(--footer-color);
+    font-size: 1rem;
 }
 
 footer ul li {
@@ -64,6 +74,8 @@ footer ul li {
 ul, ul li {
     font-size: 1.5rem;
 }
+
+
 
 /* Indique comment 
   les liens doivent être affichés normalement 
@@ -196,14 +208,9 @@ a img:hover {
   flex: 0 0 50%;
 }
 
-/* Indique comment gérer les pieds de page (footer) */
-footer {
-    border-top: 0.1250rem solid var(--footer-color);
-    font-size: 1rem;
-}
 
 /* Indique comment afficher les posts lorsqu´ils sont dans les listes */
-ul.posts { 
+ul.posts, article.posts { 
     margin: 1.25rem auto 2.5rem; 
     font-size: 1.5rem;
 }
