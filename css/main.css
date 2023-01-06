@@ -1,3 +1,7 @@
+@charset "utf-8";
+/* la ligne ci-dessus est pour indiquer que c´est encodé en utf-8 */
+
+/* les couleurs définies pour mode clair */
 :root {
     --primary-color: #111;
     --secondary-color: #222;
@@ -11,6 +15,7 @@
     --footer-color: #d5d5d5;
 }
 
+/* les couleurs définies pour mode sombre */
 @media (prefers-color-scheme: dark) {
   :root {
     --primary-color: #9A97f3;
@@ -26,6 +31,8 @@
   }
 }
 
+/* Aucune couleurs ne devraient être codées en dur
+  Ça doit être des références aux variables définies ci-dessus */
 body {
     background-color: var(--bg-color);
     color: var(--font-color);
@@ -34,6 +41,8 @@ body {
     font-size: 1.5rem;
 }
 
+/* Règles pour barre de navigation (nav) au-dessus des pages et 
+pieds de page (footer) au bas de chaque page. */
 
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -55,6 +64,11 @@ footer ul li {
 ul, ul li {
     font-size: 1.5rem;
 }
+
+/* Indique comment 
+  les liens doivent être affichés normalement 
+  et lorsqu´on passe dessus (hover) */
+
 a {
     text-decoration: underline;
     color: var(--primary-color);
@@ -64,22 +78,53 @@ a:hover {
     text-decoration: underline;
     font-weight: bold;
 }
+
+/* Indique comment afficher les titres */
+
 h1 {
     font-size: 2rem;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-variant: small-caps;
     color: var(--primary-color);
 	
 }
 h2 {
-    font-size: 1.75rem;
+    font-size: 1.9rem;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-variant: small-caps;
     color: var(--primary-color);
 }
+
+h3 {
+    font-size: 1.8rem;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-variant: small-caps;
+    color: var(--primary-color);
+}
+
+h4 {
+    font-size: 1.7rem;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-variant: small-caps;
+    color: var(--primary-color);
+}
+
+h5 {
+    font-size: 1.6rem;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-variant: small-caps;
+    color: var(--primary-color);
+}
+
+
+/* Indique comment afficher les paragraphes */
 p {
     line-height: 1.6rem;
     color: var(--secondary-color);
 }
 
+
+/* Indique comment afficher les vidéos */
 .video-box {
     background-color: var(--bg-box-color);
     padding: 1rem;
@@ -99,6 +144,11 @@ video {
   margin-left: auto;
   margin-right: auto;
 }
+
+
+/* Indique comment afficher les images 
+selon qu´elles sont dans un paragraphe 
+ou dans un lien */
 
 p img {
   border: 0.1rem solid var(--border-color);
@@ -123,30 +173,47 @@ a img:hover {
   max-width: 80%;
 }
 
+/* Indique comment gérer 
+   l´affichage pour les liens suivant et précédent */
 .Precedent-Suivant {
+  border-top: 0.0625rem solid var(--footer-color);
   border: 0.2rem solid var(--footer-color);
   border-radius: 0.3rem;
   padding: 0.3rem;
-  max-width: 90%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* le text sera aligné sur la gauche
+.Precedent-Suivant > .Precedent {
+  text-align: left;
+  flex: 0 0 50%;
 }
 
+.Precedent-Suivant > .Suivant {
+  text-align: right;
+  flex: 0 0 50%;
+}
+
+/* Indique comment gérer les pieds de page (footer) */
 footer {
-    border-top: 0.0625rem solid var(--footer-color);
+    border-top: 0.1250rem solid var(--footer-color);
     font-size: 1rem;
 }
 
+/* Indique comment afficher les posts lorsqu´ils sont dans les listes */
 ul.posts { 
     margin: 1.25rem auto 2.5rem; 
     font-size: 1.5rem;
 }
 
+
 ul.posts li {
     list-style: none;
 }
 
+/* suis pas sûr que ce soit utilisé */
 .step { border-radius: 50%; 
 	-moz-border-radius: 50%; 
 	-webkit-border-radius: 50%; 
