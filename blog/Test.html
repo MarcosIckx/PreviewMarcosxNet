@@ -8,16 +8,17 @@ postname: 2020-04-15-Histoire-de-raccourcis-clavier-apple-partie1-le-trio-couper
 
 {% assign my_variable = "iOS12" %}
 
-{% for item in site.categories [ my_variable] %}
+{% for item in site.categories[] %}
 
+## {{ item[0] }}
 {% capture item_name %}{{ item.name }}{% endcapture %}
 <p>  item_name:  {{ item_name }} </p>
 <p>  item.name:  {{ item.name }} </p>
 
 ## infos for that given item.name: {{ item.name }}
-  {% for item in site.categories[ item.name ] %}
-    <p> name:  {{ item.name }} </p>
-    <p> collection:  {{ item.collection }} </p>
+  {% for item2 in site.categories[ item[0] ] %}
+    <p> name:  {{ item2.name }} </p>
+    <p> collection:  {{ item2.collection }} </p>
   {% endfor %}
 
 
