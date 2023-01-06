@@ -185,12 +185,12 @@ a img:hover {
   justify-content: space-between;
   align-items: center;
 }
-/* le text sera aligné sur la gauche
+/* le text sera aligné sur la gauche */
 .Precedent-Suivant > .Precedent {
   text-align: left;
   flex: 0 0 50%;
 }
-
+/* le text sera aligné sur la droite */
 .Precedent-Suivant > .Suivant {
   text-align: right;
   flex: 0 0 50%;
