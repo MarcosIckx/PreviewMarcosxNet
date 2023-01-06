@@ -2,8 +2,8 @@
 layout: default
 postname: 2020-04-15-Histoire-de-raccourcis-clavier-apple-partie1-le-trio-couper-copier-coller.md
 ---
-
-# {{ page.postname }}
+# posts
+### {{ page.postname }}
 
 {% for item in site.posts %}
 ## id:  {{ item.id }}
@@ -27,10 +27,11 @@ postname: 2020-04-15-Histoire-de-raccourcis-clavier-apple-partie1-le-trio-couper
 
 
 
-
+# categories
 {% for item in site.categories %}
 ## id:  {{ item.id }}
 
+### {{{item | jsonify }}}
 {% capture item_name %}{{ item.name }}{% endcapture %}
 <p>  item_name:  {{ item_name }} </p>
 <p>  item.name:  {{ item.name }} </p>
