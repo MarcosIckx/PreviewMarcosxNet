@@ -1,12 +1,12 @@
 <div class="posts">
-	<h2>Les billets de Marcos Ickx</h2>
+  <h2>Les billets de Marcos Ickx</h2>
   <article class="posts">
-	  {% for post in paginator.posts %}
-	    <article class="post">
-					<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-					<span>{{ post.date | date: "%d/%m/%Y" }} par <a href="/apropos">{{ post.author }}</a>.</span>
-					<p></p>	
-		  </article>
-	  {% endfor %}
-	</article>
+    {% for post in site.posts %}
+      <article class="post">
+        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+        <span>{{ post.date | date: "%d/%m/%Y" }} par <a href="/apropos">{{ post.author }}</a>.</span>
+        <p></p>	
+      </article>
+    {% endfor %}
+  </article>
 </div>
