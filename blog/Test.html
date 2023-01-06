@@ -5,27 +5,23 @@ postname: 2020-04-15-Histoire-de-raccourcis-clavier-apple-partie1-le-trio-couper
 
 # {{ page.postname }}
 
-{% for post in site.posts %}
-## id:  {{ post.id }}
+{% for item in site.posts %}
+## id:  {{ item.id }}
 
-{% capture post_url %}{{ post.url }}{% endcapture %}
-<p>  post_url:  {{ post_url }} </p>
-<p>  post.url:  {{ post.url }} </p>
-<p>  post.name:  {{ post.name }} </p>
+{% capture item_url %}{{ item.url }}{% endcapture %}
+<p>  item_url:  {{ item_url }} </p>
+<p>  item.url:  {{ item.url }} </p>
+<p>  item.name:  {{ item.name }} </p>
+<p>  item.collection:  {{ item.collection }} </p>
 
-## infos for that given post url 
-{% for post in site.posts[ post_url ] %}
-<p> id:  {{ post.id }} </p>
-<p> url: {{ post.url }} </p>
-<p> path: {{ post.path }} </p>
+## infos for that given {{ item.collection }} item_url:  {{ item_url }}
+{% for item in site.posts[ item_url ] %}
+<p> id:  {{ item.id }} </p>
+<p> url: {{ item.url }} </p>
+<p> path: {{ item.path }} </p>
+<p> collection: {{ item.collection }} </p>
 {% endfor %}
 
-## infos for that given post name 
-{% for post in site.posts[ post.name ] %}
-<p> id:  {{ post.id }} </p>
-<p> url: {{ post.url }} </p>
-<p> path: {{ post.path }} </p>
-{% endfor %}
 
 {% endfor %}
 
