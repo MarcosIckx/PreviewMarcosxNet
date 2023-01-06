@@ -4,12 +4,13 @@ postname: 2020-04-15-Histoire-de-raccourcis-clavier-apple-partie1-le-trio-couper
 ---
 
 # {{ page.postname }}
-{% for post in site.posts[{{ page.postname }}] %}
-<p> {{ post.url }} </p>
-{% endfor %}
 
-# /2020/{{ page.postname }}
-{% for post in site.posts[/2020/{{ page.postname }}] %}
-<p> {{ post.url }} </p>
-{% endfor %}
+{% for post in site.posts %}
+{% capture post_name %}{{ category | first }}{% endcapture %}
+<p> name:  {{ post_name }} </p>
 
+{% for post in site.posts[ {{ post_name }} ] %}
+<p> url: {{ post.url }} </p>
+<p> path: {{ post.path }} </p>
+{% endfor %}
+{% endfor %}
