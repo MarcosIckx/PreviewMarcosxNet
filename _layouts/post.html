@@ -3,12 +3,12 @@ layout: default
 ---
 <h1>{{ page.title }}</h1>
 <p class="meta">{{ page.date | date: "%d/%m/%Y" }} par <a href="/apropos">{{ page.author}}</a>.</p>
-<% if page.tags %>
-<p class="meta">Tags : {{ page.tags | array_to_sentence_string }}</p>
-<% endif %>
-<% if page.categories %>
-<p class="meta">Catégories : {{ page.categories | array_to_sentence_string }}</p>
-<% endif %>
+{% if page.tags %}
+<p class="meta">Tags : {{ page.tags | array_to_sentence_string:", " }}</p>
+{% endif %}
+{% if page.categories %}
+<p class="meta">Catégories : {{ page.categories | array_to_sentence_string:", " }}</p>
+{% endif %}
 
 <div class="post">
   {{ content }}
