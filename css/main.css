@@ -68,7 +68,6 @@ footer {
 footer ul li {
     display: inline;
     margin-right: 1.25rem;
-    font-size: 0.8rem;
 }
 
 ul, ul li {
@@ -210,14 +209,22 @@ a img:hover {
 
 
 /* Indique comment afficher les posts lorsqu´ils sont dans les listes */
-ul.posts, article.posts { 
+ul.posts, { 
     margin: 1.25rem auto 2.5rem; 
     font-size: 1.5rem;
 }
-
-
 ul.posts li {
     list-style: none;
+}
+
+/* Indique comment afficher les posts lorsqu´ils sont dans les listes d´articles*/
+article.posts { 
+    margin: 1.25rem 1rem 2.5rem; 
+    font-size: 1.5rem;
+}
+
+.meta {
+font-size: 1rem;
 }
 
 /* suis pas sûr que ce soit utilisé */
