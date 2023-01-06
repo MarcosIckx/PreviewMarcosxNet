@@ -2,6 +2,7 @@
 layout: default
 title: À Propos de Marcos Ickx
 description: Information concernant Marcos Ickx, le site, et son contenu.
+permalink: /apropos/index.html
 ---
 
 # Bonjour à tous. Je me présente. Je m'appelle Marcos Ickx!!! #
