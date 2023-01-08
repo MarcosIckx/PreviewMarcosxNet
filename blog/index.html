@@ -18,3 +18,22 @@ title: Le Blog de Marcos Ickx
     </li>
   {% endfor %}
 </ul>
+
+{% for post in site.posts %}
+  {% assign yearOfPost = post.date | date: "%Y" %}
+  {% if yearOfPost != date %}
+    {% unless forloop.first %}</article>{% endunless %}
+    <h1 id="annee{{ yearOfPost }}">{{ yearOfPost }}</h1>
+    <article class="posts">
+    {% assign date = yearOfPost %}
+  {% endif %}
+    <article class="post">
+        <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+        <span>Tags : {% for tag in post.tags %}#{{ tag }}{% unless forloop.last %}, &nbsp;{% endunless %}{% endfor %}</span>
+        <p></p>
+        <span>Catégories : {% for category in post.categories %} #{{ category }}{% unless forloop.last %}, &nbsp;{% endunless %}{% endfor %}</span>
+        <p></p>
+        <span>Liens : {% for lien in post.otherLinks %} <a href="{{ lien.url }}">{{ lien.title }}</a>{% unless forloop.last %}, &nbsp;{% endunless %}{% endfor %}</span>
+            </article>
+  {% if forloop.last %}</article>{% endif %}
+{% endfor %}
