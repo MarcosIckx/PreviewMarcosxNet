@@ -223,8 +223,18 @@ article.posts {
     font-size: 1.5rem;
 }
 
+article.post { 
+    margin: 1.25rem 1rem 2.5rem; 
+    font-size: 1.5rem;
+    border-left: 0.0625rem solid var(--footer-color);
+    padding: 0.3rem;
+}
+
+article.post span {
+  font-size: 1rem;
+}
 .meta {
-font-size: 1rem;
+  font-size: 1rem;
 }
 
 /* suis pas sûr que ce soit utilisé */
