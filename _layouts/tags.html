@@ -14,9 +14,7 @@ dans la variable allTags, mais c´est juste le label du tag qu´on y range.
 {% for tag in site.tags %}
 {% assign allTags = allTags | push: tag[0] %}
 {% endfor %}
-<p>
-allTags: {{allTags}}
-</p>
+{% assign allTags = allTags | uniq | sort %}
 {% comment %}
 ~~~
 ci-dessous, logique pour trouver le plus grand maximum de post par tag.
@@ -26,15 +24,9 @@ ci-dessous, logique pour trouver le plus grand maximum de post par tag.
 {% assign tags_max = 0 %}
 {% for rawTag in allTags %}
 {% assign tag = rawTag %}
-tag: {{tag}} /
 {% assign taggedItems = "" | split: ',' %}
 {% assign posts = site.posts| where_exp : "post", "post.tags contains tag" %}
 {% assign taggedItems = taggedItems | concat: posts %}
-<p>
-  posts: {{ posts.size }}
-  taggedItems.size: {{ taggedItems.size }}
-  tags_max: {{tags_max}}
-</p>
 {% if taggedItems.size > tags_max %}
 {% assign tags_max = taggedItems.size %}
 {% endif %}
@@ -52,20 +44,12 @@ le nombre de posts qui s´y rattachent.
 {% assign tag_counts = "" %}
 {% assign first_array_element = true %}
 {% for i in (1..tags_max) reversed %} {% comment %}~~~ boucle du plus grand au plus petit ~~~{% endcomment %}
-<p>
-i: {{i}}
-</p>
-
-{% assign tag_names = "" %}
+  {% assign tag_names = "" %}
   {% assign first_tag = true %}
   {% for rawTag in allTags %} {% comment %}~~~ boucle sur tous les tags ~~~{% endcomment %}
     {% assign tag = rawTag %}
     {% assign taggedItems = "" | split: ',' %}
     {% assign taggedItems = taggedItems | concat: site.posts| where_exp : "post", "post.tags contains tag" %}
-    <p>
-taggedItems.size: {{taggedItems.size}}
-</p>
-
     {% if taggedItems.size == i %}
       {% if first_tag %}
         {% assign first_tag = false %}
@@ -73,9 +57,6 @@ taggedItems.size: {{taggedItems.size}}
         {% assign tag_names = tag_names | append: "," %}
       {% endif %}
       {% assign tag_names = tag_names | append: tag %}
-    <p>
-tag_names: {{tag_names}}
-</p>
     {% endif %}
   {% endfor %} 
   
@@ -113,6 +94,7 @@ tag_names: {{tag_names}}
 {% for tag_names in tag_names_grouped_by_count %}
   
   {% assign tag_names_list = tag_names | split: "," %}
+  {% assign tag_names_list = allTags | uniq | sort %}
   {% assign tag_count = tag_counts[forloop.index0] %}
   {% for tag_name in tag_names_list %}
   <li>
