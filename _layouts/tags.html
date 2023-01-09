@@ -25,7 +25,7 @@ ci-dessous, logique pour trouver le plus grand maximum de post par tag.
 
 {% assign tags_max = 0 %}
 {% for rawTag in allTags %}
-{% assign tag = rawTag | downcase %}
+{% assign tag = rawTag %}
 tag: {{tag}} /
 {% assign taggedItems = "" | split: ',' %}
 {% assign posts = site.posts| where_exp : "post", "post.tags contains tag" %}
