@@ -242,7 +242,7 @@ Aura-t-on une belle surprise ?
 À voir.
 
 
-[Lien-1]:/2019/08/01/Support-Accessoires-USB-iOS-12.html
+[Lien-1]: /2019/08/01/Support-Accessoires-USB-iOS-12.html
 
 [version d'iPadOS dans les réglages : 13.3.1]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/iPadOS-Version-13.3.1.jpeg "Version 13.3.1 d'iPadOS"
 
