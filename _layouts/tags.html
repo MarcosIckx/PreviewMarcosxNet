@@ -59,7 +59,7 @@ i: {{i}}
 {% assign tag_names = "" %}
   {% assign first_tag = true %}
   {% for rawTag in allTags %} {% comment %}~~~ boucle sur tous les tags ~~~{% endcomment %}
-    {% assign tag = rawTag | downcase %}
+    {% assign tag = rawTag %}
     {% assign taggedItems = "" | split: ',' %}
     {% assign taggedItems = taggedItems | concat: site.posts| where_exp : "post", "post.tags contains tag" %}
     <p>
@@ -116,7 +116,7 @@ tag_names: {{tag_names}}
   {% assign tag_count = tag_counts[forloop.index0] %}
   {% for tag_name in tag_names_list %}
   <li>
-    <a href="#{{ tag_name | slugify }}">
+    <a href="#{{ tag_name | slugify | downcase }}">
       <strong>{{ tag_name }}</strong> <span class="taxonomy-count">{{ tag_count }}</span>
     </a>
   </li>
@@ -125,9 +125,9 @@ tag_names: {{tag_names}}
 </ul>
 
 {% for rawTag in allTags %}
-{% assign tag_name = rawTag | downcase %}
+{% assign tag_name = rawTag  %}
 <section id="{{ tag_name | slugify | downcase }}" class="taxonomy-section">
-  <h2 class="taxonomy-title">{{ tag_name | capitalize }}</h2>
+  <h2 class="taxonomy-title">{{ tag_name }}</h2>
   {% assign taggedItems = "" | split: ',' %}
   {% assign taggedItems = taggedItems | concat: site.posts| where_exp : "post", "post.tags contains tag_name" %}
   <div class="entries-{{ page.entries_layout | default: 'list' }}">
