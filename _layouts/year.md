@@ -2,13 +2,12 @@
 layout: default
 ---
 
-{% assign posts = site.posts | where_exp: "post", "page.year = post.date | date: '%Y'" %}
-{% if {{ posts | size }} > 0 %}
 # {{page.year}}
-{% for post in posts %}
-
+{%- for post in site.posts -%}
+{%- assign yearOfPost = post.date | date: "%Y" -%}
+{%- if yearOfPost == page.year %}
 ## {{post.title}} 
 {{ post.date | date "%d/%m/%Y" }} by {{post.author}}
+{%- endif -%}
+{%- endfor -%}
 
-{% endfor %}
-{% endif %}
