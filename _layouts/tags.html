@@ -8,7 +8,7 @@ ci-dessous, logique pour avoir tous les tags existants
 dans la variable allTags, mais c´est juste le label du tag qu´on y range.
 ~~~
 {% endcomment %}
-{% assign tags_max = 0 %}
+
 
 {% assign allTags = "" | split: ',' %}
 {% for tag in site.tags %}
@@ -23,17 +23,23 @@ ci-dessous, logique pour trouver le plus grand maximum de post par tag.
 ~~~
 {% endcomment %}
 
+{% assign tags_max = 0 %}
 {% for rawTag in allTags %}
 {% assign tag = rawTag | downcase %}
+tag: {{tag}} /
 {% assign taggedItems = "" | split: ',' %}
-{% assign taggedItems = taggedItems | concat: site.posts| where_exp : "post", "post.tags contains tag" %}
+{% assign posts = site.posts| where_exp : "post", "post.tags contains tag" %}
+{% assign taggedItems = taggedItems | concat: posts %}
+<p>
+  posts: {{ posts.size }}
+  taggedItems.size: {{ taggedItems.size }}
+  tags_max: {{tags_max}}
+</p>
 {% if taggedItems.size > tags_max %}
 {% assign tags_max = taggedItems.size %}
 {% endif %}
 {% endfor %}
-<p>
-tags_max: {{tags_max}}
-</p>
+
 
 {% comment %}
 ~~~
