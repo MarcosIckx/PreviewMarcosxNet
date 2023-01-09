@@ -3,11 +3,11 @@
 	<meta name="viewport" width="device-width, initial-scale=1.0">
 	<meta name="description" content="{{ page.description }}">
 	<meta name="color-scheme" content="dark light">
-	<meta name="author" content="Marcos Ickx">
+	<meta name="author" content="{{ page.author | default: site.author.name }}">
 	<!-- favicon
 	<link rel="shortcut icon" href="/img/ico/favicon.png">
 	-->
-	<title>{{ page.title }} | Marcos Ickx</title>
+	<title>{{ page.title }} | { page.author | default: site.author.name }}</title>
 	<!-- link to main stylesheet -->
 	<link rel="stylesheet" type="text/css" href="/css/main.css"
 </head>
