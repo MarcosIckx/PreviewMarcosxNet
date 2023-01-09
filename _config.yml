@@ -2,7 +2,9 @@ title: Le Blog de Marcos Ickx
 name: Le Blog de Marcos Ickx
 markdown: kramdown
 # theme: jekyll-theme-minimal
-
+#format date exemple 09/01/2023
+date_format: "%d/%m/%Y"
+locale: fr-BE
 kramdown:
   input: GFM
   syntax_highlighter: rouge
