@@ -1,0 +1,12 @@
+{% if entry.id %}
+  {% assign title = entry.title | markdownify | strip_html %}
+{% else %}
+  {% assign title = entry.title %}
+{% endif %}
+
+<article class="post">
+  <h3><a href="{{ entry.url }}" rel="bookmark" title="{{ title }}">{{ title }}</a></h3>
+    <footer class="entry-meta">
+      {% if entry.date %}{% include entry-date.html %}{% endif %}
+    </footer>
+</article>
