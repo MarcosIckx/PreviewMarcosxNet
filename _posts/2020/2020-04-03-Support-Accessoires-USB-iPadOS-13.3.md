@@ -9,7 +9,7 @@ otherLinks:
       url: /2019/08/01/Support-Accessoires-USB-iOS-12.html
 ---
 
-# .Support des accessoires USB sous iPadOS 13.3
+# Support des accessoires USB sous iPadOS 13.3
 
 L'année passée, [j'avais testé le branchement de certains accessoires USB sous iOS12][Lien-1].
 
