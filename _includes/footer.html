@@ -1,8 +1,8 @@
 		<footer>
     		<ul>
-			<li>&copy; <a href="/apropos/">Marcos Ickx</a> 2019-2023</li>
-        		<li><a href="https://twitter.com/MarcosIckx">Twitter</a></li>
-        		<li><a href="https://blog.MarcosX.net">MarcosX.net</a></li>
-			<li>Page regénérée le {{ "now" | date: "%d/%m/%Y %H:%M" }}</li>
+			<li>&copy; <a href="{{site.author.url}}">{{site.author.url}}</a> 2019-<time datetime="{{ site.time | date_to_xmlschema }}">{{site.time | date: "%Y" }}</time></li>
+        		<li><a href="https://twitter.com/{{site.author.twitter">Twitter</a></li>
+        		<li><a href="{{site.url}}">{{site.name}}</a></li>
+			<li><small>Page regénérée le <time datetime="{{ 'now' | date_to_xmlschema }}">{{ "now" | date: "%d/%m/%Y %H:%M" }}</time></small></li>
 			</ul>
 		</footer>
