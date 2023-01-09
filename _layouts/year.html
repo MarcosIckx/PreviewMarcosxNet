@@ -1,14 +1,15 @@
 ---
 layout: default
 ---
-
-<h1>Année {{page.year}}</h1>
+{%- assign year = page.year | string -%}
+<h1>Année {{year}}</h1>
 {%- for post in site.posts -%}
-{%- assign yearOfPost = post.date | date: "%Y" -%}
-Année du post : {{yearOfPost}}
-titre du post : {{post.title}}
-date du post : {{post.date}}
-{%- if yearOfPost == page.year %}
+{%- assign yearOfPost = post.date | date: "%Y" | string -%}
+Année de la page  : {{year}} /
+Année du post : {{yearOfPost}} /
+titre du post : {{post.title}} /
+date du post : {{post.date}} /
+{%- if yearOfPost == year %}
 <article class="post">
 <h2> {{post.title}} </h2>
 <p><small>{{ post.date | date: "%d/%M/%Y" }} by {{post.author}}</small></p>
