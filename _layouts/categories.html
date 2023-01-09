@@ -2,7 +2,7 @@
 layout: categories
 ---
 <h1>Les billets de Marcos Ickx par categories</h1>
-{% for category in site.categories | sort %}
+{% for category in site.categories | sort: "name" %}
   <section>
   <h2>{{category.name}}</h2>
   {% for entry in category.posts %}
