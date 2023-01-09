@@ -1,6 +1,7 @@
-		<nav>
-    		<ul>
-        		<li><a href="/">Accueil</a></li>
-	        	<li><a href="/apropos">À propos</a></li>
-    		</ul>
-		</nav>
+<nav>
+  <ul>
+    {%- for link in site.data.nav_headers -%}
+      <li><a href="{{ link.url }}" title="{{ link.title }}">{{ link.title }}</a></li>
+    {%- endfor -%}
+  </ul>
+</nav>
