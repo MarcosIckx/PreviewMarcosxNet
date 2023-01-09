@@ -9,7 +9,7 @@ Année de la page  : {{year}} /
 Année du post : {{yearOfPost}} /
 titre du post : {{post.title}} /
 date du post : {{post.date}} /
-{%- if yearOfPost == year %}
+{%- if yearOfPost contains year %}
 <article class="post">
 <h2> {{post.title}} </h2>
 <p><small>{{ post.date | date: "%d/%M/%Y" }} by {{post.author}}</small></p>
