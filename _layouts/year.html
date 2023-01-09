@@ -3,17 +3,9 @@ layout: default
 ---
 {%- assign year = page.year | string -%}
 <h1>Année {{year}}</h1>
-{%- for post in site.posts -%}
-{%- assign yearOfPost = post.date | date: "%Y" | string -%}
-Année de la page  : {{year}} /
-Année du post : {{yearOfPost}} /
-titre du post : {{post.title}} /
-date du post : {{post.date}} /
+{%- for entry in site.posts -%}
+{%- assign yearOfPost = entry.date | date: "%Y" | string -%}
 {%- if yearOfPost contains year %}
-<article class="post">
-<h2> {{post.title}} </h2>
-<p><small>{{ post.date | date: "%d/%M/%Y" }} by {{post.author}}</small></p>
-</article>
+{%- include entry.html -%}
 {%- endif -%}
 {%- endfor -%}
-
