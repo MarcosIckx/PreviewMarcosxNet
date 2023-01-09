@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<h1>{{page.year}}</h1>
+{%- for post in site.posts -%}
+{%- assign yearOfPost = post.date | date: "%Y" -%}
+{{yearOfPost}}
+{%- if yearOfPost == page.year %}
+<article class="post">
+<h2> {{post.title}} </h2>
+<p><small>{{ post.date | date "%d/%m/%Y" }} by {{post.author}}</small></p>
+</article>
+{%- endif -%}
+{%- endfor -%}
+
