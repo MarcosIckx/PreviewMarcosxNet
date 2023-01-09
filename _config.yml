@@ -11,7 +11,7 @@ locale: fr-BE
 # Site Author
 author:
   name: Marcos Ickx
-  twitter: MarcosIckx
+  twitterId: MarcosIckx
   url: /apropos/
 
 kramdown:
