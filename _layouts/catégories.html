@@ -1,0 +1,13 @@
+---
+layout: categories
+---
+<h1>Les billets de Marcos Ickx par categories</h1>
+{% for category in site.categories | sort %}
+  <section>
+  <h2>{{category.name}}</h2>
+  {% for entry in category.posts %}
+     {% include entry.html %}
+  {% endfor %}
+  </section>
+{% endfor %}			
+
