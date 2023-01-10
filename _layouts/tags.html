@@ -88,7 +88,7 @@ le nombre de posts qui s´y rattachent.
 {% assign tagNames_grouped_by_count = tagNames_grouped_by_count | split: "|" %}
 {% assign tag_counts = tag_counts | split: "|" %}
 
-<h1 id="#page-title">{{ page.title }}</h1>
+<h1 id="page-title">{{ page.title }}</h1>
 <ul class="taxonomy-index">
 {% comment %}~~~ boucle sur les noms des tags ~~~{% endcomment %}
 {% for tagNames in tagNames_grouped_by_count %}
