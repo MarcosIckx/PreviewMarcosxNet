@@ -77,11 +77,14 @@ ul, ul li {
 div.toc {
   background-color: var(--bg-box-color);
   border: 0.2rem solid var(--footer-color);
+  display:block;
+}
+div.toc > ol.toc, div.toc > ol.toc {
   display: none;
 }
 
-div.toc:hover ul, ol {
-display: block;
+div.toc:hover > ul.toc, div.toc:hover > ol.toc {
+  display: block;
 }
 
 /* Indique comment 
