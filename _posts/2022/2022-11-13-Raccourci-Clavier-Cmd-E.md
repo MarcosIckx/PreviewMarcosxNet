@@ -2,7 +2,7 @@
 layout: post
 title: "Un raccourci-clavier qui gagne à être connu : ⌘E"
 date: 2022-11-13
-tags: [iPadOS16, iPadOS15, Raccourcis, Clavier]
+tags: [iPadOS16, iPadOS15, Raccourcis Clavier]
 category: Raccourcis clavier
 otherLinks: 
    - title: "Histoire de raccourcis clavier célèbres - Partie 1 : Couper/Copier/Coller"
