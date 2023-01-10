@@ -7,6 +7,8 @@ layout: default
 <p class="meta">Catégories : {{ page.categories | array_to_sentence_string:"" }}</p>
 {% endif %}
 
+{% include toc.html html=content sanitize=true class="inline_toc" id="my_toc" h_min=2 h_max=6 ordered=true %}
+
 <div class="post">
   {{ content }}
 </div>
