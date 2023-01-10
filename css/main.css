@@ -85,6 +85,7 @@ div.toc > ol.toc, div.toc > ol.toc {
 }
 
 div.toc:hover > ul.toc, div.toc:hover > ol.toc {
+  border: 0.1rem solid var(--primary-color);
   display: block;
 }
 
