@@ -176,7 +176,10 @@ p img:hover {
    -moz-transition: width 0.5s ease-in-out;
    -o-transition: width 0.5s ease-in-out;
    transition: width 0.5s ease-in-out; */
+  min-width: 100%;
   max-width: 100%;
+  margin-left: none;
+  margin-right: none;
 }
 
 a img {
