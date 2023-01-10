@@ -2,7 +2,7 @@
 layout: default
 ---
 <h1>Les billets de Marcos Ickx par catégories</h1>
-{% for category in site.categories | sort: "name" %}
+{% for category in site.categories %}
   <section>
   <h2>{{category.name}}</h2>
   {% for entry in category.posts %}
