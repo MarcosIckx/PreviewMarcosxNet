@@ -7,7 +7,7 @@ layout: default
 {% for category in site.categories %}
 {% assign allCategories = allCategories | push: category[0] %}
 {% endfor %}
-{% assign allCategories = allCategories | uniq | sort %}
+{% assign allCategories = allCategories | uniq | sort_natural %}
 categories : {{ allCategories }}
 {% for categoryName in allCategories %}
   <section>
