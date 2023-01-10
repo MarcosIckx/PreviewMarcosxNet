@@ -2,9 +2,11 @@
 layout: default
 ---
 <h1>Les billets de Marcos Ickx par catégories</h1>
+<p>Nombre de categories : {{site.categories.size}}</p>
 {% for category in site.categories %}
   <section>
   <h2>{{category.name}}</h2>
+  <p>Nombre de posts : {{category.posts.size}}</p>
   {% for entry in category.posts %}
      {% include entry.html %}
   {% endfor %}
