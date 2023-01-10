@@ -74,7 +74,15 @@ ul, ul li {
     font-size: 1.5rem;
 }
 
+div.toc {
+  background-color: var(--bg-box-color);
+  border: 0.2rem solid var(--footer-color);
+  display: none;
+}
 
+div.toc:hover ul, ol {
+display: block;
+}
 
 /* Indique comment 
   les liens doivent être affichés normalement 
@@ -172,14 +180,20 @@ p img {
 }
 
 p img:hover {
-   /*-webkit-transition: width 0.5s ease-in-out;
+   -webkit-transition: width 0.5s ease-in-out;
    -moz-transition: width 0.5s ease-in-out;
    -o-transition: width 0.5s ease-in-out;
-   transition: width 0.5s ease-in-out; */
+   transition: width 0.5s ease-in-out;
   min-width: 100%;
   max-width: 100%;
   margin-left: none;
   margin-right: none;
+}
+p img:hover after {
+   -webkit-transition: width 0.5s ease-in-out;
+   -moz-transition: width 0.5s ease-in-out;
+   -o-transition: width 0.5s ease-in-out;
+   transition: width 0.5s ease-in-out;
 }
 
 a img {
