@@ -171,8 +171,12 @@ p img {
   margin-right: auto;
 }
 
-p img:hover { 
-  max-width: 100%;
+p img:hover {
+   -webkit-transition: width 0.5s ease-in-out;
+   -moz-transition: width 0.5s ease-in-out;
+   -o-transition: width 0.5s ease-in-out;
+   transition: width 0.5s ease-in-out;
+  width: 100%;
 }
 
 a img {
