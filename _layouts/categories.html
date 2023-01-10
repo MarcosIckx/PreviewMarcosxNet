@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-<h1>Les billets de Marcos Ickx par categories</h1>
-{% for category in site.categories | sort: "name" %}
+<h1>Les billets de Marcos Ickx par catégories</h1>
+{% for category in site.categories | sort: "category.name" %}
   <section>
   <h2>{{category.name}}</h2>
   {% for entry in category.posts %}
