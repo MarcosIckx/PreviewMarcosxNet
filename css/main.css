@@ -75,8 +75,9 @@ ul, ul li {
 }
 
 div.toc {
-  background-color: var(--bg-box-color);
-  border: 0.2rem solid var(--footer-color);
+  background-color: var(--footer-color);
+  border: 0.2rem solid var(--primary-color);
+  color: var(--primary-color);
   display:block;
 }
 div.toc > ol.toc, div.toc > ol.toc {
