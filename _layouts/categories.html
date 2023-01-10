@@ -1,18 +1,16 @@
 ---
 layout: default
 ---
-<h1>Les billets de Marcos Ickx par catégories</h1>
-<p>Nombre de categories : {{site.categories.size}}</p>
+<h1>{{ page.title }}</h1>
 {% assign allCategories = "" | split: ',' %}
 {% for category in site.categories %}
 {% assign allCategories = allCategories | push: category[0] %}
 {% endfor %}
 {% assign allCategories = allCategories | uniq | sort_natural %}
-categories : {{ allCategories }}
+
 {% for categoryName in allCategories %}
-  <section>
+  <section class="category">
   <h2>{{categoryName}}</h2>
-  <p>Nombre de posts : {{site.categories[categoryName].size}}</p>
   {% for entry in site.categories[categoryName] %}
      {% include entry.html %}
   {% endfor %}
