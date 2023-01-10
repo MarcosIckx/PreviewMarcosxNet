@@ -4,10 +4,11 @@ layout: default
 <h1>Les billets de Marcos Ickx par catégories</h1>
 <p>Nombre de categories : {{site.categories.size}}</p>
 {% for category in site.categories %}
+  {% assign categoryName = category[0] %}
   <section>
-  <h2>{{category.name}}</h2>
+  <h2>{{categoryName}}</h2>
   <p>Nombre de posts : {{category.posts.size}}</p>
-  {% for entry in category.posts %}
+  {% for entry in site.categories[categoryName] %}
      {% include entry.html %}
   {% endfor %}
   </section>
