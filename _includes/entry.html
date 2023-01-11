@@ -6,7 +6,19 @@
 
 <article class="post">
   <h3><a href="{{ entry.url }}" rel="bookmark" title="{{ title }}">{{ title }}</a></h3>
-    <footer class="entry-meta">
-      {% if entry.date %}{% include entry_date.html %}{% endif %} par {% include author.html %}
+  {% if entry.tags %}{% if page.layout != "tags" %}
+  <ul class="entry-meta">
+  {% for tagName in tagNames_list %}
+  <li>
+    <a href="/tags/#{{ tagName | slugify | downcase }}">#{{ tagName }}</a>
+  </li>
+  {% endfor %}
+  </ul>
+  {% endif %}{% endif %}
+  <footer class="entry-meta">
+    <ul class="entry-meta">
+      {% if entry.date %}<li>{% include entry_date.html %}</li>{% endif %}
+      <li>{% include author.html %}</li>
+    </ul>
     </footer>
 </article>
