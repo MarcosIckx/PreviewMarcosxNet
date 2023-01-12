@@ -3,22 +3,22 @@ layout: default
 ---
 <h1>{{ page.title }}</h1>
 <p class="meta">{{ page.date | date: "%d/%m/%Y" }} par <a href="/apropos">{{ page.author}}</a>.</p>
-{% if page.categories %}
-<p class="meta">{% if page.categories.size > 1 %}Catégories{% else %}Catégorie{% endif %} : {{ page.categories | array_to_sentence_string:"" }}</p>
-{% endif %}
+{%- if page.categories -%}{%- if page.categories.size > 0 -%}
+<p class="meta">{%- if page.categories.size > 1 -%}Catégories{%- else -%}Catégorie{%- endif -%} : {{ page.categories | array_to_sentence_string:"" }}</p>
+{%- endif -%}{%- endif -%}
 
 <div class="toc">
 <p class="toc">Sommaire</p>
-{% include toc.html html=content sanitize=true class="toc" item_class="toc_item" submenu_class="toc_submenu" id="my_toc" h_min=2 h_max=6 ordered=true %}
+{%- include toc.html html=content sanitize=true class="toc" item_class="toc_item" submenu_class="toc_submenu" id="my_toc" h_min=2 h_max=6 ordered=true -%}
 </div>
 
 <div class="post">
   {{ content }}
 </div>
 
-{%- if page.tags -%}
-<p class="meta">{% if page.tags.size > 1 %}Tags{% else %}Tag{% endif %} : {{ page.tags | array_to_sentence_string:"" }}</p>
-{%- endif -%}
+{%- if page.tags -%}{%- if page.tags.size > 0 -%}
+<p class="meta">{%- if page.tags.size > 1 -%}Tags{%- else -%}Tag{%- endif -%} : {{ page.tags | array_to_sentence_string:"" }}</p>
+{%- endif -%}{%- endif -%}
 
 {%- include otherLinks.html -%}
 {%- include previous-next.html -%}
