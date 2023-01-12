@@ -115,23 +115,23 @@ Seuls vos e-mails, contacts et calendriers pourront encore être vues aux yeux d
 
 ![Tableau Récapitulatif Protection Avancée]
 
-# Quelles sont les conditions à remplir pour pouvoir activer la Protection Avancées des Données iCloud ?
+## Quelles sont les conditions à remplir pour pouvoir activer la Protection Avancées des Données iCloud ?
 
 J’en ai relevé au moins 9 :
 
-## 1. Les comptes appartenants aux mineurs sont exclus.
+### 1. Les comptes appartenants aux mineurs sont exclus.
 Si l'identifiant Apple est celui d'un mineur, la Protection Avancée des Données iCloud ne pourra être activée.
 
-## 2. Les comptes gérés sont également exclus.
+### 2. Les comptes gérés sont également exclus.
 Si votre identifiant Apple est un identifiant géré, et bien vois ne pourrez pas activer la Protection Avancée des Données.
 
 
-## 3. Il vous faut au moins un appareil Apple.
+### 3. Il vous faut au moins un appareil Apple.
 Ca peut paraitre bizarre de dire cela, mais en fait il n'est pas obligatoire de posséder un appareil Apple pour créer un identifiant Apple.
 D'ailleurs les personnes qui créent un tel identifiant ne reçoivent que 1Gio d'espace de stockage iCloud.
 Mais ces personnes ne pourront pas bénéficier de la Protection Avancée des Données iCloud.
 
-## 4. Avoir la dernière version de l'OS en date de décembre 2022 sur vos appareils Apple
+### 4. Avoir la dernière version de l'OS en date de décembre 2022 sur vos appareils Apple
 
 Tous les appareils Apple sur lesquels votre identifiant Apple est enregistre doivent avoir la dernière version de l'OS en date fin décembre 2022.
 
@@ -147,12 +147,12 @@ Voilà les versions minimales des OS pour pouvoir activer la Protection Avancée
 
 ![Tableau Versions OS]
 
-## 5. Avoir la dernière version de iCloud pour Windows en date de décembre 2022.
+### 5. Avoir la dernière version de iCloud pour Windows en date de décembre 2022.
 
 Si vous avez un appareil Windows sur lequel votre identifiant est enregistré, il faudra onligatoirement qu’il ait la dernière version en date de iCloud pour Windows.
 Sinon, vous ne pourrez pas activer la Protection Avancée des Données.
 
-## 6. Avoir activé l'Identification à deux facteurs
+### 6. Avoir activé l'Identification à deux facteurs
 
 Il faudra avoir activé l'identification à deux facteurs pour votre identifiant Apple.
 
@@ -167,7 +167,7 @@ P.S. si vous désirez en savoir plus votre identifiant Apple et la double authen
 
 [![Formation Gratuite Identifiant Apple par Audrey Couleau]][Formation-Identifiant-AudreyCouleau]
 
-## 7. Avoir configuré  la récupération du compte 
+### 7. Avoir configuré  la récupération du compte 
 
 Pour pouvoir activer la Protection Avancée des Données,
 Il faudra également avoir configuré la récupération du compte.
@@ -180,7 +180,7 @@ Vous pouvez rajouter un ou plusieurs contact de récupération.
 
 Vous pouvez également obtenir une clé de secours.
 
-### Ajouter des contacts de récupération
+#### Ajouter des contacts de récupération
 D'emblée, il est bon de rappeler que les contacts de récupération n'ont pas accès à vos données. 
 
 Mais, ils pourront vous aider à récupérer l'accès à vos données.
@@ -208,7 +208,7 @@ Apple vous suggerera par défaut les membres de votre famille, mais vous pouvez 
 
 (Et avoir activé iMessage, ce qui n’est pas indiqué sur cet écran)
 
-### Obtenir une clé de secours
+#### Obtenir une clé de secours
 
 En lieu et place de définir des contacts de récupération, vous pouvez obtenir une clé de secours.
 
@@ -218,7 +218,7 @@ En effet, la personne qui possède cette clé de secours pourra accéder à votr
 
 C´est donc plus risqué que de définir un ou plusieurs contacts de récupération.
 
-## 8. Pas un appareil récemment rajouté 
+### 8. Pas un appareil récemment rajouté 
 
 L’activation de la Protection Avancée des Données iCloud ne peut pas se faire sur un appareil qui a été récemment rajouté à la liste des appareils de confiance. Apparemment, il faudra patienter un délai de 45 jours.
 
@@ -226,7 +226,7 @@ Ceci est une mesure de protection pour éviter que quelqu'un rajoute un appareil
 
 En mettant un délai de 45 jours, Apple vous donne le temps de voir qu'un intru se trouve dans la liste de vos appareils de confiance et de le supprimer de la liste.
 
-## 9. Disponible dans votre région
+### 9. Disponible dans votre région
 L’activation de la Protection Avancée des Données iCloud dépendra également de la région à laquelle votre identifiant est lié. 
 En effet, l’activation ne sera possible cette année 2022 que aux États-Unis. Les autres pays suivront progressivement au début 2023.
 
@@ -235,9 +235,9 @@ En attendant que cela soit disponible dans votre région, vous pouvez déjà pre
 Ainsi, le jour où l'activation de la Protection Avancée des Données sera possible, vous n'aurez qu'à l'activer.
 
 
-# La Protection Avancée des Données et [iCloud.com]
+## La Protection Avancée des Données et [iCloud.com]
 
-## L'accès aux Données iCloud sur le web désactivé par défaut
+### L'accès aux Données iCloud sur le web désactivé par défaut
 Il est important de savoir que lorsque la Protection Avancée des Données iCloud est activée, l'accès aux données iCloud sur le web sera également désacrivé.
 
 
@@ -264,7 +264,7 @@ Vous noterez qu’aucun lien depuis cette page vous permet d’arriver sur la pa
 Mais rassurez vous, la page [icloud.com/find/] est toujours bien accessible et disponible pour retrouver vos appareils.
 
 
-## Possibilité de réactiver l'accès aux données iCloud via le web.
+### Possibilité de réactiver l'accès aux données iCloud via le web.
 
 Apple offre la possibilité de réactiver l'accès aux données iCloud via le web.
 
@@ -278,7 +278,7 @@ Mais il faut alors être conscient de plusieurs points :
 
 Ces clés de services serviront à iCloud.com à déchiffrer le document pour pouvoir ensuite vous le présenter dans le navigateur.
 
-## Le chiffrement de bout en bout pas toujours garantit
+### Le chiffrement de bout en bout pas toujours garantit
 
 ⚠️ **_Attention_** ⚠️
 Le chiffrement de bout en bout ne sera pas possible dans tous les cas, même avec la Protection Avancée des Données (PAD) iCloud  activée.
@@ -296,7 +296,7 @@ Par exemple :
 Mais quid de la bibliothèque photo partagée ? Je n’ai pas trouvé de réponse pour le moment à ce sujet.
 
 
-# La Protection Avancée des Données iCloud et [privacy.apple.com]
+## La Protection Avancée des Données iCloud et [privacy.apple.com]
 
 Si vous avez désactivé l’accès à vos données iCloud sur le web, vous n’aurez plus la possibilité d’obtenir une copie de toutes vos données iCloud via la page [privacy.apple.com].
 Et ce, méme si la Protection Avancée des Données iCloud n'a pas été activée, Même si la Protection Avancée des Données n’est pas activée. Ce qui est étrange pour moi vu qu’Apple est encore en possession, à ce moment-là, des clés de service pour déchiffrer ces données et donc pourrait très bien continuer à nous fournir une sauvegarde de ces informations.
@@ -341,7 +341,7 @@ Je ne sais pas encore exactement ce qui se passe si l'accès aux données iCloud
 J'espere pouvoir tester cela une fois que ce sera disponible dans la région où j'habite.
 
 
-# Sources Apple
+## Sources Apple
 
 1. [Protection Avancée des Données iCloud][Source-Apple-1]
 2. [Présentation de la sécurité des données iCloud][Source-Apple-2]
@@ -354,12 +354,12 @@ J'espere pouvoir tester cela une fois que ce sera disponible dans la région où
 
 
 
-# Liens Utiles
+## Liens Utiles
 
 1. [Formation Gratuite : Tout savoir sur votre identifiant Apple, par Audrey Couleau][Formation-Identifiant-AudreyCouleau]
 2. [Le fil Twitter, agrémenté d´images et captures d´écran où vous retrouverez ce qui a donné naissance à cet article][Twitter-Fil-MarcosIckx]
 
-# Remerciements
+## Remerciements
 
 Merci à [Laurent], [Julien], [David], [Audrey] et [Sylvain] pour leur retour, aide, encouragements, qui a permi d´avoir le document que vous lisez.
 
