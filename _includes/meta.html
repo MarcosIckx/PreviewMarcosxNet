@@ -1,7 +1,17 @@
-
+{%- if include.debug -%}
+include.metaNamePlural: {{include.metaNamePlural}}
+page.layout : {{page.layout}}
+{%- assign check = (page.layout != include.metaNamePlural) -%}
+if page.layout != include.metaNamePlural : {{check}}
+include.metaList.count : {{include.metaList.count}}
+{%- endif -%}
   {%- if include.metaList -%}{%- if page.layout != include.metaNamePlural -%}
   <ul class="meta">
   {%- for meta in include.metaList -%}
+    {%- if include.debug -%}
+    meta.collection: {{ meta.collection }}
+    meta[0]: {{ meta[0] }}
+    {%- endif -%}
     {%- assign metaName = meta[0] -%}
   <li><a href="/{{include.metaNamePlural}}/#{{ metaName | slugify | downcase }}">#{{ metaName }}</a></li>
   {%- endfor -%}
