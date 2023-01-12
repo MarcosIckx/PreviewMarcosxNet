@@ -84,6 +84,7 @@ nav ul li a {
  display: block;
  transition: 0.5s;
  padding: 0.3rem 0;
+ text-decoration: none;
 }
 
 /* after  (noter les 2 fois : devant after alors qu´il n´y en a qu´un seul devant hover )
