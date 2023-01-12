@@ -46,31 +46,36 @@ body {
     font-size: 1.5rem;
 }
 
-/* Règles pour barre de navigation (nav) au-dessus des pages et 
-pieds de page (footer) au bas de chaque page. */
-
-
+/* Règles pour barre de navigation (nav) au-dessus des pages. */
+/* ligne séparatrice pour bien séparer la barre de menu du reste */
 nav {
     border-bottom: 0.1250rem solid var(--footer-color);
     font-size: 1rem;
 }
+
+/* flex horizontal, de gauche à droite, pour que tout soit sur 1 ligne  */
 nav ul {
   display: flex;
   flex-direction: row;
   align-items: start;
 }
+/* indique la police et que ce soit de petites majuscule et en gras
+et supprime les bullets des listes. */
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-variant: small-caps;
     padding: 0rem;
     list-style-type: none;
     font-weight: bold;
-    text-transform: uppercase;
 }
+/* une marge à droite pour séparer les menus items */
 nav ul li {
     padding 0.3rem 0;
     margin-right: 1.25rem;
 }
 
+/* animation sur les liens de 1/2 seconde */
 nav ul li a {
  position: relative;
  display: block;
@@ -78,7 +83,8 @@ nav ul li a {
  padding: 0.3rem 0;
 }
 
-
+/* after  (noter les 2 fois : devant after alors qu´il n´y en a qu´un seul devant hover )
+Animation d´1/2 seconde d´une ligne affichée au bas du texte, qui se raccourcit de droite à gauche */
 nav ul li a::after {
   position: absolute;
   content: "";
@@ -92,66 +98,45 @@ nav ul li a::after {
   transform-origin: right;
 }
 
+/* change la couleur de fond lorsqu´on passe sur le lien */
 nav ul li a:hover{
 background-color: var(--secondary-bg-color);
 }
 
+/* Animation d´1/2 seconde d´une ligne affichée au bas du texte, qui s´allonge de gauche a droite */
 nav ul li a:hover::after {
   transform: scaleX(1);
   transform-origin: left;
 }
-/*
-ul {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  list-style-type: none;
-}
-ul li {
-  padding: 6px 0;
-}
-ul li a {
-  position: relative;
-  display: block;
-  text-decoration: none;
-  font-family: "Lato";
-  font-size: 2rem;;
-  color: #ecf0f1;
-  text-transform: uppercase;
-  padding: 4px 0;
-  transition: 0.5s;
-}
-ul li a::after {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 3px;
-  top: 100%;
-  left: 0;
-  background: #ff7000;
-  transition: transform 0.5s;
-  transform: scaleX(0);
-  transform-origin: right;
-}
-ul li a:hover {
-  color: #95a5a6;
-}
-ul li a:hover::after {
-  transform: scaleX(1);
-  transform-origin: left;
-}
-*/
 
-footer {
+/* l´astuce pour l´animation dans la barre de menu provient du site 
+https://webdevtrick.com/css-menu-hover-underline/ 
+et a été adapte pour tenir compte de la structure de mes pages  */
+
+
+/* style pour les pieds de page des pages 
+on le limite au footer du body car, comme on le verra plus tard, 
+on a des footer par article et par secrion aussi.
+mais ils nˆauront pas le même reglage,*/
+body>footer {
     border-top: 0.1250rem solid var(--footer-color);
     font-size: 1rem;
 }
-
-footer ul li {
+body>footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-variant: small-caps;
+    padding: 0rem;
+    list-style-type: none;
+    font-weight: bold;
+}
+body>footer ul li {
     display: inline;
     margin-right: 1.25rem;
 }
 
+/* un entry (peut etre une page ou un post 
+a des meta-données comme les tags ou les categories. 
+c´est de cela qu´il s´agit ici. */
 .entry-meta ul,
 ul.entry-meta {
 list-style: none;
@@ -163,10 +148,15 @@ ul.entry-meta li {
   margin-right: 0.25rem;
   font-size: 1rem;
 }
+
+/* par defaut, les listes ont une taille de police de 1.5rem 
+je ne suis pas sur que cela soit nécessaire car la taille de police 
+pour le body est déjà de 1.5rem */
 ul, ul li {
     font-size: 1.5rem;
 }
 
+/* style pour la table des matières */
 div.toc {
   border: 0.2rem solid var(--primary-color);
   color: var(--primary-color);
@@ -175,10 +165,12 @@ div.toc {
   margin-right: auto;
   display:block;
 }
+/* par défaut, le sommaire est cachée */
 div.toc > ol.toc, 
-div.toc > ol.toc {
+div.toc > ul.toc {
   display: none;
 }
+/* et le sommaire s´affichera si l´on passe sur le bloc sommaire */
 
 div.toc:hover > ul.toc, 
 div.toc:hover > ol.toc,
@@ -203,47 +195,39 @@ a:hover {
     font-weight: bold;
 }
 
-/* Indique comment afficher les titres */
+/* Indique comment afficher les titres (jusque 5 niveaux, 
+ce qui devrait grandement suffire)
+Seule la taille de la police est différente selon le niveau.
+le reste est commun à tous les niveaux de titres */
 
+h1, h2, h3, h4, h5 {
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  font-variant: small-caps;
+  color: var(--primary-color);
+}
 h1 {
     font-size: 2rem;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-variant: small-caps;
-    color: var(--primary-color);
-	
 }
 h2 {
     font-size: 1.9rem;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-variant: small-caps;
-    color: var(--primary-color);
 }
 
 h3 {
     font-size: 1.8rem;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-variant: small-caps;
-    color: var(--primary-color);
 }
 
 h4 {
     font-size: 1.7rem;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-variant: small-caps;
-    color: var(--primary-color);
 }
 
 h5 {
     font-size: 1.6rem;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-variant: small-caps;
-    color: var(--primary-color);
 }
 
 
 /* Indique comment afficher les paragraphes */
 p {
-    line-height: 1.6rem;
+    line-height: 1.5rem;
     color: var(--secondary-color);
 }
 
@@ -261,7 +245,7 @@ p {
   margin-left: auto;
   margin-right: auto; 
 }
-
+/* la video est affichée à maximum 80% de la largeur */
 video {
   max-width: 80%;
   display: block;
@@ -273,8 +257,7 @@ video {
 /* Indique comment afficher les images 
 selon qu´elles sont dans un paragraphe 
 ou dans un lien */
-
-p img {
+p>img, a>img {
   border: 0.1rem solid var(--border-color);
   border-radius: 0.3rem;
   padding: 0.4rem;
@@ -282,9 +265,12 @@ p img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  transition: 0.5s;
 }
 
-p img:hover {
+/* si les images sont dans un paragraphe, 
+on applique un effet d´grandissement */
+p>img:hover {
    -webkit-transition: width 0.5s ease-in-out;
    -moz-transition: width 0.5s ease-in-out;
    -o-transition: width 0.5s ease-in-out;
@@ -294,18 +280,15 @@ p img:hover {
   margin-left: none;
   margin-right: none;
 }
-p img:hover after {
+p>img:hover::after {
    -webkit-transition: width 0.5s ease-in-out;
    -moz-transition: width 0.5s ease-in-out;
    -o-transition: width 0.5s ease-in-out;
    transition: width 0.5s ease-in-out;
 }
 
-a img {
-  max-width: 80%;
-}
 
-a img:hover {
+a>img:hover {
   border: 0.3rem solid var(--border-color-hover);
   max-width: 80%;
 }
@@ -354,6 +337,10 @@ article.post {
     font-size: 1.5rem;
     border-left: 0.0625rem solid var(--footer-color);
     padding: 0.3rem;
+}
+
+article.post:hover { 
+  border-left: 0.0625rem solid var(--third-bg-color);
 }
 
 article.post span {
