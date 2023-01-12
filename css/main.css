@@ -355,6 +355,10 @@ article.post span {
   font-size: 1rem;
 }
 
+span.left, span.right {
+font-size: 3rem;
+
+
 /* suis pas sûr que ce soit utilisé */
 .step { border-radius: 50%; 
 	-moz-border-radius: 50%; 
