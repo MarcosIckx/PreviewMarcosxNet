@@ -7,12 +7,14 @@
     --secondary-color: #222;
     --font-color: #424242;
     --bg-color: #eee;
+    --secondary-bg-color: #810ca8;
     --step-bgcolor: #4679bd;
     --heading-color: #292922;
     --border-color: #ddd;
     --border-color-hover: #00f;
     --bg-box-color: #cecece;
     --footer-color: #d5d5d5;
+
 }
 
 /* les couleurs définies pour mode sombre */
@@ -22,6 +24,7 @@
     --secondary-color: #818cab;
     --font-color: #e1e1ff;
     --bg-color: #161625;
+    --secondary-bg-color: #810ca8;
     --step-bgcolor: #0ff;
     --heading-color: #818cab;
     --border-color: #eee;
@@ -58,6 +61,21 @@ nav {
 nav ul li {
     display: inline;
     margin-right: 1.25rem;
+}
+
+nav ul li a {
+ display: block;
+}
+nav ul li a:hover:before{
+content: "[";
+}
+
+nav ul li a:hover:after{
+content: "]";
+}
+
+nav ul li a:hover{
+background-color: var(--secondary-bg-color);
 }
 
 footer {
