@@ -6,18 +6,11 @@
 
 <article class="post">
   <h3><a href="{{ entry.url }}" rel="bookmark" title="{{ title }}">{{ title }}</a></h3>
-  {%- include meta.html metaList=entry.tags -%}
-
+  {%- include meta.html metaList=entry.tags, metaNamePlural="tags" -%}
+  {%- include meta.html metaList=entry.categories, metaNamePlural="categories" -%}
   {%- if entry.categories -%}{%- if page.layout != "categories" -%}
-  <ul class="entry-meta">
-  {%- for category in entry.categories -%}
-    {%- assign categoryName = category[0] -%}
-  <li><a href="/categories/#{{ categoryName | slugify | downcase }}">{{ categoryName }}</a></li>
-  {%- endfor -%}
-  </ul>
-  {%- endif -%}{%- endif -%}
-  <footer class="entry-meta">
-    <ul class="entry-meta">
+  <footer class="meta">
+    <ul class="meta">
       {%- if entry.date -%}<li>{%- include entry_date.html -%}</li>{%- endif -%}
       <li>{%- include author.html -%}</li>
     </ul>
