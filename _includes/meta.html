@@ -1,0 +1,9 @@
+
+  {%- if include.metaList -%}{%- if page.layout != include.metaNamePlural -%}
+  <ul class="meta">
+  {%- for meta in include.metaList -%}
+    {%- assign metaName = meta[0] -%}
+  <li><a href="/{{include.metaNamePlural}}/#{{ metaName | slugify | downcase }}">#{{ metaName }}</a></li>
+  {%- endfor -%}
+  </ul>
+  {%- endif -%}{%- endif -%}
