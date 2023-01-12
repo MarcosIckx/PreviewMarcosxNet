@@ -231,12 +231,12 @@ h5 {
 }
 
 
-/* Indique comment afficher les paragraphes */
+/* Indique comment afficher les paragraphes 
 p {
     line-height: 1.5rem;
     color: var(--secondary-color);
 }
-
+*/
 
 /* Indique comment afficher les vidéos */
 .video-box {
