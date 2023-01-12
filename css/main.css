@@ -51,7 +51,6 @@ body {
 /* Règles pour barre de navigation (nav) au-dessus des pages. */
 /* ligne séparatrice pour bien séparer la barre de menu du reste */
 nav {
-  background-color: var(--fourth-bg-color);
   border-bottom: 0.1250rem solid var(--footer-color);
   font-size: 1rem;
 }
