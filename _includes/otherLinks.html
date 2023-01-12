@@ -1,0 +1,10 @@
+{%- if page.otherLinks -%}
+<div class="otherLinks">
+  <p>Vous aimerez également lire :</p>
+  <ul>
+  {%- for otherLink in page.otherLinks -%}
+    <li><a href="{{ otherLink.url }}">{{ otherLink.title }}</a></li>
+  {%- endfor -%}
+  </ul>
+</div>
+{%- endif -%}
