@@ -6,9 +6,8 @@
 
 <article class="post">
   <h3><a href="{{ entry.url }}" rel="bookmark" title="{{ title }}">{{ title }}</a></h3>
-  {%- include meta.html metaList=entry.tags, metaNamePlural="tags" -%}
-  {%- include meta.html metaList=entry.categories, metaNamePlural="categories" -%}
-  {%- if entry.categories -%}{%- if page.layout != "categories" -%}
+  {%- if entry.tags -%}{%- include meta.html metaList=entry.tags metaNamePlural="tags" -%}{%- endif -%}
+  {%- if entry.categories -%}{%- include meta.html metaList=entry.categories metaNamePlural="categories" -%}{%- endif -%}
   <footer class="meta">
     <ul class="meta">
       {%- if entry.date -%}<li>{%- include entry_date.html -%}</li>{%- endif -%}
