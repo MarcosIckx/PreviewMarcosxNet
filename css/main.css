@@ -7,8 +7,9 @@
     --secondary-color: #222;
     --font-color: #424242;
     --bg-color: #eee;
-    --secondary-bg-color: #810ca8;
+    --secondary-bg-color: #C147E9;
     --third-bg-color: #ff7000;
+    --fourth-bg-color: #E5B8F4;
     --step-bgcolor: #4679bd;
     --heading-color: #292922;
     --border-color: #ddd;
@@ -22,13 +23,14 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --primary-color: #9A97f3;
-    --secondary-color: #818cab;
+    --secondary-color: #810CAB;
     --font-color: #e1e1ff;
     --bg-color: #161625;
-    --secondary-bg-color: #810ca8;
+    --secondary-bg-color: #810CA8;
     --third-bg-color: #ff7000;
+    --fourth-bg-color: #2D033B;
     --step-bgcolor: #0ff;
-    --heading-color: #818cab;
+    --heading-color: #810CAB;
     --border-color: #eee;
     --border-color-hover: #fff;
     --bg-box-color: #9e9e9e;
@@ -49,8 +51,9 @@ body {
 /* Règles pour barre de navigation (nav) au-dessus des pages. */
 /* ligne séparatrice pour bien séparer la barre de menu du reste */
 nav {
-    border-bottom: 0.1250rem solid var(--footer-color);
-    font-size: 1rem;
+  background-color: var(--fourth-bg-color);
+  border-bottom: 0.1250rem solid var(--footer-color);
+  font-size: 1rem;
 }
 
 /* flex horizontal, de gauche à droite, pour que tout soit sur 1 ligne  */
