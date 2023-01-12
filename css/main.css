@@ -65,7 +65,7 @@ nav ul {
 /* indique la police et que ce soit de petites majuscule et en gras
 et supprime les bullets des listes. */
 
-nav ul, footer ul {
+nav ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-variant: small-caps;
     padding: 0rem;
@@ -137,7 +137,9 @@ body>footer ul li {
     display: inline;
     margin-right: 1.25rem;
 }
-
+body>footer ul li a {
+ text-decoration: none;
+}
 /* un entry (peut etre une page ou un post 
 a des meta-données comme les tags ou les categories. 
 c´est de cela qu´il s´agit ici. */
