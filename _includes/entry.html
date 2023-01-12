@@ -6,14 +6,8 @@
 
 <article class="post">
   <h3><a href="{{ entry.url }}" rel="bookmark" title="{{ title }}">{{ title }}</a></h3>
-  {%- if entry.tags -%}{%- if page.layout != "tags" -%}
-  <ul class="entry-meta">
-  {%- for tag in entry.tags -%}
-    {%- assign tagName = tag[0] -%}
-  <li><a href="/tags/#{{ tagName | slugify | downcase }}">#{{ tagName }}</a></li>
-  {%- endfor -%}
-  </ul>
-  {%- endif -%}{%- endif -%}
+  {%- include meta.html metaList=entry.tags -%}
+
   {%- if entry.categories -%}{%- if page.layout != "categories" -%}
   <ul class="entry-meta">
   {%- for category in entry.categories -%}
