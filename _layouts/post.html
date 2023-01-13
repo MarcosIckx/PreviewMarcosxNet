@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
 <p class="meta">{{ page.date | date: "%d/%m/%Y" }} par <a href="/apropos">{{ page.author}}</a>.</p>
 {%- if page.categories -%}{%- if page.categories.size > 0 -%}
 <p class="meta">{%- if page.categories.size > 1 -%}Catégories{%- else -%}Catégorie{%- endif -%} : {{ page.categories | array_to_sentence_string:"" }}</p>
