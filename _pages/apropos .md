@@ -5,7 +5,7 @@ description: Information concernant Marcos Ickx, le site, et son contenu.
 permalink: /apropos/index.html
 ---
 
-# Bonjour à tous. Je me présente. Je m'appelle Marcos Ickx!!! #
+## Bonjour à tous. Je me présente. Je m'appelle Marcos Ickx!!!
 
 Sur ce site, je ne publierai que mon avis personnel, qui n´engage que moi, 
 et en aucun cas 
