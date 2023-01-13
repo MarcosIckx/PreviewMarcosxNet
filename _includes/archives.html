@@ -27,14 +27,16 @@ site.data.archives.first.first: {{site.data.archives.first.first }}<br/>
     yearinfo.next: {{yearinfo.next }}<br/>
   {%- endif -%}
   <li>
-    <p>{{yearInfo.id}}: {%- include archive-year-link.html year=yearInfo, debug=debugMode -%}</p>
+    <p>{{yearInfo.id}}: {%- include archive-year-link.html year=yearInfo debug=debugMode -%}</p>
     {%- if yearInfo.previous -%}
-    <p>{{yearInfo.previous}} : {% include archive-year-link.html year=site.data.archives[yearinfo.previous], debug=debugMode -%}</p>
+    {%- assign previous = site.data.archives[yearinfo.previous] -%}
+    <p>{{previous.id}} : {% include archive-year-link.html year=previous debug=debugMode -%}</p>
     {%- endif -%}
     {%- if yearInfo.next -%}
-    <p>{{yearInfo.next}}: {% include archive-year-link.html year=site.data.archives[yearinfo.next], debug=debugMode -%}</p>
+    {%- assign next = site.data.archives[yearinfo.next] -%}
+    <p>{{next.id}}: {% include archive-year-link.html year=next debug=debugMode -%}</p>
     {%- endif -%}
-</li>
+  </li>
 {%- endfor -%}
 </ul> 
 </div>
