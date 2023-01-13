@@ -1,0 +1,6 @@
+{%- for year in site.data.years -%}
+{{year.id}}: {%- include date-year-link.html year=year-%}
+{%- if year.previous -%}{{year.previous.id}} : {% include date-year-link.html year=year.previous -%}{%- endif -%}
+{%- if year.next -%}{{year.next.id}}: {% include date-year-link.html year=year.previous -%}{%- endif -%}
+
+
