@@ -29,9 +29,8 @@
     {%- if include.metaList.size>1 -%}
     <li>{{include.metaNamePlural | default: include.metaNameSingle | append: "s" }} :</li>
     {%- else -%}
-    <li>{{include.metaNameSingle  }} :</li>
+    <li>{{include.metaNameSingle }} :</li>
     {%- endif -%}
-
   {%- for meta in include.metaList -%}
     {%- if include.debug -%}
       meta.label: [{{ meta.label }}]<br/>
@@ -41,8 +40,7 @@
       meta | first: [{{ meta |first }}]<br/>
       meta : {{ meta }}<br/>
     {%- endif -%}
-    {%- assign metaName = meta[0] -%}
-  <li><a href="/{{include.metaNamePlural}}/#{{ meta | slugify | downcase }}">{{ meta }}</a></li>
+    <li><a href="/{{include.metaNamePlural}}/#{{ meta | slugify | downcase }}">{{ meta }}</a></li>
   {%- endfor -%}
   </ul>
   {%- endif -%}{%- endif -%}
