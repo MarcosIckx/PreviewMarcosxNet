@@ -142,13 +142,13 @@ body>footer ul li a {
 /* un entry (peut etre une page ou un post 
 a des meta-données comme les tags ou les categories. 
 c´est de cela qu´il s´agit ici. */
-.entry-meta ul,
-ul.entry-meta {
+.meta ul,
+ul.meta {
 list-style: none;
 }
 
-.entry-meta ul li,
-ul.entry-meta li {
+.meta ul li,
+ul.meta li {
   display: inline;
   margin-right: 0.25rem;
   font-size: 1rem;
