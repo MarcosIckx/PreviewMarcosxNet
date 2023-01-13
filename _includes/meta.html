@@ -11,10 +11,10 @@
   {%- endif -%}
   include.metaNamePlural: [{{include.metaNamePlural}}]<br/>
   page.layout : [{{page.layout}}]<br/>
-  {%- if page.layout != include.metaNamePlural -%}
-    page.layout != include.metaNamePlural : true<br/>
-  {%- else -%}
-    page.layout != include.metaNamePlural : false<br/>
+    page.layout != include.metaNamePlural :
+
+  {%- if page.layout != include.metaNamePlural -%}true<br/>
+  {%- else -%} false<br/>
   {%- endif -%}
   include.metaList.size : [{{include.metaList.size}}]<br/>
 {%- endif -%}
