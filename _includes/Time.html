@@ -1,0 +1,15 @@
+{%- comment -%}
+Affiche le temps sur une page avec le bon html tag et le format désiré
+deux parametres demandés :
+1. date_format 
+   si pas mentionné, il prendra le format du site, 
+   si celui-ci n´est pas mentionné, il prendra le format par défaut jour/mois/année
+2. date
+   si pas mentionné, il prendra la date de  l´entrée
+   si celle-ci n´est pas mentionnée, il prendra la date du site.
+{%- endcomment -%}
+
+{%- assign date_format = include.date_format | default: site.date_format | default: "%d/%m/%Y" -%}
+{%- assign date = include.date | default: entry.date | default: site.time -%}
+
+<time datetime="{{ date | date_to_xmlschema }}">{{ date | date: date_format }}</time>
