@@ -10,7 +10,7 @@ layout: default
 
 {% for categoryName in allCategories %}
   <section class="category">
-  <h2>{{categoryName}}</h2>
+  <h2 id="{{ categoryName | slugify | downcase }}">{{categoryName}}</h2>
   {% for entry in site.categories[categoryName] %}
      {% include entry.html %}
   {% endfor %}
