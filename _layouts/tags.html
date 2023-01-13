@@ -106,7 +106,15 @@ layout: default
 {%- assign tagNames_grouped_by_count = tagNames_grouped_by_count | split: "|" -%}
 {%- assign tag_counts = tag_counts | split: "|" -%}
 
-<h1 id="page-title">{{ page.title }}</h1>
+
+
+{%- comment -%}
+  ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ 
+  AFFICHAGE DES INFOS SUR BASE DE VARIABLES
+  PRÉPARÉES EN AMONT.
+  ~~~ ~~~ ~~~ ~~~ ~~~ ~~~
+{%- endcomment -%}
+
 <ul class="taxonomy-index">
 
 {%- comment -%}
