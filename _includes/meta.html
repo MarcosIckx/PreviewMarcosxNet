@@ -1,16 +1,32 @@
 {%- if include.debug -%}
-include.metaNamePlural: {{include.metaNamePlural}}
-page.layout : {{page.layout}}
-{%- assign check = (page.layout != include.metaNamePlural) -%}
-if page.layout != include.metaNamePlural : {{check}}
-include.metaList.count : {{include.metaList.count}}
+  {%- if include.metaList.first -%}
+    include.metaList.first: true<br/>
+    {%- if include.metaList.first.first -%}
+      include.metaList.first.first: true<br/>
+    {%- else -%}
+      include.metaList.first.first: false<br/>
+    {%- endif -%}
+  {%- else -%}
+     include.metaList.first: false<br/>
+  {%- endif -%}
+  include.metaNamePlural: [{{include.metaNamePlural}}]<br/>
+  page.layout : [{{page.layout}}]<br/>
+  {%- if page.layout != include.metaNamePlural -%}
+    page.layout != include.metaNamePlural : true<br/>
+  {%- else -%}
+    page.layout != include.metaNamePlural : false<br/>
+  {%- endif -%}
+  include.metaList.count : [{{include.metaList.count}}]<br/>
 {%- endif -%}
-  {%- if include.metaList -%}{%- if page.layout != include.metaNamePlural -%}
+{%- if include.metaList -%}{%- if page.layout != include.metaNamePlural -%}
   <ul class="meta">
   {%- for meta in include.metaList -%}
     {%- if include.debug -%}
-    meta.collection: {{ meta.collection }}
-    meta[0]: {{ meta[0] }}
+      meta.collection: [{{ meta.collection }}]<br/>
+      meta[0]: [{{ meta[0] }}]<br/>
+      meta.id: [{{ meta.id }}]<br/>
+      meta.first: [{{ meta.first }}]<br/>
+      meta | first: [{{ meta |first }}]<br/>
     {%- endif -%}
     {%- assign metaName = meta[0] -%}
   <li><a href="/{{include.metaNamePlural}}/#{{ metaName | slugify | downcase }}">#{{ metaName }}</a></li>
