@@ -13,6 +13,6 @@
   {%- if entry.categories -%}{%- include meta.html metaList=entry.categories metaNamePlural="categories" metaNameSingle="categorie" debug=false -%}{%- endif -%}
  
   <footer class="meta">
-    <p class="meta">Article rédigé par {%- include author.html -%} le {%- include time.html date=entry.date -%}
+    <p class="meta">Article rédigé par {% include author.html %} le {% include time.html date=entry.date %}
   </footer>
 </article>
