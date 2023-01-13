@@ -20,21 +20,37 @@ site.data.archives.first.first: {{site.data.archives.first.first }}<br/>
     year.id: {{year.id }}<br/>
     year.title: {{year.title }}<br/>
     year.first: {{year.first }}<br/>
-    yearinfo.id: {{yearinfo.id }}<br/>
-    yearinfo.title: {{yearinfo.title }}<br/>
-    yearinfo.url: {{yearinfo.url }}<br/>
-    yearinfo.previous: {{yearinfo.previous }}<br/>
-    yearinfo.next: {{yearinfo.next }}<br/>
+    site.data.archives[year.first]: {{site.data.archives[year.first]}}<br/>
+    yearInfo.id: {{yearInfo.id }}<br/>
+    yearInfo.title: {{yearInfo.title }}<br/>
+    yearInfo.url: {{yearInfo.url }}<br/>
+    yearInfo.previous: {{yearInfo.previous }}<br/>
+    yearInfo.next: {{yearInfo.next }}<br/>
   {%- endif -%}
   <li>
     <p>{{yearInfo.id}}: {%- include archive-year-link.html year=yearInfo debug=debugMode -%}</p>
     {%- if yearInfo.previous -%}
-    {%- assign previous = site.data.archives[yearinfo.previous] -%}
+    {%- assign previous = site.data.archives[yearInfo.previous] -%}
+    {%- if include.debug -%}
+      previous: {{previous}}<br/>
+      previous.id: {{previous.id}}<br/>
+      previous.title: {{previous.title }}<br/>
+      previous.url: {{previous.url }}<br/>
+      previous.previous: {{previous.previous }}<br/>
+      previous.next: {{previous.next }}<br/>
+    {%- endif -%}
     <p>{{previous.id}} : {% include archive-year-link.html year=previous debug=debugMode -%}</p>
     {%- endif -%}
     {%- if yearInfo.next -%}
-    {%- assign next = site.data.archives[yearinfo.next] -%}
-    <p>{{next.id}}: {% include archive-year-link.html year=next debug=debugMode -%}</p>
+    {%- assign next = site.data.archives[yearInfo.next] -%}
+    {%- if include.debug -%}
+      next: {{next}}<br/>
+      next.id: {{next.id}}<br/>
+      next.title: {{next.title }}<br/>
+      next.url: {{next.url }}<br/>
+      next.previous: {{next.previous }}<br/>
+      next.next: {{next.next }}<br/>
+    {%- endif -%}<p>{{next.id}}: {% include archive-year-link.html year=next debug=debugMode -%}</p>
     {%- endif -%}
   </li>
 {%- endfor -%}
