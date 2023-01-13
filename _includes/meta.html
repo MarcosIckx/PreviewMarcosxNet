@@ -16,20 +16,26 @@
   {%- else -%}
     page.layout != include.metaNamePlural : false<br/>
   {%- endif -%}
-  include.metaList.count : [{{include.metaList.count}}]<br/>
+  include.metaList.size : [{{include.metaList.size}}]<br/>
 {%- endif -%}
 {%- if include.metaList -%}{%- if page.layout != include.metaNamePlural -%}
   <ul class="meta">
+    {%- if include.metaList.size>1 -%}
+    <li>{{include.metaNamePlural | default: include.metaNameSingle | append: "s" }} :</li>
+    {%- else -%}
+    <li>{{include.metaNameSingle  }} :</li>
+    {%- endif -%}
+
   {%- for meta in include.metaList -%}
     {%- if include.debug -%}
-      meta.collection: [{{ meta.collection }}]<br/>
+      meta.label: [{{ meta.label }}]<br/>
       meta[0]: [{{ meta[0] }}]<br/>
       meta.id: [{{ meta.id }}]<br/>
       meta.first: [{{ meta.first }}]<br/>
       meta | first: [{{ meta |first }}]<br/>
     {%- endif -%}
     {%- assign metaName = meta[0] -%}
-  <li><a href="/{{include.metaNamePlural}}/#{{ metaName | slugify | downcase }}">#{{ metaName }}</a></li>
+  <li><a href="/{{include.metaNamePlural}}/#{{ metaName | slugify | downcase }}">{{ metaName }}</a></li>
   {%- endfor -%}
   </ul>
   {%- endif -%}{%- endif -%}
