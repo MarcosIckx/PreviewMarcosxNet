@@ -6,20 +6,11 @@
 
 <article class="post">
   <h3><a href="{{ entry.url }}" rel="bookmark" title="{{ title }}">{{ title }}</a></h3>
-  {%- comment -%}
-  on ne va pas afficher les tags de l´article 
-  si on est sur la page référencants tous les tags.
-  {%- endcomment -%}
-  {%- if page.layout != "tags" -%}{%- if entry.tags -%}
-  <ul class="meta">
-  {%- for meta in entry.tags -%}
-    {%- assign metaName = meta | first -%}
-  <li><a href="/tags/#{{ metaName | slugify | downcase }}">#{{ metaName }}</a></li>
-  {%- endfor -%}
-  </ul>
-  {%- endif -%}{%- endif -%}
   
-  {%- if entry.categories -%}{%- include meta.html metaList=entry.categories metaNamePlural="categories" debug=true -%}{%- endif -%}
+  {%- if entry.tags -%}{%- include meta.html metaList=entry.tags metaNamePlural="tags" metaNameSingle="tag" debug=true -%}{%- endif -%}
+ 
+  
+  {%- if entry.categories -%}{%- include meta.html metaList=entry.categories metaNamePlural="categories" metaNameSingle="categorie" debug=true -%}{%- endif -%}
  
   <footer class="meta">
     <p class="meta">Article rédigé par {%- include author.html -%} le {%- include time.html date=entry.date -%}
