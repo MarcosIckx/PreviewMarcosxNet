@@ -36,7 +36,7 @@
       meta : {{ meta }}<br/>
     {%- endif -%}
     {%- assign metaName = meta[0] -%}
-  <li><a href="/{{include.metaNamePlural}}/#{{ metaName | slugify | downcase }}">{{ metaName }}</a></li>
+  <li><a href="/{{include.metaNamePlural}}/#{{ meta | slugify | downcase }}">{{ meta }}</a></li>
   {%- endfor -%}
   </ul>
   {%- endif -%}{%- endif -%}
