@@ -17,18 +17,19 @@ site.data.archives.first.first: {{site.data.archives.first.first }}<br/>
     year[1]: {{year[1] }}<br/>
     year.id: {{year.id }}<br/>
     year.title: {{year.title }}<br/>
+    year.first: {{year.first }}<br/>
     year.first.id: {{year.first.id }}<br/>
     year.first.title: {{year.first.title }}<br/>
     year.first.url: {{year.first.url }}<br/>
     year.first.first: {{year.first.first }}<br/>
   {%- endif -%}
   <li>
-    <p>{{year.id}}: {%- include date-year-link.html year=year debug=debugMode -%}</p>
+    <p>{{year.id}}: {%- include archive-year-link.html year=year debug=debugMode -%}</p>
     {%- if year.previous -%}
-    <p>{{year.previous.id}} : {% include date-year-link.html year=year.previous debug=debugMode -%}</p>
+    <p>{{year.previous.id}} : {% include archive-year-link.html year=year.previous debug=debugMode -%}</p>
     {%- endif -%}
     {%- if year.next -%}
-    <p>{{year.next.id}}: {% include date-year-link.html year=year.next debug=debugMode -%}</p>
+    <p>{{year.next.id}}: {% include archive-year-link.html year=year.next debug=debugMode -%}</p>
     {%- endif -%}
 </li>
 {%- endfor -%}
