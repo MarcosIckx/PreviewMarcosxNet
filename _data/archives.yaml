@@ -3,25 +3,32 @@
 # au moins un billet a été écrit
 #
 2019:
-  - title: Année 2019
+  - id: 2019
+    title: Année 2019
     url: /2019/
     next: 2020
 2020:
-  - title: Année 2020
+  - id: 2020
+    title: Année 2020
     url: /2020/
     previous: 2019
     next: 2022
 2022:
-  - title: Année 2022
+  - id: 2022
+    title: Année 2022
     url: /2022/
     previous: 2020
     next: current
 2023:
-  - title: Année 2023
+  - id: 2023
+    title: Année 2023
     url: /2023
     previous: 2022
-    next: current
-current:
-  - title: les derniers billets de Marcos Ickx
+    next: actuel
+    ignore: true
+    
+actuel:
+  - id: actuel
+    title: les derniers billets de Marcos Ickx
     url: /
     previous: 2022
