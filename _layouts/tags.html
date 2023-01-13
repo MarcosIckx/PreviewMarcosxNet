@@ -11,26 +11,26 @@ nom du tag qui se trouve dans tag[0].
 {%- endcomment -%}
 
 
-{% assign allTagNames = "" | split: ',' %}
-{% for tag in site.tags %}
-{% assign allTagNames = allTagNames | push: tag[0] %}
-{% endfor %}
-{% assign allTagNames = allTagNames | uniq | sort_natural %}
-{% comment %}
+{%- assign allTagNames = "" | split: ',' -%}
+{%- for tag in site.tags %}
+{%- assign allTagNames = allTagNames | push: tag[0] -%}
+{%- endfor %}
+{%- assign allTagNames = allTagNames | uniq | sort_natural -%}
+{%- comment -%}
 ~~~
 ci-dessous, logique pour trouver le plus grand maximum de post par tag.
 ~~~
-{% endcomment %}
+{%- endcomment -%}
 
-{% assign tags_max = 0 %}
-{% for tagName in allTagNames %}
-{% assign taggedItems = "" | split: ',' %}
-{% assign posts = site.posts| where_exp : "post", "post.tags contains tagName" %}
-{% assign taggedItems = taggedItems | concat: posts %}
-{% if taggedItems.size > tags_max %}
-{% assign tags_max = taggedItems.size %}
-{% endif %}
-{% endfor %}
+{%- assign tags_max = 0 -%}
+{%- for tagName in allTagNames -%}
+{%- assign taggedItems = "" | split: ',' -%}
+{%- assign posts = site.posts| where_exp : "post", "post.tags contains tagName" -%}
+{%- assign taggedItems = taggedItems | concat: posts -%}
+{%- if taggedItems.size > tags_max -%}
+{%- assign tags_max = taggedItems.size -%}
+{%- endif -%}
+{%- endfor -%}
 
 
 {% comment %}
@@ -40,82 +40,87 @@ le nombre de posts qui s´y rattachent.
 ~~~
 {% endcomment %}
 
-{% assign tagNames_grouped_by_count = "" %}
-{% assign tag_counts = "" %}
-{% assign first_array_element = true %}
-{% for i in (1..tags_max) reversed %} {% comment %}~~~ boucle du plus grand au plus petit ~~~{% endcomment %}
-  {% assign tagNames = "" %}
-  {% assign first_tag = true %}
-  {% for tagName in allTagNames %} {% comment %}~~~ boucle sur tous les tags ~~~{% endcomment %}
-    {% assign taggedItems = "" | split: ',' %}
-    {% assign taggedItems = taggedItems | concat: site.posts| where_exp : "post", "post.tags contains tagName" %}
-    {% if taggedItems.size == i %}
-      {% if first_tag %}
-        {% assign first_tag = false %}
-      {% else %}
-        {% assign tagNames = tagNames | append: "," %}
-      {% endif %}
-      {% assign tagNames = tagNames | append: tagName %}
-    {% endif %}
-  {% endfor %} 
+{%- assign tagNames_grouped_by_count = "" -%}
+{%- assign tag_counts = "" -%}
+{%- assign first_array_element = true -%}
+{%- for i in (1..tags_max) reversed -%} {%- comment -%}~~~ boucle du plus grand au plus petit ~~~{%- endcomment -%}
+  {%- assign tagNames = "" -%}
+  {%- assign first_tag = true -%}
+  {%- for tagName in allTagNames -%} {%- comment %-}~~~ boucle sur tous les tags ~~~{%- endcomment -%}
+    {%- assign taggedItems = "" | split: ',' -%}
+    {%- assign taggedItems = taggedItems | concat: site.posts| where_exp : "post", "post.tags contains tagName" -%}
+    {%- if taggedItems.size == i -%}
+      {%- if first_tag -%}
+        {%- assign first_tag = false -%}
+      {%- else -%}
+        {%- assign tagNames = tagNames | append: "," -%}
+      {%- endif -%}
+      {%- assign tagNames = tagNames | append: tagName -%}
+    {%- endif -%}
+  {%- endfor -%} 
   
-  {% comment %}~~~ a la fin de cette boucle, on a 
+  {%- comment -%}
+~~~ 
+a la fin de cette boucle, on a 
     dans tagNames, 
-      les tags ayant le nombre de posts égal à I ~~~{% endcomment %}
+      les tags ayant le nombre de posts égal à I 
+~~~
+{%- endcomment -%}
   
-  {% if tagNames != "" %}
-    {% assign tagNames = tagNames | split: "," | uniq | sort_natural | join: "," %}
+  {%- if tagNames != "" -%}
+    {%- assign tagNames = tagNames | split: "," | uniq | sort_natural | join: "," -%}
 
-    {% if first_array_element %}
-      {% assign first_array_element = false %}
-    {% else %}
-      {% assign tagNames_grouped_by_count = tagNames_grouped_by_count | append: "|" %}
-      {% assign tag_counts = tag_counts | append: "|" %}
-    {% endif %}
-    {% assign tagNames_grouped_by_count = tagNames_grouped_by_count | append: tagNames %}
-    {% assign tag_counts = tag_counts | append: i %}
-  {% endif %}
-{% endfor %}
-{% comment %}
-~~~ à la fin de cette boucle
+    {%- if first_array_element -%}
+      {%- assign first_array_element = false -%}
+    {%- else -%}
+      {%- assign tagNames_grouped_by_count = tagNames_grouped_by_count | append: "|" -%}
+      {%- assign tag_counts = tag_counts | append: "|" -%}
+    {%- endif -%}
+    {%- assign tagNames_grouped_by_count = tagNames_grouped_by_count | append: tagNames -%}
+    {%- assign tag_counts = tag_counts | append: i -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- comment -%}
+~~~ 
+à la fin de cette boucle
   on a deux tableaux  
     tagNames_groupes_by_count 
       qui contient les noms des tags regroupés par nombre de posts
     tags_counts 
       qui contient le nombre de posts par tags
 ~~~
-{% endcomment %}
-{% assign tagNames_grouped_by_count = tagNames_grouped_by_count | split: "|" %}
-{% assign tag_counts = tag_counts | split: "|" %}
+{%- endcomment -%}
+{%- assign tagNames_grouped_by_count = tagNames_grouped_by_count | split: "|" -%}
+{%- assign tag_counts = tag_counts | split: "|" -%}
 
 <h1 id="page-title">{{ page.title }}</h1>
 <ul class="taxonomy-index">
-{% comment %}~~~ boucle sur les noms des tags ~~~{% endcomment %}
-{% for tagNames in tagNames_grouped_by_count %}
+{%- comment -%}~~~ boucle sur les noms des tags ~~~{%- endcomment -%}
+{%- for tagNames in tagNames_grouped_by_count -%}
   
-  {% assign tagNames_list = tagNames | split: "," %}
-  {% assign tagNames_list = tagNames_list | uniq | sort_natural %}
-  {% assign tag_count = tag_counts[forloop.index0] %}
-  {% for tagName in tagNames_list %}
+  {%- assign tagNames_list = tagNames | split: "," -%}
+  {%- assign tagNames_list = tagNames_list | uniq | sort_natural -%}
+  {%- assign tag_count = tag_counts[forloop.index0] -%}
+  {%- for tagName in tagNames_list -%}
   <li>
     <a href="#{{ tagName | slugify | downcase }}">
       {{ tagName }}: <span class="taxonomy-count">{{ tag_count }}</span>
     </a>
   </li>
-  {% endfor %}
-{% endfor %}
+  {%- endfor -%}
+{%- endfor -%}
 </ul>
 
-{% for tagName in allTagNames %}
+{%- for tagName in allTagNames -%}
 <section id="{{ tagName | slugify | downcase }}" class="taxonomy-section">
   <h2 class="taxonomy-title">{{ tagName }}</h2>
-  {% assign taggedItems = "" | split: ',' %}
-  {% assign taggedItems = taggedItems | concat: site.posts| where_exp : "post", "post.tags contains tagName" %}
+  {%- assign taggedItems = "" | split: ',' -%}
+  {%- assign taggedItems = taggedItems | concat: site.posts| where_exp : "post", "post.tags contains tagName" -%}
   <div class="entries-{{ page.entries_layout | default: 'list' }}">
-    {% for entry in taggedItems %}
-    {% include entry.html %}
-    {% endfor %}
+    {%- for entry in taggedItems -%}
+    {%- include entry.html -%}
+    {%- endfor -%}
   </div>
-  <a href="#page-title" class="back-to-top">Back to Top &uarr;</a>
+  <a href="#page-title" class="back-to-top">Revenir en haut de la page &uarr;</a>
 </section>
-{% endfor %}
+{%- endfor -%}
