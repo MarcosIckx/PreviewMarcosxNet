@@ -1,2 +1,5 @@
+{%- comment -%}retrouver les infos de l´auteur de l´article. 
+Si aucun auteur n´est mentionné dans l´article, alors 
+il va le chercher au niveau du site{%- endcomment -%}
 
-<a href="site.author.url" title="{{ entry.author }}">{{ entry.author }}</a>
+<a href="{{entry.author.url | default: site.author.url}}" title="{{ entry.author | default: site.author.name }}">{{ entry.author | default: site.author.name }}</a>
