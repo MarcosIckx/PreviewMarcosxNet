@@ -2,13 +2,6 @@
 layout: default
 ---
 
-{%- comment -%}
-~~~
-ci-dessous, logique pour avoir tous les tags existants 
-dans la variable allTagNames, mais c´est juste le nom du tag qu´on y range.
-nom du tag qui se trouve dans tag[0].
-~~~
-{%- endcomment -%}
 
 
 {%- assign allTagNames = "" | split: ',' -%}
@@ -16,11 +9,7 @@ nom du tag qui se trouve dans tag[0].
 {%- assign allTagNames = allTagNames | push: tag[0] -%}
 {%- endfor %}
 {%- assign allTagNames = allTagNames | uniq | sort_natural -%}
-{%- comment -%}
-~~~
-ci-dessous, logique pour trouver le plus grand maximum de post par tag.
-~~~
-{%- endcomment -%}
+
 
 {%- assign tags_max = 0 -%}
 {%- for tagName in allTagNames -%}
@@ -33,17 +22,15 @@ ci-dessous, logique pour trouver le plus grand maximum de post par tag.
 {%- endfor -%}
 
 
-{% comment %}
-~~~
-ci-dessous, logique pour avoir, par tag, 
-le nombre de posts qui s´y rattachent.
-~~~
-{% endcomment %}
-
 {%- assign tagNames_grouped_by_count = "" -%}
 {%- assign tag_counts = "" -%}
 {%- assign first_array_element = true -%}
-{%- for i in (1..tags_max) reversed -%} {%- comment -%}~~~ boucle du plus grand au plus petit ~~~{%- endcomment -%}
+{%- comment -%}
+~~~ 
+boucle du plus grand au plus petit 
+~~~
+{%- endcomment -%}
+{%- for i in (1..tags_max) reversed -%} 
   {%- assign tagNames = "" -%}
   {%- assign first_tag = true -%}
   {%- for tagName in allTagNames -%} {%- comment %-}~~~ boucle sur tous les tags ~~~{%- endcomment -%}
@@ -57,15 +44,7 @@ le nombre de posts qui s´y rattachent.
       {%- endif -%}
       {%- assign tagNames = tagNames | append: tagName -%}
     {%- endif -%}
-  {%- endfor -%} 
-  
-  {%- comment -%}
-~~~ 
-a la fin de cette boucle, on a 
-    dans tagNames, 
-      les tags ayant le nombre de posts égal à I 
-~~~
-{%- endcomment -%}
+  {%- endfor -%}
   
   {%- if tagNames != "" -%}
     {%- assign tagNames = tagNames | split: "," | uniq | sort_natural | join: "," -%}
@@ -80,22 +59,18 @@ a la fin de cette boucle, on a
     {%- assign tag_counts = tag_counts | append: i -%}
   {%- endif -%}
 {%- endfor -%}
-{%- comment -%}
-~~~ 
-à la fin de cette boucle
-  on a deux tableaux  
-    tagNames_groupes_by_count 
-      qui contient les noms des tags regroupés par nombre de posts
-    tags_counts 
-      qui contient le nombre de posts par tags
-~~~
-{%- endcomment -%}
+
 {%- assign tagNames_grouped_by_count = tagNames_grouped_by_count | split: "|" -%}
 {%- assign tag_counts = tag_counts | split: "|" -%}
 
 <h1 id="page-title">{{ page.title }}</h1>
 <ul class="taxonomy-index">
-{%- comment -%}~~~ boucle sur les noms des tags ~~~{%- endcomment -%}
+
+{%- comment -%}
+~~~ 
+boucle sur les noms des tags 
+~~~
+{%- endcomment -%}
 {%- for tagNames in tagNames_grouped_by_count -%}
   
   {%- assign tagNames_list = tagNames | split: "," -%}
