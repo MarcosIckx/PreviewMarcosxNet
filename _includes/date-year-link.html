@@ -1,0 +1,2 @@
+{%- assign archive_year = include.year | default: site.time| date:"%Y" | string -%}
+<a href="{{archive_year.url}}" title="{{archive_year.title}}">{{archive_year.title}}</a>
