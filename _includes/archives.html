@@ -1,6 +1,14 @@
+{%- if include.debug -%}
+site.data.archives.label: {{site.data.archives.label}}<br/>
+site.data.archives.size: {{site.data.archives.size}}<br/>
+site.data.archives[0]: {{site.data.archives[0] }}<br/>
+site.data.archives.first: {{site.data.archives.first }}<br/>
+site.data.archives.first.first: {{site.data.archives.first.first }}<br/>
+{%- endif -%}
+
 <div class="archives">
 <ul>
-{%- for year in site.data.years -%}
+{%- for year in site.data.archives -%}
   <li>
     <p>{{year.id}}: {%- include date-year-link.html year=year-%}</p>
     {%- if year.previous -%}
