@@ -18,6 +18,12 @@
   {%- endif -%}
   include.metaList.size : [{{include.metaList.size}}]<br/>
 {%- endif -%}
+
+{%- comment -%}
+  on ne va pas afficher les tags de l´article 
+  si on est sur la page référencants tous les tags.
+{%- endcomment -%}
+
 {%- if include.metaList -%}{%- if page.layout != include.metaNamePlural -%}
   <ul class="meta">
     {%- if include.metaList.size>1 -%}
