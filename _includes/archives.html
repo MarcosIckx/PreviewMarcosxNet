@@ -1,6 +1,16 @@
+<div class="archives">
+<ul>
 {%- for year in site.data.years -%}
-{{year.id}}: {%- include date-year-link.html year=year-%}
-{%- if year.previous -%}{{year.previous.id}} : {% include date-year-link.html year=year.previous -%}{%- endif -%}
-{%- if year.next -%}{{year.next.id}}: {% include date-year-link.html year=year.previous -%}{%- endif -%}
-
+  <li>
+    <p>{{year.id}}: {%- include date-year-link.html year=year-%}</p>
+    {%- if year.previous -%}
+    <p>{{year.previous.id}} : {% include date-year-link.html year=year.previous -%}</p>
+    {%- endif -%}
+    {%- if year.next -%}
+    <p>{{year.next.id}}: {% include date-year-link.html year=year.previous -%}</p>
+    {%- endif -%}
+</li>
+{%- endfor -%}
+</ul> 
+</div>
 
