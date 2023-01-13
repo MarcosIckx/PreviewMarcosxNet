@@ -1,4 +1,5 @@
-{%- if include.debug -%}
+{%- assign debugMode = include.debug | default: false -%}
+{%- if debugMode -%}
 site.data.archives.label: {{site.data.archives.label}}<br/>
 site.data.archives.size: {{site.data.archives.size}}<br/>
 site.data.archives[0]: {{site.data.archives[0] }}<br/>
@@ -9,13 +10,25 @@ site.data.archives.first.first: {{site.data.archives.first.first }}<br/>
 <div class="archives">
 <ul>
 {%- for year in site.data.archives -%}
+  {%- if include.debug -%}
+    year.label: {{year.label}}<br/>
+    year.size: {{year.size}}<br/>
+    year[0]: {{year[0] }}<br/>
+    year[1]: {{year[1] }}<br/>
+    year.id: {{year.id }}<br/>
+    year.title: {{year.title }}<br/>
+    year.first.id: {{year.first.id }}<br/>
+    year.first.title: {{year.first.title }}<br/>
+    year.first.url: {{year.first.url }}<br/>
+    year.first.first: {{year.first.first }}<br/>
+  {%- endif -%}
   <li>
-    <p>{{year.id}}: {%- include date-year-link.html year=year-%}</p>
+    <p>{{year.id}}: {%- include date-year-link.html year=year debug=debugMode -%}</p>
     {%- if year.previous -%}
-    <p>{{year.previous.id}} : {% include date-year-link.html year=year.previous -%}</p>
+    <p>{{year.previous.id}} : {% include date-year-link.html year=year.previous debug=debugMode -%}</p>
     {%- endif -%}
     {%- if year.next -%}
-    <p>{{year.next.id}}: {% include date-year-link.html year=year.previous -%}</p>
+    <p>{{year.next.id}}: {% include date-year-link.html year=year.next debug=debugMode -%}</p>
     {%- endif -%}
 </li>
 {%- endfor -%}
