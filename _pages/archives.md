@@ -5,4 +5,4 @@ description: Les posts classés par années
 permalink: /archives/index.html
 ---
 
-{%- include archive.html -%}
+{%- include archives.html -%}
