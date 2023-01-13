@@ -33,6 +33,7 @@
       meta.id: [{{ meta.id }}]<br/>
       meta.first: [{{ meta.first }}]<br/>
       meta | first: [{{ meta |first }}]<br/>
+      meta : {{ meta }}<br/>
     {%- endif -%}
     {%- assign metaName = meta[0] -%}
   <li><a href="/{{include.metaNamePlural}}/#{{ metaName | slugify | downcase }}">{{ metaName }}</a></li>
