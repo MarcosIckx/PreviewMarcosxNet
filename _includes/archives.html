@@ -11,7 +11,7 @@ site.data.archives.first.first: {{site.data.archives.first.first }}<br/>
 <div class="archives">
 <ul>
 {%- for year in site.data.archives -%}
-  {%- assign yearInfo = site.data.archives[year.first]] -%}
+  {%- assign yearInfo = site.data.archives[year.first] -%}
   {%- if include.debug -%}
     year.label: {{year.label}}<br/>
     year.size: {{year.size}}<br/>
