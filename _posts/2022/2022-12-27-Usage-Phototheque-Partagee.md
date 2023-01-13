@@ -2,6 +2,7 @@
 layout: post
 title: "J´ai finalement trouvé une utilité à la Photothèque Partagée"
 date: 2022-12-27
+twitterLink: https://twitter.com/marcosickx/status/1607775049876144128
 tags: [iCloud, Photos, iOS16]
 category: iOS16
 ---
