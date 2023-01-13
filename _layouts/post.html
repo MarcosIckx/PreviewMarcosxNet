@@ -20,7 +20,8 @@ layout: default
 <p class="meta">{%- if page.tags.size > 1 -%}Tags{%- else -%}Tag{%- endif -%} : {{ page.tags | array_to_sentence_string:"" }}</p>
 {%- endif -%}{%- endif -%}
 
-{%- include otherLinks.html -%}
+{%- if page.twitterLink -%}{%- include twitterLink.html -%}{%- endif -%}
+{%- if page.otherLinks -%}{%- include otherLinks.html -%}{%- endif -%}
 {%- include previous-next.html -%}
 
 
