@@ -1,14 +1,16 @@
-{% if entry.id %}
-  {% assign title = entry.title | markdownify | strip_html %}
-{% else %}
-  {% assign title = entry.title %}
-{% endif %}
+{%- if entry.id -%}
+  {%- assign title = entry.title | markdownify | strip_html -%}
+{%- else -%}
+  {%- assign title = entry.title -%}
+{%- endif -%}
 
 <article class="post">
   <h3><a href="{{ entry.url }}" rel="bookmark" title="{{ title }}">{{ title }}</a></h3>
-
-
-  {%- if entry.tags -%}{%- if page.layout != "tags" -%}
+  {%- comment -%}
+  on ne va pas afficher les tags de l´article 
+  si on est sur la page référencants tous les tags.
+  {%- endcomment -%}
+  {%- if page.layout != "tags" -%}{%- if entry.tags -%}
   <ul class="meta">
   {%- for meta in entry.tags -%}
     {%- assign metaName = meta | first -%}
@@ -18,10 +20,8 @@
   {%- endif -%}{%- endif -%}
   
   {%- if entry.categories -%}{%- include meta.html metaList=entry.categories metaNamePlural="categories" debug=true -%}{%- endif -%}
+ 
   <footer class="meta">
-    <ul class="meta">
-      {%- if entry.date -%}<li>{%- include entry_date.html -%}</li>{%- endif -%}
-      <li>{%- include author.html -%}</li>
-    </ul>
-    </footer>
+    <p class="meta">Article rédigé par {%- include author.html -%} le {%- include time.html date: entry.date -%}
+  </footer>
 </article>
