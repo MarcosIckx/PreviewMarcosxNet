@@ -7,12 +7,15 @@
 <article class="post">
   <h3><a href="{{ entry.url }}" rel="bookmark" title="{{ title }}">{{ title }}</a></h3>
   
-  {%- if entry.tags -%}{%- include meta.html metaList=entry.tags metaNamePlural="tags" metaNameSingle="tag" debug=false -%}{%- endif -%}
+  {%- if entry.tags -%}
+    {%- include meta.html metaList=entry.tags metaNamePlural="tags" metaNameSingle="tag" debug=false -%}
+  {%- endif -%}
  
-  
-  {%- if entry.categories -%}{%- include meta.html metaList=entry.categories metaNamePlural="categories" metaNameSingle="categorie" debug=false -%}{%- endif -%}
+  {%- if entry.categories -%}
+    {%- include meta.html metaList=entry.categories metaNamePlural="categories" metaNameSingle="categorie" debug=false -%}
+  {%- endif -%}
  
   <footer class="meta">
-    <p class="meta">Article rédigé par {% include author.html %} le {% include time.html date=entry.date %}
+    <p class="meta">Article rédigé par {% include author.html %} le {% include time.html date=entry.date %}</p>
   </footer>
 </article>
