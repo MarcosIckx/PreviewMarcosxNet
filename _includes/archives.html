@@ -31,8 +31,10 @@ site.data.archives.first.first: {{site.data.archives.first.first }}<br/>
     yearInfo.next: {{yearInfo.next}}<br/>
     yearInfo.ignore: {{yearInfo.ignore}}<br/>
   {%- endif -%}
-  {%- if yearInfo.ignore == true -%}
-    ignored
+  {%- if yearInfo.ignore -%}
+    {%- if include.debug -%}
+      {{yearInfo.id }} ignored<br/>
+    {%- endif -%}
   {%- elsif  -%}
   <li>
     <p>{{yearInfo.id}}: {%- include archive-year-link.html year=yearInfo debug=debugMode -%}</p>
