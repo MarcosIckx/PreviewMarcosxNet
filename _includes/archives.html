@@ -1,4 +1,5 @@
 {%- assign debugMode = include.debug | default: false -%}
+{%- assign displaySubLinks = include.displaySubLinks | default: false -%}
 {%- if debugMode -%}
 <div class="debug">
 site.data.archives.label: {{site.data.archives.label}}<br/>
@@ -45,6 +46,7 @@ site.data.archives.first.first: {{site.data.archives.first.first }}<br/>
   {%- else -%}
   <li>
     <p>{{yearInfo.id}}: {%- include archive-year-link.html year=yearInfo debug=debugMode -%}</p>
+    {%- if displaySubLinks -%}
     {%- if yearInfo.previous -%}
       {%- assign previous = site.data.archives[yearInfo.previous] -%}
       {%- if include.debug -%}
@@ -70,6 +72,7 @@ site.data.archives.first.first: {{site.data.archives.first.first }}<br/>
       </div>
       {%- endif -%}
       <p>{{next.id}}: {% include archive-year-link.html year=next debug=debugMode -%}</p>
+    {%- endif -%}
     {%- endif -%}
   </li>
   {%- endif -%}
