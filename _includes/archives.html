@@ -19,6 +19,10 @@ site.data.archives.first.first: {{site.data.archives.first.first }}<br/>
   {%- assign yearInfo = site.data.archives[year.first] -%}
   {%- if include.debug -%}
     yearInfo: {{yearInfo}}<br/>
+    yearInfo.size: {{yearInfo.size}}<br/>
+    yearInfo[0]: {{yearInfo[0]}}<br/>
+    yearInfo[1]: {{yearInfo[1]}}<br/>
+    yearInfo.first: {{yearInfo.first}}<br/>
     yearInfo.id: {{yearInfo.id}}<br/>
     yearInfo.title: {{yearInfo.title}}<br/>
     yearInfo.url: {{yearInfo.url}}<br/>
