@@ -3,12 +3,12 @@
   <ul class="posts">
 	  {%- for entry in paginator.posts -%}
 	    <li>
-				<div>
+				<article>
 					<a href="{{ entry.url }}" title="{{ entry.title }}">{{ entry.title }}</a>
 					<p class="meta">
             <span>Rédigé le {% include time.html date=entry.date %} par {% include author.html %}.</span>
 					</p>	
-				</div>
+				</article>
 	    </li>
 	  {%- endfor -%}
 	</ul>
