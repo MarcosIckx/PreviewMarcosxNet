@@ -1,5 +1,5 @@
 ---
-layout: year
+layout: archives
 title: Les billets de 2022
 year: 2022
 previous: /2020/
