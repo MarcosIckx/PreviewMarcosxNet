@@ -20,19 +20,53 @@ title : le titre de la page/post précédent/suivant
 ~~~
 {%- endcomment -%}
 
+
+{%- assign debugMode = include.debug | default: false -%}
 {%- if page.previous or page.next -%}
+{%- if debugMode -%}
+<div class="debug">
+page.previous: {{page.previous}}
+page.next: {{page.next}}
+</div>
+{%- endif -%}
   {%- assign previous = page.previous -%}
   {%- assign next = page.next -%}
-{%- elsif page.layout contains "archive" -%}
+{%- elsif page.layout contains "archives" -%}
+{%- if debugMode -%}
+<div class="debug">
+  ARCHIVES MODE ON
+page.year: {{page.year}}
+site.data.archive[page.year].previous: {{site.data.archive[page.year].previous}}
+site.data.archive[page.year].next: {{site.data.archive[page.year].next}}
+</div>
+{%- endif -%}
   {%- assign previous = site.data.archive[site.data.archive[page.year].previous] -%}
   {%- assign next = site.data.archive[site.data.archive[page.year].next] -%}
+{%- endif -%}
+{%- if debugMode -%}
+<div class="debug">
+previous: {{previous}}
+next: {{next}}
+</div>
 {%- endif -%}
 {%- if previous or next -%}
 <div class="Precedent-Suivant">
   <div class="Precedent">
+    {%- if debugMode -%}
+<div class="debug">
+previous.url: {{previous.url}}
+previous.title: {{previous.title}}
+</div>
+{%- endif -%}
     {%- if previous.url -%}<a href="{{previous.url}}"><span class="left">&laquo;</span> {{previous.title}}</a>{%- endif -%}
   </div>
   <div class="Suivant">
+    {%- if debugMode -%}
+<div class="debug">
+next.url: {{next.url}}
+next.title: {{next.title}}
+</div>
+{%- endif -%}
     {%- if next.url -%}<a href="{{next.url}}">{{next.title}} <span class="right">&raquo;</span></a>{%- endif -%}
   </div>
 </div>
