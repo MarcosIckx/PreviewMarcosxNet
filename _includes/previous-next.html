@@ -32,18 +32,18 @@ page.next: {{page.next}}
   {%- assign previous = page.previous -%}
   {%- assign next = page.next -%}
 {%- elsif page.layout contains "archives" -%}
-{%- assign archive = site.data.archive[page.year] -%}
+{%- assign archive = site.data.archives[page.year] -%}
 {%- if debugMode -%}
 <div class="debug">
   ARCHIVES MODE ON
 page.year: {{page.year}}
-archive = site.data.archive[page.year]: {{archive}}
+archive = site.data.archives[page.year]: {{archive}}
 archive.previous: {{archive.previous}}
 archive.next: {{archive.next}}
 </div>
 {%- endif -%}
-  {%- assign previous = site.data.archive[archive.previous] -%}
-  {%- assign next = site.data.archive[archive.next] -%}
+  {%- assign previous = site.data.archives[archive.previous] -%}
+  {%- assign next = site.data.archives[archive.next] -%}
 {%- endif -%}
 {%- if debugMode -%}
 <div class="debug">
