@@ -2,10 +2,6 @@
 # liste des pages pour chacune des années pour laquelle
 # au moins un billet a été écrit
 #
-
-
-
-
     
 actuel:
     id: actuel
@@ -16,7 +12,7 @@ actuel:
 2023:
     id: 2023
     title: Année 2023
-    url: /2023
+    url: /2023/
     previous: 2022
     next: actuel
     ignore: true
@@ -25,7 +21,7 @@ actuel:
     title: Année 2022
     url: /2022/
     previous: 2020
-    next: current
+    next: actuel
 2020:
     id: 2020
     title: Année 2020
