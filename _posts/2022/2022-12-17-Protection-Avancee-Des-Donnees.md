@@ -204,7 +204,7 @@ Apple vous suggerera par défaut les membres de votre famille, mais vous pouvez 
 
 
 
-    Choisissez une personne de confiance pour vous aider à recouvrer l'accès à votre compte en cas d'oubli de votre mot de passe ou du code de votre appareil. La personne choisie doit avoir au moins 13 ans et posséder un appareil Apple.
+Choisissez une personne de confiance pour vous aider à recouvrer l'accès à votre compte en cas d'oubli de votre mot de passe ou du code de votre appareil. La personne choisie doit avoir au moins 13 ans et posséder un appareil Apple.
 
 (Et avoir activé iMessage, ce qui n’est pas indiqué sur cet écran)
 
@@ -238,8 +238,7 @@ Ainsi, le jour où l'activation de la Protection Avancée des Données sera poss
 ## La Protection Avancée des Données et [iCloud.com]
 
 ### L'accès aux Données iCloud sur le web désactivé par défaut
-Il est important de savoir que lorsque la Protection Avancée des Données iCloud est activée, l'accès aux données iCloud sur le web sera également désacrivé.
-
+Il est important de savoir que lorsque la Protection Avancée des Données [iCloud] est activée, l'accès aux données iCloud sur le web sera également désactivé.
 
 Cela signifie que si vous, ou quelqu'un d'autre, vous connecter sur [iCloud.com] à l'aide de votre identifiant Apple, vous ne pourrez pas accéder à vos données iCloud.
 
@@ -254,9 +253,12 @@ Mais ça permet de réduire les possibilités de vols de données à distance.
 Si l’accès à vos données iCloud sur le web est désactivé, voilà le genre de message que vous verrez lorsque vous vous connecterez à votre compte via [iCloud.com].
 
     **Bonsoir**,
-    **Vous avez désactivé la fonctionnalité accéder aux données iCloud sur le web.**
+    **Vous avez désactivé la fonctionnalité 
+    accéder aux données iCloud sur le web.**
 
-    Pour accéder aux données sur [iCloud.com], vous devrez activer l’accès sur le web dans les réglages iCloud de votre appareil.
+    Pour accéder aux données sur [iCloud.com], 
+    vous devrez activer l’accès sur le web 
+    dans les réglages iCloud de votre appareil.
 
 
 Vous noterez qu’aucun lien depuis cette page vous permet d’arriver sur la page pour localiser vos appareils.
@@ -281,7 +283,8 @@ Ces clés de services serviront à iCloud.com à déchiffrer le document pour po
 ### Le chiffrement de bout en bout pas toujours garantit
 
 ⚠️ **_Attention_** ⚠️
-Le chiffrement de bout en bout ne sera pas possible dans tous les cas, même avec la Protection Avancée des Données (PAD) iCloud  activée.
+Le chiffrement de bout en bout ne sera pas possible dans tous les cas, 
+même avec la Protection Avancée des Données (PAD) iCloud  activée.
 
 Par exemple :
 
@@ -298,11 +301,21 @@ Mais quid de la bibliothèque photo partagée ? Je n’ai pas trouvé de répons
 
 ## La Protection Avancée des Données iCloud et [privacy.apple.com]
 
-Si vous avez désactivé l’accès à vos données iCloud sur le web, vous n’aurez plus la possibilité d’obtenir une copie de toutes vos données iCloud via la page [privacy.apple.com].
-Et ce, méme si la Protection Avancée des Données iCloud n'a pas été activée, Même si la Protection Avancée des Données n’est pas activée. Ce qui est étrange pour moi vu qu’Apple est encore en possession, à ce moment-là, des clés de service pour déchiffrer ces données et donc pourrait très bien continuer à nous fournir une sauvegarde de ces informations.
+Si vous avez désactivé l’accès à vos données iCloud sur le web, 
+vous n’aurez plus la possibilité d’obtenir une copie de 
+toutes vos données iCloud via la page [privacy.apple.com].
+
+Et ce, méme si la Protection Avancée des Données iCloud n'a pas été activée, 
+
+Ce qui est étrange pour moi vu qu’Apple est encore en possession, 
+à ce moment-là, des clés de service pour déchiffrer ces données 
+et donc pourrait très bien continuer à nous fournir une sauvegarde 
+de ces informations.
 
 
-Si l’accès aux données iCloud via web est activé, (mais pas la Protection Avancée des Données) vous pouvez demander l’obtention d’une copie des données suivantes : 
+Si l’accès aux données iCloud via web est **activé**
+(mais pas la Protection Avancée des Données iCloud), 
+vous pouvez demander l’obtention d’une copie des données suivantes : 
 
 1. Activité d’Assistant d’évaluation
 2. Activité dans Cartes
@@ -322,7 +335,9 @@ Si l’accès aux données iCloud via web est activé, (mais pas la Protection A
 16. Photos iCloud
 17. Tap to Pay on iPhone
 
-Si l’accès aux données iCloud via web est désactivé, ainsi que la Protection Avancée des Données iCloud, vous ne pourrez plus demander l’obtention d’une copie pour : 
+Si l’accès aux données iCloud via web est **désactivé**, 
+ainsi que la Protection Avancée des Données iCloud, 
+vous ne pourrez plus demander l’obtention d’une copie pour : 
 
 4. Calendriers et rappels iCloud
 6. Contacts iCloud
@@ -332,13 +347,19 @@ Si l’accès aux données iCloud via web est désactivé, ainsi que la Protecti
 15. Mail iCloud
 16. Photos iCloud
 
-Si l'accès aux données iCloud via web est activé et que la Protection Avancée des Données iCloud est activé, vous ne pourrez obtenir une copie que des données suivantes :
+Si l'accès aux données iCloud via web est **activé** 
+et que la Protection Avancée des Données iCloud est **activée**, 
+vous ne pourrez obtenir une copie que des données suivantes :
+
 1. Calendriers et rappels iCloud
 2. Contacts iCloud
 3. Mail iCloud
 
-Je ne sais pas encore exactement ce qui se passe si l'accès aux données iCloud via web est desactivé mais que la Protection Avancée des Données iCloud est activée.
-J'espere pouvoir tester cela une fois que ce sera disponible dans la région où j'habite.
+Je ne sais pas encore exactement ce qui se passe 
+si l'accès aux données iCloud via web est **désactivé**
+mais que la Protection Avancée des Données iCloud est **activée**.
+
+J'espère pouvoir tester cela une fois que ce sera disponible dans la région où j'habite.
 
 
 ## Sources Apple
