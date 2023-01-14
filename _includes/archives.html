@@ -46,7 +46,7 @@ site.data.archives.first.first: {{archives.first.first }}<br/>
   {%- if yearInfo.ignore -%}
   {%- else -%}
   <li>
-    <p>{{yearInfo.id}}: {%- include archive-year-link.html year=yearInfo debug=debugMode -%}</p>
+    <p>{%- include archive-year-link.html year=yearInfo debug=debugMode -%}</p>
     {%- if displaySubLinks -%}
     {%- if yearInfo.previous -%}
       {%- assign previous = archives[yearInfo.previous] -%}
