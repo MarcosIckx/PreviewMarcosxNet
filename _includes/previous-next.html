@@ -1,10 +1,39 @@
-{%- if page.previous.url or page.next.url -%}
+{%- comment -%}
+~~~
+deux cas de figure se présente ici:
+
+si une entrée page.previous/page.next 
+est mentionnée sur le front de la page ou du post, 
+les infos seront alors utilisées en priorité
+pour construire le bloc précédent / suivant
+quelque soit le layout utilisé.
+
+Sinon
+on vérifie si le layout utilisé est celui des archives.
+et si c´esr le cas, on va rechercher les infos 
+previous et next correspondantes à l´année de l´archive.
+
+attention que previous et next doivent avoir 
+au moins ces deux éléments
+url : l´url de la page/post précédent/suivant
+title : le titre de la page/post précédent/suivant
+~~~
+{%- endcomment -%}
+
+{%- if page.previous or page.next -%}
+  {%- assign previous = page.previous -%}
+  {%- assign next = page.next -%}
+{%- elsif page.layout contains "archive" -%}
+  {%- assign previous = site.data.archive[site.data.archive[page.year].previous] -%}
+  {%- assign next = site.data.archive[site.data.archive[page.year].next] -%}
+{%- endif -%}
+{%- if previous or next -%}
 <div class="Precedent-Suivant">
   <div class="Precedent">
-    {%- if page.previous.url -%}<a href="{{page.previous.url}}"><span class="left">&laquo;</span> {{page.previous.title}}</a>{%- endif -%}
+    {%- if previous.url -%}<a href="{{previous.url}}"><span class="left">&laquo;</span> {{previous.title}}</a>{%- endif -%}
   </div>
   <div class="Suivant">
-    {%- if page.next.url -%}<a href="{{page.next.url}}">{{page.next.title}} <span class="right">&raquo;</span></a>{%- endif -%}
+    {%- if next.url -%}<a href="{{next.url}}">{{next.title}} <span class="right">&raquo;</span></a>{%- endif -%}
   </div>
 </div>
 {%- endif -%}
