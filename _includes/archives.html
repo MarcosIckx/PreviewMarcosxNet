@@ -40,6 +40,9 @@ site.data.archives.first.first: {{site.data.archives.first.first }}<br/>
     {%- endif -%}
     </div>
   {%- endif -%}
+  
+  {%- if yearInfo.ignore -%}
+  {%- else -%}
   <li>
     <p>{{yearInfo.id}}: {%- include archive-year-link.html year=yearInfo debug=debugMode -%}</p>
     {%- if yearInfo.previous -%}
@@ -69,6 +72,7 @@ site.data.archives.first.first: {{site.data.archives.first.first }}<br/>
       <p>{{next.id}}: {% include archive-year-link.html year=next debug=debugMode -%}</p>
     {%- endif -%}
   </li>
+  {%- endif -%}
 {%- endfor -%}
 </ul> 
 </div>
