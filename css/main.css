@@ -48,6 +48,11 @@ body {
     font-size: 1.5rem;
 }
 
+div.debug {
+  float: right;
+  border: 1px solid var(--footer-color);
+}
+
 /* Règles pour barre de navigation (nav) au-dessus des pages. */
 /* ligne séparatrice pour bien séparer la barre de menu du reste */
 nav {
