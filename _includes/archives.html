@@ -30,12 +30,10 @@ site.data.archives.first.first: {{site.data.archives.first.first }}<br/>
     yearInfo.previous: {{yearInfo.previous}}<br/>
     yearInfo.next: {{yearInfo.next}}<br/>
     yearInfo.ignore: {{yearInfo.ignore}}<br/>
-  {%- endif -%}
-  {%- if yearInfo.ignore -%}
-    {%- if include.debug -%}
-      {{yearInfo.id }} ignored<br/>
+    {%- if yearInfo.ignore -%}
+      {{yearInfo.id }} has to be ignored<br/>
     {%- endif -%}
-  {%- elsif  -%}
+  {%- endif -%}
   <li>
     <p>{{yearInfo.id}}: {%- include archive-year-link.html year=yearInfo debug=debugMode -%}</p>
     {%- if yearInfo.previous -%}
@@ -62,7 +60,6 @@ site.data.archives.first.first: {{site.data.archives.first.first }}<br/>
     {%- endif -%}<p>{{next.id}}: {% include archive-year-link.html year=next debug=debugMode -%}</p>
     {%- endif -%}
   </li>
-  {%- endif -%}
 {%- endfor -%}
 </ul> 
 </div>
