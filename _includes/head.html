@@ -10,12 +10,11 @@
 	<title>{{ page.title }} | {{ page.author | default: site.author.name }}</title>
 	<!-- link to main stylesheet -->
 	<link rel="stylesheet" type="text/css" href="/css/main.css">
-
-  <meta name="twitter:card" content="summary" />
+  {% if page.image.url -%}
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@{{ site.author.twitterId }}" />
   <meta name="twitter:title" content="{{ page.title }}" />
   <meta name="twitter:description" content="{{ page.description }}" />
-  {% if page.image.url -%}
   <meta name="twitter:image" content="{{ site.url }}{{ page.image.url}}" />
   {%- endif -%}
 </head>
