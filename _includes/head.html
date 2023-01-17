@@ -12,10 +12,10 @@
 	<link rel="stylesheet" type="text/css" href="/css/main.css">
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="{{ site.author.twitterId }}" />
+  <meta name="twitter:site" content="@{{ site.author.twitterId }}" />
   <meta name="twitter:title" content="{{ page.title }}" />
   <meta name="twitter:description" content="{{ page.description }}" />
-  {%- if page.image.url -%}
+  {% if page.image.url -%}
   <meta name="twitter:image" content="{{ site.url }}{{ page.image.url}}" />
-	{%- endif -%}
+  {%- endif -%}
 </head>
