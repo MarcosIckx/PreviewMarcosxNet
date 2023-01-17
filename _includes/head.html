@@ -7,7 +7,7 @@
 	<!-- favicon
 	<link rel="shortcut icon" href="/img/ico/favicon.png">
 	-->
-	<title>{{ page.title }} | { page.author | default: site.author.name }}</title>
+	<title>{{ page.title }} | {{ page.author | default: site.author.name }}</title>
 	<!-- link to main stylesheet -->
 	<link rel="stylesheet" type="text/css" href="/css/main.css">
 
@@ -16,6 +16,6 @@
   <meta name="twitter:title" content="{{ page.title }}" />
   <meta name="twitter:description" content="{{ page.description }}" />
   {%- if page.image.url -%}
-  <meta name="twitter:image" content="{{ page.image.url}}" />
+  <meta name="twitter:image" content="{{ site.url }}{{ page.image.url}}" />
 	{%- endif -%}
 </head>
