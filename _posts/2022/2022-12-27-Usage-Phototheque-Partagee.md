@@ -1,8 +1,11 @@
 ---
 layout: post
 title: "J´ai finalement trouvé une utilité à la Photothèque Partagée"
+description: à quoi peut bien servir une photothèque partagée avec personne ? 
 date: 2022-12-27
 twitterLink: https://twitter.com/marcosickx/status/1607775049876144128
+image:
+  url: /img/posts/2022/12/27/phototheque-partagee/Introduction.PNG
 tags: [iCloud, Photos, iOS16]
 category: iOS16
 ---
