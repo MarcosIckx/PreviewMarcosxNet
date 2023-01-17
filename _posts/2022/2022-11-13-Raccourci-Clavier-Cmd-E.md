@@ -4,6 +4,8 @@ title: "Un raccourci-clavier qui gagne à être connu : ⌘E"
 date: 2022-11-13
 tags: [iPadOS16, iPadOS15, Raccourcis Clavier]
 category: Raccourcis clavier
+image:
+  url: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Accroche-Raccourci-Clavier-Cmd-E.png
 otherLinks: 
    - title: "Histoire de raccourcis clavier célèbres - Partie 1 : Couper/Copier/Coller"
      url: /2020/04/15/Histoire-de-raccourcis-clavier-apple-partie1-le-trio-couper-copier-coller.html
