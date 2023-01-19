@@ -10,11 +10,22 @@
 	<title>{{ page.title }} | {{ page.author | default: site.author.name }}</title>
 	<!-- link to main stylesheet -->
 	<link rel="stylesheet" type="text/css" href="/css/main.css">
+  <!-- meta data for opengraph & twitter -->
+  <meta property=“og:title” content=“{{ page.title }} | {{ page.author | default: site.author.name }}" />
+  <meta property=“og:description” content=“{{ page.description }}" />
+  {% if page.layout contains "post.html" -%}
+  <meta property=“og:type” content=“article” />
+  {%- else -%}
+  <meta property=“og:type” content=“website” />
+  {%- endif -%}
+  <meta property=“og:url” content=“{{ site.url }}{{page.url}}” />
   {% if page.image.url -%}
+  <meta name="og:image" content="{{ site.url }}{{ page.image.url}}" />
+  <!-- meta data for twitter but only if page.image.url is present -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@{{ site.author.twitterId }}" />
   <meta name="twitter:title" content="{{ page.title }}" />
   <meta name="twitter:description" content="{{ page.description }}" />
-  <meta name="twitter:image" content="{{ site.url }}{{ page.image.url}}" />
+  <meta name="twitter:image" content="{{ site.url }}{{ page.image.url}}" /> 
   {%- endif -%}
 </head>
