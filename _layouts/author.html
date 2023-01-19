@@ -23,7 +23,7 @@ page.userName [{{page.userName}}]<br/>
 page.name [{{page.name}}]<br/>
 page.url [{{page.url}}]<br/>
 </div>
-    {% if post.authors contains page.userName or page.userName == post.author %}
+    {% if post.authors contains page.name or page.name == post.author %}
         {% assign number_of_posts = number_of_posts | plus: 1 %}
     {% endif %}
 {% endfor %}
@@ -47,6 +47,6 @@ page.url [{{page.url}}]<br/>
 
 {% if page.twitterId %}
 <p>
-  <a href="/apropos/{{ page.username }}" >À propos de {{ page.name }}</a>
+  <a href="/{{ page.url }}" >À propos de {{ page.name }}</a>
 </p>
 {% endif %}
