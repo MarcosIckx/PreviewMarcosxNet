@@ -15,6 +15,11 @@ layout: default
 <p>
 {% assign number_of_posts = 0 %}
 {% for post in site.posts %}
+<div class="debug">
+post.url [{{post.url}}]<br/>
+post.author [{{post.author}}]<br/>
+post.authors [{{post.authors}}]<br/>
+</div>
     {% if post.authors contains page.username or page.username == post.authors %}
         {% assign number_of_posts = number_of_posts | plus: 1 %}
     {% endif %}
@@ -34,5 +39,11 @@ layout: default
 {% if page.twitterId %}
 <p>
   <a href="https://twitter.com/{{ page.twitterId }}" >Twitter</a>
+</p>
+{% endif %}
+
+{% if page.twitterId %}
+<p>
+  <a href="/apropos/{{ page.username }}" >À propos de {{ page.name }}</a>
 </p>
 {% endif %}
