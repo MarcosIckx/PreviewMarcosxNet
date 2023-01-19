@@ -19,6 +19,9 @@ layout: default
 post.url [{{post.url}}]<br/>
 post.author [{{post.author}}]<br/>
 post.authors [{{post.authors}}]<br/>
+page.username [{{page.username}}]<br/>
+page.name [{{page.name}}]<br/>
+page.url [{{page.url}}]<br/>
 </div>
     {% if post.authors contains page.username or page.username == post.authors %}
         {% assign number_of_posts = number_of_posts | plus: 1 %}
