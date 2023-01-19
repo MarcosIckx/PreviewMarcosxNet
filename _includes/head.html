@@ -1,24 +1,24 @@
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" width="device-width, initial-scale=1.0">
-	<meta name="description" content="{{ page.description }}">
-	<meta name="color-scheme" content="dark light">
-	<meta name="author" content="{{ page.author | default: site.author.name }}">
+	<meta charset="utf-8" />
+	<meta name="viewport" width="device-width, initial-scale=1.0" />
+	<meta name="description" content="{{ page.description }}" />
+	<meta name="color-scheme" content="dark light" />
+	<meta name="author" content="{{ page.author | default: site.author.name }}" />
 	<!-- favicon
-	<link rel="shortcut icon" href="/img/ico/favicon.png">
+	<link rel="shortcut icon" href="/img/ico/favicon.png" />
 	-->
 	<title>{{ page.title }} | {{ page.author | default: site.author.name }}</title>
 	<!-- link to main stylesheet -->
-	<link rel="stylesheet" type="text/css" href="/css/main.css">
+	<link rel="stylesheet" type="text/css" href="/css/main.css" />
   <!-- meta data for opengraph & twitter -->
-  <meta property=“og:title” content=“{{ page.title }} | {{ page.author | default: site.author.name }}" />
-  <meta property=“og:description” content=“{{ page.description }}" />
+  <meta property="og:title" content="{{ page.title }} | {{ page.author | default: site.author.name }}" />
+  <meta property="og:description" content="{{ page.description }}" />
   {% if page.layout contains "post.html" -%}
-  <meta property=“og:type” content=“article” />
+  <meta property="og:type" content="article" />
   {%- else -%}
-  <meta property=“og:type” content=“website” />
+  <meta property="og:type" content="website" />
   {%- endif -%}
-  <meta property=“og:url” content=“{{ site.url }}{{page.url}}” />
+  <meta property="og:url" content="{{ site.url }}{{page.url}}" />
   {% if page.image.url -%}
   <meta name="og:image" content="{{ site.url }}{{ page.image.url}}" />
   <!-- meta data for twitter but only if page.image.url is present -->
