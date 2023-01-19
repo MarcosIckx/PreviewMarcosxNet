@@ -3,10 +3,12 @@ name: Le Blog de Marcos Ickx
 url: https://blog.marcosx.net
 author: Marcos Ickx
 markdown: kramdown
+
 # theme: jekyll-theme-minimal
 #format date exemple 09/01/2023
 date_format: "%d/%m/%Y"
 locale: fr-BE
+timezone: Europe/Brussels
 
 # Site Author
 author:
