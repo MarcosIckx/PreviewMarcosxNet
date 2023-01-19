@@ -4,15 +4,17 @@ il va le chercher au niveau du site{%- endcomment -%}
 
 {% assign authors = '' | split:'/' %}
 {% for author in site.authors %}
-    {% if entry.authors contains author.name or author.name == entry.authors %}
+    {% if entry.authors contains author.name or author.name == entry.author %}
         {% capture authorLink %}
-        	<a href="{{ site.url }}/apropos/{{ author.username}}">{{ author.name }}</a>
+        	<a href="{{ author.url }}">{{ author.name }}</a>
         {% endcapture %}
         {% assign authors = authors | push: authorLink %}
     {% endif %}
 {% endfor %}
 {% if authors }}
+[
 {{ authors | array_to_sentence_string: ""}}
+]
 {% else %}
-<a href="{{ site.url }}/apropos/{{ site.author.username }}">{{ site.author.name }}</a>
+@<a href="{{ site.url }}/apropos/{{ site.author.username }}">{{ site.author.name }}</a>
 {% endif%}
