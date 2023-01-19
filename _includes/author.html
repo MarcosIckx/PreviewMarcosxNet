@@ -16,5 +16,5 @@ il va le chercher au niveau du site{%- endcomment -%}
 {{ authors | array_to_sentence_string: ""}}
 ]
 {% else %}
-@<a href="{{ site.url }}/apropos/{{ site.author.username }}">{{ site.author.name }}</a>
+@<a href="{{ site.url }}/apropos/{{ site.author.userName }}">{{ site.author.name }}</a>
 {% endif%}
