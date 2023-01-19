@@ -1,5 +1,18 @@
-{%- comment -%}retrouver les infos de l´auteur de l´article. 
+{%- comment -%}liens vers les pages des auteurs de l´article. 
 Si aucun auteur n´est mentionné dans l´article, alors 
 il va le chercher au niveau du site{%- endcomment -%}
 
-<a href="{{entry.author.url | default: site.author.url}}" title="{{ entry.author | default: site.author.name }}">{{ entry.author | default: site.author.name }}</a>
+{% assign authors = '' | split:'/' %}
+{% for author in site.authors %}
+    {% if entry.authors contains author.name or author.name == entry.authors %}
+        {% capture authorLink %}
+        	<a href="{{ site.url }}/apropos/{{ author.username}}">{{ author.name }}</a>
+        {% endcapture %}
+        {% assign authors = authors | push: authorLink %}
+    {% endif %}
+{% endfor %}
+{% if authors }}
+{{ authors | array_to_sentence_string: ""}}
+{% else %}
+<a href="{{ site.url }}/apropos/{{ site.author.username }}">{{ site.author.name }}</a>
+{% endif%}
