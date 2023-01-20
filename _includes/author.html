@@ -4,14 +4,19 @@ il va le chercher au niveau du site{%- endcomment -%}
 
 {% assign authors = '' | split:'/' %}
 {% for author in site.authors %}
+{% if include.debug | default: site.debug %}
 <div class="debug">
-author.name [{{author.name}}]]<br/>
-author.userName [{{author.userName}}]]<br/>
-author.url [{{author.url}}]]<br/>
-entry.author [{{entry.author}}]]<br/>
-entry.authors [{{entry.authors}}]]<br/>
+author.name [{{author.name}}]<br/>
+author.userName [{{author.userName}}]<br/>
+author.url [{{author.url}}]<br/>
+entry.author [{{entry.author}}]<br/>
+entry.authors [{{entry.authors}}]<br/>
+{% assign check1 = entry.authors contains author.name %}
+{% assign check2 = author.name == entry.author %}
+entry.authors contains author.name: [{{check1}}]<br/>
+author.name == entry.author: [{{check2}}]<br/>
 </div>
-
+{% endif %}
     {% if entry.authors contains author.name or author.name == entry.author %}
         {% capture authorLink %}
         	<a href="{{ author.url }}">{{ author.name }}</a>
