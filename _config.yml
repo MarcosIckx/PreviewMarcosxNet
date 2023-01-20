@@ -1,4 +1,4 @@
-debug: true
+debug: false
 
 title: Le Blog de Marcos Ickx
 name: Le Blog de Marcos Ickx
@@ -16,6 +16,7 @@ timezone: Europe/Brussels
 author:
   name: Marcos Ickx
   twitterId: MarcosIckx
+  aboutUrl: /apropos/
   url: /apropos/
 
 kramdown:
