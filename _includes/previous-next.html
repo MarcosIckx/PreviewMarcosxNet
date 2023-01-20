@@ -2,18 +2,24 @@
 ~~~
 deux cas de figure se présente ici:
 
+Cas 1: 
+on vérifie si le layout utilisé est celui des archives.
+et si c´est le cas, on va rechercher les infos 
+previous et next correspondantes à l´année de l´archive.
+Ça permet de changer cela.
+
+Sinon
+
+Cas 2:
 si une entrée page.previous/page.next 
 est mentionnée sur le front de la page ou du post, 
 les infos seront alors utilisées en priorité
 pour construire le bloc précédent / suivant
 quelque soit le layout utilisé.
+À noter que les pages des collections ont une entrée
+previous et next.
 
-Sinon
-on vérifie si le layout utilisé est celui des archives.
-et si c´esr le cas, on va rechercher les infos 
-previous et next correspondantes à l´année de l´archive.
-
-attention que previous et next doivent avoir 
+Attention que previous et next doivent avoir 
 au moins ces deux éléments
 url : l´url de la page/post précédent/suivant
 title : le titre de la page/post précédent/suivant
@@ -22,53 +28,66 @@ title : le titre de la page/post précédent/suivant
 
 
 {%- assign debugMode = include.debug | default: false -%}
-{%- if page.previous or page.next -%}
-{%- if debugMode -%}
-<div class="debug">
-page.previous: {{page.previous}}
-page.next: {{page.next}}
-</div>
-{%- endif -%}
-  {%- assign previous = page.previous -%}
-  {%- assign next = page.next -%}
-{%- elsif page.layout contains "archives" -%}
-{%- assign archive = site.data.archives[page.year] -%}
-{%- if debugMode -%}
-<div class="debug">
-  ARCHIVES MODE ON
-page.year: {{page.year}}
-archive = site.data.archives[page.year]: {{archive}}
-archive.previous: {{archive.previous}}
-archive.next: {{archive.next}}
-</div>
-{%- endif -%}
+
+{%- comment -%}
+Si le layout utilisé est "archives", 
+  alors on recherchera previous et next 
+    sur base des data archives
+{%- endcomment -%}
+{%- if page.layout contains "archives" -%}
+  {%- assign archive = site.data.archives[page.year] -%}
+  {%- if debugMode -%}
+  <div class="debug">
+    ARCHIVES MODE ON
+  page.year: {{page.year}}
+  archive = site.data.archives[page.year]: {{archive}}
+  archive.previous: {{archive.previous}}
+  archive.next: {{archive.next}}
+  </div>
+  {%- endif -%}
   {%- assign previous = site.data.archives[archive.previous] -%}
   {%- assign next = site.data.archives[archive.next] -%}
+{%- comment -%}
+Si ce n´est pas le layout "archives" qui est utilisé, 
+  alors on prendra le previous et next 
+    mentionnés dans le frontend de la page
+{%- endcomment -%}
+{%- elsif page.previous or page.next -%}
+  {%- if debugMode -%}
+  <div class="debug">
+  page.previous: {{page.previous}}
+  page.next: {{page.next}}
+  </div>
+  {%- endif -%}
+  {%- assign previous = page.previous -%}
+  {%- assign next = page.next -%}
 {%- endif -%}
+
 {%- if debugMode -%}
-<div class="debug">
-previous: {{previous}}
-next: {{next}}
-</div>
+  <div class="debug">
+  previous: {{previous}}
+  next: {{next}}
+  </div>
 {%- endif -%}
+
 {%- if previous or next -%}
 <div class="Precedent-Suivant">
   <div class="Precedent">
     {%- if debugMode -%}
-<div class="debug">
-previous.url: {{previous.url}}
-previous.title: {{previous.title}}
-</div>
-{%- endif -%}
+      <div class="debug">
+        previous.url: {{previous.url}}
+        previous.title: {{previous.title}}
+      </div>
+    {%- endif -%}
     {%- if previous.url -%}<a href="{{previous.url}}"><span class="left">&laquo;</span> {{previous.title}}</a>{%- endif -%}
   </div>
   <div class="Suivant">
     {%- if debugMode -%}
-<div class="debug">
-next.url: {{next.url}}
-next.title: {{next.title}}
-</div>
-{%- endif -%}
+      <div class="debug">
+        next.url: {{next.url}}
+        next.title: {{next.title}}
+      </div>
+    {%- endif -%}
     {%- if next.url -%}<a href="{{next.url}}">{{next.title}} <span class="right">&raquo;</span></a>{%- endif -%}
   </div>
 </div>
