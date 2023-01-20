@@ -5,24 +5,20 @@ layout: default
 {% if page.picture %}
     <img class="author" src="/{{ page.picture }}" alt="{{ page.name }}" />
 {% endif %}
+
 {% if page.bio %}
     <h2 class="author">{{ page.bio }}</h2>
 {% endif %}
+
 {% if page.location %}
     <h3 class="author">{{ page.location }}</h3>
 {% endif %}
 
+{{ content }}	
+
 <p>
 {% assign number_of_posts = 0 %}
 {% for post in site.posts %}
-<div class="debug">
-post.url [{{post.url}}]<br/>
-post.author [{{post.author}}]<br/>
-post.authors [{{post.authors}}]<br/>
-page.userName [{{page.userName}}]<br/>
-page.name [{{page.name}}]<br/>
-page.url [{{page.url}}]<br/>
-</div>
     {% if post.authors contains page.name or page.name == post.author %}
         {% assign number_of_posts = number_of_posts | plus: 1 %}
     {% endif %}
@@ -42,11 +38,5 @@ page.url [{{page.url}}]<br/>
 {% if page.twitterId %}
 <p>
   <a href="https://twitter.com/{{ page.twitterId }}" >Twitter</a>
-</p>
-{% endif %}
-
-{% if page.twitterId %}
-<p>
-  <a href="/{{ page.url }}" >À propos de {{ page.name }}</a>
 </p>
 {% endif %}
