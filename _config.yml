@@ -33,17 +33,26 @@ paginate: 10
 include: ['_pages']
 
 collections:
+  archives:
+    output: true
   authors:
     output: true
     permalink: /apropos/:title/
-
+    
 defaults:
+  -
+    scope:
+      path: ""
+      type: "archives"
+    values:
+      layout: "archives"
   -
     scope:
       path: ""
       type: "authors"
     values:
       layout: "author"
+    
   -
     scope:
       path: "" # an empty string here means all files in the project
