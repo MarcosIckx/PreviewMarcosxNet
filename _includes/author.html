@@ -1,10 +1,12 @@
 {%- comment -%}liens vers les pages des auteurs de l´article. 
 Si aucun auteur n´est mentionné dans l´article, alors 
 il va le chercher au niveau du site{%- endcomment -%}
+{% assign debugMode = include.debug | default: site.debug %}
+{% assign entry = entry | default: page %}
 
 {% assign authors = '' | split:'/' %}
 {% for author in site.authors %}
-{% if include.debug | default: site.debug %}
+{% if debugMode %}
 <div class="debug">
 author.name [{{author.name}}]<br/>
 author.userName [{{author.userName}}]<br/>
@@ -17,13 +19,24 @@ entry.authors contains author.name: [{{check1}}]<br/>
 author.name == entry.author: [{{check2}}]<br/>
 </div>
 {% endif %}
-    {% if entry.authors contains author.name or author.name == entry.author %}
+
+    {% if entry.authors contains author.name 
+       or author.name == entry.author %}
         {% capture authorLink %}
         	<a href="{{ author.url }}">{{ author.name }}</a>
         {% endcapture %}
         {% assign authors = authors | push: authorLink %}
+{% if debugMode %}
+<div class="debug">
+author.url [{{author.url}}]<br/>
+author.name [{{author.name}}]<br/>
+authorLink [{{authorLink}}]<br/>
+authors [{{authors}}]<br/>
+</div>
+{% endif %} 
     {% endif %}
 {% endfor %}
+
 {% if authors }}
 [
 {{ authors | array_to_sentence_string: ""}}
