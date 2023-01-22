@@ -140,6 +140,7 @@ Avec AssistiveTouch, même sous iOS 12, on pouvait déjà faire apparaître un �
     src="{{ page.videos[0].url }}"
     type="{{ page.video[0].type }}"
     description="{{ page.videos[0].alt }}"
+    debug=true
 %}
 [{{ page.videos[0].alt }}][Vidéo-Curseur-iOS-12]
 
