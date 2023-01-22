@@ -1,12 +1,26 @@
 {% assign src=include.src %}
 {% assign descr=include.description %}
 {% assign type=include.type %}
+{% assign pos=include.videoNr %}
 {% assign debugMode=include.debug | default: site.debug %}
+{% if pos %}
+{% if debugMode %}
+<div class="debug">
+page.videos[{{ pos }}].url {{ page.videos[pos].url }}
+page.videos[{{ pos }}].alt {{ page.videos[pos].alt }}
+page.videos[{{ type }}].url {{ page.videos[pos].type }}
+</div>
+{% endif %}
+{% assign src=page.videos[pos].url %}
+{% assign descr=page.videos[pos].alt %}
+{% assign type=page.videos[pos].type %}
+{% endif %}
 {% if debugMode %}
 <div class="debug">
 src: {{ src }} <br/>
 descr: {{ descr }} <br/>
 type: {{ type }} <br/>
+pos: {{ pos }} <br/>
 </div>
 {% endif %}
 <hr>
