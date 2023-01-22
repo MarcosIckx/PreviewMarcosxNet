@@ -1,7 +1,14 @@
 {% assign src=include.src %}
 {% assign descr=include.description %}
 {% assign type=include.type %}
-
+{% assign debugMode=include.debug | default: site.debug %}
+{% if debugMode %}
+<div class="debug">
+src: {{ src }} <br/>
+desc: {{ desc }} <br/>
+type: {{ type }} <br/>
+</div>
+{% endif %}
 <hr>
 <div class="video-box">
   <video controls loop>
