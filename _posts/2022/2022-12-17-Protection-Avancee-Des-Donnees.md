@@ -154,6 +154,10 @@ Voilà les versions minimales des OS pour pouvoir activer la Protection Avancée
 
 ![Tableau Versions OS]
 
+Vous auree droit à un récapitulatifs de la situation de vos appareils, indiquant en-dessous de chacun, s´il vous faudra le supprimer de la liste car il ne peut être mis à jour ou s´il doit être mis à jour car n´a pas la dernière version installée.
+
+![Capture d´écran Réglages / identifiant Apple / Sécurité / Protection Avancée des Données / Invitation à mettre à jour ses appareils]
+
 ### 5. Avoir la dernière version de iCloud pour Windows en date de décembre 2022.
 
 Si vous avez un appareil Windows sur lequel votre identifiant est enregistré, il faudra onligatoirement qu’il ait la dernière version en date de iCloud pour Windows.
