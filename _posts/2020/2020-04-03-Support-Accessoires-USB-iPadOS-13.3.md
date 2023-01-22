@@ -1,9 +1,70 @@
 ---
 layout: post
 title: Support des accessoires USB sous iPadOS 13.3
+description: Voyons comment sont gérés les accessoires USB sous iPadOS 13
 date: 2020-04-03
-tags: [Accessoires, USB, iOS13]
-category: iOS13
+tags: [Accessoires, USB, iPadOS13]
+category: iPadOS13
+liens:
+  - id: Lien-1
+    url: /2019/08/01/Support-Accessoires-USB-iOS-12.html
+    alt: j'avais testé le branchement de certains accessoires USB sous iOS12
+    title: Lien vers article concernant la gestion des accessoires USB sous iOS 12
+images:
+  - id: iPadOS-Version-13.3.1
+    alt: "version d'iPadOS dans les réglages : 13.3.1"
+    url: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/iPadOS-Version-13.3.1.jpeg
+    title: "Version 13.3.1 d'iPadOS"
+  - id: App-Fichiers-Cle-USB
+    alt: L'App Fichier où l'on voit la clef USB à gauche, et son contenu à droite
+    url: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/App-Fichiers-Cle-USB.jpeg
+    title: "L'App Fichier où l'on voit la clef USB à gauche, et son contenu à droite"
+videos: 
+  - id: Vidéo-Curseur-iOS-12
+    alt: Vidéo montrant affichage du curseur tel qu'on pouvait le voir sous iOS 12
+    url: img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Curseur-iOS-12.mp4
+    type: video/mp4
+    title: "Lien vers vidéo illustrant l´affichage du curseur tel qu'on pouvait le voir sous iOS 12 avec Assistive Touch"
+  - id: Vidéo-Réglage-Curseur-iOS-12
+    alt: Vidéo montrant comment régler la taille et la couleur du curseur, tel qu'on pouvait le voir sous iOS 12
+    url: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglage-Curseur-iOS-12.mp4
+    type: video/mp4
+    title: "Lien vers vidéo illustrant les réglages du curseur sous iOS 12"
+  - id: Vidéo-Branchement-Souris-iPadOS-13
+    alt: Vidéo montrant ce qui se passe une fois qu'on branche une souris USB sous iPadOS 13
+    url: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Branchement-Souris-iPadOS-13.mp4
+    type: video/mp4
+    title: "Lien vers vidéo illustrant ce qui se passe lorsqu'une souris est branchée à iPadOS 13"
+  - id: Vidéo-Réglages-Boutons-Souris-iPadOS-13
+    alt: Vidéo montrant comment régler les boutons de la souris sous iPadOS 13
+    url: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglages-Boutons-Souris-iPadOS-13.mp4
+    type: video/mp4
+    title: "Lien vers video illustrant les réglages des boutons sous iPadOS 13"
+  - id: Vidéo-Utilisation-Boutons-Souris-iPadOS-13
+    alt: Vidéo illustrant l'utilisation des boutons de la souris après les avoir réglés sous iPadOS 13
+    url: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Utilisation-Boutons-Souris-iPadOS-13.mp4
+    type: video/mp4
+    title: "Lien vers vidéo illustrant l'utilisation des boutons de souris sous iPadOS 13.3"
+  - id: Vidéo-Réglages-Cacher-Bouton-Accueil
+    alt: Vidéo illustrant l'utilisation de la molette de la souris et expliquant où se rendre pour cacher le bouton d'accueil sous iPadOS 13
+    url: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglages-Cacher-Bouton-Accueil.mp4
+    type: video/mp4
+    title: "Lien vers vidéo illustrant comment cacher le bouton d'accueil"
+  - id: Vidéo-Réglages-Rétablissement-Automatique
+    alt: Vidéo illustrant comment activer le rétablissement automatique sous iPadOS 13
+    url: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglages-Retablissement-Automatique.mp4
+    type: video/mp4
+    title: "Lien vers vidéo illustrant comment activer le rétablissement automatique dans les réglages sous iPadOS 13"
+  - id: Vidéo-Réglages-Coins-Actifs
+    alt: Vidéo illustrant comment on associe à chaque coin de l'écran une action donnée sous iPadOS 13
+    url: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglages-Coins-Actifs.mp4 
+    type: video/mp4
+    title: "Lien vers video illustrant comment régler les coins actifs sous iPadOS 13"
+  - id: Vidéo-Utilisation-Coins-Actifs
+    alt: Vidéo illustrant l'utilisation des coins actifs sous iPadOS 13
+    url: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Utilisation-Coins-Actifs.mp4 
+    type: video/mp4
+    title: "Lien vers video illustrant comment utiliser les coins actifs sous iPadOS 13"
 otherLinks: 
     - title: Support des accessoires USB sous iOS 12
       url: /2019/08/01/Support-Accessoires-USB-iOS-12.html
@@ -76,12 +137,12 @@ Allons voir de plus près dans les réglages.
 Avec AssistiveTouch, même sous iOS 12, on pouvait déjà faire apparaître un « curseur » à l’écran qui nous montrait où on appuyait sur l’écran et on pouvait les déclencher par le bouton maison qui s’affiche à l’écran. Je vous montre cela en vidéo.
 
 {% include video.html
-    src="/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Curseur-iOS-12.mp4"
-    type="video/mp4"
-    description="Vidéo montrant affichage du curseur tel qu'on pouvait le voir sous iOS 12" 
+    src="{{ page.videos.1.url }}"
+    type="{{ page.video.1.type }}"
+    description="{{ page.videos.1.alt }}" 
 %}
 
-[Vidéo montrant affichage du curseur tel qu'on pouvait le voir sous iOS 12][Vidéo-Curseur-iOS-12]
+[ page.videos.1.alt }}][Vidéo-Curseur-iOS-12]
 
 Je tiens à préciser qu’aucun dispositif n’était connecté à l’iPad à ce moment là.
 Ça montre juste qu’on pouvait déjà même afficher un pointeur symbolisant un doigt.
@@ -93,21 +154,21 @@ Tout cela se trouvant dans les réglages de l’AssistiveTouch, comme on peut le
 (Toujours sans appareils  connectés. Uniquement les doigts)
 
 {% include video.html
-    src="/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglage-Curseur-iOS-12.mp4"
-    type="video/mp4"
-    description="Vidéo montrant comment régler la taille et la coukeur du curseur, tel qu'on pouvait le voir sous iOS 12" 
+    src="{{ page.videos.2.url }}"
+    type="{{ page.video.2.type }}"
+    description="{{ page.videos.2.alt }}" 
 %}
-[Vidéo montrant comment régler la taille et la coukeur du curseur, tel qu'on pouvait le voir sous iOS 12][Vidéo-Réglage-Curseur-iOS-12]
+[ page.videos.2.alt }}][Vidéo-Réglage-Curseur-iOS-12]
 
 
 Voyons maintenant ce qui se passe lorsqu’on branche une souris (tout en s’assurant  qu’AssistiveTouch soit bien activé. Sinon, rien ne se passe à priori).
 
 {% include video.html
-    src="/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Branchement-Souris-iPadOS-13.mp4"
-    type="video/mp4"
-    description="Vidéo montrant ce qui se passe une fois qu'on branche une souris USB sous iPadOS 13" 
+    src="{{ page.videos.3.url }}"
+    type="{{ page.video.3.type }}"
+    description="{{ page.videos.3.alt }}" 
 %}
-[Vidéo montrant ce qui se passe une fois qu'on branche une souris USB sous iPadOS 13][Vidéo-Branchement-Souris-iPadOS-13]
+[ page.videos.3.alt }}][Vidéo-Branchement-Souris-iPadOS-13]
 
 Dès que je branche la souris, vu que AssistiveTouch est activé, le pointeur apparaît furtivement pendant 2 secondes.
 
@@ -120,11 +181,11 @@ le bouton de la molette servira à afficher le Dock.
 Allons-y, Alonso.
 
 {% include video.html
-    src="/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglages-Boutons-Souris-iPadOS-13.mp4"
-    type="video/mp4"
-    description="Vidéo montrant comment régler les boutons de la souris sous iPadOS 13" 
+    src="{{ page.videos.4.url }}"
+    type="{{ page.video.4.type }}"
+    description="{{ page.videos.4.alt }}" 
 %}
-[Vidéo montrant comment régler les boutons de la souris][Vidéo-Réglages-Boutons-Souris-iPadOS-13]
+[{{ page.videos.4.alt }}][Vidéo-Réglages-Boutons-Souris-iPadOS-13]
 
 
 Voyons maintenant ce qui se passe lorsqu’on clique sur les différents boutons.
@@ -132,22 +193,23 @@ Voyons maintenant ce qui se passe lorsqu’on clique sur les différents boutons
 Tout d’abord on va cliquer sur le bouton de gauche pour revenir à l’accueil, ensuite après avoir déplacer le curseur sur l'icône Twitter, on cliquera sur le bouton de droite pour afficher Twitter. Et finalement on cliquera sur le bouton de la molette pour faire apparaitre le dock au bas de l'écran.
 
 {% include video.html
-    src="/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Utilisation-Boutons-Souris-iPadOS-13.mp4"
-    type="video/mp4"
-    description="Vidéo illustrant l'utilisation des boutons de la souris après les avoir réglés sous iPadOS 13" 
+    src="{{ page.videos.5.url }}"
+    type="{{ page.video.5.type }}"
+    description="{{ page.videos.5.alt }}" 
 %}
-[Vidéo illustrant l'utilisation des boutons de la souris après les avoir réglés][Vidéo-Utilisation-Boutons-Souris-iPadOS-13]
+
+[{{ page.videos.5.alt }}][Vidéo-Utilisation-Boutons-Souris-iPadOS-13]
 
 On peut également utiliser la molette pour se déplacer facilement dans les menus des réglages ou encore dans Safari par exemple.
 
 Mais profitons en pour cacher par défaut le bouton d’accueil dès que la souris est branchée.
 
 {% include video.html
-    src="/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglages-Cacher-Bouton-Accueil.mp4"
-    type="video/mp4"
-    description="Vidéo illustrant l'utilisation de la molette de la souris et expliquant où se rendre pour cacher le bouton d'accueil sous iPadOS 13" 
+    src="{{ page.videos.6.url }}"
+    type="{{ page.video.6.type }}"
+    description="{{ page.videos.6.alt }}" 
 %}
-[Vidéo illustrant l'utilisation de la molette de la souris et expliquant où se rendre pour cacher le bouton d'accueil][Vidéo-Réglages-Cacher-Bouton-Accueil]
+[{{ page.videos.6.alt }}][Vidéo-Réglages-Cacher-Bouton-Accueil]
 
 Le support de la souris sous cette version d’iPadOS 13.3.1 ne fait que simuler l’interaction du doigt à l’écran. 
 
@@ -189,11 +251,11 @@ Après cela, **et uniquement après cela**, on peut réduire le temps au minimum
 Voyons cela en vidéo :
 
 {% include video.html
-    src="/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglages-Retablissement-Automatique.mp4"
-    type="video/mp4"
-    description="Vidéo illustrant comment activer le rétablissement automatique sous iPadOS 13" 
+    src="{{ page.videos.7.url }}"
+    type="{{ page.video.7.type }}"
+    description="{{ page.videos.7.alt }}" 
 %}
-[Vidéo illustrant comment activer le rétablissement automatique][Vidéo-Réglages-Rétablissement-Automatique]
+[{{ page.videos.7.alt }}][Vidéo-Réglages-Rétablissement-Automatique]
 
 Maintenant nous pouvons désigner des actions à chacun des 4 coins de l’écran.
 
@@ -214,17 +276,23 @@ Voyons comment configurer cela :
 %}
 [Vidéo illustrant comment on associe à chaque coin de l'écran une action donnée][Vidéo-Réglages-Coins-Actifs]
 
+{% include video.html
+    src="{{ page.videos.8.url }}"
+    type="{{ page.video.8.type }}"
+    description="{{ page.videos.8.alt }}" 
+%}
+[{{ page.videos.8.alt }}][Vidéo-Réglages-Coins-Actifs]
+
 Et maintenant il nous suffit de placer ce curseur dans chacun des coins de l’écran pendant 1 quart de seconde pour déclencher l’action.
 
 Voyons cela en action.
 
 {% include video.html
-    src="/img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Utilisation-Coins-Actifs.mp4"
-    type="video/mp4"
-    description="Vidéo illustrant l'utilisation des coins actifs sous iPadOS 13" 
+    src="{{ page.videos.9.url }}"
+    type="{{ page.video.9.type }}"
+    description="{{ page.videos.9.alt }}" 
 %}
-[Vidéo illustrant l'utilisation des coins actifs][Vidéo-Utilisation-Coins-Actifs]
-
+[{{ page.videos.9.alt }}][Vidéo-Utilisation-Coins-Actifs]
 
 
 # Conclusion
@@ -242,27 +310,25 @@ Aura-t-on une belle surprise ?
 À voir.
 
 
-[Lien-1]: /2019/08/01/Support-Accessoires-USB-iOS-12.html
+[Lien-1]: /2019/08/01/Support-Accessoires-USB-iOS-12.html "Lien vers article concernant la gestion des accessoires USB sous iOS 12"
 
 [version d'iPadOS dans les réglages : 13.3.1]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/iPadOS-Version-13.3.1.jpeg "Version 13.3.1 d'iPadOS"
 
-
 [L'App Fichier où l'on voit la clef USB à gauche, et son contenu à droite]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/App-Fichiers-Cle-USB.jpeg "L'App Fichier où l'on voit la clef USB à gauche, et son contenu à droite"
-
 
 [Vidéo-Curseur-iOS-12]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Curseur-iOS-12.mp4  "Lien vers vidéo illustrant l´utilisation du curseur sous iOS 12 avec Assistive Touch"
 
-[Vidéo-Réglage-Curseur-iOS-12]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglage-Curseur-iOS-12.mp4
+[Vidéo-Réglage-Curseur-iOS-12]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglage-Curseur-iOS-12.mp4  "Lien vers vidéo illustrant le réglage du curseur sous iOS 12"
 
-[Vidéo-Branchement-Souris-iPadOS-13]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Branchement-Souris-iPadOS-13.mp4
+[Vidéo-Branchement-Souris-iPadOS-13]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Branchement-Souris-iPadOS-13.mp4 "Lien vers vidéo illustrant ce qui se passe lorsqu'une souris est branchée à iPadOS 13"
 
-[Vidéo-Réglages-Boutons-Souris-iPadOS-13]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglages-Boutons-Souris-iPadOS-13.mp4
+[Vidéo-Réglages-Boutons-Souris-iPadOS-13]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglages-Boutons-Souris-iPadOS-13.mp4 "Lien vers video illustrant les réglages des boutons sous iPadOS 13"
+  
+[Vidéo-Utilisation-Boutons-Souris-iPadOS-13]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Utilisation-Boutons-Souris-iPadOS-13.mp4 "Lien vers vidéo illustrant l'utilisation des boutons de souris sous iPadOS 13.3"
 
-[Vidéo-Utilisation-Boutons-Souris-iPadOS-13]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Utilisation-Boutons-Souris-iPadOS-13.mp4
+[Vidéo-Réglages-Cacher-Bouton-Accueil]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglages-Cacher-Bouton-Accueil.mp4 "Lien vers vidéo illustrant comment cacher le bouton d'accueil"
 
-[Vidéo-Réglages-Cacher-Bouton-Accueil]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglages-Cacher-Bouton-Accueil.mp4
-
-[Vidéo-Réglages-Rétablissement-Automatique]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglages-Retablissement-Automatique.mp4
+[Vidéo-Réglages-Rétablissement-Automatique]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglages-Retablissement-Automatique.mp4 "Lien vers vidéo illustrant comment activer le rétablissement automatique dans les réglages sous iPadOS 13"
 
 [Vidéo-Réglages-Coins-Actifs]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglages-Coins-Actifs.mp4 "Lien vers video illustrant comment régler les coins actifs sous iPadOS 13"
 
