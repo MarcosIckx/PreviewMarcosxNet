@@ -137,9 +137,9 @@ Allons voir de plus près dans les réglages.
 Avec AssistiveTouch, même sous iOS 12, on pouvait déjà faire apparaître un « curseur » à l’écran qui nous montrait où on appuyait sur l’écran et on pouvait les déclencher par le bouton maison qui s’affiche à l’écran. Je vous montre cela en vidéo.
 
 {% include video.html
-    src="{{ page.videos[0].url }}"
-    type="{{ page.video[0].type }}"
-    description="{{ page.videos[0].alt }}"
+    src=page.videos[0].url
+    type=page.video[0].type
+    description=page.videos[0].alt
     debug=true
 %}
 [{{ page.videos[0].alt }}][Vidéo-Curseur-iOS-12]
@@ -154,9 +154,9 @@ Tout cela se trouvant dans les réglages de l’AssistiveTouch, comme on peut le
 (Toujours sans appareils  connectés. Uniquement les doigts)
 
 {% include video.html
-    src="{{ page.videos[1].url }}"
-    type="{{ page.video[1].type }}"
-    description="{{ page.videos[1].alt }}" 
+    src=page.videos[1].url
+    type=page.video[1].type
+    description=page.videos[1].alt 
 %}
 [{{ page.videos[1].alt }}][Vidéo-Réglage-Curseur-iOS-12]
 
@@ -164,9 +164,9 @@ Tout cela se trouvant dans les réglages de l’AssistiveTouch, comme on peut le
 Voyons maintenant ce qui se passe lorsqu’on branche une souris (tout en s’assurant  qu’AssistiveTouch soit bien activé. Sinon, rien ne se passe à priori).
 
 {% include video.html
-    src="{{ page.videos[2].url }}"
-    type="{{ page.video[2].type }}"
-    description="{{ page.videos[2].alt }}" 
+    src=page.videos[2].url
+    type=page.video[2].type
+    description=page.videos[2].alt 
 %}
 [{{ page.videos[2].alt }}][Vidéo-Branchement-Souris-iPadOS-13]
 
@@ -181,9 +181,9 @@ le bouton de la molette servira à afficher le Dock.
 Allons-y, Alonso.
 
 {% include video.html
-    src="{{ page.videos[3].url }}"
-    type="{{ page.video[3].type }}"
-    description="{{ page.videos[3].alt }}" 
+    src=page.videos[3].url
+    type=page.video[3].type
+    description=page.videos[3].alt
 %}
 [{{ page.videos[3].alt }}][Vidéo-Réglages-Boutons-Souris-iPadOS-13]
 
@@ -193,9 +193,9 @@ Voyons maintenant ce qui se passe lorsqu’on clique sur les différents boutons
 Tout d’abord on va cliquer sur le bouton de gauche pour revenir à l’accueil, ensuite après avoir déplacer le curseur sur l'icône Twitter, on cliquera sur le bouton de droite pour afficher Twitter. Et finalement on cliquera sur le bouton de la molette pour faire apparaitre le dock au bas de l'écran.
 
 {% include video.html
-    src="{{ page.videos[4].url }}"
-    type="{{ page.video[4].type }}"
-    description="{{ page.videos[4].alt }}" 
+    src=page.videos[4].url
+    type=page.video[4].type
+    description=page.videos[4].alt
 %}
 [{{ page.videos[4].alt }}][Vidéo-Utilisation-Boutons-Souris-iPadOS-13]
 
@@ -204,9 +204,9 @@ On peut également utiliser la molette pour se déplacer facilement dans les men
 Mais profitons en pour cacher par défaut le bouton d’accueil dès que la souris est branchée.
 
 {% include video.html
-    src="{{ page.videos[5].url }}"
-    type="{{ page.video[5].type }}"
-    description="{{ page.videos[5].alt }}" 
+    src=page.videos[5].url
+    type=page.video[5].type
+    description=page.videos[5].alt
 %}
 [{{ page.videos[5].alt }}][Vidéo-Réglages-Cacher-Bouton-Accueil]
 
@@ -250,9 +250,9 @@ Après cela, **et uniquement après cela**, on peut réduire le temps au minimum
 Voyons cela en vidéo :
 
 {% include video.html
-    src="{{ page.videos[6].url }}"
-    type="{{ page.video[6].type }}"
-    description="{{ page.videos[6].alt }}" 
+    src=page.videos[6].url
+    type=page.video[6].type
+    description=page.videos[6].alt 
 %}
 [{{ page.videos[6].alt }}][Vidéo-Réglages-Rétablissement-Automatique]
 
@@ -269,9 +269,9 @@ Et finalement pour le coin inférieur droit, je vais activer Spotlight.
 Voyons comment configurer cela :
 
 {% include video.html
-    src="{{ page.videos[7].url }}"
-    type="{{ page.video[7].type }}"
-    description="{{ page.videos[7].alt }}" 
+    src=page.videos[7].url
+    type=page.video[7].type
+    description=page.videos[7].alt 
 %}
 [{{ page.videos[7].alt }}][Vidéo-Réglages-Coins-Actifs]
 
@@ -280,9 +280,9 @@ Et maintenant il nous suffit de placer ce curseur dans chacun des coins de l’�
 Voyons cela en action.
 
 {% include video.html
-    src="{{ page.videos[8].url }}"
-    type="{{ page.video[8].type }}"
-    description="{{ page.videos[8].alt }}" 
+    src=page.videos[8].url
+    type=page.video[8].type
+    description=page.videos[8].alt 
 %}
 [{{ page.videos[8].alt }}][Vidéo-Utilisation-Coins-Actifs]
 
