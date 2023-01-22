@@ -1,9 +1,80 @@
 ---
 layout: post
 title: Support des accessoires USB sous iOS 12
+description: Comment iOS 12 gère les accessoires USB. C'est ce que je vous explique ici.
 date: 2019-08-01
 tags: [Accessoires, USB, iOS12]
 category: iOS12
+liens:
+  - id: Amazon-Adaptateur-Lightning-USB3
+    url: https://www.amazon.fr/gp/product/B01DGDNL2G/
+    alt: Adaptateur Lightning USB3 d´Apple
+    title: "Lien vers Amazon.fr pour l´Adaptateur Lightning USB3 d´Apple"
+  - id: Amazon-Clavier-Trackpad-Dongle
+    url: https://www.amazon.fr/gp/product/B071L2CL4Y/
+    alt: mini clavier trackpad avec dongle USB
+    title: "Lien vers Amazon.fr pour mini clavier trackpad avec dongle USB"
+  - id: Amazon-Hub-USB-3.0-7Ports
+    url: https://www.amazon.fr/gp/product/B07JGRTPJS/
+    alt: Hub USB 3.0 7 Ports avec alimentation 24 Watts
+    title: "Lien vers Amazon.fr pour Hub USB 7 ports"
+  - id: Amazon-Casque-Micro-USB
+    url: https://www.amazon.fr/dp/B0775S8X5C/
+    alt: Casque Micro Plantronics
+    title: Lien vers Amazon.fr pour Casque Micro USB Plantronics
+  - id: sgamel
+    url: https://twitter.com/sgamel
+    alt: Sylvain Gamel
+    title: le compte twitter de Sylvain Gamel
+  - id: macOS-10.13.4-Disables-DisplayLink
+    url: https://plugable.com/2018/03/30/macos-10-13-4-disables-displaylink-duet-display-devices/
+    alt: Apple avait tout cassé avec macOS 10.13.4
+    title: "Lien vers article concernant le support d´écran DisplayLink"
+images:
+  - id: 1
+    url: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Adaptateur-lightning-usb3.jpg
+    alt: Photo de l’adaptateur Lightning-USB 3 d’Apple
+    title: "Photo Adaptateur Lightning - USB3 d´Apple"
+  - id: 2
+    url: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Alerte-miseajour-accessoire.jpg
+    alt: Alerte Mise à Jour d'accesoire disponible
+    title:  "Alerte pour indiquer qu'une Mise à jour du firmware est disponible pour l'accessoire"
+  - id: 3
+    url: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Reglages-General-Information.jpg
+    alt: Nouvelle entrée dans Réglages > Général > Informations pour l'adaptateur Lightning - USB 3
+    title: "La nouvelle entrée dans Informations pour l'adaptateur Lighning-USB3"
+  - id: 4
+    url: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Version-Programme-Interne-Adaptateur-1.0.1.jpg
+    alt: Version du programme interne de l'adaptateur Lightning - USB 3
+    title: "Version du programme interne de l'adaptateur Lightning - USB 3 lors de son premoer branchement"
+  - id: 5
+    url: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Version-Programme-Interne-Adaptateur-1.0.5.jpeg
+    alt: Version du programme interne de l'adaptateur Lightning - USB 3 après mise à jour
+    title: "Version du programme interne de l'adaptateur Lightning - USB 3 après la mise a jour"
+  - id: 6
+    url: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Clavier-trackpad-dongle-usb.jpeg
+    alt: Clavier/Trackpad avec Dongle USB
+    title: "Photo du mini clavier trackpad avec dongle USB"
+  - id: 7
+    url: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Icone-Apple-music-casque.jpeg
+    alt: Le symbole 🎧 apparait dans l'icône de l'App Musique à la droite du Dock
+    title: "L'App Musique dans le Dock avec le symbole 🎧"
+  - id: 8
+    url: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Reglages-Ethernet.jpeg
+    alt: Dans les Réglages, entre Wi-Fi et Bluetooth apparait une entrée Ethernet dont l'interface est nommée USB iPhone
+    title: "Entrée Ethernet dans les réglages"
+  - id: 9
+    url: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Reglages-Ethernet-details.jpeg
+    alt: Les infos détaillées de la connection Ethernet
+    title: "Les infos détaillées de la connection Ethernet"
+  - id: 10
+    url: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/cablage-iPhone.jpeg
+    alt: Le Hub USB connecté à l'adaptateur Lightning - USB d'un coté pour l'alimenter. D'un autre coté pour faire office de Hub USB. Et le clavier/trackpad, l'iPhone et le casque micro branchés au Hub USB
+    title: "Le câblage. Photo prise avec l'iPhone SE"
+  - id: 11
+    url: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/cablage-iPad.jpeg
+    alt: Le HUb USB connecté à l'adaptateur Lightning - USB d'un coté pour l'alimenter. D'un autre coté poir faire office de Hub USB. Et le clavier/Trackpad, l'iPhone, le casque micro, et finalement la clef USB. Tout cela branché au Hub USB
+    title: "Le câblage. Photo prise avec l'iPad 2018"
 otherLinks:
    - title: Support des accessoires USB sous iOS 13.3
      url: /2020/04/03/Support-Accessoires-USB-iPadOS-13.3.html
@@ -181,7 +252,7 @@ Si quelqu’un a une idée du pourquoi.
 
 Qu’il me fasse signe.
 
-@Sylvain Gamel m'a demandé si j'avais activé le partage de connexion sur l'iPhone.
+[Sylvain Gamel][sgamel] m'a demandé si j'avais activé le partage de connexion sur l'iPhone.
 
 Je reviens de faire le test, et non, malgré activation du partage de connexion, je n’arrive pas à établir de connexion réseau filaire entre iPad et iPhone.
 
@@ -238,7 +309,7 @@ Mais bon, ça ne coûtait rien d’essayer ce qui se passerait avec l’iPad.
 Pour résumer, j’ai donc l’iPad connecté via les prises lightning et USB de l’adaptateur au hub USB alimenté. 
 
 À cet hub USB, J’ai 
-* un mini clavier/trackpad sans fil connecté via un dongle ( seul le clavier fonctionne _iOS 12)
+* un mini clavier/trackpad sans fil connecté via un dongle ( seul le clavier fonctionne sous iOS 12)
 * un micro-casques USB
 * une clef USB
 * un iPhone
@@ -287,6 +358,7 @@ Mystère.
 
 [Les infos détaillées de la connection Ethernet]: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Reglages-Ethernet-details.jpeg "Les infos détaillées de la connection Ethernet"
 
+[sgamel]: https://twitter.com/sgamel "Le compte twitter de Sylvain Gamel"
 
 [Le Hub USB connecté à l'adaptateur Lightning - USB d'un coté pour l'alimenter. D'un autre coté pour faire office de Hub USB. Et le clavier/trackpad, l'iPhone et le casque micro branchés au Hub USB]: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/cablage-iPhone.jpeg "Le câblage. Photo prise avec l'iPhone SE"
 
