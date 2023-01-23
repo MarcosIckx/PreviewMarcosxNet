@@ -1,5 +1,5 @@
 ---
-layout: vidéos
+layout: videos
 debugMode: true
 title: liste des vidéos
 description: liste de toutes les vidéos et les articles où on les retrouvent
