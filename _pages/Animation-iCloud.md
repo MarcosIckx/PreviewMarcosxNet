@@ -9,4 +9,12 @@ video:
   alt: Vidéo Animation iCloud.com
   type: video/mp4
   title: Lien vers vidéo de l´animation que l´on peut voir sur iCloud.com
+debug: true
 ---
+
+ceci est un test
+
+{{page.debug}}
+
+{{page.video}}
+
