@@ -25,14 +25,16 @@ ceci est un test
 
 
 valeurs passée par collection
+
 {{page.video}}
 
-{% include video.html videoInfo=page.video debug=true %}
+{% include video.html videoInfos=page.video debug=true %}
 
-valeurs passée par position
+valeurs passée par position 0
+
 {{page.videos[0]}}
 
-{% include video.html pos=0 debug=true %}
+{% include video.html videoNr=0 debug=true %}
 
 valeurs passée en direct
 {% include video.html src=page.video.url description=page.video.alt debug=true %}
