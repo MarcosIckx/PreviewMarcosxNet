@@ -1,24 +1,49 @@
+{% comment %}
+~~~
+Pour utiliser cet includes, voila comment faire :
+1. passer l´argument pos. On ira chercher alors les informations concernant la video se trouvant en position pos dans la page.
+2. passer l´argument videoInfo. qui devra contenir les infos suivantes
+   url (obligatoire)
+   type (par defaut, "video/mp4")
+   alt (obligatoire)
+   title (par defaut, idem que alt)
+3. passer les 4 arguments tels quels
+   src: url de la video
+   type: (par defaut, "video/mp4")
+   description: description de la vidéo
+   title: (par defaut, idem que description)
+~~~
+{% endcomment %}
 {% assign src=include.src %}
 {% assign descr=include.description %}
-{% assign type=include.type %}
+{% assign type=include.type | default: "video/mp4" %}
+{% assign title=include.title | default: descr %}
 {% assign pos=include.videoNr %}
+{% assign videoInfos=include.videoInfos %}
 {% assign debugMode=include.debug | default: site.debug %}
-{% if pos %}
+
+{% if pos # si l'argument pos est donné, on donne priorité à cela. %}
 {% if debugMode %}
 <div class="debug">
 page.videos[{{ pos }}].url {{ page.videos[pos].url }}
 page.videos[{{ pos }}].alt {{ page.videos[pos].alt }}
-page.videos[{{ type }}].url {{ page.videos[pos].type }}
+page.videos[{{ pos }}].type {{ page.videos[pos].type }}
 </div>
 {% endif %}
-{% assign src=page.videos[pos].url %}
-{% assign descr=page.videos[pos].alt %}
-{% assign type=page.videos[pos].type %}
+{% assign videoInfos=page.videos[pos] %}
 {% endif %}
+{% if videoInfos # Si videoInfos est là, on ira chercher les infos là-dedans %}
+{% assign src=videoInfos.url %}
+{% assign descr=videoInfos.alt %}
+{% assign title=videoInfos.title | default: descr %}
+{% assign type=videoInfos.type | default: "video/mp4" %}
+{% endif %}
+
 {% if debugMode %}
 <div class="debug">
 src: {{ src }} <br/>
 descr: {{ descr }} <br/>
+title: {{ title }} <br/>
 type: {{ type }} <br/>
 pos: {{ pos }} <br/>
 </div>
@@ -30,7 +55,7 @@ pos: {{ pos }} <br/>
             type="{{ type }}" />
     <p>Votre navigateur ne semble pas gérer le tag video</p>
     <p>Mais vous pouvez cliquer sur le lien ci-après pour voir la vidéo</p>
-    <a href="{{ src }}" title="{{ descr }}">{{ descr }}</a>
+    <a href="{{ src }}" title="{{ title }}">{{ descr }}</a>
   </video>
   <p>{{ descr | markdownify }}</p>
 </div>
