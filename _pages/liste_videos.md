@@ -22,7 +22,7 @@ Video.id : {{ file.basename }}
 
 Video.type : {% assign videoType =  file.extname | remove: "." | prepend: "video/" %} {{videoType}}
 
-Video.alt : {% assign videlAlt = splittedPath[5] | append: " : "  | append: file.basename | replace: "-", " " %} {{videoAlt}}
+Video.alt : {% assign videoAlt = splittedPath[5] | append: " : "  | append: file.basename | replace: "-", " " %} {{videoAlt}}
 
 {% include video.html src=file.path type=videoType description=videoAlt %}
   
