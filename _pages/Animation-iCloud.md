@@ -15,26 +15,25 @@ videos:
     alt: Vidéo Animation iCloud.com
     type: "video/mp4"
     title: Lien vers vidéo de l´animation que l´on peut voir sur iCloud.com
-debug: true
+debug: false
 ---
 
 ceci est un test
 
 {{page.debug}}
 
-
-
-valeurs passée par collection
+## valeurs passée par collection
 
 {{page.video}}
 
-{% include video.html videoInfos=page.video debug=true %}
+{% include video.html videoInfos=page.video debug=page.debug %}
 
-valeurs passée par position 0
+## valeurs passée par position 0
 
 {{page.videos[0]}}
 
-{% include video.html videoNr=0 debug=true %}
+{% include video.html videoNr=0 debug=page.debug %}
 
-valeurs passée en direct
-{% include video.html src=page.video.url description=page.video.alt debug=true %}
+## valeurs passée en direct
+
+{% include video.html src=page.video.url description=page.video.alt debug=page.debug %}
