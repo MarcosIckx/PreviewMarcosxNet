@@ -11,10 +11,10 @@ video:
   title: Lien vers vidéo de l´animation que l´on peut voir sur iCloud.com
 videos:
   - id: Animation-iCloud.com
-  url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/animation-iCloud.com.mp4
-  alt: Vidéo Animation iCloud.com
-  type: video/mp4
-  title: Lien vers vidéo de l´animation que l´on peut voir sur iCloud.com
+    url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/animation-iCloud.com.mp4
+    alt: Vidéo Animation iCloud.com
+    type: "video/mp4"
+    title: Lien vers vidéo de l´animation que l´on peut voir sur iCloud.com
 debug: true
 ---
 
