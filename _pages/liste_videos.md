@@ -9,9 +9,9 @@ permalink: /videos/liste.html
   
   ### {{ file.path }}
   
-  ### {{ file.extension }}
-  
-  {{ file }}
+  #### {{ file.extname }}
+  #### {{ file.name }}
+  #### {{ file.basename }}
   
   {% if file.extension contains ".mp4" %}
     # {{ file.basename }}
