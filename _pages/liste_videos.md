@@ -13,12 +13,16 @@ permalink: /videos/liste.html
 ## Video {{ file.basename }}
 
 Video.url : {{ file.path }}
+{% assign splittedPath = file.path | split: '/' %}
+{% if splittedPath[0] == "img" and splittedPath[1] = "posts" %}
+video.date : {{ splittedPath[2] }}-{{ splittedPath[3] }}-{{ splittedPath[4] }}
+{% endif %}
 
 Video.id : {{ file.basename }}
 
-Video.type : {{ file.extname }}
+Video.type : video/{{ file.extname | remove: "."}}
 
-Video.alt : ---
+Video.alt : {{splittedPath[5] | replace: "-", " "}}
   
 {% endif %}
 
