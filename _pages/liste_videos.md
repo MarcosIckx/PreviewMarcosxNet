@@ -8,6 +8,8 @@ permalink: /videos/liste.html
 {%- for file in site.static_files -%}
   {%- if file.extension contains ".mp4" -%}
     Video.url : {{ file.path }}
-    Video.id : {{file.}}
+    Video.id : {{ file.basename }}
+    Video.type : {{ file.extension }}
+    Video.alt : ---
   {%- endif -%}
 {%- endfor -%}
