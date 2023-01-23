@@ -14,7 +14,7 @@ permalink: /videos/liste.html
 
 Video.url : {{ file.path }}
 {% assign splittedPath = file.path | split: '/' %}
-{% if splittedPath[0] == "img" and splittedPath[1] = "posts" %}
+{% if splittedPath[0] == "img" and splittedPath[1] == "posts" %}
 video.date : {{ splittedPath[2] }}-{{ splittedPath[3] }}-{{ splittedPath[4] }}
 {% endif %}
 
