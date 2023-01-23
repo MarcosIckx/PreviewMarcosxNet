@@ -22,12 +22,19 @@ Pour utiliser cet includes, voila comment faire :
 {% assign videoInfos=include.videoInfos %}
 {% assign debugMode=include.debug | default: site.debug %}
 
+{% if debugMode %}
+<div class="debug">
+pos {{ pos }} <br/>
+videoInfos {{ videoInfos }} <br/>
+</div>
+{% endif %}
+
 {% if pos # si l'argument pos est donné, on donne priorité à cela. %}
 {% if debugMode %}
 <div class="debug">
-page.videos[{{ pos }}].url {{ page.videos[pos].url }}
-page.videos[{{ pos }}].alt {{ page.videos[pos].alt }}
-page.videos[{{ pos }}].type {{ page.videos[pos].type }}
+page.videos[{{ pos }}].url {{ page.videos[pos].url }} <br/>
+page.videos[{{ pos }}].alt {{ page.videos[pos].alt }} <br/>
+page.videos[{{ pos }}].type {{ page.videos[pos].type }} <br/>
 </div>
 {% endif %}
 {% assign videoInfos=page.videos[pos] %}
@@ -35,11 +42,11 @@ page.videos[{{ pos }}].type {{ page.videos[pos].type }}
 {% if videoInfos # Si videoInfos est là, on ira chercher les infos là-dedans %}
 {% if debugMode %}
 <div class="debug">
-videoInfos {{ videoInfos }}
-videoInfos.url {{ videoInfos.url }}
-videoInfos.alt {{ videoInfos.alt }}
-videoInfos.type {{ videoInfos.type }}
-videoInfos.title {{ videoInfos.title }}
+videoInfos {{ videoInfos }} <br/>
+videoInfos.url {{ videoInfos.url }} <br/>
+videoInfos.alt {{ videoInfos.alt }} <br/>
+videoInfos.type {{ videoInfos.type }} <br/>
+videoInfos.title {{ videoInfos.title }} <br/>
 </div>
 {% endif %}
 {% assign src=videoInfos.url %}
