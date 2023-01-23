@@ -33,6 +33,15 @@ page.videos[{{ pos }}].type {{ page.videos[pos].type }}
 {% assign videoInfos=page.videos[pos] %}
 {% endif %}
 {% if videoInfos # Si videoInfos est là, on ira chercher les infos là-dedans %}
+{% if debugMode %}
+<div class="debug">
+videoInfos {{ videoInfos }}
+videoInfos.url {{ videoInfos.url }}
+videoInfos.alt {{ videoInfos.alt }}
+videoInfos.type {{ videoInfos.type }}
+videoInfos.title {{ videoInfos.title }}
+</div>
+{% endif %}
 {% assign src=videoInfos.url %}
 {% assign descr=videoInfos.alt %}
 {% assign title=videoInfos.title | default: descr %}
