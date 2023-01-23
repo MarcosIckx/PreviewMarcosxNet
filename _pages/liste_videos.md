@@ -20,9 +20,11 @@ video.date : {{ splittedPath[2] }}-{{ splittedPath[3] }}-{{ splittedPath[4] }}
 
 Video.id : {{ file.basename }}
 
-Video.type : video/{{ file.extname | remove: "."}}
+Video.type : {% assign videoType =  file.extname | remove: "." | prepend: "video/" %} {{videoType}}
 
-Video.alt : {{splittedPath[5] | replace: "-", " "}} : {{file.basename | replace: "-", " "}}
+Video.alt : {% assign videlAlt = splittedPath[5] | append: " : "  | append: file.basename | replace: "-", " " %} {{videoAlt}}
+
+{% include video.html src=file.path type=videoType description=videoAlt %}
   
 {% endif %}
 
