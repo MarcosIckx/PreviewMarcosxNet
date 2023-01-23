@@ -1,0 +1,62 @@
+---
+layout: default
+---
+
+{%- comment -%}
+  ~~~
+  ci-dessous, logique pour avoir toutes les vidéos existantes 
+  dans la variable allVideos, mais c´est juste le nom de la vidéo qu´on y range.
+  nom de la video qui se trouve dans.
+  ~~~
+{%- endcomment -%}
+
+
+{%- assign allVideoNames = "" | split: ',' -%}
+{%- for post in site.posts %}
+{%- if post.videos -%}
+{%- for video in post.videos %}
+
+{%- assign allVideoNames = allVideoNames | push: video.id -%}
+{%- endfor %}
+{%- endif %}
+{%- endfor %}
+{%- assign allVideoNames = allVideoNames | uniq | sort_natural -%}
+
+
+
+
+
+
+
+
+
+  
+
+
+{%- comment -%}
+  ~~~ 
+  boucle sur les noms des vidéos et les posts associés à ces vidéos.
+  ~~~
+{%- endcomment -%}
+
+{%- for videoName in allVideoNames -%}
+<section id="{{ videoName | slugify | downcase }}" class="taxonomy-section">
+  <h2 class="taxonomy-title">{{ videoName }}</h2>
+  {%- assign items = "" | split: ',' -%}
+  {%- for post in sites.posts -%}
+    {%- if post.videos -%}
+      {%- for video in post.videos -%}
+        {%- if video.id == videoName -%}
+          {%- assign items = items | concat: post -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+  {%- endfor -%}
+  <div class="entries-{{ page.entries_layout | default: 'list' }}">
+    {%- for entry in items -%}
+    {%- include entry.html -%}
+    {%- endfor -%}
+  </div>
+  <a href="#page-title" class="back-to-top">Revenir en haut de la page &uarr;</a>
+</section>
+{%- endfor -%}
