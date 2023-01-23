@@ -41,7 +41,7 @@ layout: default
           </div>
         {%- endif -%}
 
-        {%- if video.id == videoName -%}
+        {%- if video.id contains videoName -%}
           {%- assign items = items | concat: post -%}
         {%- endif -%}
       {%- endfor -%}
