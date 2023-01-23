@@ -22,7 +22,7 @@ Video.id : {{ file.basename }}
 
 Video.type : video/{{ file.extname | remove: "."}}
 
-Video.alt : {{splittedPath[5] | replace: "-", " "}}
+Video.alt : {{splittedPath[5] | replace: "-", " "}} : {{file.basename | replace: "-", " "}}
   
 {% endif %}
 
