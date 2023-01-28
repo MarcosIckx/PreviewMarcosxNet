@@ -3,13 +3,8 @@ layout: post
 title: "Une nouveauté iPadOS 13.3 : les coins actifs nous rendent plus productifs"
 description: "Les coins actifs, une nouveauté iPadOS 13.3, cela nous rend bien plus productifs. Voyons comment les configurer comme il faut"
 date: 2020-04-03
-tags: [Accessoires, USB, iPadOS13]
+tags: [Souris, Coins Actifs, iPadOS13]
 category: iPadOS13
-images:
-  - id: iPadOS-Version-13.3.1
-    alt: "version d'iPadOS dans les réglages : 13.3.1"
-    url: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/iPadOS-Version-13.3.1.jpeg
-    title: "Version 13.3.1 d'iPadOS"
 videos: 
   - id: Vidéo-Réglages-Rétablissement-Automatique
     alt: Vidéo illustrant comment activer le rétablissement automatique sous iPadOS 13
@@ -61,7 +56,7 @@ Voyons cela en vidéo :
 {% include video.html 
     videoNr=0
 %}
-[{{ page.videos[0].alt }}][Vidéo-Réglages-Rétablissement-Automatique]
+[{{ page.videos[0].alt }}][{{ page.videos[0].id }}]
 
 ## Associer des actions aux coins
 Maintenant nous pouvons désigner des actions à chacun des 4 coins de l’écran.
@@ -79,7 +74,7 @@ Voyons comment configurer cela :
 {% include video.html 
     videoNr=1
 %}
-[{{ page.videos[1].alt }}][Vidéo-Réglages-Coins-Actifs]
+[{{ page.videos[1].alt }}][{{ page.videos[1].id }}]
 
 ## Les coins actifs en action
 
@@ -90,18 +85,15 @@ Voyons cela en action.
 {% include video.html 
     videoNr=2
 %}
-[{{ page.videos[2].alt }}][Vidéo-Utilisation-Coins-Actifs]
+[{{ page.videos[2].alt }}][{{ page.videos[2].id }}]
 
 
 # Conclusion
 
 Les coins actifs, c’est juste 👌
 
+[{{ page.videos[0].id }}]: {{ page.videos[0].url }} "{{ page.videos[0].title }}"
 
-[version d'iPadOS dans les réglages : 13.3.1]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/iPadOS-Version-13.3.1.jpeg "Version 13.3.1 d'iPadOS"
+[{{ page.videos[1].id }}]: {{ page.videos[1].url }} "{{ page.videos[1].title }}"
 
-[Vidéo-Réglages-Rétablissement-Automatique]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglages-Retablissement-Automatique.mp4 "{{ page.videos[7].title }}"
-
-[Vidéo-Réglages-Coins-Actifs]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Reglages-Coins-Actifs.mp4 "{{ page.videos[8].title }}"
-
-[Vidéo-Utilisation-Coins-Actifs]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Utilisation-Coins-Actifs.mp4 "{{ page.videos[9].title }}"
+[{{ page.videos[2].id }}]: {{ page.videos[2].url }} "{{ page.videos[2].title }}"
