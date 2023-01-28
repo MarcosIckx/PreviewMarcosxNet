@@ -74,7 +74,15 @@ otherLinks:
 
 page.liens : {{ page.liens }}
 
+page.liens[Lien-1] : {{ page.liens[Lien-1] }}
+
+page.liens["Lien-1"] : {{ page.liens["Lien-1"] }}
+
 page.images : {{ page.images }}
+
+pages.images[iPadOS-Version-13.3.1] : {{ pages.images[iPadOS-Version-13.3.1] }}
+
+pages.images["iPadOS-Version-13.3.1"] : {{ pages.images["iPadOS-Version-13.3.1"] }}
 
 L'année passée, [{{ page.liens[Lien-1].alt }}][{{ page.liens[Lien-1].id }}].
 
