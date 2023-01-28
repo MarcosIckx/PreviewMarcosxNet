@@ -72,6 +72,10 @@ otherLinks:
 
 # Support des accessoires USB sous iPadOS 13.3
 
+page.liens : {{ page.liens }}
+
+page.images : {{ page.images }}
+
 L'année passée, [{{ page.liens[Lien-1].alt }}][{{ page.liens[Lien-1].id }}].
 
 Cette année, je profite du fait que je suis confiné à la maison
