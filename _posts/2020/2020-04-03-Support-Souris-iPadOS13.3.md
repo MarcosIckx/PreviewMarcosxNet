@@ -87,7 +87,6 @@ Je vous montre cela en vidéo.
 
 {% include video.html 
     videoNr=0
-    debug=true
 %}
 [{{ page.videos[0].alt }}][Vidéo-Curseur-iOS-12]
 
