@@ -80,11 +80,12 @@ page.liens["Lien-1"] : {{ page.liens["Lien-1"] }}
 
 page.images : {{ page.images }}
 
-pages.images[iPadOS-Version-13.3.1] : {{ pages.images[iPadOS-Version-13.3.1] }}
+page.images[iPadOS-Version-13.3.1] : {{ page.images[iPadOS-Version-13.3.1] }}
 
-pages.images["iPadOS-Version-13.3.1"] : {{ pages.images["iPadOS-Version-13.3.1"] }}
+page.images["iPadOS-Version-13.3.1"] : {{ page.images["iPadOS-Version-13.3.1"] }}
 
 page.images["App-Fichiers-Cle-USB"] {{ page.images["App-Fichiers-Cle-USB"] }}
+
 L'année passée, [{{ page.liens["Lien-1"].alt }}][{{ page.liens["Lien-1"].id }}].
 
 Cette année, je profite du fait que je suis confiné à la maison
