@@ -16,8 +16,8 @@ timezone: Europe/Brussels
 author:
   name: Marcos Ickx
   twitterId: MarcosIckx
-  aboutUrl: /apropos/
-  url: /apropos/
+  aboutUrl: /apropos/MarcosIckx
+  url: /apropos/MarcosIckx
 
 kramdown:
   input: GFM
