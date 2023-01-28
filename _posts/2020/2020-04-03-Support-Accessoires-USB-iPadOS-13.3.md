@@ -7,6 +7,7 @@ tags: [Accessoires, USB, iPadOS13]
 category: iPadOS13
 liens:
   Lien-1:
+    id: Lien-1
     url: /2019/08/01/Support-Accessoires-USB-iOS-12.html
     alt: j'avais testé le branchement de certains accessoires USB sous iOS12
     title: Lien vers article concernant la gestion des accessoires USB sous iOS 12
@@ -74,16 +75,17 @@ otherLinks:
 
 page.liens : {{ page.liens }}
 
-page.liens[Lien-1] : {{ page.liens[Lien-1] }}
+page.liens[0] : {{ page.liens[0] }}
 
 page.liens["Lien-1"] : {{ page.liens["Lien-1"] }}
 
 page.images : {{ page.images }}
 
-page.images[iPadOS-Version-13.3.1] : {{ page.images[iPadOS-Version-13.3.1] }}
+page.images[0] : {{ page.images[0] }}
 
 page.images["iPadOS-Version-13.3.1"] : {{ page.images["iPadOS-Version-13.3.1"] }}
 
+page.images[1] : {{ page.images[1] }}
 page.images["App-Fichiers-Cle-USB"] {{ page.images["App-Fichiers-Cle-USB"] }}
 
 L'année passée, [{{ page.liens["Lien-1"].alt }}][{{ page.liens["Lien-1"].id }}].
