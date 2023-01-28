@@ -22,7 +22,7 @@ images:
 videos: 
   - id: Vidéo-Curseur-iOS-12
     alt: Vidéo montrant affichage du curseur tel qu'on pouvait le voir sous iOS 12
-    url: img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Curseur-iOS-12.mp4
+    url: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/Video-Curseur-iOS-12.mp4
     type: video/mp4
     title: "Lien vers vidéo illustrant l´affichage du curseur tel qu'on pouvait le voir sous iOS 12 avec Assistive Touch"
   - id: Vidéo-Réglage-Curseur-iOS-12
@@ -124,7 +124,7 @@ Passons maintenant au support de la souris.
 
 Avec iOS 13 et iPadOS 13, Apple a rajouté le support de la souris.
 
-Un supoort de la souris, certe, mais quelque peu limité, ou, devrais-je dire, quelque peu bridé.
+Un support de la souris, certe, mais quelque peu limité, ou, devrais-je dire, quelque peu bridé.
 
 D'ailleurs, lorsqu'on branche une souris à l'iPad, il la considère comme un appareil d’assisitivité.
 
@@ -138,7 +138,6 @@ Avec AssistiveTouch, même sous iOS 12, on pouvait déjà faire apparaître un �
 
 {% include video.html 
     videoNr=0
-    debug=true
 %}
 [{{ page.videos[0].alt }}][Vidéo-Curseur-iOS-12]
 
@@ -153,7 +152,6 @@ Tout cela se trouvant dans les réglages de l’AssistiveTouch, comme on peut le
 
 {% include video.html 
     videoNr=1
-    debug=true
 %}
 [{{ page.videos[1].alt }}][Vidéo-Réglage-Curseur-iOS-12]
 
@@ -162,7 +160,6 @@ Voyons maintenant ce qui se passe lorsqu’on branche une souris (tout en s’as
 
 {% include video.html 
     videoNr=2
-    debug=true
 %}
 [{{ page.videos[2].alt }}][Vidéo-Branchement-Souris-iPadOS-13]
 
@@ -178,7 +175,6 @@ Allons-y, Alonso.
 
 {% include video.html 
     videoNr=3
-    debug=true
 %}
 [{{ page.videos[3].alt }}][Vidéo-Réglages-Boutons-Souris-iPadOS-13]
 
@@ -189,7 +185,6 @@ Tout d’abord on va cliquer sur le bouton de gauche pour revenir à l’accueil
 
 {% include video.html 
     videoNr=4
-    debug=true
 %}
 [{{ page.videos[4].alt }}][Vidéo-Utilisation-Boutons-Souris-iPadOS-13]
 
@@ -199,7 +194,6 @@ Mais profitons en pour cacher par défaut le bouton d’accueil dès que la sour
 
 {% include video.html 
     videoNr=5
-    debug=true
 %}
 [{{ page.videos[5].alt }}][Vidéo-Réglages-Cacher-Bouton-Accueil]
 
@@ -244,7 +238,6 @@ Voyons cela en vidéo :
 
 {% include video.html 
     videoNr=6
-    debug=true
 %}
 [{{ page.videos[6].alt }}][Vidéo-Réglages-Rétablissement-Automatique]
 
@@ -262,7 +255,6 @@ Voyons comment configurer cela :
 
 {% include video.html 
     videoNr=7
-    debug=true
 %}
 [{{ page.videos[7].alt }}][Vidéo-Réglages-Coins-Actifs]
 
@@ -272,7 +264,6 @@ Voyons cela en action.
 
 {% include video.html 
     videoNr=8
-    debug=true
 %}
 [{{ page.videos[8].alt }}][Vidéo-Utilisation-Coins-Actifs]
 
