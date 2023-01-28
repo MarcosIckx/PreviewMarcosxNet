@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Une nouveauté iPadOS 13.3 : les coins actifs nous rendent plus productifs
-description: Les coins actifs, une nouveauté iPadOS 13.3, cela nous rend bien plus productifs. Voyons comment les configurer comme il faut
+title: "Une nouveauté iPadOS 13.3 : les coins actifs nous rendent plus productifs"
+description: "Les coins actifs, une nouveauté iPadOS 13.3, cela nous rend bien plus productifs. Voyons comment les configurer comme il faut"
 date: 2020-04-03
 tags: [Accessoires, USB, iPadOS13]
 category: iPadOS13
