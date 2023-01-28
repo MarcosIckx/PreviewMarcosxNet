@@ -73,21 +73,6 @@ otherLinks:
 
 # Support des accessoires USB sous iPadOS 13.3
 
-page.liens : {{ page.liens }}
-
-page.liens[0] : {{ page.liens[0] }}
-
-page.liens["Lien-1"] : {{ page.liens["Lien-1"] }}
-
-page.images : {{ page.images }}
-
-page.images[0] : {{ page.images[0] }}
-
-page.images["iPadOS-Version-13.3.1"] : {{ page.images["iPadOS-Version-13.3.1"] }}
-
-page.images[1] : {{ page.images[1] }}
-page.images["App-Fichiers-Cle-USB"] {{ page.images["App-Fichiers-Cle-USB"] }}
-
 L'année passée, [{{ page.liens["Lien-1"].alt }}][{{ page.liens["Lien-1"].id }}].
 
 Cette année, je profite du fait que je suis confiné à la maison
