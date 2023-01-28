@@ -84,7 +84,8 @@ pages.images[iPadOS-Version-13.3.1] : {{ pages.images[iPadOS-Version-13.3.1] }}
 
 pages.images["iPadOS-Version-13.3.1"] : {{ pages.images["iPadOS-Version-13.3.1"] }}
 
-L'année passée, [{{ page.liens[Lien-1].alt }}][{{ page.liens[Lien-1].id }}].
+page.images["App-Fichiers-Cle-USB"] {{ page.images["App-Fichiers-Cle-USB"] }}
+L'année passée, [{{ page.liens["Lien-1"].alt }}][{{ page.liens["Lien-1"].id }}].
 
 Cette année, je profite du fait que je suis confiné à la maison
 pour vous refaire un test mais cette fois-ci sous iPadOS 13.3.1.
@@ -93,7 +94,7 @@ Je voulais faire ce test avant de faire la mise à jour vers iPadOS 13.4.1 car A
 
 Mais on en reparlera plus tard.
 
-![{{ page.images[iPadOS-Version-13.3.1].alt }}]
+![{{ page.images["iPadOS-Version-13.3.1"].alt }}]
 
 ## Clavier/Trackpad 
 Tout d’abord, j’ai rebranché mon petit clavier/trackpad dont j’avais parlé dans le test précédent sous iOS 12.
@@ -116,7 +117,7 @@ Heureusement que non.
 
 En fait, il nous faut ouvrir l'App Fichiers pour y voir la clef et son contenu.
 
-![L'App Fichier où l'on voit la clef USB à gauche, et son contenu à droite]
+![{{ page.images["App-Fichiers-Cle-USB"].alt }}]
 
 Et contrairement à ce qui se pasait sous iOS 12, cette fois-ci, je peux voir tous les fichiers, et plus seulement les fichiers vidéo et audio.
 
@@ -295,11 +296,11 @@ Aura-t-on une belle surprise ?
 À voir.
 
 
-[{{ page.liens[Lien-1].id }}]: /2019/08/01/Support-Accessoires-USB-iOS-12.html "{{ page.liens[Lien-1].title }}"
+[{{ page.liens["Lien-1"].id }}]: /2019/08/01/Support-Accessoires-USB-iOS-12.html "{{ page.liens["Lien-1"].title }}"
 
-[{{ page.images[iPadOS-Version-13.3.1].alt }}]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/iPadOS-Version-13.3.1.jpeg "{{ page.images[iPadOS-Version-13.3.1].title }}"
+[{{ page.images["iPadOS-Version-13.3.1"].alt }}]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/iPadOS-Version-13.3.1.jpeg "{{ page.images["iPadOS-Version-13.3.1"].title }}"
 
-[{{ page.images[App-Fichiers-Cle-USB].alt }}]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/App-Fichiers-Cle-USB.jpeg "{{ page.images[App-Fichiers-Cle-USB].title }}"
+[{{ page.images["App-Fichiers-Cle-USB"].alt }}]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/App-Fichiers-Cle-USB.jpeg "{{ page.images["App-Fichiers-Cle-USB"].title }}"
 
 [{{ page.videos[0].id }}]: {{ page.videos[0].url }} "{{ page.videos[0].title }}"
 
