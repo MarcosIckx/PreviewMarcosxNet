@@ -69,6 +69,7 @@ debug: false
 
   
   <div class="entries-{{ page.entries_layout | default: 'list' }}">
+    <p> # posts : {{ items.size }}</p>
     {%- for entry in items -%}
       {%- include entry.html debug=debugMode -%}
     {%- endfor -%}
