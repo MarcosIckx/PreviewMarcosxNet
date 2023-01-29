@@ -365,8 +365,7 @@ vous pouvez demander l’obtention d’une copie des données suivantes :
 
 ![Capture d´écran privacy.apple.com où l´accès à iCloud.com est activé]
 
-![Capture d´écran privacy.apple.com où l´accès à iCloud.com est activé suite
-]
+![Capture d´écran privacy.apple.com où l´accès à iCloud.com est activé suite]
 
 Si l’accès aux données iCloud via web est **désactivé**, 
 ainsi que la Protection Avancée des Données iCloud, 
@@ -484,11 +483,11 @@ Merci à [Laurent], [Julien], [David], [Audrey] et [Sylvain] pour leur retour, a
 
 [Capture d´écran iCloud.com où il est demandé de se fier au navigateur]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Capture-iCloud-Se-Fier.png "Capture d´écran iCloud.com où il est demandé de se fier au navigateur. Si on s'y fie, il ne faudra plus saisir de code de calidation lors de la prochaine connexion."
 
-[Capture d´écran privacy.apple.com où l´accès à iCloud.com est activé]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/privacy-avant-activation-PAD-1.png
-[Capture d´écran privacy.apple.com où l´accès à iCloud.com est activé suite]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/privacy-avant-activation-PAD-2.png
+[Capture d´écran privacy.apple.com où l´accès à iCloud.com est activé]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/privacy-avant-activation-PAD-1.png "Capture d´écran privacy.apple.com où l´accès à iCloud.com est activé"
+[Capture d´écran privacy.apple.com où l´accès à iCloud.com est activé suite]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/privacy-avant-activation-PAD-2.png "Capture d´écran privacy.apple.com où l´accès à iCloud.com est activé suite"
 
-[Capture d´écran privacy.apple.com où l´accès à iCloud.com est désactivé]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/privacy-apres-activation-PAD-1.png
-[Capture d´écran privacy.apple.com où l´accès à iCloud.com est désactivé suite]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/privacy-apres-activation-PAD-2.png
+[Capture d´écran privacy.apple.com où l´accès à iCloud.com est désactivé]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/privacy-apres-activation-PAD-1.png "Capture d´écran privacy.apple.com où l´accès à iCloud.com est désactivé"
+[Capture d´écran privacy.apple.com où l´accès à iCloud.com est désactivé suite]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/privacy-apres-activation-PAD-2.png "Capture d´écran privacy.apple.com où l´accès à iCloud.com est déactivé suite"
 
 [Tableau Obtention Copie Données via privacy.apple.com]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Tableau-Obtenir-Copie-Donnees.png "Tableau qui résume quelles sont les données pour lesquelles on peut ontenir une copie selon que l´accès aux données iCloud via le web esr activé ou pas"
 
