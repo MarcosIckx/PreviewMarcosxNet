@@ -293,13 +293,13 @@ Mais ça permet de réduire les possibilités de vols de données à distance.
 
 Si l’accès à vos données iCloud sur le web est désactivé, voilà le genre de message que vous verrez lorsque vous vous connecterez à votre compte via [iCloud.com].
 
-    **Bonsoir**,
-    **Vous avez désactivé la fonctionnalité 
-    accéder aux données iCloud sur le web.**
-
-    Pour accéder aux données sur [iCloud.com], 
-    vous devrez activer l’accès sur le web 
-    dans les réglages iCloud de votre appareil.
+> **Bonsoir**,
+>    **Vous avez désactivé la fonctionnalité 
+>    accéder aux données iCloud sur le web.**
+> 
+> Pour accéder aux données sur [iCloud.com], 
+> vous devrez activer l’accès sur le web 
+> dans les réglages iCloud de votre appareil.
 
 ![Capture d´écran de la page iCloud.com lorsque l´accès aux données est désactivé]
 
