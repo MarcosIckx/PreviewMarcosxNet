@@ -56,7 +56,6 @@ Voyons cela en vidéo :
 {% include video.html 
     videoNr=0
 %}
-[{{ page.videos[0].alt }}][{{ page.videos[0].id }}]
 
 ## Associer des actions aux coins
 Maintenant nous pouvons désigner des actions à chacun des 4 coins de l’écran.
@@ -74,7 +73,6 @@ Voyons comment configurer cela :
 {% include video.html 
     videoNr=1
 %}
-[{{ page.videos[1].alt }}][{{ page.videos[1].id }}]
 
 ## Les coins actifs en action
 
@@ -85,15 +83,9 @@ Voyons cela en action.
 {% include video.html 
     videoNr=2
 %}
-[{{ page.videos[2].alt }}][{{ page.videos[2].id }}]
 
 
 # Conclusion
 
 Les coins actifs, c’est juste 👌
 
-[{{ page.videos[0].id }}]: {{ page.videos[0].url }} "{{ page.videos[0].title }}"
-
-[{{ page.videos[1].id }}]: {{ page.videos[1].url }} "{{ page.videos[1].title }}"
-
-[{{ page.videos[2].id }}]: {{ page.videos[2].url }} "{{ page.videos[2].title }}"
