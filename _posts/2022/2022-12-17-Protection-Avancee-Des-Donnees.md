@@ -5,6 +5,17 @@ description: "Qu´est ce que la Protection Avancée des Données. Comment s´y p
 date: 2022-12-17
 image:
   url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Protection-Avancee-des-Donnees.png
+video:
+  - id: animation-cles-PAD
+    url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/animation-cles-PAD.mp4
+    type: video/mp4
+    alt: Animation montrant que lorsque la Protection Avancée des Données iCloud est activée, les clés de service qui sont stockée sur les serveurs d'Apple, sont supprimées et stockées dans l'enclave sécurisée de votre appareil.
+    title: Animation montrant que lorsque la Protection Avancée des Données iCloud est activée, les clés de service qui sont stockée sur les serveurs d'Apple, sont supprimées et stockées dans l'enclave sécurisée de votre appareil.
+  - id: animation-iCloud.com
+    url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/animation-iCloud.com.mp4
+    type: video/mp4
+    alt: Animation sympathique que l´on peut voir sur la page d´accueil iCloud.com
+    title: Animation sympathique que l´on peut voir sur la page d´accueil iCloud.com 
 tags: [Sécurité, Protection des Données, iCloud]
 category: Confidentialité
 ---
@@ -16,6 +27,10 @@ Comment en profiter ?
 Bien comprendre l'impact de cette activation.
 
 C'est ce qu'on va voir ensemble dans cet article.
+
+{% include video.html 
+    videoNr=0
+%}
 
 ## Qu'est-ce que la Protection Avancée des Données iCloud ?
 
@@ -259,6 +274,10 @@ Ainsi, le jour où l'activation de la Protection Avancée des Données sera poss
 
 ## La Protection Avancée des Données et [iCloud.com]
 
+{% include video.html 
+    videoNr=1
+%}
+
 ### L'accès aux Données iCloud sur le web désactivé par défaut
 Il est important de savoir que lorsque la Protection Avancée des Données [iCloud] est activée, l'accès aux données iCloud sur le web sera également désactivé.
 
@@ -490,14 +509,3 @@ Merci à [Laurent], [Julien], [David], [Audrey] et [Sylvain] pour leur retour, a
 [Capture d´écran privacy.apple.com où l´accès à iCloud.com est désactivé suite]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/privacy-apres-activation-PAD-2.png "Capture d´écran privacy.apple.com où l´accès à iCloud.com est déactivé suite"
 
 [Tableau Obtention Copie Données via privacy.apple.com]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Tableau-Obtenir-Copie-Donnees.png "Tableau qui résume quelles sont les données pour lesquelles on peut ontenir une copie selon que l´accès aux données iCloud via le web esr activé ou pas"
-
-
-
-
-
-
-
-
-
-
-
