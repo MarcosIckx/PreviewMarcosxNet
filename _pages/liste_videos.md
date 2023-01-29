@@ -6,11 +6,10 @@ permalink: /videos/liste.html
 ---
 
 {% for file in site.static_files %}
-
 {% assign extension = file.extname | downcase %}
 {% if extension contains ".mp4" %}
     
-## Video {{ file.basename }}
+## {{ file.basename }}
 
 Video.url : {{ file.path }}
 {% assign splittedPath = file.path | remove_first: "/" | split: '/' %}
@@ -20,11 +19,13 @@ video.date : {{ splittedPath[2] }}-{{ splittedPath[3] }}-{{ splittedPath[4] }}
 
 Video.id : {{ file.basename }}
 
-Video.type : {% assign videoType =  file.extname | remove: "." | prepend: "video/" %} {{videoType}}
+Video.type : {% assign videoType =  file.extname | downcase | remove: "." | prepend: "video/" %} {{videoType}}
 
 Video.alt : {% assign videoAlt = splittedPath[5] | append: " : "  | append: file.basename | replace: "-", " " %} {{videoAlt}}
 
 {% include video.html src=file.path type=videoType description=videoAlt %}
+
+[{{ videoAlt }}]({{ file.path }} "{{ videoAlt }}")
   
 {% endif %}
 
