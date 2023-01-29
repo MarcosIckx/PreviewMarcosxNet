@@ -140,7 +140,6 @@ Avec AssistiveTouch, même sous iOS 12, on pouvait déjà faire apparaître un �
 {% include video.html 
     videoNr=0
 %}
-[{{ page.videos[0].alt }}][{{ page.videos[0].id }}]
 
 Je tiens à préciser qu’aucun dispositif n’était connecté à l’iPad à ce moment là.
 Ça montre juste qu’on pouvait déjà même afficher un pointeur symbolisant un doigt.
@@ -154,7 +153,6 @@ Tout cela se trouvant dans les réglages de l’AssistiveTouch, comme on peut le
 {% include video.html 
     videoNr=1
 %}
-[{{ page.videos[1].alt }}][{{ page.videos[1].id }}]
 
 
 Voyons maintenant ce qui se passe lorsqu’on branche une souris (tout en s’assurant  qu’AssistiveTouch soit bien activé. Sinon, rien ne se passe à priori).
@@ -162,7 +160,6 @@ Voyons maintenant ce qui se passe lorsqu’on branche une souris (tout en s’as
 {% include video.html 
     videoNr=2
 %}
-[{{ page.videos[2].alt }}][{{ page.videos[2].id }}]
 
 Dès que je branche la souris, vu que AssistiveTouch est activé, le pointeur apparaît furtivement pendant 2 secondes.
 
@@ -177,8 +174,6 @@ Allons-y, Alonso.
 {% include video.html 
     videoNr=3
 %}
-[{{ page.videos[3].alt }}][{{ page.videos[3].id }}]
-
 
 Voyons maintenant ce qui se passe lorsqu’on clique sur les différents boutons.
 
@@ -187,7 +182,6 @@ Tout d’abord on va cliquer sur le bouton de gauche pour revenir à l’accueil
 {% include video.html 
     videoNr=4
 %}
-[{{ page.videos[4].alt }}][{{ page.videos[4].id }}]
 
 On peut également utiliser la molette pour se déplacer facilement dans les menus des réglages ou encore dans Safari par exemple.
 
@@ -196,7 +190,6 @@ Mais profitons en pour cacher par défaut le bouton d’accueil dès que la sour
 {% include video.html 
     videoNr=5
 %}
-[{{ page.videos[5].alt }}][{{ page.videos[5].id }}]
 
 Le support de la souris sous cette version d’iPadOS 13.3.1 ne fait que simuler l’interaction du doigt à l’écran. 
 
@@ -240,7 +233,6 @@ Voyons cela en vidéo :
 {% include video.html 
     videoNr=6
 %}
-[{{ page.videos[6].alt }}][{{ page.videos[6].id }}]
 
 Maintenant nous pouvons désigner des actions à chacun des 4 coins de l’écran.
 
@@ -257,7 +249,6 @@ Voyons comment configurer cela :
 {% include video.html 
     videoNr=7
 %}
-[{{ page.videos[7].alt }}][{{ page.videos[7].id }}]
 
 Et maintenant il nous suffit de placer ce curseur dans chacun des coins de l’écran pendant 1 quart de seconde pour déclencher l’action.
 
@@ -266,7 +257,6 @@ Voyons cela en action.
 {% include video.html 
     videoNr=8
 %}
-[{{ page.videos[8].alt }}][{{ page.videos[8].id }}]
 
 
 # Conclusion
@@ -283,27 +273,8 @@ Aura-t-on une belle surprise ?
 
 À voir.
 
-
 [{{ page.liens["Lien-1"].id }}]: /2019/08/01/Support-Accessoires-USB-iOS-12.html "{{ page.liens["Lien-1"].title }}"
 
 [{{ page.images["iPadOS-Version-13.3.1"].alt }}]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/iPadOS-Version-13.3.1.jpeg "{{ page.images["iPadOS-Version-13.3.1"].title }}"
 
 [{{ page.images["App-Fichiers-Cle-USB"].alt }}]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/App-Fichiers-Cle-USB.jpeg "{{ page.images["App-Fichiers-Cle-USB"].title }}"
-
-[{{ page.videos[0].id }}]: {{ page.videos[0].url }} "{{ page.videos[0].title }}"
-
-[{{ page.videos[1].id }}]: {{ page.videos[1].url }} "{{ page.videos[1].title }}"
-
-[{{ page.videos[2].id }}]: {{ page.videos[2].url }} "{{ page.videos[2].title }}"
-
-[{{ page.videos[3].id }}]: {{ page.videos[3].url }} "{{ page.videos[3].title }}"
-  
-[{{ page.videos[4].id }}]: {{ page.videos[4].url }} "{{ page.videos[4].title }}"
-
-[{{ page.videos[5].id }}]: {{ page.videos[5].url }} "{{ page.videos[5].title }}"
-
-[{{ page.videos[6].id }}]: {{ page.videos[6].url }} "{{ page.videos[6].title }}"
-
-[{{ page.videos[7].id }}]: {{ page.videos[7].url }} "{{ page.videos[7].title }}"
-
-[{{ page.videos[8].id }}]: {{ page.videos[8].url }} "{{ page.videos[8].title }}"
