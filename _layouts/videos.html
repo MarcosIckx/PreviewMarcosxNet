@@ -55,7 +55,7 @@ debug: true
         {%- endif -%}
 
         {%- if video.id contains videoName -%}
-          {%- assign items = items | concat: post -%}
+          {%- assign items = items | push: post -%}
         {%- endif -%}
       {%- endfor -%}
     {%- endif -%}
