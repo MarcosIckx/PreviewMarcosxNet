@@ -5,7 +5,7 @@ description: "Qu´est ce que la Protection Avancée des Données. Comment s´y p
 date: 2022-12-17
 image:
   url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Protection-Avancee-des-Donnees.png
-video:
+videos:
   - id: animation-cles-PAD
     url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/animation-cles-PAD.mp4
     type: video/mp4
