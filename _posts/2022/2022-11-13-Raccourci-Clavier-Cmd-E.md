@@ -7,6 +7,42 @@ tags: [iPadOS16, iPadOS15, Raccourcis Clavier]
 category: Raccourcis clavier
 image:
   url: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Accroche-Raccourci-Clavier-Cmd-E.png
+videos:
+  - id: Cmd-E-Rechercher-Mauvaise-methode
+    url: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Cmd-E-Rechercher-Mauvaise-methode.mp4
+    alt: Comment rechercher un texte sélectionné. Mauvaise façon de faire.
+    type: video/mp4
+    title: Vidéo illustrant la mauvaise manière de rechercher un texte sélectionné.
+  - id: Cmd-E-Rechercher-Bonne-methode
+    url: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Cmd-E-Rechercher-Bonne-methode.mp4
+    alt: Comment rechercher un texte sélectionné. Bonne façon de faire.
+    type: video/mp4
+    title: Vidéo illustrant la bonne façon de rechercher un texte sélectionné.
+  - id: Cmd-E-Rechercher-Remplacer-dans-Notes
+    url: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Cmd-E-Rechercher-Remplacer-dans-Notes.mp4
+    alt: Comment s´y prendre pour Rechercher et Remplacer via clavier externe, ici dans Notes.
+    type: video/mp4
+    title: Comment s´y prendre pour Rechercher et Remplacer via clavier externe, ici dans Notes.
+  - id: Cmd-E-Rechercher-dans-Safari-iOS15
+    url: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Cmd-E-Rechercher-dans-Safari-iOS15.mp4
+    alt: Comment Rechercher dans Safari sous iOS 15 via Cmd-E ?
+    type: video/mp4
+    title: Comment Rechercher dans Safari sous iOS 15 via Cmd-E ?
+  - id: Cmd-E-Rechercher-dans-Safari-iOS16
+    url: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Cmd-E-Rechercher-dans-Safari-iOS16.mp4
+    alt: Comment Rechercher dans Safari sous iOS 16 via Cmd-E ?
+    type: video/mp4
+    title: Comment Rechercher dans Safari sous iOS 16 via Cmd-E ?
+  - id: Cmd-E-Rechercher-Via-Clavier-Virtuel
+    url: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Cmd-E-Rechercher-Via-Clavier-Virtuel.mp4
+    alt: Comment faire l´équivalent de Rechercher texte sélectionné sans clavier externe ?
+    type: video/mp4
+    title: Comment faire l´équivalent de Rechercher texte sélectionné sans clavier externe ?
+  - id: Cmd-E-Rechercher-Remplacer-Via-Clavier-Virtuel.mp4
+    url: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Cmd-E-Rechercher-Remplacer-Via-Clavier-Virtuel.mp4
+    alt: Comment faire l´équivalent de Rechercher et Remplacer du texte sélectionné sans clavier externe ?
+    type: video/mp4
+    title: Comment faire l´équivalent de Rechercher et Remplacer du texte sélectionné sans clavier externe ?
 otherLinks: 
    - title: "Histoire de raccourcis clavier célèbres - Partie 1 : Couper/Copier/Coller"
      url: /2020/04/15/Histoire-de-raccourcis-clavier-apple-partie1-le-trio-couper-copier-coller.html
@@ -38,6 +74,12 @@ Aujourd’hui, bien souvent, lorsqu’on recherche dans un document les occurren
 4. Coller le texte (⌘V)
 5. Rechercher les occurrences suivantes (⌘G)
 
+Voyons cela en vidéo:
+
+{% include video.html 
+    videoNr=0
+%}
+[{{ page.videos[0].alt }}][{{ page.videos[0].id }}]
 
 ## Ce qu’il faut faire 
 Et c’est là qu’entre en jeu le raccourci clavier ⌘E.
@@ -47,6 +89,11 @@ On a donc plus qu’à faire ces étapes :
 1. Sélection texte
 2. Copier le texte dans le FIND BUFFER (⌘E)
 3. Rechercher l’occurrence suivante (⌘G)
+
+{% include video.html 
+    videoNr=1
+%}
+[{{ page.videos[1].alt }}][{{ page.videos[1].id }}]
 
 L’avantage de cette méthode est que 
 - La fenêtre de recherche n’encombre pas l’écran 
@@ -64,15 +111,32 @@ Voilà les différentes étapes
 5. Cherche l’occurrence suivante (⌘G)
 6. Remplace le texte (⌘V)
 
+Voyons ce que cela donne en vidéo :
+
+{% include video.html 
+    videoNr=2
+%}
+[{{ page.videos[2].alt }}][{{ page.videos[2].id }}]
+
 ## ⌘E sous iPadOS 15
 Sous iOS 15, peu d’apps supportaient ⌘E (Safari était l’une d’elle). Mais ça marchait pas mal. 
 
 Ainsi, on pouvait faire usage uniquement des raccourcis clavier ⌘E, ⌘G, ⌘⇧G et ⌘F dans Safari sous iOS 15 sans toucher l’écran. 
 
+{% include video.html 
+    videoNr=3
+%}
+[{{ page.videos[3].alt }}][{{ page.videos[3].id }}]
+
 ## ⌘E sous iPadOS 16
 Sous iOS 16, le raccourci clavier ⌘E est supporté dans Notes, Safari, Mail, Pages, Numbers, Keynote pour n’en citer que quelques unes.
 
 Sous Safari, sous iOS 16, ça fonctionne de façon moins agréable, je trouve, car la recherche de l’occurrence suivante n’a pas l’air de tenir compte de l’endroit où on se situe sur la page. Mais ça fonctionne malgré tout.
+
+{% include video.html 
+    videoNr=4
+%}
+[{{ page.videos[4].alt }}][{{ page.videos[4].id }}]
 
 # Rechercher le texte sélectionné sans clavier externe
 Avec un iPad et un iPhone, on n’a pas toujours un clavier externe à portée de main.
@@ -95,6 +159,12 @@ Et ça permet donc de rechercher les occurrences d’un texte, sans que celui-ci
 
 ![Barre de recherche avec le champ de recherche prérempli avec la sélection]
 
+Voyons cela en vidéo :
+{% include video.html 
+    videoNr=5
+%}
+[{{ page.videos[5].alt }}][{{ page.videos[5].id }}]
+
 # Rechercher et Remplacer sans clavier externe
 Comment faire le rechercher/remplacer si on n’a pas de clavier à portée de main ?
 
@@ -106,7 +176,7 @@ Comment faire le rechercher/remplacer si on n’a pas de clavier à portée de m
 
 Imaginons, comme tantôt que l’on désire remplacer l’expression pom-E par cmd-E.
 
-Voici les étapes que l’on voit dans la vidéo au thread qui suit 
+Voici les étapes que l’on voit dans la vidéo qui suit 
 
 1. Sélection de « cmd-E »
 2. Option « Copier »
@@ -116,8 +186,20 @@ Voici les étapes que l’on voit dans la vidéo au thread qui suit
 6. Rechercher les occurrences suivantes à l’aide des flèches 
 7. Appuyer sur le bouton « Remplacer »
 
+{% include video.html 
+    videoNr=6
+%}
+[{{ page.videos[6].alt }}][{{ page.videos[6].id }}]
 
 
+# Conclusion
+
+Apple a eu une tres bonne initiative de généraliser le raccourci clavier Cmd-E à d´autres applications.
+
+Et Apple a également pensé à ceux qui n´utilisent pas de clavier externe, et qui pourront également utiliser 
+l´équivalent pour faciliter les recherches mais aussi la Recherche/Remplacement.
+
+Merci à eux, même si cela reste encore perfectible.
 
 Plus d’information sur Larry Tesler:
 
@@ -141,3 +223,17 @@ Plus d’information sur Larry Tesler:
 [Option Barre de recherche pour activer Rechercher et Remplacer]: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Rechercher-Remplacer-4.png "Capture d´écran où l´on voit la barre de recherche avec un menu dévoilant des options (encadré en rouge sur la capture d´écran) dont celle de Rechercher et Remplacer. Une nouveauté iOS 16."
 
 [La barre de Rechercher et Remplacer]: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Rechercher-Remplacer-5.png "Capture d´écran où l´on voit au dessus du clavier virtuel la barre de Rechercher Remplacer (encadrée en rouge sur la capture d´écran). À la droite du champ de recherche, on a maintenant le champ qui accueillera le texte de remplacement. À droite de ce champ se situe un bouton Remplacer. En appuyant sur celui-ci, on remplacera lˋoccurrence du texte recherché par le texte de remplacement."
+
+[{{ page.videos[0].id }}]: {{ page.videos[0].url }} "{{ page.videos[0].title }}"
+
+[{{ page.videos[1].id }}]: {{ page.videos[1].url }} "{{ page.videos[1].title }}"
+
+[{{ page.videos[2].id }}]: {{ page.videos[2].url }} "{{ page.videos[2].title }}"
+
+[{{ page.videos[3].id }}]: {{ page.videos[3].url }} "{{ page.videos[3].title }}"
+  
+[{{ page.videos[4].id }}]: {{ page.videos[4].url }} "{{ page.videos[4].title }}"
+
+[{{ page.videos[5].id }}]: {{ page.videos[5].url }} "{{ page.videos[5].title }}"
+
+[{{ page.videos[6].id }}]: {{ page.videos[6].url }} "{{ page.videos[6].title }}"
