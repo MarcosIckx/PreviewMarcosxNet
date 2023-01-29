@@ -24,8 +24,6 @@ Video.type : {% assign videoType =  file.extname | downcase | remove: "." | prep
 Video.alt : {% assign videoAlt = splittedPath[5] | append: " : "  | append: file.basename | replace: "-", " " %} {{videoAlt}}
 
 {% include video.html src=file.path type=videoType description=videoAlt %}
-
-[{{ videoAlt }}]({{ file.path }} "{{ videoAlt }}")
   
 {% endif %}
 
