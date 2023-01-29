@@ -1,5 +1,6 @@
 ---
 layout: default
+debug: true
 ---
 
 {%- comment -%}
@@ -21,6 +22,12 @@ layout: default
 {%- endfor -%}
 {%- assign allVideoNames = allVideoNames | uniq | sort_natural -%}
 
+{%- if debugMode -%}
+<div class="debug">
+   allVideoNames : [{{ allVideoNames }}] <br />
+</div>
+{%- endif -%}
+
 {%- comment -%}
   ~~~ 
   boucle sur les noms des vidéos et les posts associés à ces vidéos.
@@ -31,8 +38,14 @@ layout: default
 <section id="{{ videoName | slugify | downcase }}" class="taxonomy-section">
   <h2 class="taxonomy-title">{{ videoName }}</h2>
   {%- assign items = "" | split: ',' -%}
-  {%- for post in sites.posts -%}
+  {%- for post in site.posts -%}
     {%- if post.videos -%}
+      {%- if debugMode -%}
+        <div class="debug">
+         post: [{{ post }}] <br />
+         post.videos: [{{ post.videos }}] <br />
+        </div>
+      {%- endif -%}
       {%- for video in post.videos -%}
         {%- if debugMode -%}
           <div class="debug">
@@ -47,6 +60,14 @@ layout: default
       {%- endfor -%}
     {%- endif -%}
   {%- endfor -%}
+  
+  {%- if debugMode -%}
+    <div class="debug">
+       items.size {{ items.size }} <br />
+    </div>
+  {%- endif -%}
+
+  
   <div class="entries-{{ page.entries_layout | default: 'list' }}">
     {%- for entry in items -%}
       {%- include entry.html debug=debugMode -%}
