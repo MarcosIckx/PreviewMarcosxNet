@@ -79,7 +79,6 @@ Voyons cela en vidéo:
 {% include video.html 
     videoNr=0
 %}
-[{{ page.videos[0].alt }}][{{ page.videos[0].id }}]
 
 ## Ce qu’il faut faire 
 Et c’est là qu’entre en jeu le raccourci clavier ⌘E.
@@ -93,7 +92,6 @@ On a donc plus qu’à faire ces étapes :
 {% include video.html 
     videoNr=1
 %}
-[{{ page.videos[1].alt }}][{{ page.videos[1].id }}]
 
 L’avantage de cette méthode est que 
 - La fenêtre de recherche n’encombre pas l’écran 
@@ -116,7 +114,6 @@ Voyons ce que cela donne en vidéo :
 {% include video.html 
     videoNr=2
 %}
-[{{ page.videos[2].alt }}][{{ page.videos[2].id }}]
 
 ## ⌘E sous iPadOS 15
 Sous iOS 15, peu d’apps supportaient ⌘E (Safari était l’une d’elle). Mais ça marchait pas mal. 
@@ -126,7 +123,6 @@ Ainsi, on pouvait faire usage uniquement des raccourcis clavier ⌘E, ⌘G, ⌘�
 {% include video.html 
     videoNr=3
 %}
-[{{ page.videos[3].alt }}][{{ page.videos[3].id }}]
 
 ## ⌘E sous iPadOS 16
 Sous iOS 16, le raccourci clavier ⌘E est supporté dans Notes, Safari, Mail, Pages, Numbers, Keynote pour n’en citer que quelques unes.
@@ -136,7 +132,6 @@ Sous Safari, sous iOS 16, ça fonctionne de façon moins agréable, je trouve, c
 {% include video.html 
     videoNr=4
 %}
-[{{ page.videos[4].alt }}][{{ page.videos[4].id }}]
 
 # Rechercher le texte sélectionné sans clavier externe
 Avec un iPad et un iPhone, on n’a pas toujours un clavier externe à portée de main.
@@ -163,7 +158,6 @@ Voyons cela en vidéo :
 {% include video.html 
     videoNr=5
 %}
-[{{ page.videos[5].alt }}][{{ page.videos[5].id }}]
 
 # Rechercher et Remplacer sans clavier externe
 Comment faire le rechercher/remplacer si on n’a pas de clavier à portée de main ?
@@ -189,7 +183,6 @@ Voici les étapes que l’on voit dans la vidéo qui suit
 {% include video.html 
     videoNr=6
 %}
-[{{ page.videos[6].alt }}][{{ page.videos[6].id }}]
 
 
 # Conclusion
@@ -223,17 +216,3 @@ Plus d’information sur Larry Tesler:
 [Option Barre de recherche pour activer Rechercher et Remplacer]: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Rechercher-Remplacer-4.png "Capture d´écran où l´on voit la barre de recherche avec un menu dévoilant des options (encadré en rouge sur la capture d´écran) dont celle de Rechercher et Remplacer. Une nouveauté iOS 16."
 
 [La barre de Rechercher et Remplacer]: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Rechercher-Remplacer-5.png "Capture d´écran où l´on voit au dessus du clavier virtuel la barre de Rechercher Remplacer (encadrée en rouge sur la capture d´écran). À la droite du champ de recherche, on a maintenant le champ qui accueillera le texte de remplacement. À droite de ce champ se situe un bouton Remplacer. En appuyant sur celui-ci, on remplacera lˋoccurrence du texte recherché par le texte de remplacement."
-
-[{{ page.videos[0].id }}]: {{ page.videos[0].url }} "{{ page.videos[0].title }}"
-
-[{{ page.videos[1].id }}]: {{ page.videos[1].url }} "{{ page.videos[1].title }}"
-
-[{{ page.videos[2].id }}]: {{ page.videos[2].url }} "{{ page.videos[2].title }}"
-
-[{{ page.videos[3].id }}]: {{ page.videos[3].url }} "{{ page.videos[3].title }}"
-  
-[{{ page.videos[4].id }}]: {{ page.videos[4].url }} "{{ page.videos[4].title }}"
-
-[{{ page.videos[5].id }}]: {{ page.videos[5].url }} "{{ page.videos[5].title }}"
-
-[{{ page.videos[6].id }}]: {{ page.videos[6].url }} "{{ page.videos[6].title }}"
