@@ -1,7 +1,10 @@
+{%- assign liste= include.list | site.posts -%}
+{%- assign limite=include.limit | liste.size -%}
+{%- assign objets=include.kindOf | "articles" -%}
 <div class="posts">
-	<h2>Les derniers billets de Marcos Ickx</h2>
+	<h2>Les {{limite}} derniers {{ objets }}</h2>
   <ul class="posts">
-	  {%- for entry in paginator.posts -%}
+	  {%- for entry in liste limit: limite -%}
 	    <li>
 				<article>
 					<a href="{{ entry.url }}" title="{{ entry.title }}">{{ entry.title }}</a>
