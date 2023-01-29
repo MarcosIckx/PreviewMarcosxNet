@@ -1,6 +1,6 @@
-{%- assign liste= include.list | site.posts -%}
-{%- assign limite=include.limit | liste.size -%}
-{%- assign objets=include.kindOf | "articles" -%}
+{%- assign liste= include.list | default: site.posts -%}
+{%- assign limite=include.limit | default: liste.size -%}
+{%- assign objets=include.kindOf | default: "articles" -%}
 <div class="posts">
 	<h2>Les {{limite}} derniers {{ objets }}</h2>
   <ul class="posts">
