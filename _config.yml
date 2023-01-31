@@ -25,10 +25,10 @@ kramdown:
   
 permalink: /:year/:month/:day/:title.html
 
-plugins:
-   - jekyll-paginate
-
-paginate: 10
+#plugins:
+#   - jekyll-paginate
+#
+#paginate: 10
 
 include: ['_pages']
 
