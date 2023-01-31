@@ -32,4 +32,10 @@ actuel:
     id: 2019
     title: Année 2019
     url: /2019/
+    previous: 2007
     next: 2020
+2007:
+    id: 2007
+    title: Année 2007
+    url: /2007/
+    next: 2019
