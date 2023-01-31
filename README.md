@@ -50,17 +50,26 @@ J´ai donc créé [ma première page index.html] (https://github.com/MarcosIckx/
 
 Je patouille un peu avec le CNAME, mais finalement, je comprends qu´il doit contenir blog.marcosx.net.
 
-En attendant, je crée d´autres fichiers.
+En attendant, je vous expliquer un peu la structure actuelle du site.
 
-vous expliquer la structure du site.
 Le site est construit de façon statique par 
 [GitHub Pages] qui lui-même utilise [jekyll] qui lui-même utilise [liquid].
+
 J´ai pris la décision de n´utiliser aucun theme et de n´utiliser que du CSS et HTML. 
+
 Pas de Javascript.
+
 Par contre, j´ai pris la décision d´utiliser [kramdown], qui permet d´aller un peu plus loin que markdown.
 
 J´ai commencé tout petit, pour bien comprendre les bases.
-Avec un css des plus simples, et un post vraiment très très simple.
+Avec une page html vraiment très très simple.
+ensuite, un css très simple également.
+page html et css que j´avais repris d´un tutoriel qui expliquait clairement les premiers pas.
+
+Mais je ne me souviens plus de l´adresse de ce tutoriel.
+
+
+
 
 [blog.marcosx.net]: https://blog.marcosx.net
 [github]: https://github.com
