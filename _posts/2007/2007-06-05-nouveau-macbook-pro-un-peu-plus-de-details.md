@@ -6,6 +6,17 @@ category: MacBook Pro
 ---
 
 [kOrt3x vous en avait déjà touché un mot]: https://web.archive.org/web/20210728073438/http://blog.developpez.com/index.php?blog=142&title=nouveau_macbook_pro&more=1&c=1&tb=1&pb=1
+[la plateforme “Santa Rosa”]: https://web.archive.org/web/20210728073438/http://www.intel.com/cd/products/services/emea/fra/centrino/compare/345512.htm
+[Apple – Google: une collaboration de plus en plus étroite]: https://web.archive.org/web/20210728073438/http://blog.developpez.com/index.php?blog=142&title=apple_google_une_collaboration_de_plus_e&more=1&c=1&tb=1&pb=1
+[NVIDIA GeForce 8600 Full H.264 Decode Acceleration]: https://web.archive.org/web/20210728073438/http://www.anandtech.com/video/showdoc.aspx?i=2977
+[comparaisons avec la carte ATI Radeon X1600 qui équipait les anciens MacBookPro]: https://web.archive.org/web/20210728073438/http://www.anandtech.com/video/showdoc.aspx?i=2977&p=4
+[une action en justice qui est en cours, accusant Apple de publicité mensongère]: https://web.archive.org/web/20210728073438/http://stadium.weblogsinc.com/engadget/videos/PDF/apple_macbook_lawsuit.pdf
+[Lisez ce blog]: https://web.archive.org/web/20210728073438/http://www.leppik.net/david/blog/?p=58
+[Test 3\*8 bits]: https://web.archive.org/web/20210728073438/http://www.visi.com/~leppik/images/bit_test24.png
+[Test 3\*6 bits]: https://web.archive.org/web/20210728073438/http://www.visi.com/~leppik/images/bit_test18.png
+[Test 3\*4 bits]: https://web.archive.org/web/20210728073438/http://www.visi.com/~leppik/images/bit_test12.png
+[Annonce Apple]: https://www.apple.com/fr/newsroom/2007/06/05Apple-Updates-MacBook-Pro/
+
 
 Après les MacBook qui avaient été renouvelés le mois passé, c’est maintenant au tour des MacBook Pro.
 
@@ -64,13 +75,13 @@ Ceux qui s’attendaient à avoir des disques durs hybrides (avec mémoire flash
 
 La grosse surprise, c’est la carte graphique qui est livrée avec les MacBookPro.
 
-Non seulement Apple abandonne ATI pour NVidia, mais en plus Apple se permet de mettre une carte vraiment très puissante. Et le choix de cette carte n’est certainement pas innocent du tout car la GForce 8600 est l’une des rares cartes à prendre en charge le décodage du format H.264, format choisi par Apple pour son AppleTV et pour l’encodage des films proposés sur iTunes, ayant même demandé à youTube de réencoder toutes leurs vidéos en H.264 (voir Apple – Google: une collaboration de plus en plus étroite)
+Non seulement Apple abandonne ATI pour NVidia, mais en plus Apple se permet de mettre une carte vraiment très puissante. Et le choix de cette carte n’est certainement pas innocent du tout car la GForce 8600 est l’une des rares cartes à prendre en charge le décodage du format H.264, format choisi par Apple pour son AppleTV et pour l’encodage des films proposés sur iTunes, ayant même demandé à youTube de réencoder toutes leurs vidéos en H.264 (voir [Apple – Google: une collaboration de plus en plus étroite])
 
-Liens intéressants: NVIDIA GeForce 8600 Full H.264 Decode Acceleration (EN)
+Liens intéressants: [NVIDIA GeForce 8600 Full H.264 Decode Acceleration] (EN)
 
-Dont des comparaisons avec la carte ATI Radeon X1600 qui équipait les anciens MacBookPro (EN)
+Dont des [comparaisons avec la carte ATI Radeon X1600 qui équipait les anciens MacBookPro] (EN)
 
-##L’écran
+## L’écran
 Les 15″ ont maintenant un rétro-éclairage LED, ce qui leur permet, selon les chiffres donnés par Apple de passer de 5heures à 5.5heures d’autonomie. Il faudra voir si cela se vérifie dans les faits.
 
 A notez que le 17″ ne bénéficie pas de ce rétro-éclairage LED. Mais lors de l’achat du 17″, vous avez le choix entre le 1680*1050, comme auparavant, et le 1920*1200.
@@ -81,11 +92,13 @@ En effet, certains écrans LCD ont des dalles 15″ de 1680*1050, et ca donne vr
 
 Bien qu’on nous disait toujours que les écrans avec rétro-éclairage LED sont plus fins que les autres, Apple mentionne toujours les même mesures que les modèles précédents. Comme si l’écran n’avais pas gagné en minceur suite à l’opération. Par contre, les 15″ sont un peu plus léger. 90grammes en moins.
 
-Vu que ces portables intègrent pour la plupart des nouvelles dalles, il serait intéressant de savoir si ces dalles supportent maintenant vraiment le 32bits du point de vue couleurs. En effet, il y a une action en justice qui est en cours, accusant Apple de publicité mensongère, puisque les écrans des portables ne seraient pas capables d’afficher simultanément plusieurs millions de couleurs. Comment savoir si votre écran LCD affiche correctement les couleurs ?
+Vu que ces portables intègrent pour la plupart des nouvelles dalles, il serait intéressant de savoir si ces dalles supportent maintenant vraiment le 32bits du point de vue couleurs. En effet, il y a [une action en justice qui est en cours, accusant Apple de publicité mensongère], puisque les écrans des portables ne seraient pas capables d’afficher simultanément plusieurs millions de couleurs. Comment savoir si votre écran LCD affiche correctement les couleurs ?
 
-Lisez ce blog qui vous explique tout le mécanisme. Et n’oubliez pas d’ouvrir les images suivantes:
+[Lisez ce blog] qui vous explique tout le mécanisme. Et n’oubliez pas d’ouvrir les images suivantes:
 
-Test 3*8 bits Test 3*6 bits Test 3*4 bits
+- [Test 3\*8 bits] 
+- [Test 3\*6 bits]
+- [Test 3\*4 bits]
 
 ## Divers
 
