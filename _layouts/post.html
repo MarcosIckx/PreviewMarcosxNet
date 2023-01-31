@@ -7,9 +7,11 @@ layout: default
 {%- endif -%}{%- endif -%}
 
 <div class="toc">
-<p class="toc">Sommaire</p>
+  <details>
+    <summary>Sommaire</summary>
 {%- include toc.html html=content sanitize=true class="toc" item_class="toc_item" submenu_class="toc_submenu" id="my_toc" h_min=2 h_max=6 ordered=true -%}
-</div>
+  <details>
+    </div>
 
 <div class="post">
   {{ content }}
