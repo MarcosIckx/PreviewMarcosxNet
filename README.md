@@ -7,7 +7,11 @@ Mais, au final, je ne maitrisais plus rien.
 
 Et j´ai donc décidé de repartir de rien. En créant un nouveau blog qui serait hébergé sur 
 
-Je vais essayer ci-dessous de résumer l´évolution du site.
+Je vais essayer ci-dessous de résumer 
+1. comment j´ai crée le site, 
+2. comment je l´ai (dé)structurer
+3. comment je l'ai enrichi de certianes choses, ...
+
 
 ## 25 Juin 2019
 Creation d'un compte sur [github] et du repository [marcosickx.github.io]
@@ -36,9 +40,9 @@ vu qu´il faut attendre 24 heures pour la propagation des changements, on contin
 
 1. Création du fichier CNAME. C´est lui qui permet à GitHub de savoir vers quel GitHub page rediriger blog.marcosx.net
 2. Depuis [marcosickx.github.io] je me rends sur settings et je choisi page dans la colonne de gauche.
-3. Là, dans la partie Custom Domain, je mets [blog.marcosx.net] dans custom domain et je coche la case **Enforce HTTPS**
+3. Là, dans la partie Custom Domain, je mets [blog.marcosx.net] dans custom domain et je coche la case **Enforce HTTPS** ce qui me permet d´avoir mon site disponible en httpS avec un certificat valide, renouvelé automatiquement.
 
-Ainsi, on aura bien tout corectement configuré coté DNS, http, https, et certificats.
+Ainsi, on aura bien tout correctement configuré coté DNS, redirection http vers https, et certificats.
 
 Je peux créer maintenant ma première page.
 
@@ -58,6 +62,49 @@ Par contre, j´ai pris la décision d´utiliser [kramdown], qui permet d´aller 
 J´ai commencé tout petit, pour bien comprendre les bases.
 Avec un css des plus simples, et un post vraiment très très simple.
 
+[blog.marcosx.net]: https://blog.marcosx.net
+[github]: https://github.com
+[marcosickx.github.io]: https://github.com/MarcosIckx/MarcosIckx.github.io/
+[GitHub Pages]: https://docs.github.com/fr/pages
+[jekyll]: https://jekyllrb.com
+[liquid]: https://jekyllrb.com/docs/liquid/
+[kramdown]: https://kramdown.gettalong.org/documentation.html
 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 
 
+## Welcome to GitHub Pages
 
+You can use the [editor on GitHub](https://github.com/MarcosIckx/MarcosIckx.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+### Markdown
+
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+```markdown
+Syntax highlighted code block
+
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
+
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+### Jekyll Themes
+
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MarcosIckx/MarcosIckx.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
+### Support or Contact
+
+Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
