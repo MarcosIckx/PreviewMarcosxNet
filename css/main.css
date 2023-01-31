@@ -364,7 +364,14 @@ article.post span {
 span.left, span.right {
 font-size: 3rem;
 
+/* permet de mettre des crochets autour du numero de la note de bas de page. Ça rend la référence de la note plis visible */
+a.footnote:before {   
+ content: "[";
+}
 
+a.footnote:after {
+    content: "]";
+}
 /* suis pas sûr que ce soit utilisé */
 .step { border-radius: 50%; 
 	-moz-border-radius: 50%; 
