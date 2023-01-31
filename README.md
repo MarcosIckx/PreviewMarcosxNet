@@ -57,3 +57,7 @@ Par contre, j´ai pris la décision d´utiliser [kramdown], qui permet d´aller 
 
 J´ai commencé tout petit, pour bien comprendre les bases.
 Avec un css des plus simples, et un post vraiment très très simple.
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 
+
+
