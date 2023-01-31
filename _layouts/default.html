@@ -1,8 +1,18 @@
+{%- comment -%}
+Ceci est le squelette de chaque page / post
+généré sur ce site.
+
+il est découpé en 3 parties :
+- header-html qui contient les méta-données propre à la page / post du blog
+- navigation-bar qui contient le barre de navigation qui apparait en haut de chaque page /post
+- {{ content }} qui contient le contenu propre à chaque page, avec son titre de niveau 1
+- footer qui contient le pied de page de chaque page/blog
+{%- endcomment -%}
 <!DOCTYPE html>
 <html>
-  {%- include head.html -%}
+  {%- include html-header.html -%}
   <body>
-    {%- include nav.html -%}
+    {%- include navigation-bar.html -%}
     <div class="container">
       <h1 id="page-title">{{ page.title }}</h1>
       {{ content }}	
