@@ -21,10 +21,17 @@ if the optional parameter *dark-img* is present,
  - the corresponding title will be used as caption.
 ~~~
 {% endcomment %}
-
+{% assign debugMode = include.debug | default: page.debug | default: site.debug %}
+{% if debugMode %}
+<div class="debug">
+include.link {{ include.link }} <br/>
+include.img {{ include.img }} <br/>
+include.dark-img {{ include.dark-img }} <br/>
+</div>
+{% endif %}
 <figure class="picture">
   {% if include.link.url -%}
-  <a href="{{ include.link.url }} alt="{{ include.link.alt }}" title="{{ include.link.title | default: include.link.alt}}">
+    <a href="{{ include.link.url }}" alt="{{ include.link.alt }}" title="{{ include.link.title | default: include.link.alt }}">
   {% endif -%}
     <picture>
       {% if include.dark-img.url -%}
@@ -35,5 +42,5 @@ if the optional parameter *dark-img* is present,
   {% if include.link -%}
   </a>
   {% endif -%}
-  <figcaption>{%- if include.dark-img.title -%}{{ include.dark-img.title }}{%- else -%}{{ include.img.title | default: include.img.alt}}{%- endif -%}</figcaption>
+  <figcaption>{%- if include.dark-img.title -%}{{ include.dark-img.title }}{%- else -%}{{ include.img.title | default: include.img.alt }}{%- endif -%}</figcaption>
 </figure>
