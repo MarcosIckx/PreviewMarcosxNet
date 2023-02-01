@@ -2,7 +2,7 @@
 debug: true
 layout: default
 title: "test 1"
-otherlinks:
+otherLinks:
   - url: {{ page.links.link-1.url }}
     title: test 1
   - url: {{ page.images.img-1-dark.url }}
@@ -66,10 +66,21 @@ image 2 - lien 1- dark
 {% include picture.html link=page.links.link-1 img=page.images.img-2 dark-img=page.images.img-2-dark %}
 
 
+
+
 <div class="otherLinks">
   <p>Vous aimerez également lire :</p>
+  
+  page.otherLinks : 
+  {{ page.otherLinks }}
+  
   <ul>
   {%- for otherLink in page.otherLinks -%}
+    
+    otherLink.url : {{ otherLink.url }}
+    
+    otherLink.url \| liquify : {{ otherLink.url | liquify }}
+    
     <li><a href="{{ otherLink.url | liquify }}">{{ otherLink.title }}</a></li>
   {%- endfor -%}
   </ul>
