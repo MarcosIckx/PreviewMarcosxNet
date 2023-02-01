@@ -2,6 +2,11 @@
 debug: true
 layout: default
 title: "test 1"
+otherlinks:
+  - url: {% post_url 2022/2022-12-27-Usage-Phototheque-Partagee %}
+    title: test 1
+  - url: {% post_url 2022/2022-12-17-Protection-Avancee-Des-Donnees.md %}
+    title: test 2 
 links:
   link-1:
     url: https://blog.marcosx.net
@@ -60,4 +65,13 @@ image 2 - lien 1- dark
 
 {% include picture.html link=page.links.link-1 img=page.images.img-2 dark-img=page.images.img-2-dark %}
 
+
+<div class="otherLinks">
+  <p>Vous aimerez également lire :</p>
+  <ul>
+  {%- for otherLink in page.otherLinks -%}
+    <li><a href="{{ otherLink.url | liquify }}">{{ otherLink.title }}</a></li>
+  {%- endfor -%}
+  </ul>
+</div>
 
