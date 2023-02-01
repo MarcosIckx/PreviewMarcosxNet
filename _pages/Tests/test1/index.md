@@ -3,9 +3,9 @@ debug: true
 layout: default
 title: "test 1"
 otherLinks:
-  - url: {{ page.links.link-1.url }}
+  - url: "{{ page.links.link-1.url }}/"
     title: test 1
-  - url: {{ page.images.img-1-dark.url }}
+  - url: "./{{ page.images.img-1.url }}"
     title: test 2 
 links:
   link-1:
@@ -78,6 +78,8 @@ image 2 - lien 1- dark
   {%- for otherLink in page.otherLinks -%}
     
     otherLink.url : {{ otherLink.url }}
+    
+    _+_
     
     otherLink.url \| liquify : {{ otherLink.url | liquify }}
     
