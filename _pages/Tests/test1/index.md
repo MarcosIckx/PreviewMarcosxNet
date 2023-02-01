@@ -3,10 +3,10 @@ debug: true
 layout: default
 title: "test 1"
 otherLinks:
-  - url: "{{ page.links.link-1.url }}/"
-    title: test 1
-  - url: "./{{ page.images.img-1.url }}"
-    title: test 2 
+  - url: "_archives/2007.md"
+    title: 2007
+  - url: "_archives/2022.md"
+    title: 2022
 links:
   link-1:
     url: https://blog.marcosx.net
@@ -83,7 +83,7 @@ image 2 - lien 1- dark
     
     otherLink.url \| liquify : {{ otherLink.url | liquify }}
     
-    <li><a href="{{ otherLink.url | liquify }}">{{ otherLink.title }}</a></li>
+    <li>[{{ otherLink.title }}]({{ otherLink.url }})</li>
   {%- endfor -%}
   </ul>
 </div>
