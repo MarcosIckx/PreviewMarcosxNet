@@ -1,0 +1,39 @@
+{% comment %}
+~~~
+Parameters:
+  img : informations concerning the image (mandatory)
+    url: the url of the image (mandatory)
+    alt: the alternate text of the image (optional)
+    title: the description of the image (optional)
+  dark-img: information concerning a dark version of the image (optional)
+    url: the url of the image for dark mode (mandatory)
+    title: the description of the image for dark mode (optional)
+  link: information concerning the link (optional)
+     url: the url of the link that will be open when we click on the image (mandatory)
+     alt: alternate text of the url (optional)
+     title: description of the link (optional)
+
+if the optional parameter *link* is not present,
+the picture will not be wrapped in a <a> tag.
+
+if the optional parameter *dark-img* is present,
+ - a specific source srcset for dark media will be created
+ - the corresponding title will be used as caption.
+~~~
+{% endcomment %}
+
+<figure class="picture">
+  {% if include.link.url -%}
+  <a href="{{ include.link.url }} alt="{{ include.link.alt }}" title="{{ include.link.title | default: include.link.alt}}">
+  {% endif -%}
+    <picture>
+      {% if include.dark-img.url -%}
+      <source srcset="{{ include.dark-img.url }}" media="(prefers-color-scheme: dark)" />
+      {% endif -%}
+      <img src="{{ include.img.url }}" alt="{{ include.img.alt }}" />
+    </picture>
+  {% if include.link -%}
+  </a>
+  {% endif -%}
+  <figcaption>{%- if include.dark-img.title -%}{{ include.dark-img.title }}{%- else -%}{{ include.img.title | default: include.img.alt}}{%- endif -%}</figcaption>
+</figure>
