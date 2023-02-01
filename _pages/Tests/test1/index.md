@@ -13,14 +13,14 @@ images:
     alt: image du profil de marcos ickx
     title: profil de Marcos Ickx
   img-1-dark:
-    url: https://twitter.com/MarcosIckx/photo
+    url: https://pbs.twimg.com/profile_images/1615483864784281601/4Tjaa2pw_400x400.jpg
     alt: image sombre du profil marcos ickx
     title: profil sombre de Marcos Ickx
   img-2: 
     url: Profile-twitter-MarcosIckx.png
     alt: image 2 du profil de marcos ickx 
   img-2-dark:
-    url: https://twitter.com/MarcosIckx/photo
+    url: https://pbs.twimg.com/profile_images/1615483864784281601/4Tjaa2pw_400x400.jpg
     alt: image sombre 2 du profil marcos ickx    
 ---
 
