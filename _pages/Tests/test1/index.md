@@ -3,9 +3,9 @@ debug: true
 layout: default
 title: "test 1"
 otherLinks:
-  - url: "_archives/2007.md"
+  - url: "/_archives/2007.md"
     title: 2007
-  - url: "_archives/2022.md"
+  - url: "/_archives/2022.md"
     title: 2022
 links:
   link-1:
