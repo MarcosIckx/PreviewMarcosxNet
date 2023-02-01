@@ -68,8 +68,38 @@ page html et css que j´avais repris d´un tutoriel qui expliquait clairement le
 
 Mais je ne me souviens plus de l´adresse de ce tutoriel.
 
+## 31 janvier 2023
+
+### changement table des matières
+
+j´ai changé le include de la table des matières pour utiliser des balises html 5
+qui ont l´air de très bien fonctionner même sur tablette et gsm.
+
+### changement vidéos
+les videos sont encapsulée dans figure et me permet d'utiliser figcaption.
+
+## 01 février  2023
+
+### include picture.html
+
+j´ai implémenté un include picture.html qui va me faciliter les choses
+car toutes les images utilisée dans un post seront mise dans le front matter.
+du post, ainsi que les liens.
+
+Ca me facilitera les choses et me permet d´utiliser les balises html 5
+les images seront dans un figure, avec un figure caption, en dessous,
+l´image pourra être un lien si on le désire.
+et une alternative pour le mode somnre pourra être proposée.
 
 
+### premier plugin
+J´ai copier/coller mon premier plugin que j'ai trouvé ici.
+
+https://stackoverflow.com/questions/14487110/include-jekyll-liquid-template-data-in-a-yaml-variable
+
+en espérant qu´il fonctionne avec jekyll´utilisé par GitHub.
+
+je m´en vais écrire un test pour confirmer cela.
 
 [blog.marcosx.net]: https://blog.marcosx.net
 [github]: https://github.com
