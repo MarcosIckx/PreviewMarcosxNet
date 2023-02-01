@@ -30,34 +30,34 @@ images:
 
 Image 1 - pas de Lien 1 - pas de  dark :
 
-{% include picture.html img=pages.images.img-1  %}
+{% include picture.html img=page.images.img-1  %}
 
 Image 1 - Lien 1 - pas de  dark :
 
-{% include picture.html link=page.links.link-1 img=pages.images.img-1  %}
+{% include picture.html link=page.links.link-1 img=page.images.img-1  %}
 
 image 1 - pas de lien 1- dark 
 
-{% include picture.html img=pages.images.img-1 dark-img=pages.images.img-1-dark %}
+{% include picture.html img=page.images.img-1 dark-img=page.images.img-1-dark %}
 
 image 1 - lien 1- dark 
 
-{% include picture.html link=page.links.link-1 img=pages.images.img-1 dark-img=pages.images.img-1-dark %}
+{% include picture.html link=page.links.link-1 img=page.images.img-1 dark-img=page.images.img-1-dark %}
 
 Image 2 - pas de Lien 1 - pas de  dark :
 
-{% include picture.html img=pages.images.img-2  %}
+{% include picture.html img=page.images.img-2  %}
 
 Image 2 - Lien 1 - pas de  dark :
 
-{% include picture.html link=page.links.link-1 img=pages.images.img-2  %}
+{% include picture.html link=page.links.link-1 img=page.images.img-2  %}
 
 Image 2 - pas de lien 1- dark 
 
-{% include picture.html img=pages.images.img-2 dark-img=pages.images.img-2-dark %}
+{% include picture.html img=page.images.img-2 dark-img=page.images.img-2-dark %}
 
 image 2 - lien 1- dark 
 
-{% include picture.html link=page.links.link-1 img=pages.images.img-2 dark-img=pages.images.img-2-dark %}
+{% include picture.html link=page.links.link-1 img=page.images.img-2 dark-img=page.images.img-2-dark %}
 
 
