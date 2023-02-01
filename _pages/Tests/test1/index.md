@@ -1,4 +1,5 @@
 ---
+debug: true
 layout: default
 title: "test 1"
 links:
@@ -28,25 +29,35 @@ images:
 [HEllO]: Profile-twitter-MarcosIckx.png "Bonjourno"
 
 Image 1 - pas de Lien 1 - pas de  dark :
+
 {% include picture.html img=pages.images.img-1  %}
 
 Image 1 - Lien 1 - pas de  dark :
+
 {% include picture.html link=page.links.link-1 img=pages.images.img-1  %}
 
-ilage 1 - pas de lien 1- dark 
+image 1 - pas de lien 1- dark 
+
 {% include picture.html img=pages.images.img-1 dark-img=pages.images.img-1-dark %}
 
-ilage 1 - lien 1- dark 
+image 1 - lien 1- dark 
+
 {% include picture.html link=page.links.link-1 img=pages.images.img-1 dark-img=pages.images.img-1-dark %}
 
 Image 2 - pas de Lien 1 - pas de  dark :
+
 {% include picture.html img=pages.images.img-2  %}
 
 Image 2 - Lien 1 - pas de  dark :
+
 {% include picture.html link=page.links.link-1 img=pages.images.img-2  %}
 
 Image 2 - pas de lien 1- dark 
+
 {% include picture.html img=pages.images.img-2 dark-img=pages.images.img-2-dark %}
 
 image 2 - lien 1- dark 
+
 {% include picture.html link=page.links.link-1 img=pages.images.img-2 dark-img=pages.images.img-2-dark %}
+
+
