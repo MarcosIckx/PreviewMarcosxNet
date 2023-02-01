@@ -66,14 +66,18 @@ pos: {{ pos }} <br/>
 {% endif %}
 <hr>
 <div class="video-box">
-  <video controls loop>
-    <source src="{{ src }}"
+  <figure class="video-box">  
+    <video controls loop>
+      <source src="{{ src }}"
             type="{{ type }}" />
-    <p>Votre navigateur ne semble pas gérer le tag video</p>
-    <p>Mais vous pouvez cliquer sur le lien ci-après pour voir la vidéo</p>
-    <a href="{{ src }}" title="{{ title }}">{{ descr }}</a>
-  </video>
-  <p>{{ descr | markdownify }}</p>
-  <p><a href="{{ src }}" title="{{ title }}">Lien direct vers la vidéo</a></p>
+      <p>Votre navigateur ne semble pas gérer le tag video</p>
+      <p>Mais vous pouvez cliquer sur le lien ci-après pour voir la vidéo</p>
+      <a href="{{ src }}" title="{{ title }}">{{ descr }}</a>
+    </video>
+    <figcaption>
+       <p>{{ descr | markdownify }}</p>
+       <p><a href="{{ src }}" title="{{ title }}">Lien direct vers la vidéo</a></p>
+    </figcaption>
+  </figure> 
 </div>
 <hr>
