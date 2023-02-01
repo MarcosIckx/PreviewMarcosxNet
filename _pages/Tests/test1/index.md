@@ -3,9 +3,9 @@ debug: true
 layout: default
 title: "test 1"
 otherlinks:
-  - url: {% post_url 2022/2022-12-27-Usage-Phototheque-Partagee %}
+  - url: {{ page.links.link-1.url }}
     title: test 1
-  - url: {% post_url 2022/2022-12-17-Protection-Avancee-Des-Donnees.md %}
+  - url: {{ page.images.img-1-dark.url }}
     title: test 2 
 links:
   link-1:
