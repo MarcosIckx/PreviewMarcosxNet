@@ -25,6 +25,17 @@ kramdown:
   
 permalink: /:year/:month/:day/:title.html
 
+plugins:
+  - jekyll-mentions
+  - jekyll-relative-links
+
+jekyll-mentions:
+  base_url: https://twitter.com
+
+relative_links:
+  enabled:     true
+  collections: true
+
 #plugins:
 #   - jekyll-paginate
 #
