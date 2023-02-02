@@ -12,6 +12,12 @@ Parameters:
      url: the url of the link that will be open when we click on the image (mandatory)
      alt: alternate text of the url (optional)
      title: description of the link (optional)
+  base: the base url directory where relative images should be present
+     if not passed as argument, 
+       it will look at page.pictures_base_url
+       if not present, 
+         it will look at site.pictures_base_url
+         if not present, it will be ./
 
 if the optional parameter *link* is not present,
 the picture will not be wrapped in a <a> tag.
@@ -22,11 +28,29 @@ if the optional parameter *dark-img* is present,
 ~~~
 {% endcomment %}
 {% assign debugMode = include.debug | default: page.debug | default: site.debug %}
+{% assign urlPrepend = include.base | default: page.pictures_base_url | default: site.pictures_base_url | default: "" %}
+{% assign imgUrlFirstPart = include.img.url | split:'/' | first %}
+{% if imgUrlFirstPart == "http:" or imgUrlFirstPart == "https:" or imgUrlFirstPart = "" %}
+  {% assign imgUrlIsNotRelative = true %}
+{% else %}
+  {% assign imgUrlIsNotRelative = false %}
+{% endif %}
+{% assign darkimgUrlFirstPart = include.dark-img.url | split:'/' | first %}
+{% if darkimgUrlFirstPart == "http:" or imgUrlFirstPart == "https:" or imgUrlFirstPart = "" %}
+  {% assign darkimgUrlIsNotRelative = true %}
+{% else %}
+  {% assign darkimgUrlIsNotRelative = false %}
+{% endif %}
 {% if debugMode %}
 <div class="debug">
 include.link {{ include.link }} <br/>
 include.img {{ include.img }} <br/>
 include.dark-img {{ include.dark-img }} <br/>
+include.base {{ include.base }} <br/>
+page.pictures_base_url {{ page.pictures_base_url }} <br/>
+site.pictures_base_url {{ site.pictures_base_url }} <br/>
+urlPrepend {{ urlPrepend }} <br/>
+imgUrlIsNotRelative {{ imgUrlIsNotRelative }} <br/>
 </div>
 {% endif %}
 <figure class="picture">
@@ -34,13 +58,19 @@ include.dark-img {{ include.dark-img }} <br/>
     <a href="{{ include.link.url }}" alt="{{ include.link.alt }}" title="{{ include.link.title | default: include.link.alt }}">
   {% endif -%}
     <picture>
-      {% if include.dark-img.url -%}
+      {% if include.dark-img.url and darkimgUrlIsNotRelative -%}
       <source srcset="{{ include.dark-img.url }}" media="(prefers-color-scheme: dark)" />
+      {% elsif include.dark-img.url and darkimgUrlIsNotRelative == false -%}
+      <source srcset="{{ include.dark-img.url | prepend: urlPrepend }}" media="(prefers-color-scheme: dark)" />
       {% endif -%}
+      {% if imgUrlIsNotRelative -%}
       <img src="{{ include.img.url }}" alt="{{ include.img.alt }}" />
+      {% else -%}
+      <img src="{{ include.img.url | prepend: urlPrepend }}" alt="{{ include.img.alt }}" />
+      {% endif -%}
     </picture>
   {% if include.link -%}
   </a>
   {% endif -%}
-  <figcaption>{%- if include.dark-img.title -%}{{ include.dark-img.title }}{%- else -%}{{ include.img.title | default: include.img.alt }}{%- endif -%}</figcaption>
+  <figcaption>{%- {{ include.img.title | default: include.img.alt }}</figcaption>
 </figure>
