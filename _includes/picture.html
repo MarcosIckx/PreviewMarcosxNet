@@ -72,5 +72,5 @@ imgUrlIsNotRelative {{ imgUrlIsNotRelative }} <br/>
   {% if include.link -%}
   </a>
   {% endif -%}
-  <figcaption>{%- {{ include.img.title | default: include.img.alt }}</figcaption>
+  <figcaption>{{ include.img.title | default: include.img.alt }}</figcaption>
 </figure>
