@@ -30,13 +30,13 @@ if the optional parameter *dark-img* is present,
 {% assign debugMode = include.debug | default: page.debug | default: site.debug %}
 {% assign urlPrepend = include.base | default: page.pictures_base_url | default: site.pictures_base_url | default: "" %}
 {% assign imgUrlFirstPart = include.img.url | split:'/' | first %}
-{% if imgUrlFirstPart == "http:" or imgUrlFirstPart == "https:" or imgUrlFirstPart = "" %}
+{% if imgUrlFirstPart == "http:" or imgUrlFirstPart == "https:" or imgUrlFirstPart == "" %}
   {% assign imgUrlIsNotRelative = true %}
 {% else %}
   {% assign imgUrlIsNotRelative = false %}
 {% endif %}
 {% assign darkimgUrlFirstPart = include.dark-img.url | split:'/' | first %}
-{% if darkimgUrlFirstPart == "http:" or imgUrlFirstPart == "https:" or imgUrlFirstPart = "" %}
+{% if darkimgUrlFirstPart == "http:" or imgUrlFirstPart == "https:" or imgUrlFirstPart == "" %}
   {% assign darkimgUrlIsNotRelative = true %}
 {% else %}
   {% assign darkimgUrlIsNotRelative = false %}
