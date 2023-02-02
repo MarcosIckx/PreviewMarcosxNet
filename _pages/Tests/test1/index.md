@@ -65,26 +65,14 @@ image 2 - lien 1- dark
 
 {% include picture.html link=page.links.link-1 img=page.images.img-2 dark-img=page.images.img-2-dark %}
 
-
-
-
 <div class="otherLinks">
   <p>Vous aimerez également lire :</p>
   
   page.otherLinks : 
   {{ page.otherLinks }}
   
-  <ul>
   {%- for otherLink in page.otherLinks -%}
-    
-    otherLink.url : {{ otherLink.url }}
-    
-    _+_
-    
-    otherLink.url \| liquify : {{ otherLink.url | liquify }}
-    
-    <li>[{{ otherLink.title }}]({{ otherLink.url }})</li>
+* [{{ otherLink.title }}]({{ otherLink.url }})
   {%- endfor -%}
-  </ul>
 </div>
 
