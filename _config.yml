@@ -28,7 +28,9 @@ permalink: /:year/:month/:day/:title.html
 plugins:
   - jekyll-mentions
   - jekyll-relative-links
+  - jekyll-redirect-from
 
+# things like @MarcosIckx will be transformed into link to twitter account
 jekyll-mentions:
   base_url: https://twitter.com
 
@@ -36,6 +38,10 @@ relative_links:
   enabled:     true
   collections: true
 
+# exclude creation of a json file
+redirect_from:
+  json: false
+  
 #plugins:
 #   - jekyll-paginate
 #
