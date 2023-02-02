@@ -3,7 +3,7 @@ debug: true
 layout: default
 title: "test 1"
 permalink: /Test1/
-redirect_from: _pages/Test/test1/
+redirect_from: /_pages/Test/test1/
 otherLinks:
   - url: "../../../_archives/2007.md"
     title: 2007
