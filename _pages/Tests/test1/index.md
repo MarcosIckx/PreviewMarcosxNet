@@ -18,7 +18,7 @@ links:
     url: https://blog.marcosx.net
     alt: mon blog
     title: lien vers mon blog
-pictures_base_url: _pages/Test/test1/
+pictures_base_url: /_pages/Test/test1/
 images:
   img-1: 
     url: Profile-twitter-MarcosIckx.png
