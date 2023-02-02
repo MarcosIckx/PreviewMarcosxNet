@@ -31,35 +31,53 @@ if the optional parameter *dark-img* is present,
 {% assign urlPrepend = include.base | default: page.pictures_base_url | default: site.pictures_base_url | default: "" %}
 {% assign imgUrlFirstPart = include.img.url | split:'/' | first %}
 {% case imgUrlFirstPart %}
-  {% when "http" %}
+  {% when "http:" %}
+    {% if debugMode %}
+    <div class="debug"> Http found </div>
+    {% endif %}
     {% assign imgUrlIsNotRelative = true %}
-  {% when "https" %}
+  {% when "https:" %}
+    {% if debugMode %}
+    <div class="debug">HttpS found </div>
+    {% endif %}
     {% assign imgUrlIsNotRelative = true %}
   {% when "" %}
+    {% if debugMode %}
+    <div class="debug"> empty string found </div>
+    {% endif %}
     {% assign imgUrlIsNotRelative = true %}
   {% else %}
+    {% if debugMode %}
+    <div class="debug">Relative url found : {{ imgUrlFirstPart }} </div>
+    {% endif %}
     {% assign imgUrlIsNotRelative = false %}
 {% endcase %}
 {% assign darkimgUrlFirstPart = include.dark-img.url | split:'/' | first %}
 {% case darkimgUrlFirstPart %}
-  {% when "http" %}
+  {% when "http:" %}
+    {% if debugMode %}
+    <div class="debug">Http found </div>
+    {% endif %}
     {% assign darkimgUrlIsNotRelative = true %}
-  {% when "https" %}
+  {% when "https:" %}
+    {% if debugMode %}
+    <div class="debug">HttpS found </div>
+    {% endif %}
     {% assign darkimgUrlIsNotRelative = true %}
   {% when "" %}
+    {% if debugMode %}
+    <div class="debug">empty string found </div>
+    {% endif %}
     {% assign darkimgUrlIsNotRelative = true %}
   {% else %}
+    {% if debugMode %}
+    <div class="debug">Relative url found : {{ darkimgUrlFirstPart }} </div>
+    {% endif %}
     {% assign darkimgUrlIsNotRelative = false %}
 {% endcase %}
 
 {% if debugMode %}
 <div class="debug">
-include.link {{ include.link }} <br/>
-include.img {{ include.img }} <br/>
-include.dark-img {{ include.dark-img }} <br/>
-include.base {{ include.base }} <br/>
-page.pictures_base_url {{ page.pictures_base_url }} <br/>
-site.pictures_base_url {{ site.pictures_base_url }} <br/>
 urlPrepend {{ urlPrepend }} <br/>
 imgUrlFirstPart {{ imgUrlFirstPart }} <br/>
 imgUrlIsNotRelative {{ imgUrlIsNotRelative }} <br/>
