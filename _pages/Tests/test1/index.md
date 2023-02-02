@@ -18,10 +18,10 @@ links:
     url: https://blog.marcosx.net
     alt: mon blog
     title: lien vers mon blog
-pictures_base_url: /_pages/Test/test1/
+pictures_base_url: /img/
 images:
   img-1: 
-    url: Profile-twitter-MarcosIckx.png
+    url: Accueil.png
     alt: image du profil de marcos ickx
     title: profil de Marcos Ickx
   img-1-dark:
@@ -29,10 +29,10 @@ images:
     alt: image sombre du profil marcos ickx
     title: profil sombre de Marcos Ickx
   img-2: 
-    url: Profile-twitter-MarcosIckx.png
+    url: iPadOS16.PNG
     alt: image 2 du profil de marcos ickx 
   img-2-dark:
-    url: https://pbs.twimg.com/profile_images/1615483864784281601/4Tjaa2pw_400x400.jpg
+    url: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Reglages-Ethernet.jpeg
     alt: image sombre 2 du profil marcos ickx    
 ---
 
