@@ -10,7 +10,16 @@ permalink: /404.html
   <p class="lead">Je suis désolé, mais la page que vous avez essayé d´accéder n´existe pas.
   Essayez de <a href="/" title="Page d´Accueil de Marcos Ickx">revenir sur la page d´accueil</a>, 
   ou utilisez le menu de navigation ci-dessus pour trouver ce que vous chercher.</p>
-
-
-   <p>  {{page }} </p>
+  
+   <p>Vous pouvez essayer l'url suivante : </p>
+   <p id="possibleNewUrl">  </p>
 </div>
+
+<script>
+document.getElementById("possibleNewUrl").innerHTML=
+"<a href='" 
+   + window.location.pathname.replace(".html", "/") 
+   + "'>"
+   + window.location.pathname.replace(".html", "/")
+   + "</a>" ;
+</script>
