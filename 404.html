@@ -28,9 +28,12 @@ permalink: /404.html
       possibleNewUrl = window.location.pathname.replace(".html", "/");
    }
  } else if (window.location.pathname.startsWith("/20")) {
+     alert("startsWith /20");
      myArray = possibleNewUrl.split("/");
+     alert(myArray);
      if (myArray.length>2) {
        possibleNewUrl="/"+myArray[1]+"/";
+       alert(possibleNewUrl);
      }
  }
  
