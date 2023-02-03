@@ -21,12 +21,17 @@ permalink: /404.html
  </div>
 
  <script>
- let possibleNewUrl = window.location.pathname;
- if (possibleNewUrl.endsWith(".html") {
-   if (possibleNewUrl.endsWith("/index.html") {
+ let possibleNewUrl = "/archives/";
+ if (window.location.pathname.endsWith(".html")){
+   if (window.location.pathname.endsWith("/index.html")) {
    } else {
-      possibleNewUrl = possibleNewUrl.replace(".html", "/");
+      possibleNewUrl = window.location.pathname.replace(".html", "/");
    }
+ } else if window.location.pathname.startsWith("/20")) {
+     myArray = possibleNewUrl.split("/");
+     if (myArray.length>2) {
+       possibleNewUrl="/"+myArray[1]+"/";
+     }
  }
  
  
