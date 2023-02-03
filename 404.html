@@ -11,15 +11,29 @@ permalink: /404.html
   Essayez de <a href="/" title="Page d´Accueil de Marcos Ickx">revenir sur la page d´accueil</a>, 
   ou utilisez le menu de navigation ci-dessus pour trouver ce que vous chercher.</p>
   
-   <p>Vous pouvez essayer l'url suivante : </p>
+   <p>Vous pouvez essayer l'url suivante qui vous permettra de retrouver
+   l´article au cas où celui-ci aurait changé de url : </p>
    <p id="possibleNewUrl">  </p>
 </div>
 
 <script>
-document.getElementById("possibleNewUrl").innerHTML=
-"<a href='" 
-   + window.location.pathname.replace(".html", "/") 
+  let possibleNewURL = '/archives/';
+  if (window.location.pathname.endsWith("/index.html") {
+  } else if (window.location.pathname.endsWith(".html") { 
+    possibleNewURL = "/" + window.location.pathname.replace(".html", "/")
+  } else  {
+     let myArray = window.location.pathname.split("/");
+     if (myArray.length > 0) {
+       let firstElement = myArray[0];
+       if (firstElement.startsWith("20") {
+         possibleNewURL = "/"+firstElement+"/";
+       }
+     }
+  }
+  document.getElementById("possibleNewUrl").innerHTML=
+  "<a href='" 
+   + possibleNewURL 
    + "'>"
-   + window.location.pathname.replace(".html", "/")
+   + possibleNewURL
    + "</a>" ;
 </script>
