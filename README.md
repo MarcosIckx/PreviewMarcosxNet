@@ -89,7 +89,7 @@ du post, ainsi que les liens.
 Ca me facilitera les choses et me permet d´utiliser les balises html 5
 les images seront dans un figure, avec un figure caption, en dessous,
 l´image pourra être un lien si on le désire.
-et une alternative pour le mode somnre pourra être proposée.
+et une alternative pour le mode sombre pourra être proposée.
 
 
 ### premier plugin
@@ -100,6 +100,80 @@ https://stackoverflow.com/questions/14487110/include-jekyll-liquid-template-data
 en espérant qu´il fonctionne avec jekyll´utilisé par GitHub.
 
 je m´en vais écrire un test pour confirmer cela.
+
+
+## 2 février 2023
+
+### soucis avec plugin 
+j´avais oublié que GitHub page ne permet pas d´autres plugins que ceux repris sur la whitelist.
+donc, ca tombe à l´eau.
+on oublie.
+
+### activation de certains plugins whitelisté
+
+j´ai activé 3 plugins
+1. le premier me permet de juste taper @identifiant_twitter, et ça devient un lien vers le compte twitter de la personne.
+2. le deuxième devrait me permettre de créer des liens relatifs.
+et donc, post_url fichier.md deviendrait superflu.
+j'ai essayé de l'utiliser mais ca ne semble pas fonctionner.
+3. le troisième, et le dernier, permet de créer des pages de redirection. Ce quii sera très utile dans mon cas, et ce poir 2 raisons: 
+  1. j´ai changé le permalink pour qu´il soit plus propre. Du coup, les ancieenes urls donnet une 404. Dommage.
+  2. je suis en train de réimporté dans mon blog les anciens posts écrits à l´époque dans wordpress. Mais ceux-ci n´ont pas la même structure de l´URL que ceux de maintenant. Et donc, ça provoque également une 404 au lieu d´afficher le bon lien.
+
+## 3 février 2023
+jˆai modifié quelque peu la page dˆerreur 404 pour que 
+via du javascript, il propose à l´utilisateur les archives de l´année supposée.
+
+
+## TO DO LIST
+
+Pas mal de choses dans ma todo list
+
+### modifier  include picture.html 
+
+Revoir la structure pour que l´url de l´image en darkmode soit liée à l´image normale.
+Ainsi, on a un lien entre les deux.
+
+Ensuite, on pourra l´étendre pour indiquer differents types d´images 
+(small, medium, large, portrait & paysage) par exemple.
+et il génererait la balise picture comme il faut.
+
+### création de rapports
+
+création de page de rapport 
+- d´images référencées mais pas trouvées
+- de liens référencés mais non trouvés
+- de vidéo référencées mais pas trouvées.
+
+### amélioration contraste couleurs CSS
+
+### amélioration page des tags
+
+### amélioration list des posts
+
+### pouvoir épingler des posts 
+
+ca me permettrait de mettre en évidence le post sur les fonctionnalités de ios16 que j´aime beaucoup.
+
+
+### pouvoir trier les post par date de dernière modification.
+
+vraiment nécessaire pour, à défaut d´épingler le post, 
+le remonter à la date de dernière modification de l´article
+
+### ajouter une image en miniature à coté du post, dans la liste
+
+### ajouter bannière en haut de la page
+
+### rajouter des favicons
+
+### modification du voir aussi
+avoir pour chaque page un voir aussi plus riche et dynamique
+c'est à dire qu´en fonctions des 
+- tags, 
+- catégories et 
+- dates, il mentionnerait des articles ayant des choses en communs.
+
 
 [blog.marcosx.net]: https://blog.marcosx.net
 [github]: https://github.com
