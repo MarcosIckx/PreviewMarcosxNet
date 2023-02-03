@@ -49,17 +49,17 @@ Voici ce que vous pouvez achetez dès à présent:
 | *Modèle* | *MacBookPro 15″ A*	| *MacBookPro 15″ B*| *MacBookPro 17″*|
 | --| -- | -- | -- |
 |*Résolution*	|1440*900	|1440*900	|**1680*1050** (option **_1920*1200_**)|
-|*Processeur* |	Core2Duo 2.2Ghz 4Mo Cache |	Core2Duo **2.4Ghz** 4Mo Cache |	Core2Duo **2.4Ghz** 4Mo Cache |
-|*Mémoire* |	**2*1Go** 667Mhz	| 2*1Go 667Mhz	|2*1Go 667Mhz |
-| *Disque Dur* | 120Go Serial ATA 5400tpm |	160Go Serial ATA 5400tpm	| 160Go Serial ATA 5400tpm |
-| *Lecteur Optique* |	SuperDrive 8x	| SuperDrive 8x	| SuperDrive 8x |
-| Carte Graphique	| GeForce 8600M 128Mo GDDR3	| GeForce 8600M 256Mo GDDR3	| GeForce 8600M 256Mo GDDR3 |
-| Connectivité | 2 Ports USB, 1 Port FireWire400, 1 Port FireWire800	| 2 Ports USB, 1 Port FireWire400, 1 Port FireWire800	| 3 Ports USB, 1 Port FireWire400, 1 Port FireWire800 |
-| Prix |	1899€ |	2399€	| 2699€ (2799€ si 1920*1200) |
+|*Processeur* |	Core2Duo _2.2Ghz_ 4Mo Cache |	Core2Duo **_2.4Ghz_** 4Mo Cache |	Core2Duo **_2.4Ghz_** 4Mo Cache |
+|*Mémoire* |	_2*1Go_ 667Mhz	| 2*1Go 667Mhz	|2*1Go 667Mhz |
+| *Disque Dur* | 120Go Serial ATA 5400tpm |	_160Go_ Serial ATA 5400tpm	| 160Go Serial ATA 5400tpm |
+| *Lecteur Optique* |	SuperDrive _8x_	| SuperDrive _8x_	| SuperDrive 8x |
+| Carte Graphique	| _GeForce 8600M 128Mo GDDR3_	| _GeForce 8600M 256Mo GDDR3_	| _GeForce 8600M 256Mo GDDR3_ |
+| Connectivité | 2 Ports USB, 1 Port FireWire400, 1 Port FireWire800	| 2 Ports USB, 1 Port FireWire400, 1 Port FireWire800	| **3 Ports USB**, 1 Port FireWire400, 1 Port FireWire800 |
+| Prix |	_1899€_ |	_2399€_	| _2699€_ (2799€ si 1920*1200) |
 
-(en gras, la différence entre le modèle de base (le 15″ A) et le modèle courant)
+(en **gras**, la différence entre le modèle de base (le 15″ A) et le modèle courant)
 
-(en rouge, la différence par rapport au modèle de l’ancienne gamme)
+(en *italique*, la différence par rapport au modèle de l’ancienne gamme)
 
 Toute la nouvelle gamme MacBookPro a donc fait le pas vers la plateforme “Santa Rosa” (le 4ième colonne).
 
