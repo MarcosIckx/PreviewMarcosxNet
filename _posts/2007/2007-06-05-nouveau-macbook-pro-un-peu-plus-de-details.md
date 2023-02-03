@@ -3,6 +3,7 @@ layout: post
 title: Nouveau MacBook Pro !!! Un peu plus de détails
 date: 2007-06-05
 category: MacBook Pro
+redirect_from: /2007/06/05/nouveau-macbook-pro-un-peu-plus-de-details/445
 ---
 
 [kOrt3x vous en avait déjà touché un mot]: https://web.archive.org/web/20210728073438/http://blog.developpez.com/index.php?blog=142&title=nouveau_macbook_pro&more=1&c=1&tb=1&pb=1
@@ -44,6 +45,7 @@ Voici ce que vous pouviez acheter hier:
 avec en gros la possibilité de monter jusqu’à 3Go RAM, 200Go DD.
 
 Voici ce que vous pouvez achetez dès à présent:
+
 | *Modèle* | *MacBookPro 15″ A*	| *MacBookPro 15″ B*| *MacBookPro 17″*|
 | --| -- | -- | -- |
 |*Résolution*	|1440*900	|1440*900	|**1680*1050** (option **_1920*1200_**)|
