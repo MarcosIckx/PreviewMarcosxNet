@@ -1,44 +1,76 @@
+# J´ai certains layout, pages ou include qui rajoutent un peu de debug
+# dans un div de class debug.
+# Ça me permet de voir où certaines choses clochent
+
 debug: false
 
+# titre du site
 title: Le Blog de Marcos Ickx
+# nom du site
 name: Le Blog de Marcos Ickx
+# url du site
 url: https://blog.marcosx.net
+# auteur du site, par defaut
 author: Marcos Ickx
+
+# moteur de markdown utilisé pour rendre les pages .md en .html
 markdown: kramdown
 
+# je n´utilise pas de theme car 
+# j´avais envie de tout apprendre par moi-même
+#
 # theme: jekyll-theme-minimal
-#format date exemple 09/01/2023
+#format date exemple 09/01/2023 pour 9 janvier 2023
 date_format: "%d/%m/%Y"
 locale: fr-BE
 timezone: Europe/Brussels
 
-# Site Author
+# Auteur du site
 author:
   name: Marcos Ickx
   twitterId: MarcosIckx
   aboutUrl: /apropos/MarcosIckx
   url: /apropos/MarcosIckx
 
+# Directives pour kramdown
+# utiliser un rendu proche du GitHub Markup Language,
+# pour assurer que le preview soit assez proche du résultat final
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-  
-permalink: /:year/:month/:day/:title.html
+
+# Permalink par défaut, si rien n´est précisé 
+# dans les scope 
+# ou les entêtes des fichiers .md 
+permalink: /:year/:month/:day/:title/
+
+# les plugins qui sont activés
 
 plugins:
   - jekyll-mentions
   - jekyll-relative-links
   - jekyll-redirect-from
 
-# things like @MarcosIckx will be transformed into link to twitter account
+# Paramètres de contrôle pour jekyll-mentions
+# si on parle de @[Nom] dans un fichier, il sera transformé en un lien
+# vers un commpte Twitter.
+# Exemple: @MarcosIckx donnera un lien vers https://twitter.com/MarcosIckx
 jekyll-mentions:
   base_url: https://twitter.com
 
+# Ce plugin devrait permettre d´utiliser des liens relatifs vers les fichiers .md
+# Si le permalink du fichier .md a changé entretemps, 
+# le lien sera modifié en conséquence
+# Mais jusqu´à présent, ça n´a pas fonctionné comme ça le devrait
+# Je n´ai pas encore trouvé pourquoi.
 relative_links:
   enabled:     true
   collections: true
 
-# exclude creation of a json file
+# Ce plugin est fort intéressant car il permet de créer des redirections
+# pour éviter que les personnes qui tombent sur un ancien lien
+# n'arrivent sur une page 404.
+# le paramètre qui suit permet de supprimer la création du fichier .json
 redirect_from:
   json: false
   
@@ -47,15 +79,41 @@ redirect_from:
 #
 #paginate: 10
 
+# on indique à jekyll qu´il doit traiter les fichiers se trouvant dans le répertoire /_pages
 include: ['_pages']
 
+# on a actuellement deux collections :
+#
+# une collection d´archives, 
+# qui reprends les archives des posts par année
+#
+# une collection d´auteurs qui reprends 
+# la fiche descriptif de chacun des auteurs (actuellement que moi)
+# mais c'était plus dans un but d'apprendre comment cela fonctionne.
+# 
 collections:
   archives:
     output: true
   authors:
     output: true
     permalink: /apropos/:title/
-    
+
+#
+# indique quels sont les informations qu´on devrait retrouver par défaut 
+# pour certains des fichiers, selon le scope, le path, les types.
+# Ainsi, on peut définir 
+#   - un layout par défaut, 
+#   - un permalink par défaut
+#   - un auteur par défaut
+#   - ...
+# Par exemple, dans notre cas, 
+#  - la collection d´archives a par défaut le layout archive
+#  - la collection authors a par défaut le layout author
+#  - la collection posts (oui, les posts sont une collection)
+#        a par défaut le layout post
+#        a par défaut `Marcos Ickx` comme auteur
+#  - les pages ont par défaut le layout `default`
+#        a par défaut `Marcos Ickx` comme auteur
 defaults:
   -
     scope:
@@ -63,6 +121,7 @@ defaults:
       type: "archives"
     values:
       layout: "archives"
+
   -
     scope:
       path: ""
@@ -72,23 +131,17 @@ defaults:
     
   -
     scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts" # previously `post` in Jekyll 2.2.
+      path: "" # une string vide indique que tous les fichiers du projets sont pris en comptes
+      type: "posts" # auparavant `post` dans Jekyll 2.2.
     values:
       layout: "post"
       author: "Marcos Ickx"
-  - 
-    scope:
-      path: "/2007/"
-      type: "posts"
-    values:
-      layout: "post"
-      author: "Marcos Ickx"
-      permalink: /:year/:month/:day/:title/
+      redirect_from: /:year/:month/:day/:title.html
+
   -
     scope:
-      path: "" # an empty string here means all files in the project
-      type: "pages" # previously `post` in Jekyll 2.2.
+      path: ""
+      type: "pages" # auparavant `page` dans Jekyll 2.2.
     values:
       layout: "default"
       author: "Marcos Ickx"
