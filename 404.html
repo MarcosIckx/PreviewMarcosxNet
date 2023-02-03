@@ -22,7 +22,13 @@ permalink: /404.html
 
  <script>
  let possibleNewUrl = window.location.pathname;
- possibleNewUrl = possibleNewUrl.replace(".html", "/");
+ if (possibleNewUrl.endsWith(".html") {
+   if (possibleNewUrl.endsWith("/index.html") {
+   } else {
+      possibleNewUrl = possibleNewUrl.replace(".html", "/");
+   }
+ }
+ 
  
  document.getElementById("possibleNewUrl").innerHTML=
  "<a href='" 
