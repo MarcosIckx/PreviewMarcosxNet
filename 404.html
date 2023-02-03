@@ -29,7 +29,7 @@ permalink: /404.html
    }
  } else if (window.location.pathname.startsWith("/20")) {
      alert("startsWith /20");
-     myArray = possibleNewUrl.split("/");
+     myArray = window.location.pathname.split("/");
      alert(myArray);
      if (myArray.length>2) {
        possibleNewUrl="/"+myArray[1]+"/";
