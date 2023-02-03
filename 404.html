@@ -21,10 +21,13 @@ permalink: /404.html
  </div>
 
  <script>
+ let possibleNewUrl = window.location.pathname;
+ possibleNewUrl = possibleNewUrl.replace(".html", "/");
+ 
  document.getElementById("possibleNewUrl").innerHTML=
  "<a href='" 
-    + window.location.pathname.replace(".html", "/") 
+    +  possibleNewUrl
     + "'>"
-    + window.location.pathname.replace(".html", "/")
+    + possibleNewUrl 
     + "</a>" ;
  </script>
