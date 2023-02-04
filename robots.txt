@@ -1,0 +1,3 @@
+user-agent: *
+disallow: /Tests/
+sitemap: https://blog.marcosx.net/sitemap.xml
