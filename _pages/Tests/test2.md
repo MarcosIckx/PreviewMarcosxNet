@@ -14,9 +14,9 @@ permalink: /Tests/test2/
 {%- endfor %}
 {%- assign allPostDate = allPostDates | uniq | sort -%}
 
-
 {{ allPostDate }}
-
+{% comment %} 
+     {% raw %}
 {%- assign allPosts = "" | split: ',' -%}
 {%- for date in allPostDate %}
   {% assign allNonUpdatedPosts = site.posts | where: "date",date %}
@@ -34,3 +34,6 @@ permalink: /Tests/test2/
 {% for post in allPosts %}
   {{ post.update | default: post.date }} / {{ post.title }}
 {% endfor %} 
+
+{% endraw %}
+{% endcomment %} 
