@@ -6,15 +6,31 @@ update: 2023-02-01
 permalink: /Tests/test2/
 ---
 
-page before : {{ page }}
 
-{% assign sort_date = page.update | default: page.date %}
-
-sort date : {{ sort_date | jsonify }}
-
-{% assign page = page | push: sort_date %}
-
-
-page after : {{ page }}
+{%- assign allPostDates = "" | split: ',' -%}
+{%- for post in site.posts %}
+  {% assign postDate = post.update | default post.date %}
+  {%- assign allPostDates = allPostDates | push: postDate -%}
+{%- endfor %}
+{%- assign allPostDate = allPostDates | uniq | sort -%}
 
 
+{{ allPostDate }}
+
+{%- assign allPosts = "" | split: ',' -%}
+{%- for date in allPostDate | order %}
+  {% assign allNonUpdatedPosts = site.posts | where: "date",date %}
+  {%- assign allPosts = allPosts | concat: allNonUpdatedPosts -%}
+  {% assign allUpdatedPosts = site.posts | where: "update",date %}
+  {% for updatedPost in allNonUpdatedPosts %}
+    {% assign postFounded = allPosts | where: "path", post.path %}
+    {% if postFounded %}
+    {% else %}
+      {%- assign allPosts = allPosts | concat: updatedPost -%}
+    {% endif %}
+  {%- endfor %}
+{% endfor %}
+
+{% for post in allPosts %}
+  {{ post.update | post.date }} / {{ post.title }}
+{% endfor %} 
