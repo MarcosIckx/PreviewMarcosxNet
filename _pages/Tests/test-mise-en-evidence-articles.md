@@ -8,20 +8,16 @@ permalink: /Tests/test3/
 {% assign epingles = site.posts | where: "epingle", 1 %}
 {% if epingles %}
   {% assign epingles = epingles | sort: "epingle"  %}
-# Epinglés
+<h1>Epinglés</h1>
   {% for epingle in epingles limit: limite-epingles %}
 <div class="epingle">
-<div class="epingle-image">
-
-![{{epingle.image.alt}}]({{epingle.image.url}} "{{epingle.image.title}}")
-
-  </div>
+<div class="epingle-image" style="display:float">
+<img src="{{epingle.image.url}}" />
+</div>
 <div class="epingle-post">
-
-[{{epingle.title}}]({{epingle.url}})  
-
-{{ epingle.excerpt }}   
-
+<a href="{{epingle.url}}" title="{{epingle.title}}">{{epingle.title}}</a> 
+<br />
+{{ epingle.excerpt }}
 </div>
 </div>
   {% endfor %}
@@ -29,7 +25,7 @@ permalink: /Tests/test3/
 
 {%- include posts.html limit=10 -%}
 
-# Archives
+<h1>Archives</h1>
 
 {%- include archives.html debug=false -%}
 Give feedback
