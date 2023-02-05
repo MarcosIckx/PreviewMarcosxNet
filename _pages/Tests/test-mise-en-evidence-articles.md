@@ -20,7 +20,8 @@ permalink: /Tests/test3/
         {{ epingle.excerpt }}   
       </div>
     </div>
-{% endfor %}
+  {% endfor %}
+{% endif %}
 
 {%- include posts.html limit=10 -%}
 
