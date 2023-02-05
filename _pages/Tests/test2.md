@@ -9,18 +9,18 @@ permalink: /Tests/test2/
 
 {%- assign allPostDates = "" | split: ',' -%}
 {%- for post in site.posts %}
-  {% assign postDate = post.update | default: post.date | | date_to_xmlschema %}
+  {% assign postDate = post.update | default: post.date | date: "%s" %}
   {%- assign allPostDates = allPostDates | push: postDate -%}
 {%- endfor %}
 {%- assign allPostDates = allPostDates | uniq | sort | reverse -%}
 
 {{ allPostDates }}
 
-{% comment %} 
-     {% raw %}
+
 {%- assign allPosts = "" | split: ',' -%}
-{%- for date in allPostDate %}
-  {% assign allNonUpdatedPosts = site.posts | where: "date",date %}
+{%- for date in allPostDates %}
+  date : {{ date }}
+  {% assign allNonUpdatedPosts = site.posts | where: "date" ,date %}
   {%- assign allPosts = allPosts | concat: allNonUpdatedPosts -%}
   {% assign allUpdatedPosts = site.posts | where: "update",date %}
   {% for updatedPost in allNonUpdatedPosts %}
@@ -32,9 +32,8 @@ permalink: /Tests/test2/
   {%- endfor %}
 {% endfor %}
 
+
+
 {% for post in allPosts %}
   {{ post.update | default: post.date }} / {{ post.title }}
 {% endfor %} 
-
-{% endraw %}
-{% endcomment %} 
