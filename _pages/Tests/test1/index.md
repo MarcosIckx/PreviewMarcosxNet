@@ -47,10 +47,10 @@ Bonjour de @MarcosIckx
 %{ assign posts = "" | split: "," %}
 {% for post in site.posts  %}
 {% assign post.sort_date = post.update | default: post.date %}
-{% assign posts = posts | push post %}
+{% assign posts = posts | push: post %}
 {% endfor %}
 
-{% for post in posts | sort post.sort_date %}
+{% for post in posts | sort: sort_date %}
  
 ## {{ post.title }} ({{ post.sort_date }})
 
