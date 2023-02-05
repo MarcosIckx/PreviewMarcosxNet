@@ -3,6 +3,7 @@ layout: post
 title: "Introduction à la Protection Avancée des Données iCloud (PADi)"
 description: "Qu´est ce que la Protection Avancée des Données. Comment s´y préparer ? Quels sont ses avantages et ses inconvénients ?"
 date: 2022-12-17
+update: 2023-02-05
 image:
   url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Protection-Avancee-des-Donnees.png
 videos:
