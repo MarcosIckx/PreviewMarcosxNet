@@ -18,7 +18,7 @@ permalink: /Tests/test2/
 {{ allPostDate }}
 
 {%- assign allPosts = "" | split: ',' -%}
-{%- for date in allPostDate | order %}
+{%- for date in allPostDate %}
   {% assign allNonUpdatedPosts = site.posts | where: "date",date %}
   {%- assign allPosts = allPosts | concat: allNonUpdatedPosts -%}
   {% assign allUpdatedPosts = site.posts | where: "update",date %}
