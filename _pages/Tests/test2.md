@@ -18,17 +18,28 @@ permalink: /Tests/test2/
 
 {% assign allPosts = "" | split: ',' %}
 {% for date in allPostDates %}
-  {% for post in site.posts %}
-    {% assign postDate = post.update | default: post.date | date: "%s" %}
-    {{ post.update }} ~ {{ post.date }} =  {{ postDate }} 
-    to compare with {{ date }} 
+  {% assign updatedPosts = site.posts | where: "update" | sort: "update" | reverse %}
+  {% for post in updatedPosts %}
+    {% assign postDate = post.update | date: "%s" %}
     {% if (postDate == date) %} 
       {% assign allPosts = allPosts | push: post %}
-      {{ post.url}}  added in the allPosts (now size={{ allPosts.size }})
+    {% elsif (postDate < date) %}
+      {% break %}
+    {% endif %} 
+  {% endfor %}
+  {% assign post = site.posts | where: "date" | sort: "date" | reverse %}
+    {% if post.update %}
+    {% else %}
+      {% assign postDate = post.date | date: "%s" %}
+      {% if (postDate == date) %} 
+        {% assign allPosts = allPosts | push: post %}
+      {% elsif (postDate < date) %}
+        {% break %}
+      {% endif %}     
     {% endif %} 
   {% endfor %}
 {% endfor %}
 
 {% for post in allPosts %}
-  {{ post.update | default: post.date }} / {{ post.title }}
+  {{ post.update | default: post.date | date: "%Y-%m-%d" }} / {{ post.title }}
 {% endfor %} 
