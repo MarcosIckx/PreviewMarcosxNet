@@ -2,7 +2,7 @@
 debug: true
 layout: default
 title: "test 1"
-permalink: /Test1/
+permalink: /Tests/Test1/
 redirect_from: /_pages/Test/test1/
 otherLinks:
   - url: "../../../_archives/2007.md"
@@ -42,6 +42,23 @@ Bonjour de @MarcosIckx
 ![bonjour][hello]
 
 [HEllO]: Profile-twitter-MarcosIckx.png "Bonjourno"
+
+
+%{ assign posts = "" | split: "," %}
+{% for post : site.posts  %}
+{% assign post.sort_date = post.update | default: post.date %}
+{% assign posts = posts | push post %}
+{% endfor %}
+
+{% for post : posts | sort post.sort_date %}
+ 
+## {{ post.title }} ({{ post.sort_date }})
+
+{{ post.url }}
+
+{{ post.description }}
+
+{% endfor %}
 
 Image 1 - pas de Lien 1 - pas de  dark :
 
