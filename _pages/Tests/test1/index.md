@@ -45,7 +45,9 @@ Bonjour de @MarcosIckx
 
 {% assign posts = "" | split: "," %}
 {% for post in site.posts  %}
-{% assign post.sort_date = post.update | default: post.date %}
+{% assign sort_date = post.update | default: post.date %}
+{% assign post = post | push: sort_date %}
+{{ post }}
 {{ post.date }} / {{ post.update}} 
 
 sort date : {{ post.sort_date }}
