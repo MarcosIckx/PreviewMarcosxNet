@@ -10,16 +10,20 @@ permalink: /Tests/test3/
   {% assign epingles = epingles | sort: "epingle"  %}
 # Epinglés
   {% for epingle in epingles limit: limite-epingles %}
-    <div class="epingle">
-      <div class="epingle-image">
-        ![{{epingle.image.alt}}]({{epingle.image.url}} "{{epingle.image.title}}")
-      </div>
-      <div class="epingle-post">
-        [{{epingle.title}}][{{epingle.url}}]
-        
-        {{ epingle.excerpt }}   
-      </div>
-    </div>
+<div class="epingle">
+<div class="epingle-image">
+
+![{{epingle.image.alt}}]({{epingle.image.url}} "{{epingle.image.title}}")
+
+  </div>
+<div class="epingle-post">
+
+[{{epingle.title}}]({{epingle.url}})  
+
+{{ epingle.excerpt }}   
+
+</div>
+</div>
   {% endfor %}
 {% endif %}
 
