@@ -9,7 +9,7 @@ permalink: /Tests/test2/
 
 {%- assign allPostDates = "" | split: ',' -%}
 {%- for post in site.posts %}
-  {% assign postDate = post.update | default: post.date %}
+  {% assign postDate = post.update | default: post.date | date: "%Y-%m-%d" %}
   {%- assign allPostDates = allPostDates | push: postDate -%}
 {%- endfor %}
 {%- assign allPostDate = allPostDates | uniq | sort -%}
