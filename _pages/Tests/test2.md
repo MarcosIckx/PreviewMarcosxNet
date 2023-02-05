@@ -14,33 +14,16 @@ permalink: /Tests/test2/
 {%- endfor %}
 {%- assign allPostDates = allPostDates | uniq | sort | reverse -%}
 
-{{ allPostDates }}
-
 {% assign allPosts = "" | split: ',' %}
 {% for date in allPostDates %}
-  {% assign updatedPosts = site.posts | where: "update" | sort: "update" | reverse %}
-  {% for post in updatedPosts %}
-    {% assign postDate = post.update | date: "%s" %}
+  {% for post in site.posts %}
+    {% assign postDate = post.update | default: post.date | date: "%s" %}
     {% if (postDate == date) %} 
       {% assign allPosts = allPosts | push: post %}
-    {% elsif (postDate < date) %}
-      {% break %}
-    {% endif %} 
-  {% endfor %}
-  {% assign posts = site.posts | where: "date" | sort: "date" | reverse %}
-    {% for post in posts %}
-    {% if post.update %}
-    {% else %}
-      {% assign postDate = post.date | date: "%s" %}
-      {% if (postDate == date) %} 
-        {% assign allPosts = allPosts | push: post %}
-      {% elsif (postDate < date) %}
-        {% break %}
-      {% endif %}     
     {% endif %} 
   {% endfor %}
 {% endfor %}
 
 {% for post in allPosts %}
-  {{ post.update | default: post.date | date: "%Y-%m-%d" }} / {{ post.title }}
+  \[{{ post.update | default: post.date | date: "%d/%m/%Y" }}\] {{ post.title }}
 {% endfor %} 
