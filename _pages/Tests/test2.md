@@ -23,7 +23,7 @@ permalink: /Tests/test2/
     {{ post.update }} ~ {{ post.date }} =  {{ postDate }} 
     to compare with {{ date }} 
     {% if postDate == date %} 
-      {% assign allPosts = allPosts | push post %}
+      {% assign allPosts = allPosts | push: post %}
     {% endif %} 
   {% endfor %}
 {% endfor %}
