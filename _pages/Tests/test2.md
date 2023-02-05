@@ -16,23 +16,17 @@ permalink: /Tests/test2/
 
 {{ allPostDates }}
 
-
-{%- assign allPosts = "" | split: ',' -%}
-{%- for date in allPostDates %}
-  date : {{ date }}
-  {% assign allNonUpdatedPosts = site.posts | where: "date" ,date %}
-  {%- assign allPosts = allPosts | concat: allNonUpdatedPosts -%}
-  {% assign allUpdatedPosts = site.posts | where: "update",date %}
-  {% for updatedPost in allNonUpdatedPosts %}
-    {% assign postFounded = allPosts | where: "path", post.path %}
-    {% if postFounded %}
-    {% else %}
-      {%- assign allPosts = allPosts | concat: updatedPost -%}
-    {% endif %}
-  {%- endfor %}
+{% assign allPosts = "" | split: ',' %}
+{% for date in allPostDates %}
+  {% for post in site.posts %}
+    {% assign postDate = post.update | default: post.date | date: "%s" %}
+    {{ post.update }} ~ {{ post.date }} =  {{ postDate }} 
+    to compare with {{ date }} 
+    {% if postDate == date %} 
+      {% assign allPosts = allPosts | push post %}
+    {% endif %} 
+  {% endfor %}
 {% endfor %}
-
-
 
 {% for post in allPosts %}
   {{ post.update | default: post.date }} / {{ post.title }}
