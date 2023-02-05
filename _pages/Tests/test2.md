@@ -22,8 +22,9 @@ permalink: /Tests/test2/
     {% assign postDate = post.update | default: post.date | date: "%s" %}
     {{ post.update }} ~ {{ post.date }} =  {{ postDate }} 
     to compare with {{ date }} 
-    {% if postDate == date %} 
+    {% if (postDate == date) %} 
       {% assign allPosts = allPosts | push: post %}
+      {{ post.url}}  added in the allPosts (now size={{ allPosts.size }})
     {% endif %} 
   {% endfor %}
 {% endfor %}
