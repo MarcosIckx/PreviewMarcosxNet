@@ -7,7 +7,7 @@ permalink: /Tests/test3/
 {% assign limite-epingles = 2 %}
 {% assign epingles = site.posts | where: "epingle", 1 %}
 {% if epingles %}
-  {% assign epingles = epingle | sort: "epingle" %}
+  {% assign epingles = epingles | sort: "epingle"  %}
 # Epinglés
   {% for epingle in epingles limit: limite-epingles %}
     <div class="epingle">
