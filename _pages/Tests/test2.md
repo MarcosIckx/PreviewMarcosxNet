@@ -9,7 +9,7 @@ permalink: /Tests/test2/
 
 {%- assign allPostDates = "" | split: ',' -%}
 {%- for post in site.posts %}
-  {% assign postDate = post.update | default post.date %}
+  {% assign postDate = post.update | default: post.date %}
   {%- assign allPostDates = allPostDates | push: postDate -%}
 {%- endfor %}
 {%- assign allPostDate = allPostDates | uniq | sort -%}
@@ -32,5 +32,5 @@ permalink: /Tests/test2/
 {% endfor %}
 
 {% for post in allPosts %}
-  {{ post.update | post.date }} / {{ post.title }}
+  {{ post.update | default: post.date }} / {{ post.title }}
 {% endfor %} 
