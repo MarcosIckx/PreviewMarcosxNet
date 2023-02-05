@@ -1,5 +1,4 @@
 ---
-debug: true
 layout: default
 title: "test 1"
 permalink: /Tests/Test1/
@@ -44,7 +43,7 @@ Bonjour de @MarcosIckx
 [HEllO]: Profile-twitter-MarcosIckx.png "Bonjourno"
 
 
-%{ assign posts = "" | split: "," %}
+{% assign posts = "" | split: "," %}
 {% for post in site.posts  %}
 {% assign post.sort_date = post.update | default: post.date %}
 {% assign posts = posts | push: post %}
