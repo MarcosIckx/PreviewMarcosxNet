@@ -5,9 +5,9 @@ description: page d´accueil du blog de Marcos Ickx
 permalink: /Tests/test3/
 ---
 {% assign limite-epingles = 2 %}
-{% assign epingles = site.posts | where: "epingle" %}
+{% assign epingles = site.posts | where: "epingle", 1 %}
 {% assign epingles = epingle | sort: "epingle" %}
-{% if (epingles) %}
+{% if (epingles.size>0) %}
 # Epinglés
   {% for epingle in epingles limit: limite-epingles %}
     <div class="epingle">
