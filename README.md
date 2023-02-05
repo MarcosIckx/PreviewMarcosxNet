@@ -125,11 +125,22 @@ jˆai modifié quelque peu la page dˆerreur 404 pour que
 via du javascript, il propose à l´utilisateur les archives de l´année supposée.
 
 ## 5 février 2023
+
+### prototype tri post en tenant commte date mise à jour 
 j´ai réussi à mettre en place une logique me permettant d´afficher les posts en tenant compte des éventuelles mises à jour. Ainsi, je peux faire remonter si jenle desire des posts qui ont été mis à jour.
 
 Faudra que je la mette en place là où il faut, mais au moins, il y a une logique.
 
 Après, faudra que je regarde l´impact sur les archives.
+
+### prototype post epinglé
+
+j´ai´un prototype de post épinglé qu´on leut trouver dans ce fichier
+_pages/Tests/test-mise-en-evidence-articles.md
+
+Après, faudra que je paufine le CSS pour que cela ressemble à quelque chose, car ce n´est pas le cas actuellement.
+
+
 
 ## TO DO LIST
 
@@ -161,11 +172,17 @@ création de page de rapport
 
 ca me permettrait de mettre en évidence le post sur les fonctionnalités de ios16 que j´aime beaucoup.
 
+**update 5/2/2023**
+
+un prototype a été réalisé. 
+Faut encore mettre à jour le CSS et ensuite l´intégrer où il se doit.
 
 ### pouvoir trier les post par date de dernière modification.
 
 vraiment nécessaire pour, à défaut d´épingler le post, 
 le remonter à la date de dernière modification de l´article
+
+**update 5/2/2023**
 
 j´ai un page qui montre que cela fonctionne /Tests/test2.md
 mais je ne suis pas sûr que ce soit la meilleure façon de faire.
