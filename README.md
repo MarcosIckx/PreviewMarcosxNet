@@ -124,6 +124,12 @@ j'ai essayé de l'utiliser mais ca ne semble pas fonctionner.
 jˆai modifié quelque peu la page dˆerreur 404 pour que 
 via du javascript, il propose à l´utilisateur les archives de l´année supposée.
 
+## 5 février 2023
+j´ai réussi à mettre en place une logique me permettant d´afficher les posts en tenant compte des éventuelles mises à jour. Ainsi, je peux faire remonter si jenle desire des posts qui ont été mis à jour.
+
+Faudra que je la mette en place là où il faut, mais au moins, il y a une logique.
+
+Après, faudra que je regarde l´impact sur les archives.
 
 ## TO DO LIST
 
@@ -160,6 +166,13 @@ ca me permettrait de mettre en évidence le post sur les fonctionnalités de ios
 
 vraiment nécessaire pour, à défaut d´épingler le post, 
 le remonter à la date de dernière modification de l´article
+
+j´ai un page qui montre que cela fonctionne /Tests/test2.md
+mais je ne suis pas sûr que ce soit la meilleure façon de faire.
+
+Mais ça marche.
+
+Faudra maintenant l´implémenter correctement.
 
 ### ajouter une image en miniature à coté du post, dans la liste
 
