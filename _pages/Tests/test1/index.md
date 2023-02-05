@@ -55,7 +55,8 @@ sort date : {{ post.sort_date }}
 {% assign posts = posts | push: post %}
 {% endfor %}
 
-{% for post in posts | sort: "sort_date" %}
+{% assign posts = posts |  sort: "sort_date"%}
+{% for post in posts  %}
  
 ## {{ post.title }} ({{ post.sort_date }})
 
