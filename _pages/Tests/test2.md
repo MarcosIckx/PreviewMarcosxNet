@@ -27,7 +27,8 @@ permalink: /Tests/test2/
       {% break %}
     {% endif %} 
   {% endfor %}
-  {% assign post = site.posts | where: "date" | sort: "date" | reverse %}
+  {% assign posts = site.posts | where: "date" | sort: "date" | reverse %}
+    {% for post in posts %}
     {% if post.update %}
     {% else %}
       {% assign postDate = post.date | date: "%s" %}
