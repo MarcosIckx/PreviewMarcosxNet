@@ -1,6 +1,6 @@
 ---
 title: "Apple Shop à Bruxelles, rue Neuve"
-date: 20p7-06-27
+date: 2007-06-27
 category: "Magasins"
 ---
 
