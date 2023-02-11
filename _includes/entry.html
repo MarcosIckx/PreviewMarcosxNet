@@ -6,7 +6,9 @@
 
 <article class="post">
   <h3><a href="{{ entry.url }}" rel="bookmark" title="{{ title }}">{{ title }}</a></h3>
-  
+  <p class="meta">Article rédigé par {% include author.html %} le {% include time.html date=entry.date %}.
+  {% if entry.update %}Modifié le {% include time.html date=entry.date %} {% endif %}
+  </p>
   {%- if entry.tags -%}
     {%- include meta.html metaList=entry.tags metaNamePlural="tags" metaNameSingle="tag" debug=false -%}
   {%- endif -%}
@@ -16,6 +18,6 @@
   {%- endif -%}
  
   <footer class="meta">
-    <p class="meta">Article rédigé par {% include author.html %} le {% include time.html date=entry.date %}</p>
+
   </footer>
 </article>
