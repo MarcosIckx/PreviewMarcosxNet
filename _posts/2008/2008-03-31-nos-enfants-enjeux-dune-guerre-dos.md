@@ -1,5 +1,5 @@
 ---
-date: 2008-31-03
+date: 2008-03-31
 category: Technologie
 title: Nos enfants, enjeux d’une guerre d’OS
 ---
