@@ -1,6 +1,6 @@
 ---
 date: 2009-04-02
-category: Interview
+category: Interviews
 title: "Compétence Mac : déjà 1 an. Interview de David Bosman"
 ---
 
