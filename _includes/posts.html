@@ -7,7 +7,7 @@
 	  {%- for entry in liste limit: limite -%}
 	    <li>
 				<article class="post">
-					<a href="{{ entry.url }}" title="{{ entry.title }}">{% include time.html date=entry.date %}: {{ entry.title }}</a>
+					<a href="{{ entry.url }}" title="{{ entry.title }}"><span class="date">{% include time.html date=entry.date %}:</span> {{ entry.title }}</a>
 					<p class="meta">
             <span>Rédigé par {% include author.html %}.
             {% if entry.update %}Mis à jour le {% include time.html date=entry.update %}{% endif %}
