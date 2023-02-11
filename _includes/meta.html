@@ -21,13 +21,14 @@
 
 {%- comment -%}
   on ne va pas afficher les tags de l´article 
-  si on est sur la page référencants tous les tags.
+  si on est sur la page référençants tous les tags.
+  Idem pour les catégories.
 {%- endcomment -%}
 
 {%- if include.metaList -%}{%- if page.layout != include.metaNamePlural -%}
   <ul class="meta">
     {%- if include.metaList.size>1 -%}
-    <li>{{include.metaNamePlural | default: include.metaNameSingle | append: "s" }} :</li>
+    <li>{{include.metaNamePlural }} :</li>
     {%- else -%}
     <li>{{include.metaNameSingle }} :</li>
     {%- endif -%}
