@@ -2,6 +2,7 @@
 layout: post
 title: "Histoire de raccourcis clavier célèbres - Partie 1 : Couper/Copier/Coller"
 date: 2020-04-15
+redirect_from: /2020/04/15/Histoire-de-raccourcis-clavier-apple-partie1-le-trio-couper-copier-coller.html
 tags: [Raccourcis Clavier, Petites Histoires]
 category: Raccourcis Clavier
 otherLinks:
