@@ -150,6 +150,8 @@ _pages/Tests/test-mise-en-evidence-articles.md
 Après, il faudrait que je paufine le CSS pour que cela ressemble à quelque chose, car ce n´est pas du tout le cas actuellement.
 
 ## 11 février 2023
+
+### rajout anciens articles
 J´ai passé ces derniere jours à introduire les articles de la précédente version du blog.
 Ainsi, ces articles sont à nouveau disponibles pour tout un chacun, et stockés dans [GitHub].
 
@@ -161,6 +163,14 @@ Puis, la Covid est venue, mettant tout cela entre parenthese.
 
 Je dois encore peaufiner le CSS et d´autres choses, voir TODO LIST ci-dessous, mais en gros, je suis content du résultat.
 
+### modification css et présentation des posts
+Sur la page d'accueil les posts sont maintenant précédés de la date.
+Actuellement c'est la date de création, mais je pense mettre plutôt la date de mise à jour.
+J'ai rajouté deux couleurs de mise en évidence qui sont le rouge et le brun.
+Et les ai mis comme bord de couleurs pour les listes des blogs.
+Ça donne bien, je dois dire.
+
+À utiliser pour les citations aussi. Ça devrait bien donner.
 
 ## TO DO LIST
 
