@@ -3,12 +3,11 @@
 
 /* les couleurs définies pour mode clair */
 :root {
-    --primary-color: #111;
+    --primary-color: #5500AB;
     --secondary-color: #222;
     --font-color: #424242;
     --bg-color: #eee;
     --secondary-bg-color: #C147E9;
-    --third-bg-color: #ff7000;
     --fourth-bg-color: #E5B8F4;
     --step-bgcolor: #4679bd;
     --heading-color: #292922;
@@ -29,7 +28,6 @@
     --font-color: #e1e1ff;
     --bg-color: #161625;
     --secondary-bg-color: #810CA8;
-    --third-bg-color: #ff7000;
     --fourth-bg-color: #2D033B;
     --step-bgcolor: #0ff;
     --heading-color: #810CAB;
@@ -105,7 +103,7 @@ nav ul li a::after {
   height: 0.15rem;
   top: 100%;
   left: 0;
-  background: var(--third-bg-color);
+  background: var(--highlight-color-2);
   transition: transform 0.5s;
   transform: scaleX(0);
   transform-origin: right;
@@ -273,7 +271,7 @@ video {
 selon qu´elles sont dans un paragraphe 
 ou dans un lien */
 p>img, a>img {
-  border: 0.1rem solid var(--border-color);
+  border: 0.1rem solid var(--highlight-color-2);
   border-radius: 0.3rem;
   padding: 0.4rem;
   max-width: 80%;
@@ -304,7 +302,7 @@ p>img:hover::after {
 
 
 a>img:hover {
-  border: 0.3rem solid var(--border-color-hover);
+  border: 0.3rem solid var(--highlight-color-1);
   max-width: 80%;
 }
 
