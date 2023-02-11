@@ -5,7 +5,7 @@ title: Rapport vidéos mentionnées dans post mais non trouvées
 {% assign staticUrlList = "" | split: "," %}
 {% for file in site.static_files %}
   {% assign staticUrlList = staticUrlList | push: file.path %}
-{% endwfor %}
+{% endfor %}
 
 {% for post in site.posts %}
   {% if post.videos %}
