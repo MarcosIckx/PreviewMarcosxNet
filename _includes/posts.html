@@ -6,7 +6,7 @@
   <ul class="posts">
 	  {%- for entry in liste limit: limite -%}
 	    <li>
-				<article>
+				<article class="post">
 					<a href="{{ entry.url }}" title="{{ entry.title }}">{% include time.html date=entry.date %}: {{ entry.title }}</a>
 					<p class="meta">
             <span>Rédigé par {% include author.html %}.
