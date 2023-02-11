@@ -7,7 +7,7 @@ twitterLink: https://twitter.com/marcosickx/status/1607775049876144128
 image:
   url: /img/posts/2022/12/27/phototheque-partagee/Introduction.PNG
 tags: [iCloud, Photos, iOS16]
-category: iOS16
+category: Photos
 ---
 
 # J´ai enfin trouvé une utilité à la Photothèque Partagée
