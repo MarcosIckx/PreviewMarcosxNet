@@ -1,6 +1,7 @@
 ---
 date: 2009-09-29
-category: Magazine
+category: Magazines
+tags: [Léopard]
 title: Lorsque L’ordinateur Individuel parle de Snow Leopard
 ---
 
