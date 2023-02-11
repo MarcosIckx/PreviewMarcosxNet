@@ -172,6 +172,11 @@ Et les ai mis comme bord de couleurs pour les listes des blogs.
 
 À utiliser pour les citations aussi. Ça devrait bien donner.
 
+### Table des matières présente que si nécessaire
+Rien de plus énervant que de voir une table des matières et lorsqu'on l'étend, elle est vide.
+J'ai donc déplacé la logique pour n'afficher la table des matières que lorsque celle ci n'est pas vide.
+Ce qui est bien plus agréable pour l'utilisateur.
+
 ## TO DO LIST
 
 Pas mal de choses dans ma todo list
