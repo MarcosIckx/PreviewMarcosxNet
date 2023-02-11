@@ -138,7 +138,6 @@ defaults:
     values:
       layout: "post"
       author: "Marcos Ickx"
-      redirect_from: /:year/:month/:day/:title.html
 
   -
     scope:
