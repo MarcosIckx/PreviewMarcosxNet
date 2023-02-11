@@ -1,7 +1,7 @@
 ---
 date: 2008-01-13
 category: Évènements
-title: MacWorld 2009 : les dates sont déjà connues
+title: "MacWorld 2009 : les dates sont déjà connues"
 ---
 
 L’édition 2008 de MacWorld n’a même pas encore commencée, puisqu’elle débute le 14 janvier, qu’on connait déjà les dates pour l’édition 2009.
