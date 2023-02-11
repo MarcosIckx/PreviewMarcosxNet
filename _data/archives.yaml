@@ -32,10 +32,40 @@ actuel:
     id: 2019
     title: Année 2019
     url: /2019/
-    previous: 2007
+    previous: 2012
     next: 2020
+2012: 
+    id: 2012
+    title: Année 2012
+    url: /2012/
+    previous: 2011
+    next: 2019
+2011: 
+    id: 2011
+    title: Année 2011
+    url: /2011/
+    previous: 2010
+    next: 2012
+2010: 
+    id: 2010
+    title: Année 2010
+    url: /2010/
+    previous: 2009
+    next: 2011
+2009: 
+    id: 2009
+    title: Année 2009
+    url: /2009/
+    previous: 2008
+    next: 2010
+2008: 
+    id: 2008
+    title: Année 2008
+    url: /2008/
+    previous: 2007
+    next: 2009
 2007:
     id: 2007
     title: Année 2007
     url: /2007/
-    next: 2019
+    next: 2008
