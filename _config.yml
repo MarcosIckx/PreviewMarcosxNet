@@ -97,7 +97,9 @@ collections:
   authors:
     output: true
     permalink: /apropos/:title/
-
+  reports:
+    output: true
+    
 #
 # indique quels sont les informations qu´on devrait retrouver par défaut 
 # pour certains des fichiers, selon le scope, le path, les types.
