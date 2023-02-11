@@ -1,4 +1,5 @@
 user-agent: *
 disallow: /Tests/
+disallow: /reports/
 disallow: /_pages/
 sitemap: https://blog.marcosx.net/sitemap.xml
