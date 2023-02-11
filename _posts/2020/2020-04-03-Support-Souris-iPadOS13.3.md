@@ -4,7 +4,7 @@ title: Support de la souris sous iPadOS 13.3
 description: Voyons comment est géré la souris sous iPadOS 13.3
 date: 2020-04-03
 tags: [Accessoires, Souris, iPadOS13]
-category: iPadOS13
+category: iPadOS
 liens:
   - id: Lien-1
     url: /2019/08/01/Support-Accessoires-USB-iOS-12.html
