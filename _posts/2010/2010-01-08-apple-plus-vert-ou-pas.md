@@ -1,5 +1,5 @@
 ---
-date: 2010-à&-08
+date: 2010-01-08
 category: Vert
 title: "Greenpeace : Apple vraiment plus vert que ces concurrents, ou pas ?"
 ---
