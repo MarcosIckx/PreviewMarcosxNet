@@ -140,6 +140,15 @@ _pages/Tests/test-mise-en-evidence-articles.md
 
 Après, faudra que je paufine le CSS pour que cela ressemble à quelque chose, car ce n´est pas le cas actuellement.
 
+## 11 février 2023
+J´ai passé ces derniere jours à introduire les articles de la précédente version du blog.
+Ainsi, ces articles sont à nouveau disponibles pour tout un chacun.
+
+Vous noterez que le tout premier article date de mai 2007, le dernier datant de mai 2012. 5 ans à écrire, mais quasi personne pour lire.
+il y a eu une longue absence avant que je reprenne le temps de ré-écrire puisque je n´ai repris qu´en 2019.
+PUis, la Covid est venue, mettant tout cela entre parenthese.
+
+Je dois encore peaufiner le CSS et d´autres choses, voir TODO LIST ci-dessous.
 
 
 ## TO DO LIST
