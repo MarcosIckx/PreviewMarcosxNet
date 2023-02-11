@@ -3,7 +3,6 @@ layout: post
 title: Nouveau MacBook Pro !!! Un peu plus de détails
 date: 2007-06-05
 category: MacBook Pro
-redirect_from: /2007/06/05/nouveau-macbook-pro-un-peu-plus-de-details/445
 ---
 
 [kOrt3x vous en avait déjà touché un mot]: https://web.archive.org/web/20210728073438/http://blog.developpez.com/index.php?blog=142&title=nouveau_macbook_pro&more=1&c=1&tb=1&pb=1
