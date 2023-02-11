@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Rapport images mentionnées dans post mais non trouvées
 ---
 {% assign staticUrlList = "" | split: "," %}
