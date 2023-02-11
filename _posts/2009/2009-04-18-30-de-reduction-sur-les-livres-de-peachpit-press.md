@@ -1,6 +1,6 @@
 ---
 date: 2009-04-18
-category: Livre
+category: Livres
 title: 30% de réduction sur les livres de Peachpit Press
 ---
 
