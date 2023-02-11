@@ -1,6 +1,7 @@
 ---
 date: 2009-03-02
-category: Matériel
+category: Mac
+tags: [iMac, "Mac mini"]
 title: De nouveaux iMac (et Mac Mini) pour demain ?
 ---
 Beaucoup de rumeurs couraient ces derniers jours/semaines sur une prochaine mise à jour des iMac. Et tout cela allait crescendo.
