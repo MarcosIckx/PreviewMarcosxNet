@@ -1,6 +1,6 @@
 ---
 date: 2009-07-21
-category: Magazine
+category: Magazines
 title: "MacFormat : un mag comme je l’aime bien"
 ---
 Récemment, j’ai eu l’occasion de faire un petit voyage en Angleterre.
