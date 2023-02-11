@@ -1,6 +1,6 @@
 ---
 date: 2009-05-31
-category: Magazine
+category: Magazines
 title: "Revue de Presse : SVMMAC Juin 2009"
 ---
 
