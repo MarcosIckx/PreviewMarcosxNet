@@ -177,6 +177,22 @@ Rien de plus énervant que de voir une table des matières et lorsqu'on l'étend
 J'ai donc déplacé la logique pour n'afficher la table des matières que lorsque celle ci n'est pas vide.
 Ce qui est bien plus agréable pour l'utilisateur.
 
+### sitemap.xml
+le fichier était mal construit car j´avais oublié de mettre
+    ---
+    layout: null
+    ---
+ en en-tête.
+ 
+ Du coup, il le rendait par défaut avec le layout default et donc le résultat était un fichier html et non un fichier .xml.
+ 
+ Bref, c´était pas cela.
+ 
+ Maintenant, cela a été fixé, et j´espère que ça aidera les moteurs de recherche à indexer les pages comme il faut.
+ 
+ Ça donnera peut-être un peu plus de visibilité au site.
+ 
+ 
 ## TO DO LIST
 
 Pas mal de choses dans ma todo list
