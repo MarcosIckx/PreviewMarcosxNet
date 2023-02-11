@@ -1,5 +1,5 @@
 ---
-title: MacIntel: une bénédiction pour les solutions virtuelles
+title: "MacIntel: une bénédiction pour les solutions virtuelles"
 date: 2007-06-25
 category: Matériel
 ---
