@@ -16,6 +16,8 @@
     --border-color-hover: #00f;
     --bg-box-color: #cecece;
     --footer-color: #d5d5d5;
+    --highlight-color-1: #ab0000;
+    --highlight-color-2: #ab5500;
 
 }
 
@@ -35,6 +37,8 @@
     --border-color-hover: #fff;
     --bg-box-color: #9e9e9e;
     --footer-color: #e5e5e5;
+    --highlight-color-1: #ab0000;
+    --highlight-color-2: #ab5500;
   }
 }
 
@@ -346,12 +350,12 @@ article.posts {
 article.post { 
     margin: 1.25rem 1rem 2.5rem; 
     font-size: 1.5rem;
-    border-left: 0.0625rem solid var(--footer-color);
+    border-left: 0.2500rem solid var(--highlight-color-1);
     padding: 0.3rem;
 }
 
 article.post:hover { 
-  border-left: 0.0625rem solid var(--third-bg-color);
+  border-left: 0.2500rem solid var(--highlight-color-2);
 }
 
 article.post span {
