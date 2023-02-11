@@ -1,6 +1,6 @@
 # Bienvenue sur le repository qui sert à générer le site de [blog.marcosx.net]
 
-Il y a bien longtemps, j´avais un site, [https://www.marcosx.net], hébergé chez OVH et 
+Il y a bien longtemps, j´avais un site, [www.marcosx.net], hébergé chez OVH et 
 ça tournait sous une toute vieille version de wordpress, avec un theme dynamique 
 et une base de données.
 Mais, au final, je ne maitrisais plus rien.
@@ -26,7 +26,7 @@ Là, je demande de rajouter une entrée DNS, et je choisis CNAME.
 
 Je remplis le *sous domaine* : blog
 dans TTL, je choisi *personalisé* et je mets 60 (secondes)
-et dans *cible*, je remplis **marcosickx.github.io.**
+et dans *cible*, je remplis **[marcosickx.github.io].**
 
 Attention à bien mettre un point après `github.io`. C´est d´une importance capitale.
 
@@ -236,6 +236,7 @@ c'est à dire qu´en fonction
 
 [www.marcosx.net]: https://www.marcosx.net
 [blog.marcosx.net]: https://blog.marcosx.net
+[marcosx.github.io]: https://marcosx.github.io
 [github]: https://github.com
 [marcosickx.github.io]: https://github.com/MarcosIckx/MarcosIckx.github.io/
 [GitHub Pages]: https://docs.github.com/fr/pages
