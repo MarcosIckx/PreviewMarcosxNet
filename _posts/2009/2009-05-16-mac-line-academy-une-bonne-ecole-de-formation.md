@@ -1,6 +1,6 @@
 ---
 date: 2009-05-16
-category: Formation
+category: Formations
 title: "Mac Line Academy : Une bonne école de formation"
 ---
 
