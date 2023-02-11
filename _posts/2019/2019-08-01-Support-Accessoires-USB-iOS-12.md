@@ -4,7 +4,7 @@ title: Support des accessoires USB sous iOS 12
 description: Comment iOS 12 gère les accessoires USB. C'est ce que je vous explique ici.
 date: 2019-08-01
 tags: [Accessoires, USB, iOS12]
-category: iOS12
+category: iOS
 liens:
   - id: Amazon-Adaptateur-Lightning-USB3
     url: https://www.amazon.fr/gp/product/B01DGDNL2G/
