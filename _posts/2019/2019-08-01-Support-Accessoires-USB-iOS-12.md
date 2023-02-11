@@ -3,6 +3,7 @@ layout: post
 title: Support des accessoires USB sous iOS 12
 description: Comment iOS 12 gère les accessoires USB. C'est ce que je vous explique ici.
 date: 2019-08-01
+redirect_from: /2019/08/01/Support-Accessoires-USB-iOS-12.html
 tags: [Accessoires, USB, iOS12]
 category: iOS
 liens:
