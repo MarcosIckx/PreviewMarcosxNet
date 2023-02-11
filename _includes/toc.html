@@ -180,11 +180,11 @@
         {% endif %}
     {% endif %}
 {% endcapture %}{% assign tocWorkspace = '' %}{{ deprecation_warnings }}
-{% if jekyll_toc %}
+{% if jekyll_toc != '' %}
 <div class="toc">
   <details>
     <summary>Sommaire</summary>
-{{ jekyll_toc -}}
+{{ jekyll_toc }}
   </details>
  </div>
 {% endif %}
