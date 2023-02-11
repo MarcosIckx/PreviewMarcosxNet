@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Rapport vidéos mentionnées dans post mais non trouvées
 ---
 {% assign staticUrlList = "" | split: "," %}
