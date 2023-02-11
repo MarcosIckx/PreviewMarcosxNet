@@ -1,6 +1,7 @@
 ---
 date: 2009-02-09
-category: Matériel
+category: "Mac"
+tags: ["MacBook Pro", "MacBook"]
 title: Les notes de développeurs toujours pas à jour pour les MacBook (Pro) !?
 ---
 
