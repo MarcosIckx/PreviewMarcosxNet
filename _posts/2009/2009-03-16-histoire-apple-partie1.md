@@ -1,6 +1,6 @@
 ---
 date: 2009-03-16
-category: Livre
+category: Livres
 title: "Histoire d’Apple, Partie 1, par Nicolas RUIZ"
 ---
 
