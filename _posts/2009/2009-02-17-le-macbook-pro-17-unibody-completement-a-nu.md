@@ -1,6 +1,7 @@
 ---
 date: 2009-02-17
-category: Matériel
+category: [MacBook Pro]
+tags: [Matériel, MacBook Pro]
 title: Le MacBook Pro 17″ UniBody completement à nu
 ---
 
