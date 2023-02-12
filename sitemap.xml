@@ -13,10 +13,12 @@ layout: null
     {% if page.layout != nil %}
     {% if page.layout != 'feed' %}
     {% unless page.url.endsWith(".xml") %}
+    {% unless page.url.startsWith("/Test/") %}
     <url>
         <loc>https://blog.marcosx.net{{ page.url | remove: 'index.html' }}</loc>
     </url>
-     {% endunless %}   
+    {% endunless %}   
+    {% endunless %}   
     {% endif %}
     {% endif %}
     {% endfor %}
