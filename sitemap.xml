@@ -12,16 +12,18 @@ layout: null
     {% for page in site.pages %}
     {% if page.layout != nil %}
     {% if page.layout != 'feed' %}
+    {% unless page.url.endsWith(".xml") %}
     <url>
         <loc>https://blog.marcosx.net{{ page.url | remove: 'index.html' }}</loc>
     </url>
+     {% endunless %}   
     {% endif %}
     {% endif %}
     {% endfor %}
     
     {% for archive in site.archives %}
-    {% if page.layout != nil %}
-    {% if page.layout != 'feed' %}
+    {% if archive.layout != nil %}
+    {% if archive.layout != 'feed' %}
     <url>
         <loc>https://blog.marcosx.net{{ archive.url | remove: 'index.html' }}</loc>
     </url>
@@ -30,8 +32,8 @@ layout: null
     {% endfor %}
     
     {% for author in site.authors %}
-    {% if page.layout != nil %}
-    {% if page.layout != 'feed' %}
+    {% if author.layout != nil %}
+    {% if author.layout != 'feed' %}
     <url>
         <loc>https://blog.marcosx.net{{ author.url | remove: 'index.html' }}</loc>
     </url>
