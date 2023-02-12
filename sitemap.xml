@@ -18,4 +18,24 @@ layout: null
     {% endif %}
     {% endif %}
     {% endfor %}
+    
+    {% for archive in site.archives %}
+    {% if page.layout != nil %}
+    {% if page.layout != 'feed' %}
+    <url>
+        <loc>https://blog.marcosx.net{{ archive.url | remove: 'index.html' }}</loc>
+    </url>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+    
+    {% for author in site.authors %}
+    {% if page.layout != nil %}
+    {% if page.layout != 'feed' %}
+    <url>
+        <loc>https://blog.marcosx.net{{ author.url | remove: 'index.html' }}</loc>
+    </url>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
 </urlset>
