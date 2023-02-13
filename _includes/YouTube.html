@@ -1,0 +1,11 @@
+{% comment %}
+youtube.html
+Paramètre obligatoire :
+video_id : l´identifiant unique de la vidéo YouTube
+{% endcomment %}
+
+<div class="video-container" >
+    <iframe width="100%" height="auto" src="https://www.youtube.com/embed/{{include.video_id}}?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<hr>
