@@ -19,7 +19,7 @@ layout: default
 {% for categoryName in allCategories %}
   <li>
     <a href="#{{ categoryName | slugify | downcase }}">
-      {{categoryName}}
+      {{categoryName}}:  <span class="taxonomy-count">{{ site.categories[categoryName].size }}</span>
     </a>
   </li>
 {% endfor %}
