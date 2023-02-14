@@ -130,7 +130,7 @@ layout: default
   {%- assign tag_count = tag_counts[forloop.index0] -%}
   {%- for tagName in tagNames_list -%}
   <li>
-    <a href="#{{ tagName | slugify | downcase }}">
+    <a href="#{{ tagName | slugify:latin | downcase }}">
       {{ tagName }}: <span class="taxonomy-count">{{ tag_count }}</span>
     </a>
   </li>
@@ -145,7 +145,7 @@ layout: default
 {%- endcomment -%}
 
 {%- for tagName in allTagNames -%}
-<section id="{{ tagName | slugify | downcase }}" class="taxonomy-section">
+<section id="{{ tagName | slugify:latin | downcase }}" class="taxonomy-section">
   <h2 class="taxonomy-title">{{ tagName }}</h2>
   {%- assign taggedItems = "" | split: ',' -%}
   {%- assign taggedItems = taggedItems | concat: site.posts| where_exp : "post", "post.tags contains tagName" -%}
