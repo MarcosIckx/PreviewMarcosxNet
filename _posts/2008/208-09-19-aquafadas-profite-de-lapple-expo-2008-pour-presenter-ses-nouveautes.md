@@ -1,6 +1,7 @@
 ---
 date: 2008-09-19
-category: Évènement
+category: Évènements
+tags: ["Apple Expo", "Aquafadas"]
 title: Aquafadas profite de l’Apple Expo 2008 pour présenter ses nouveautés
 ---
 
