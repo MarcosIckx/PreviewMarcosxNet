@@ -1,7 +1,8 @@
 ---
-title: 
+title: iMac, Mac Mini, Leopard, unix03, …
 date: 2007-08-08
-category: Léopard
+category: macOS
+tags: [Léopard]
 ---
 
 Comme tout le monde le sait, Apple a annoncé mardi, durant son keynote , les nouveaux modèles d’iMac.
