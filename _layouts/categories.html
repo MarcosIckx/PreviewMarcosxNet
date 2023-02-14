@@ -18,7 +18,7 @@ layout: default
 <ul class="taxonomy-index">
 {% for categoryName in allCategories %}
   <li>
-    <a href="#{{ categoryName | slugify | downcase }}">
+    <a href="#{{ categoryName | slugify:latin | downcase }}">
       {{categoryName}}:  <span class="taxonomy-count">{{ site.categories[categoryName].size }}</span>
     </a>
   </li>
@@ -32,7 +32,7 @@ layout: default
 {%- endcomment -%}
 
 {% for categoryName in allCategories %}
-  <section id="{{ categoryName | slugify | downcase }}" class="taxonomy-section">
+  <section id="{{ categoryName | slugify:latin | downcase }}" class="taxonomy-section">
     <h2 class="taxonomy-title">{{categoryName}}</h2>
     {% for entry in site.categories[categoryName] %}
        {% include entry.html %}
