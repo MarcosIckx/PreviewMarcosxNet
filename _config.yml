@@ -8,6 +8,8 @@ debug: false
 title: Le Blog de Marcos Ickx
 # nom du site
 name: Le Blog de Marcos Ickx
+# description du site
+description: Je parle ici de tout et de rien mais toujours en lien avec Apple et ses produits. Principalement l´iPad, mais pas que.
 # url du site
 url: https://blog.marcosx.net
 # auteur du site, par defaut
