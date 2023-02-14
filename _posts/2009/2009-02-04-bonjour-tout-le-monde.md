@@ -1,6 +1,6 @@
 ---
 date: 2009-02-04
-category: blog
+category: Blog
 title: Bonjour tout le monde ! Je me présente, Marcos !
 ---
 Bonjour tout le monde.
