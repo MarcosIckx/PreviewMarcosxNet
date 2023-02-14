@@ -3,7 +3,7 @@
 deux cas de figure se présente ici:
 
 Cas 1: 
-on vérifie si le layout utilisé est celui des archives.
+on vérifie si le layout utilisé est le layout pour les archives.
 et si c´est le cas, on va rechercher les infos 
 previous et next correspondantes à l´année de l´archive.
 Ça permet de changer cela.
@@ -34,7 +34,7 @@ Si le layout utilisé est "archives",
   alors on recherchera previous et next 
     sur base des data archives
 {%- endcomment -%}
-{%- if page.layout contains "archives" -%}
+{%- if page.layout contains "archive" -%}
   {%- assign archive = site.data.archives[page.year] -%}
   {%- if debugMode -%}
   <div class="debug">
@@ -48,7 +48,7 @@ Si le layout utilisé est "archives",
   {%- assign previous = site.data.archives[archive.previous] -%}
   {%- assign next = site.data.archives[archive.next] -%}
 {%- comment -%}
-Si ce n´est pas le layout "archives" qui est utilisé, 
+Si ce n´est pas le layout "archive" qui est utilisé, 
   alors on prendra le previous et next 
     mentionnés dans le frontend de la page
 {%- endcomment -%}
