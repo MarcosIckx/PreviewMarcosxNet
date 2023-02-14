@@ -135,7 +135,7 @@ via du javascript, il propose à l´utilisateur les archives de l´année suppos
 
 ## 5 février 2023
 
-### prototype tri post en tenant commte date mise à jour 
+### prototype tri des posts en tenant compte de la date de mise à jour 
 j´ai réussi à mettre en place une logique me permettant d´afficher les posts en tenant compte des éventuelles mises à jour. Ainsi, je peux faire remonter si je le desire, des posts qui ont été mis à jour.
 
 Faudra maintenant que je la mette en place là où il faut, mais au moins, il y a un prototype qui fonctionne.
@@ -192,6 +192,16 @@ le fichier était mal construit car j´avais oublié de mettre
  
  Ça donnera peut-être un peu plus de visibilité au site.
  
+### indexer le site
+J'essaye de faire en sorte que le site soit dans les indexs des moteurs de recherche.
+
+## 14 février 2023
+Le fichier atom.xml causait plein de soucis
+J'ai donc fait quelques recherches et suis finalement tombé sur un site expliquant clairement comment créer ce fichier correctement.
+https://jekyllcodex.org/without-plugin/rss-feed/#
+Je ne peux que vous le recommander.
+
+J'ai testé ce que ça donnait avec reeder, et ça donne super bien.
  
 ## TO DO LIST
 
