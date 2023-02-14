@@ -35,4 +35,5 @@ Tout cela a disparu avec l’ACSA 10.5. Il vous faut maintenant passer obligatoi
 Il n’est pas encore possible de passer ces examens maintenant. Ni de suivre les cours qui vous préparent à ces examens. Tout cela ne sera mis en place que dans le courant de l’année 2008. D’ici là, vous aurez toujours loisir de faire connaissance avec Leopard, et de le prendre en main pour pouvoir finalement le dompter.
 
 [L’aperçu des certifications Mac OS X][Lien-1]
+
 [Lien-1]: https://web.archive.org/web/20160911211852/http://training.apple.com/certification/macosx
