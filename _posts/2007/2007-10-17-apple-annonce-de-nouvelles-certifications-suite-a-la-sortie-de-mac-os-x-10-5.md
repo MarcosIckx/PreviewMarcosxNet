@@ -3,6 +3,7 @@ title: Apple annonce de nouvelles certifications suite à la sortie de Mac OS X 
 date: 2007-10-17
 category: macOS
 tags: [Léopard]
+category: macOS
 ---
 
 Apple a profité de l’annonce de sortie de Mac OS X 10.5 (leopard) pour annoncer également de nouvelles certifications.
