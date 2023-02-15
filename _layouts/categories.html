@@ -30,14 +30,5 @@ layout: default
   boucle sur les noms des catégories et les posts associés à ces catégories.
   ~~~
 {%- endcomment -%}
-
-{% for categoryName in allCategories %}
-  <section id="{{ categoryName | slugify:latin | downcase }}" class="taxonomy-section">
-    <h2 class="taxonomy-title">{{categoryName}}</h2>
-    {% for entry in site.categories[categoryName] %}
-       {% include entry.html %}
-    {% endfor %}
-    <a href="#page-title" class="back-to-top">Revenir en haut de la page &uarr;</a>
-  </section>
-{% endfor %}			
+{% include taxonomy/entriesPerTaxonomy.html taxonomyNameList=allCategories taxonomyCollection=site.categories %}
 
