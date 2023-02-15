@@ -4,17 +4,20 @@ Pour utiliser cet includes, voila comment faire :
 1. passer l´argument pos. On ira chercher alors les informations concernant la video se trouvant en position pos dans la page.
 2. passer l´argument videoInfo. qui devra contenir les infos suivantes
    url (obligatoire)
+   url_image (meilleur pour référencement)
    type (par defaut, "video/mp4")
    alt (obligatoire)
    title (par defaut, idem que alt)
-3. passer les 4 arguments tels quels
-   src: url de la video
+3. passer les 5 arguments tels quels
+   src: url de la vidéo
+   src_image: url de la vignette de la vidéo
    type: (par defaut, "video/mp4")
    description: description de la vidéo
-   title: (par defaut, idem que description)
+   title: (par défaut, idem que description)
 ~~~
 {% endcomment %}
 {% assign src=include.src %}
+{% assign poster=include.src_image %}
 {% assign descr=include.description %}
 {% assign type=include.type | default: "video/mp4" %}
 {% assign title=include.title | default: descr %}
@@ -33,8 +36,10 @@ videoInfos {{ videoInfos }} <br/>
 {% if debugMode %}
 <div class="debug">
 page.videos[{{ pos }}].url {{ page.videos[pos].url }} <br/>
+page.videos[{{ pos }}].url_image {{ page.videos[pos].url_image }} <br/>
 page.videos[{{ pos }}].alt {{ page.videos[pos].alt }} <br/>
 page.videos[{{ pos }}].type {{ page.videos[pos].type }} <br/>
+page.videos[{{ pos }}].title {{ page.videos[pos].title }} <br/>
 </div>
 {% endif %}
 {% assign videoInfos=page.videos[pos] %}
@@ -44,6 +49,7 @@ page.videos[{{ pos }}].type {{ page.videos[pos].type }} <br/>
 <div class="debug">
 videoInfos {{ videoInfos }} <br/>
 videoInfos.url {{ videoInfos.url }} <br/>
+videoInfos.url_image {{ videoInfos.url_image }} <br/>
 videoInfos.alt {{ videoInfos.alt }} <br/>
 videoInfos.type {{ videoInfos.type }} <br/>
 videoInfos.title {{ videoInfos.title }} <br/>
@@ -51,6 +57,7 @@ videoInfos.title {{ videoInfos.title }} <br/>
 {% endif %}
 {% assign src=videoInfos.url %}
 {% assign descr=videoInfos.alt %}
+{% assign poster=videoInfos.url_image | default: page.image.url %}
 {% assign title=videoInfos.title | default: descr %}
 {% assign type=videoInfos.type | default: "video/mp4" %}
 {% endif %}
@@ -58,6 +65,7 @@ videoInfos.title {{ videoInfos.title }} <br/>
 {% if debugMode %}
 <div class="debug">
 src: {{ src }} <br/>
+poster: {{ poster }} <br/>
 descr: {{ descr }} <br/>
 title: {{ title }} <br/>
 type: {{ type }} <br/>
@@ -67,7 +75,7 @@ pos: {{ pos }} <br/>
 <hr>
 <div class="video-box">
   <figure class="video-box">  
-    <video controls loop>
+    <video controls loop {% if poster %-}poster="{{ poster }}"{%- endif -%} >
       <source src="{{ src }}"
             type="{{ type }}" />
       <p>Votre navigateur ne semble pas gérer le tag video</p>
