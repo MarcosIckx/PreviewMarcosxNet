@@ -2,10 +2,10 @@
 title: liste des tags et des entries par Tag
 ---
 
-{%- assign allTagNames = "" | split: ',' -%}
-{%- for tag in site.tags %}
-{%- assign allTagNames = allTagNames | push: tag[0] -%}
+{%- assign allTaxonomyNames = "" | split: ',' -%}
+{%- for taxonomy in site.tags %}
+{%- assign allTaxonomyNames = allTaxonomyNames | push: taxonomy[0] -%}
 {%- endfor %}
-{%- assign allTagNames = allTagNames | uniq | sort_natural -%}
+{%- assign allTaxonomyNames = allTaxonomyNames | uniq | sort_natural -%}
 
-{% include taxonomy/entriesPerTaxonomy.html taxonomyNameList=allTagNames taxonomyCollection=site.tags %}
+{% include taxonomy/entriesPerTaxonomy.html taxonomyNameList=allTaxonomyNames taxonomyCollection=site.tags %}
