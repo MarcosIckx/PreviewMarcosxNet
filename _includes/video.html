@@ -75,7 +75,7 @@ pos: {{ pos }} <br/>
 <hr>
 <div class="video-box">
   <figure class="video-box">  
-    <video controls loop {% if poster %-}poster="{{ poster }}"{%- endif -%} >
+    <video controls loop {% if poster -%}poster="{{ poster }}"{%- endif -%} >
       <source src="{{ src }}"
             type="{{ type }}" />
       <p>Votre navigateur ne semble pas gérer le tag video</p>
