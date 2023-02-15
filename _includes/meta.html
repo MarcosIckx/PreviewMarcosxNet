@@ -41,7 +41,7 @@
       meta | first: [{{ meta |first }}]<br/>
       meta : {{ meta }}<br/>
     {%- endif -%}
-    <li><a href="/{{include.metaNamePlural}}/#{{ meta | slugify | downcase }}">{{ meta }}</a></li>
+    <li><a href="/{{include.metaNamePlural}}/#{{ meta | slugify:latin | downcase }}" rel="tag" title="Liste des {{include.metaNamePlural}}: {{ meta }}">{{ meta }}</a></li>
   {%- endfor -%}
   </ul>
   {%- endif -%}{%- endif -%}
