@@ -1,8 +1,8 @@
 <footer>
   <ul>
-    <li>&copy; <a href="{{site.author.url}}">{{site.author.name}}</a> 2007-{%- include time.html date=site.time date_format="%Y" -%}</li>
-    <li><a href="https://twitter.com/{{site.author.twitterId}}">Twitter</a></li>
-    <li><a href="{{site.url}}">{{site.name}}</a></li>
+    <li>&copy; <a href="{{ site.author.url }}" rel="author" title="{{ site.author.name }}">{{ site.author.name }}</a> {%- include time.html date=2007 date_format="%Y" -%}-{%- include time.html date=site.time date_format="%Y" -%}</li>
+    <li><a href="https://twitter.com/{{ site.author.twitterId }}" rel="external" title="@{{ site.author.twitterId }}">Twitter</a></li>
+    <li><a href="{{ site.url }}" rel="" title="{{ site.name }}">{{ site.name }}</a></li>
     <li><small>Page regénérée le {% include time.html date=site.time date_format="%d/%m/%Y à %H:%M" %}</small></li>
   </ul>
 </footer>
