@@ -59,7 +59,7 @@ site.data.archives.first.first: {{archives.first.first }}<br/>
       previous.next: {{previous.next }}<br/>
       </div>
       {%- endif -%}
-    <p>{{previous.id}} : {% include archive-year-link.html year=previous debug=debugMode -%}</p>
+    <p>{{previous.id}} : {% include archive-year-link.html year=previous rel=prev debug=debugMode -%}</p>
     {%- endif -%}
     {%- if yearInfo.next -%}
       {%- assign next = archives[yearInfo.next] -%}
@@ -72,7 +72,7 @@ site.data.archives.first.first: {{archives.first.first }}<br/>
       next.next: {{next.next }}<br/>
       </div>
       {%- endif -%}
-      <p>{{next.id}}: {% include archive-year-link.html year=next debug=debugMode -%}</p>
+      <p>{{next.id}}: {% include archive-year-link.html year=next rel=next debug=debugMode -%}</p>
     {%- endif -%}
     {%- endif -%}
   </li>

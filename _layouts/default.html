@@ -10,13 +10,13 @@ il est découpé en 3 parties :
 {%- endcomment -%}
 <!DOCTYPE html>
 <html lang="fr">
-  {%- include html-header.html -%}
+  {%- include main/html-header.html -%}
   <body>
-    {%- include navigation-bar.html -%}
+    {%- include main/navigation-bar.html -%}
     <div class="container">
       <h1 id="page-title">{{ page.title }}</h1>
       {{ content }}	
     </div><!-- /.container -->
-    {%- include footer.html -%}
+    {%- include main/footer.html -%}
   </body>
 </html>

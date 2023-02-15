@@ -23,7 +23,7 @@ author.name == entry.author: [{{check2}}]<br/>
     {% if entry.authors contains author.name 
        or author.name == entry.author %}
         {% capture authorLink %}
-        	<a href="{{ author.url }}">{{ author.name }}</a>
+        	<a href="{{ author.url }}" rel="author" title="{{ author.name }}">{{ author.name }}</a>
         {% endcapture %}
         {% assign authors = authors | push: authorLink %}
 {% if debugMode %}
@@ -40,5 +40,5 @@ authors [{{authors}}]<br/>
 {% if authors %}
 {{ authors | array_to_sentence_string: ""}}
 {% else %}
-<a href="{{ site.author.aboutUrl }}">{{ site.author.name }}</a>
+<a href="{{ site.author.aboutUrl }}" rel="author" title="{{ site.author.name }}">{{ site.author.name }}</a>
 {% endif%}

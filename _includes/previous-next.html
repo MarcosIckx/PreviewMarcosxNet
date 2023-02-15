@@ -79,7 +79,7 @@ Si ce n´est pas le layout "archive" qui est utilisé,
         previous.title: {{previous.title}}
       </div>
     {%- endif -%}
-    {%- if previous.url -%}<a href="{{previous.url}}"><span class="left">&laquo;</span> {{previous.title}}</a>{%- endif -%}
+    {%- if previous.url -%}<a href="{{previous.url}}" rel="prev" title="{{previous.title}}"><span class="left">&laquo;</span> {{previous.title}}</a>{%- endif -%}
   </div>
   <div class="Suivant">
     {%- if debugMode -%}
@@ -88,7 +88,7 @@ Si ce n´est pas le layout "archive" qui est utilisé,
         next.title: {{next.title}}
       </div>
     {%- endif -%}
-    {%- if next.url -%}<a href="{{next.url}}">{{next.title}} <span class="right">&raquo;</span></a>{%- endif -%}
+    {%- if next.url -%}<a href="{{next.url}}" rel="next" title="{{next.title}}">{{next.title}} <span class="right">&raquo;</span></a>{%- endif -%}
   </div>
 </div>
 {%- endif -%}
