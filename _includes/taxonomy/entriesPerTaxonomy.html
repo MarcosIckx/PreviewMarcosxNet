@@ -1,0 +1,27 @@
+{% comment %}
+taxonomy/entriesPerTaxonomy.html
+
+Paramètre obligatoire :
+taxonomyNameList : liste des noms de la taxonomy qu´on va traiter
+taxonomyCollection : la collection contenant pour chaque nom de taxonomy la liste des posts.
+
+exemple d´utilisation
+pour les catégories: 
+  - include taxonomy/entriesPerTaxonomy.html taxonomyNameList=allCategories taxonomyCollection=site.categories
+pour les tags
+  - include taxonomy/entriesPerTaxonomy.html taxonomyNameList=allTagNames taxonomyCollection=site.tags
+{% endcomment %}
+
+{% assign allTaxonomyNames = include.taxonomyNameList %}
+{% assign entriesPerTaxonomy = include.taxonomyCollection %}
+
+
+{% for taxonomyName in allTaxonomyNames %}
+  <section id="{{ taxonomyName | slugify:latin | downcase }}" class="taxonomy-section">
+    <h2 class="taxonomy-title">{{taxonomyName}}</h2>
+    {% for entry in entriesPerTaxonomy[taxonomyName] %}
+       {% include entry.html %}
+    {% endfor %}
+    <a href="#page-title" class="back-to-top">Revenir en haut de la page &uarr;</a>
+  </section>
+{% endfor %}		
