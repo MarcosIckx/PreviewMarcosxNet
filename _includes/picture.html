@@ -5,9 +5,14 @@ Parameters:
     url: the url of the image (mandatory)
     alt: the alternate text of the image (optional)
     title: the description of the image (optional)
-  dark-img: information concerning a dark version of the image (optional)
-    url: the url of the image for dark mode (mandatory)
-    title: the description of the image for dark mode (optional)
+    small_url: the url of the small version of the image(optional)
+    medium_url: the url of the medium version of the image(optional)
+    large_url: the url of the large version of the image(optional)
+    dark:
+      url: the url of the dark version of the image(optional)
+      small_url: the url of the small dark version of the image(optional)
+      medium_url: the url of the medium dark version of the image(optional)
+      large_url: the url of the large dark version of the image(optional)
   link: information concerning the link (optional)
      url: the url of the link that will be open when we click on the image (mandatory)
      alt: alternate text of the url (optional)
@@ -90,10 +95,13 @@ darkimgUrlIsNotRelative {{ darkimgUrlIsNotRelative }} <br/>
     <a href="{{ include.link.url }}" alt="{{ include.link.alt }}" title="{{ include.link.title | default: include.link.alt }}">
   {% endif -%}
     <picture>
-      {% if include.dark-img.url and darkimgUrlIsNotRelative -%}
-      <source srcset="{{ include.dark-img.url }}" media="(prefers-color-scheme: dark)" />
-      {% elsif include.dark-img.url and darkimgUrlIsNotRelative == false -%}
-      <source srcset="{{ include.dark-img.url | prepend: urlPrepend }}" media="(prefers-color-scheme: dark)" />
+      {% if include.img.dark.url %}
+      <source media="(prefers-color-scheme: dark)"
+      {% if darkimgUrlIsNotRelative -%}
+        srcset="{{ include.img.dark.url }}"  />
+      {% else -%}
+        srcset="{{ include.img.dark.url | prepend: urlPrepend }}"  />
+      {% endif -%}
       {% endif -%}
       {% if imgUrlIsNotRelative -%}
       <img src="{{ include.img.url }}" alt="{{ include.img.alt }}" />
@@ -101,7 +109,7 @@ darkimgUrlIsNotRelative {{ darkimgUrlIsNotRelative }} <br/>
       <img src="{{ include.img.url | prepend: urlPrepend }}" alt="{{ include.img.alt }}" />
       {% endif -%}
     </picture>
-  {% if include.link -%}
+  {% if include.link.url -%}
   </a>
   {% endif -%}
   <figcaption>{{ include.img.title | default: include.img.alt }}</figcaption>
