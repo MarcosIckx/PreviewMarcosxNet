@@ -202,6 +202,24 @@ https://jekyllcodex.org/without-plugin/rss-feed/#
 Je ne peux que vous le recommander.
 
 J'ai testé ce que ça donnait avec reeder, et ça donne super bien.
+
+## 15 février 2023
+j´ai un peu revu la structure du repertoire  _includes pour y voir un peu plus clair
+ainsi, il y a maintenant 
+1. un sous-répertoire `main` contenant les blocs principaux d´une page.
+1.1. les html headers
+1.2. la barre de navigation
+1.3. le pied de page (footer)
+2. un sous-répertoire `taxonomy`, contenant ce qui est en relations avec les tags et les catégories
+2.1 entriesPerTaxonomy.html permet de construire la liste des posts par catégories de la même façon que la liste des posts par tags.
+
+j´ai également profité de ces changements pour 
+1. rajouter des rel="author" pour les liens vers les pages d´auteur
+2. rajouter des rel="prev" et rel="next" pour ce qui est des liens précédent et suivant
+
+en attendand, le site commence à être indexé, ce qui est très bien.
+  
+
  
 ## TO DO LIST
 
