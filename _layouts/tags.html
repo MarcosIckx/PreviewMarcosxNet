@@ -144,16 +144,4 @@ layout: default
   ~~~
 {%- endcomment -%}
 
-{%- for tagName in allTagNames -%}
-<section id="{{ tagName | slugify:latin | downcase }}" class="taxonomy-section">
-  <h2 class="taxonomy-title">{{ tagName }}</h2>
-  {%- assign taggedItems = "" | split: ',' -%}
-  {%- assign taggedItems = taggedItems | concat: site.posts| where_exp : "post", "post.tags contains tagName" -%}
-  <div class="entries-{{ page.entries_layout | default: 'list' }}">
-    {%- for entry in taggedItems -%}
-    {%- include entry.html -%}
-    {%- endfor -%}
-  </div>
-  <a href="#page-title" class="back-to-top">Revenir en haut de la page &uarr;</a>
-</section>
-{%- endfor -%}
+{% include taxonomy/entriesPerTaxonomy.html taxonomyNameList=allTagNames taxonomyCollection=site.tags %}
