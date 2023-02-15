@@ -9,6 +9,7 @@ image:
 videos:
   - id: animation-cles-PAD
     url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/animation-cles-PAD.mp4
+    url_image: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Protection-Avancee-des-Donnees.png
     type: video/mp4
     alt: Animation montrant que lorsque la Protection Avancée des Données iCloud est activée, les clés de service qui sont stockée sur les serveurs d'Apple, sont supprimées et stockées dans l'enclave sécurisée de votre appareil.
     title: Animation montrant que lorsque la Protection Avancée des Données iCloud est activée, les clés de service qui sont stockée sur les serveurs d'Apple, sont supprimées et stockées dans l'enclave sécurisée de votre appareil.
@@ -17,8 +18,8 @@ videos:
     type: video/mp4
     alt: Animation sympathique que l´on peut voir sur la page d´accueil iCloud.com
     title: Animation sympathique que l´on peut voir sur la page d´accueil iCloud.com 
-tags: [Sécurité, Protection des Données, iCloud]
-category: Confidentialité
+tags: [Sécurité, Confidentialité, Protection des Données, iCloud]
+category: iCloud
 ---
 
 # Protection Avancée des Données iCloud (PADi)
