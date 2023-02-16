@@ -93,68 +93,68 @@ darkimgUrlIsNotRelative {{ darkimgUrlIsNotRelative }} <br/>
   {% endif -%}
     <picture>
       {% if include.img.dark.large_url %}
-      <source media="(prefers-color-scheme: dark) and (min-width: 1200px)"
+      <source media="(prefers-color-scheme: dark) and (min-width: 800px)"
       {% if darkimgUrlIsNotRelative -%}
-        srcset="{{ include.img.dark.large_url }}"  />
+        srcset="{{ include.img.dark.large_url }} 2x"  />
       {% else -%}
-        srcset="{{ include.img.dark.large_url | prepend: urlPrepend }}"  />
+        srcset="{{ include.img.dark.large_url | prepend: urlPrepend }} 2x"  />
       {% endif -%}
       {% endif -%}
       {% if include.img.dark.medium_url %}
-      <source media="(prefers-color-scheme: dark) and (min-width: 800px)"
+      <source media="(prefers-color-scheme: dark) and (min-width: 400px)"
       {% if darkimgUrlIsNotRelative -%}
-        srcset="{{ include.img.dark.medium_url }}"  />
+        srcset="{{ include.img.dark.medium_url }} 2x"  />
       {% else -%}
-        srcset="{{ include.img.dark.medium_url | prepend: urlPrepend }}"  />
+        srcset="{{ include.img.dark.medium_url | prepend: urlPrepend }} 2x"  />
       {% endif -%}
       {% endif -%}
       {% if include.img.dark.small_url %}
-      <source media="(prefers-color-scheme: dark) and (min-width: 400px)"
+      <source media="(prefers-color-scheme: dark) and (min-width: 200px)"
       {% if darkimgUrlIsNotRelative -%}
-        srcset="{{ include.img.dark.small_url }}"  />
+        srcset="{{ include.img.dark.small_url }} 2x"  />
       {% else -%}
-        srcset="{{ include.img.dark.small_url | prepend: urlPrepend }}"  />
+        srcset="{{ include.img.dark.small_url | prepend: urlPrepend }} 2x"  />
       {% endif -%}
       {% endif -%}
       {% if include.img.dark.url %}
       <source media="(prefers-color-scheme: dark)"
       {% if darkimgUrlIsNotRelative -%}
-        srcset="{{ include.img.dark.url }}"  />
+        srcset="{{ include.img.dark.url }} 2x"  />
       {% else -%}
-        srcset="{{ include.img.dark.url | prepend: urlPrepend }}"  />
+        srcset="{{ include.img.dark.url | prepend: urlPrepend }} 2x"  />
       {% endif -%}
       {% endif -%}
       {%- comment -%}~~~ fin logique pour dark ~~~{%- endcomment -%}
       {% if include.img.large_url %}
-      <source media="(min-width: 1200px)"
+      <source media="(min-width: 800px)"
       {% if imgUrlIsNotRelative -%}
-        srcset="{{ include.img.large_url }}"  />
+        srcset="{{ include.img.large_url }} 2x"  />
       {% else -%}
-        srcset="{{ include.img.large_url | prepend: urlPrepend }}"  />
+        srcset="{{ include.img.large_url | prepend: urlPrepend }} 2x"  />
       {% endif -%}
       {% endif -%}
       {% if include.img.medium_url %}
-      <source media="(min-width: 800px)"
+      <source media="(min-width: 400px)"
       {% if imgUrlIsNotRelative -%}
-        srcset="{{ include.img.medium_url }}"  />
+        srcset="{{ include.img.medium_url }} 2x"  />
       {% else -%}
-        srcset="{{ include.img.medium_url | prepend: urlPrepend }}"  />
+        srcset="{{ include.img.medium_url | prepend: urlPrepend }} 2x"  />
       {% endif -%}
       {% endif -%}
       {% if include.img.small_url %}
-      <source media="(min-width: 400px)"
+      <source media="(min-width: 200px)"
       {% if imgUrlIsNotRelative -%}
-        srcset="{{ include.img.small_url }}"  />
+        srcset="{{ include.img.small_url }} 2x"  />
       {% else -%}
-        srcset="{{ include.img.small_url | prepend: urlPrepend }}"  />
+        srcset="{{ include.img.small_url | prepend: urlPrepend }} 2x"  />
       {% endif -%}
       {% endif -%}
       {% if include.img.url %}
       <source 
       {% if imgUrlIsNotRelative -%}
-        srcset="{{ include.img.url }}"  />
+        srcset="{{ include.img.url }} 2x"  />
       {% else -%}
-        srcset="{{ include.img.url | prepend: urlPrepend }}"  />
+        srcset="{{ include.img.url | prepend: urlPrepend }} 2x"  />
       {% endif -%}
       {% endif -%}
       {%- comment -%}~~~ fin logique pour les sources.
