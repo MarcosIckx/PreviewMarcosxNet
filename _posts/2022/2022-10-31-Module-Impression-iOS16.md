@@ -2,10 +2,12 @@
 title: Module d´impression grandement amélioré sous iOS 16
 date: 2022-10-31
 layout: post
+image:
+  url: /img/AirPrint.png
 tags: [Imprimante, iOS16, iPadOS16]
 category: AirPrint
 ---
-# Le module d´impression grandement amélioré sous iOS 16.
+## Le module d´impression grandement amélioré sous iOS 16.
 
 le module d´impression sous iOS16 et iPadOS16 a bien progressé: 
 
