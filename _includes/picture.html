@@ -27,9 +27,6 @@ Parameters:
 if the optional parameter *link* is not present,
 the picture will not be wrapped in a <a> tag.
 
-if the optional parameter *dark-img* is present,
- - a specific source srcset for dark media will be created
- - the corresponding title will be used as caption.
 ~~~
 {% endcomment %}
 {% assign debugMode = include.debug | default: page.debug | default: site.debug %}
@@ -57,7 +54,7 @@ if the optional parameter *dark-img* is present,
     {% endif %}
     {% assign imgUrlIsNotRelative = false %}
 {% endcase %}
-{% assign darkimgUrlFirstPart = include.dark-img.url | split:'/' | first %}
+{% assign darkimgUrlFirstPart = include.img.dark.url | split:'/' | first %}
 {% case darkimgUrlFirstPart %}
   {% when "http:" %}
     {% if debugMode %}
