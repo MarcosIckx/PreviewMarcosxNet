@@ -92,6 +92,30 @@ darkimgUrlIsNotRelative {{ darkimgUrlIsNotRelative }} <br/>
     <a href="{{ include.link.url }}" alt="{{ include.link.alt }}" title="{{ include.link.title | default: include.link.alt }}">
   {% endif -%}
     <picture>
+      {% if include.img.dark.large_url %}
+      <source media="(prefers-color-scheme: dark) and (min-width: 1200px)"
+      {% if darkimgUrlIsNotRelative -%}
+        srcset="{{ include.img.dark.large_url }}"  />
+      {% else -%}
+        srcset="{{ include.img.dark.large_url | prepend: urlPrepend }}"  />
+      {% endif -%}
+      {% endif -%}
+      {% if include.img.dark.medium_url %}
+      <source media="(prefers-color-scheme: dark) and (min-width: 800px)"
+      {% if darkimgUrlIsNotRelative -%}
+        srcset="{{ include.img.dark.medium_url }}"  />
+      {% else -%}
+        srcset="{{ include.img.dark.medium_url | prepend: urlPrepend }}"  />
+      {% endif -%}
+      {% endif -%}
+      {% if include.img.dark.small_url %}
+      <source media="(prefers-color-scheme: dark) and (min-width: 400px)"
+      {% if darkimgUrlIsNotRelative -%}
+        srcset="{{ include.img.dark.small_url }}"  />
+      {% else -%}
+        srcset="{{ include.img.dark.small_url | prepend: urlPrepend }}"  />
+      {% endif -%}
+      {% endif -%}
       {% if include.img.dark.url %}
       <source media="(prefers-color-scheme: dark)"
       {% if darkimgUrlIsNotRelative -%}
@@ -100,6 +124,41 @@ darkimgUrlIsNotRelative {{ darkimgUrlIsNotRelative }} <br/>
         srcset="{{ include.img.dark.url | prepend: urlPrepend }}"  />
       {% endif -%}
       {% endif -%}
+      {%- comment -%}~~~ fin logique pour dark ~~~{%- endcomment -%}
+      {% if include.img.large_url %}
+      <source media="(min-width: 1200px)"
+      {% if imgUrlIsNotRelative -%}
+        srcset="{{ include.img.large_url }}"  />
+      {% else -%}
+        srcset="{{ include.img.large_url | prepend: urlPrepend }}"  />
+      {% endif -%}
+      {% endif -%}
+      {% if include.img.medium_url %}
+      <source media="(min-width: 800px)"
+      {% if imgUrlIsNotRelative -%}
+        srcset="{{ include.img.medium_url }}"  />
+      {% else -%}
+        srcset="{{ include.img.medium_url | prepend: urlPrepend }}"  />
+      {% endif -%}
+      {% endif -%}
+      {% if include.img.small_url %}
+      <source media="(min-width: 400px)"
+      {% if imgUrlIsNotRelative -%}
+        srcset="{{ include.img.small_url }}"  />
+      {% else -%}
+        srcset="{{ include.img.small_url | prepend: urlPrepend }}"  />
+      {% endif -%}
+      {% endif -%}
+      {% if include.img.url %}
+      <source 
+      {% if imgUrlIsNotRelative -%}
+        srcset="{{ include.img.url }}"  />
+      {% else -%}
+        srcset="{{ include.img.url | prepend: urlPrepend }}"  />
+      {% endif -%}
+      {% endif -%}
+      {%- comment -%}~~~ fin logique pour les sources.
+      début logique img   ~~~{%- endcomment -%}
       {% if imgUrlIsNotRelative -%}
       <img src="{{ include.img.url }}" alt="{{ include.img.alt }}" />
       {% else -%}
