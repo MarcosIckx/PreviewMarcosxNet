@@ -16,13 +16,12 @@ videos:
   - id: animation-iCloud.com
     url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/animation-iCloud.com.mp4
     type: video/mp4
+    url_image: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/vignette-iCloud.com.png
     alt: Animation sympathique que l´on peut voir sur la page d´accueil iCloud.com
     title: Animation sympathique que l´on peut voir sur la page d´accueil iCloud.com 
 tags: [Sécurité, Confidentialité, Protection des Données, iCloud]
 category: iCloud
 ---
-
-# Protection Avancée des Données iCloud (PADi)
 
 Qu'est-ce que la Protection Avancée des Données iCloud ?
 Comment en profiter ?
