@@ -21,12 +21,16 @@ pictures_base_url: /img/
 images:
   img-1: 
     url: Accueil.png
+    small_url: Accueil.png
+    medium_url: AirPrint.png
+    large_url: iPadOS16.PNG
     alt: image du profil de marcos ickx
     title: profil de Marcos Ickx
-  img-1-dark:
-    url: https://pbs.twimg.com/profile_images/1615483864784281601/4Tjaa2pw_400x400.jpg
-    alt: image sombre du profil marcos ickx
-    title: profil sombre de Marcos Ickx
+    dark:
+      url: https://pbs.twimg.com/profile_images/1615483864784281601/4Tjaa2pw_400x400.jpg
+      small_url: https://pbs.twimg.com/profile_images/1615483864784281601/4Tjaa2pw_400x400.jpg
+      medium_url: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/iPadOS-Version-13.3.1.jpeg
+      large_url: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/App-Fichiers-Cle-USB.jpeg
   img-2: 
     url: iPadOS16.PNG
     alt: image 2 du profil de marcos ickx 
@@ -42,7 +46,7 @@ Bonjour de @MarcosIckx
 
 [HEllO]: Profile-twitter-MarcosIckx.png "Bonjourno"
 
-
+{% comment %}
 {% assign posts = "" | split: "," %}
 {% for post in site.posts  %}
 {% assign sort_date = post.update | default: post.date %}
@@ -66,21 +70,16 @@ sort date : {{ post.sort_date }}
 
 {% endfor %}
 
-Image 1 - pas de Lien 1 - pas de  dark :
+{% endcomment %}
+
+Image 1 - pas de Lien 1 :
 
 {% include picture.html img=page.images.img-1 %}
 
-Image 1 - Lien 1 - pas de  dark :
+Image 1 - Lien 1 :
 
 {% include picture.html link=page.links.link-1 img=page.images.img-1  %}
 
-image 1 - pas de lien 1- dark 
-
-{% include picture.html img=page.images.img-1 dark-img=page.images.img-1-dark %}
-
-image 1 - lien 1- dark 
-
-{% include picture.html link=page.links.link-1 img=page.images.img-1 dark-img=page.images.img-1-dark %}
 
 Image 2 - pas de Lien 1 - pas de  dark :
 
