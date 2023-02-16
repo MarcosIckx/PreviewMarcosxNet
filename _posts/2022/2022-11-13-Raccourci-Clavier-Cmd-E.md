@@ -11,36 +11,43 @@ image:
 videos:
   - id: Cmd-E-Rechercher-Mauvaise-methode
     url: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Cmd-E-Rechercher-Mauvaise-methode.mp4
+    url_image: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Accroche-Raccourci-Clavier-Cmd-E.png
     alt: Comment rechercher un texte sélectionné. Mauvaise façon de faire.
     type: video/mp4
     title: Vidéo illustrant la mauvaise manière de rechercher un texte sélectionné.
   - id: Cmd-E-Rechercher-Bonne-methode
     url: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Cmd-E-Rechercher-Bonne-methode.mp4
+    url_image: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Accroche-Raccourci-Clavier-Cmd-E.png    
     alt: Comment rechercher un texte sélectionné. Bonne façon de faire.
     type: video/mp4
     title: Vidéo illustrant la bonne façon de rechercher un texte sélectionné.
   - id: Cmd-E-Rechercher-Remplacer-dans-Notes
     url: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Cmd-E-Rechercher-Remplacer-dans-Notes.mp4
+    url_image: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Accroche-Raccourci-Clavier-Cmd-E.png
     alt: Comment s´y prendre pour Rechercher et Remplacer via clavier externe, ici dans Notes.
     type: video/mp4
     title: Comment s´y prendre pour Rechercher et Remplacer via clavier externe, ici dans Notes.
   - id: Cmd-E-Rechercher-dans-Safari-iOS15
     url: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Cmd-E-Rechercher-dans-Safari-iOS15.mp4
+    url_image: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Accroche-Raccourci-Clavier-Cmd-E.png 
     alt: Comment Rechercher dans Safari sous iOS 15 via Cmd-E ?
     type: video/mp4
     title: Comment Rechercher dans Safari sous iOS 15 via Cmd-E ?
   - id: Cmd-E-Rechercher-dans-Safari-iOS16
     url: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Cmd-E-Rechercher-dans-Safari-iOS16.mp4
+    url_image: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Accroche-Raccourci-Clavier-Cmd-E.png
     alt: Comment Rechercher dans Safari sous iOS 16 via Cmd-E ?
     type: video/mp4
     title: Comment Rechercher dans Safari sous iOS 16 via Cmd-E ?
   - id: Cmd-E-Rechercher-Via-Clavier-Virtuel
     url: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Cmd-E-Rechercher-Via-Clavier-Virtuel.mp4
+    url_image: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Accroche-Raccourci-Clavier-Cmd-E.png
     alt: Comment faire l´équivalent de Rechercher texte sélectionné sans clavier externe ?
     type: video/mp4
     title: Comment faire l´équivalent de Rechercher texte sélectionné sans clavier externe ?
   - id: Cmd-E-Rechercher-Remplacer-Via-Clavier-Virtuel.mp4
     url: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Cmd-E-Rechercher-Remplacer-Via-Clavier-Virtuel.mp4
+    url_image: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Accroche-Raccourci-Clavier-Cmd-E.png
     alt: Comment faire l´équivalent de Rechercher et Remplacer du texte sélectionné sans clavier externe ?
     type: video/mp4
     title: Comment faire l´équivalent de Rechercher et Remplacer du texte sélectionné sans clavier externe ?
