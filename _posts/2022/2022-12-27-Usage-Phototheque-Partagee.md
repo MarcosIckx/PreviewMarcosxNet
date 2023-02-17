@@ -10,8 +10,6 @@ tags: [iCloud, Photos, iOS16]
 category: Photos
 ---
 
-# J´ai enfin trouvé une utilité à la Photothèque Partagée
-
 ![Quelle est l'utilité d'une Photothèque Partagée avec personne ?]
 
 La photothèque partagée est l’une des nouveautés d’iOS 16, iPadOS 16 et macOS Ventura 
