@@ -6,7 +6,7 @@ layout: null
     {% for post in site.posts %}
     <url>
         <loc>https://blog.marcosx.net{{ post.url | remove: 'index.html' }}</loc>
-        <lastmod>{{ page.update | default: page.date | date: "%Y-%m-%d" }}</lastmod>
+        <lastmod>{{ post.update | default: post.date | date: "%Y-%m-%d" }}</lastmod>
     </url>
     {% endfor %}
 
