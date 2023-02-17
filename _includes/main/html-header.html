@@ -1,34 +1,43 @@
 <head>
-	<meta http-equiv='content-language' content='fr-be'>
 	<meta charset="utf-8" />
+	<meta http-equiv='content-language' content='fr-be'>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta name="description" content="{{ page.description }}" />
+  <meta name="generator" content="Jekyll v3.9.3">
+	<title>{{ page.title }} | {{ page.author | default: site.author.name }}</title>
+  <meta name="description" content="{{ page.description }}" />
 	<meta name="color-scheme" content="dark light" />
 	<meta name="author" content="{{ page.author | default: site.author.name }}" />
 	<!-- favicon
 	<link rel="shortcut icon" href="/img/ico/favicon.png" />
 	-->
-	<title>{{ page.title }} | {{ page.author | default: site.author.name }}</title>
+
 	<!-- link to main stylesheet -->
 	<link rel="stylesheet" type="text/css" href="/css/main.css" />
   <!-- meta data for opengraph & twitter -->
   <meta property="og:title" content="{{ page.title }} | {{ page.author | default: site.author.name }}" />
+  <meta property="og:locale" content="fr_BE">
   <meta property="og:description" content="{{ page.description }}" />
-  {% if page.layout contains "post.html" -%}
+  <meta property="og:url" content="{{ site.url }}{{page.url}}" />
+  <meta property="og:site_name" content="blog.marcosx.net">
+
+  {% if page.layout contains "post" -%}
   <meta property="og:type" content="article" />
   {%- else -%}
   <meta property="og:type" content="website" />
   {%- endif -%}
-  <meta property="og:url" content="{{ site.url }}{{page.url}}" />
   {% if page.image.url -%}
   <meta name="og:image" content="{{ site.url }}{{ page.image.url}}" />
   <!-- meta data for twitter but only if page.image.url is present -->
   <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="{{ site.url }}{{ page.image.url}}" /> 
+  {% else %}
+  <meta name="twitter:card" content="summary">
+  {%- endif -%}
   <meta name="twitter:site" content="@{{ site.author.twitterId }}" />
   <meta name="twitter:title" content="{{ page.title }}" />
   <meta name="twitter:description" content="{{ page.description }}" />
-  <meta name="twitter:image" content="{{ site.url }}{{ page.image.url}}" /> 
-  {%- endif -%}
   <link rel=“canonical” href=“{{ page.url | absolute_url }}” />
   <link rel="alternate" type="application/rss+xml" title="Blog de Marcos Ickx » Flux" href="https://blog.marcosx.net/feed/feed.xml">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebSite","description":"{{ page.description }}","headline":"{{ page.title }}","name":"{{ page.author | default: site.author.name }}","url":"{{ page.url | absolute_url }}"}</script>
 </head>
