@@ -219,7 +219,8 @@ j´ai également profité de ces changements pour
 
 en attendand, le site commence à être indexé, ce qui est très bien.
   
-
+17 février 2023
+Ajout d'un fichier xml pour authentifier auprès de Bing que je suis bien le propriétaire du site.
  
 ## TO DO LIST
 
