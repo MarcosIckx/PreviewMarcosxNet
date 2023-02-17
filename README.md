@@ -220,7 +220,9 @@ j´ai également profité de ces changements pour
 en attendand, le site commence à être indexé, ce qui est très bien.
   
 17 février 2023
-Ajout d'un fichier xml pour authentifier auprès de Bing que je suis bien le propriétaire du site.
+Ajout d'une entrée dns pour authentifier auprès de Bing que je suis bien le propriétaire du site.
+ça devrait du coup aider à mieux référencer le site sur ce moteur de recherche aussi.
+Du moins, je l'espère.
  
 ## TO DO LIST
 
