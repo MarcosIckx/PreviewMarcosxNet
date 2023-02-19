@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Un raccourci-clavier qui gagne à être connu : ⌘E"
-description: decouvrez comment faire bonne usage du raccourci-clavier cmd-E
+title: "Un raccourci-clavier qui gagne à être connu : Cmd-E"
+description: découvrez comment faire bonne usage du raccourci-clavier cmd-E
 date: 2022-11-13
 tags: [iPadOS16, iPadOS15, Raccourcis Clavier]
 category: Raccourcis Clavier
@@ -58,8 +58,7 @@ otherLinks:
 
 ![Un raccourci clavier qui gagne à être connu]
 
-# Le raccourcis clavier ⌘E
-Ce raccourcis clavier, ⌘E, est un raccourci clavier fort méconnu mais qui peut vous faire gagner énormément de temps.
+Ce raccourcis clavier, Cmd-E, ou ⌘E, est un raccourci clavier fort méconnu mais qui peut vous faire gagner énormément de temps.
 
 Ce raccourci clavier, déjà disponible sous iOS 15, a été maintenant étendu à d’autres Apps, comme Notes, par exemple, dans iOS 16.
 
