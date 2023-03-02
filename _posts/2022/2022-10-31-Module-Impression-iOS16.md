@@ -55,9 +55,9 @@ On a le choix entre :
 
 ![Module-Impression-Bordures]
 
-# Résulats 
+## Résulats 
 
-## Exemple avec un PDF de Guillaume Gete
+### Exemple avec un PDF de Guillaume Gete
 Du coup, ca permet d´avoir, sur quelques feuilles, l'idée générale d´un document sans pour autant que les personnes puissent vraiment lire le contenu.
 Voici ce que cela donne avec [un livre bonus] de [@ggete]
 
@@ -79,7 +79,7 @@ Vu que le document n´a que 8 pages, on a donc sur une feuille A4 en mode portra
 
 ![Miniature PDF @ggete 16 pages]
 
-## Exemple avec le numéro 10 de VVMac
+### Exemple avec le numéro 10 de VVMac
 
 Voici un autre exemple avec [le numéro 10 de VVMac hebdo], numéro consacré aux Mac M1, que vous pouvez télécharger gratuitement depuis [l´historique du site VVmac hebdo] de [@VVMAC_FR]
 
@@ -105,13 +105,13 @@ Le résultat est 17 pages en miniatures tenant sur deux feuille A4, mais ci-dess
 ![Miniature VVMac hebdo 10 1 fois 16 pages]
 
 
-## Exemple avec les vignettes du podcast de iWeek La Semaine Apple
+### Exemple avec les vignettes du podcast de iWeek La Semaine Apple
 
 Ici, ce sont quelques vignettes des numéros de [@iWeekNews] #iweekLQI et [@iFiveFR] qui grâce au nouveau module d’impression ont été regroupée en planche sur une page A4.
 
 ![Miniature @iWeekNews 4 fois 16 pages]
 
-## Exemple avec les vignettes du podcast de David Saez
+### Exemple avec les vignettes du podcast de David Saez
 Un dernier exemple avec les vignettes de [@saezdavid]
 
 ci-dessous, 32 vignettes sauvegardées dans ma photothèque et que j’ai fait passé par le module d’impression pour obtenir cette planche.
@@ -125,7 +125,7 @@ Et voilà la capture d’écran de la planche qu’on obtient à l’arrivée.
 ![Miniature @david 4 fois 9 pages]
 
 
-# Conclusion
+## Conclusion
 Et vous, que pensez-vous du nouveau module d´impression d´iOS16 / iPadOS 16 ?
 
 [Module-Impression-Options]: /img/posts/2022/10/31/Module-Impression-iOS16/Options-Impression.jpeg "capture d´écran du module d´impression sous iOS16 où l´on voit les différentes options d´impression qui s´offrent à nous"
