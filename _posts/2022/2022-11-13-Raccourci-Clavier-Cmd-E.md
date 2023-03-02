@@ -3,6 +3,7 @@ layout: post
 title: "Un raccourci-clavier qui gagne à être connu : Cmd-E"
 description: découvrez comment faire bonne usage du raccourci-clavier cmd-E
 date: 2022-11-13
+redirect_from: /2022/11/13/Raccourci-Clavier-Cmd-E.html
 tags: [iPadOS16, iPadOS15, Raccourcis Clavier]
 category: Raccourcis Clavier
 epingle: 1
