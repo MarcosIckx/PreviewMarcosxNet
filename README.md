@@ -11,7 +11,7 @@ en créant un tout nouveau blog dont tous les articles seraient stockés sur [Gi
 Je vais essayer ci-dessous de résumer 
 1. comment j´ai crée le site, 
 2. comment je l´ai (dé)structurer
-3. comment je l'ai enrichi de certianes choses, ...
+3. comment je l'ai enrichi de certaines choses, ...
 
 
 ## 25 Juin 2019
