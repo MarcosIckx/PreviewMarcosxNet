@@ -72,8 +72,6 @@ otherLinks:
       url: /2019/08/01/Support-Accessoires-USB-iOS-12.html
 ---
 
-# Support des accessoires USB sous iPadOS 13.3
-
 L'année passée, [{{ page.liens["Lien-1"].alt }}][{{ page.liens["Lien-1"].id }}].
 
 Cette année, je profite du fait que je suis confiné à la maison
@@ -260,7 +258,7 @@ Voyons cela en action.
 %}
 
 
-# Conclusion
+## Conclusion
 
 * Sous iPadOS 13.3.1, je n’ai toujours pas de support du petit Trackpad intégré à mon petit clavier USB
 * le support des clefs USB a été libéré et c’est un vrai plaisir😍
