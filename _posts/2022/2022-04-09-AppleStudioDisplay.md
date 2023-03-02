@@ -6,7 +6,6 @@ tags: [Écran, Apple Studio Display]
 category: Matériel
 ---
 
-# Apple Studio Display
 
 Lors du keynote de mars 2022, Apple a devoilé, en plus du Mac Studio (j´en parlerai probablement plus tard),
 un écran 5K, de 27 pouces comme étant le compagnon idéal du Mac Studio, mais pas que, évidemment, puisqu´il 
@@ -40,7 +39,7 @@ poiur y brancher autre chose.
 Si Apple avait fait un port mixte Thunderbolt / MagSafe, ça aurait été super.
 Mais ici, c´est pas le cas. Dommage.
 
-# Prise Ethernet 
+## Prise Ethernet 
 L´autre occasion manquée, c´est l´absence d´un port Ethernet sur le Studio Display.
 
 Comme les MacBook Pro n´ont pas de port Ethernet, ça aurait été fort sympa si le Studio Display 
