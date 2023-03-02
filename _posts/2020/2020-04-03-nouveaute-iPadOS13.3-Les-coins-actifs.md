@@ -5,6 +5,7 @@ description: "Les coins actifs, une nouveauté iPadOS 13.3, cela nous rend bien 
 date: 2020-04-03
 tags: [Souris, Coins Actifs, iPadOS13]
 category: iPadOS
+redirect_from: /2020/04/03/nouveaute-iPadOS13.3-Les-coins-actifs.html
 videos: 
   - id: Vidéo-Réglages-Rétablissement-Automatique
     alt: Vidéo illustrant comment activer le rétablissement automatique sous iPadOS 13
