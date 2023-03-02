@@ -123,7 +123,7 @@ Voyons ce que cela donne en vidéo :
     videoNr=2
 %}
 
-## ⌘E sous iPadOS 15
+## Cmd-E / ⌘E sous iPadOS 15
 Sous iOS 15, peu d’apps supportaient ⌘E (Safari était l’une d’elle). Mais ça marchait pas mal. 
 
 Ainsi, on pouvait faire usage uniquement des raccourcis clavier ⌘E, ⌘G, ⌘⇧G et ⌘F dans Safari sous iOS 15 sans toucher l’écran. 
@@ -132,7 +132,7 @@ Ainsi, on pouvait faire usage uniquement des raccourcis clavier ⌘E, ⌘G, ⌘�
     videoNr=3
 %}
 
-## ⌘E sous iPadOS 16
+## Cmd-E / ⌘E sous iPadOS 16
 Sous iOS 16, le raccourci clavier ⌘E est supporté dans Notes, Safari, Mail, Pages, Numbers, Keynote pour n’en citer que quelques unes.
 
 Sous Safari, sous iOS 16, ça fonctionne de façon moins agréable, je trouve, car la recherche de l’occurrence suivante n’a pas l’air de tenir compte de l’endroit où on se situe sur la page. Mais ça fonctionne malgré tout.
@@ -141,7 +141,7 @@ Sous Safari, sous iOS 16, ça fonctionne de façon moins agréable, je trouve, c
     videoNr=4
 %}
 
-# Rechercher le texte sélectionné sans clavier externe
+## Rechercher le texte sélectionné sans clavier externe
 Avec un iPad et un iPhone, on n’a pas toujours un clavier externe à portée de main.
 Mais on aimerait d’une façon ou d’une autre, pouvoir tirer parti de la puissance de ce raccourci clavier ⌘E.
 
@@ -167,7 +167,7 @@ Voyons cela en vidéo :
     videoNr=5
 %}
 
-# Rechercher et Remplacer sans clavier externe
+## Rechercher et Remplacer sans clavier externe
 Comment faire le rechercher/remplacer si on n’a pas de clavier à portée de main ?
 
 À nouveau, grâce à une nouveauté introduite dans iOS 16 de la fenêtre de recherche qui permet de rechercher et remplacer du texte.
@@ -193,7 +193,7 @@ Voici les étapes que l’on voit dans la vidéo qui suit
 %}
 
 
-# Conclusion
+## Conclusion
 
 Apple a eu une tres bonne initiative de généraliser le raccourci clavier Cmd-E à d´autres applications.
 
