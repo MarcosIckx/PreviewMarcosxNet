@@ -10,7 +10,6 @@ otherLinks:
      url: /2022/11/13/Raccourci-Clavier-Cmd-E.html
 ---
 
-# Histoire de raccourcis clavier célèbres
 
 ## Introduction
 
