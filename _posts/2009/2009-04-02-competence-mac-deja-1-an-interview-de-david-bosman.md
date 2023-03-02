@@ -6,19 +6,19 @@ title: "Compétence Mac : déjà 1 an. Interview de David Bosman"
 
 Il était une fois, en Mars 2008.
 
-Un nouveau magazine apparaissait dans les linéaires des librairies : Compétence Mac, alors que, quelque temps auparavant,  la communauté Mac venait de perdre un grand magazine, j’ai nommé Univers Mac.
+Un nouveau magazine apparaissait dans les linéaires des librairies : Compétence Mac, alors que, quelque temps auparavant, la communauté Mac venait de perdre un grand magazine, j’ai nommé Univers Mac.
 
 Certains étaient ravis, d’autres n’y croyaient pas. Mais voilà que un peu plus d’un an après, le numéro 6 est disponible en librairie.
 
 C’est l’occasion ou jamais de féliciter toute l’équipe de Compétence Mac pour leur travail accompli durant cette année où ils ont réussi à maintenir la barre haute qu’ils avaient placés avec la sortie du 1er numéro.
 
-David Bosman, rédacteur en chef du magazine Compétence Mac, a accepté de répondre à certaines de mes questions. Retrouvez la discussion dans son intégralité.
+David Bosman, @david_bosman, rédacteur en chef du magazine Compétence Mac, a accepté de répondre à certaines de mes questions. Retrouvez la discussion dans son intégralité.
 
 ## Le numéro 1 de Compétence Mac est sorti en Mars 2008. Mais ce n’était pas vraiment le 1er numéro de Compétence Mac. En effet, il y avait déjà eu un numéro de Compétence Micro, le numéro 10, entièrement consacré au Mac en août 1999. Numéro qui fut bien accueilli au niveau de la critique (mais peut-être pas au niveau des ventes). Pourquoi avoir attendu si longtemps entre ce numéro de Compétence Micro et le numéro 1 de Compétence Mac (presque 10 ans tout de même) ?
 
-David: D’abord, merci de me donner la parole, et merci d’avoir pensé au premier anniversaire du magazine !
+**David Bosman**: D’abord, merci de me donner la parole, et merci d’avoir pensé au premier anniversaire du magazine !
 
-À la base, le 1er numéro de Compétence Mac est effectivement né de deux projets de bouquins prévus pour Compétence Micro (un par Sophie Jouxtel et l’autre par Audrey Couleau). Mais il n’y a aucun lien entre les deux collections.
+À la base, le 1er numéro de Compétence Mac est effectivement né de deux projets de bouquins prévus pour Compétence Micro (un par Sophie Jouxtel et l’autre par Audrey Couleau, @AudreyCouleau). Mais il n’y a aucun lien entre les deux collections.
 
 Il est né un soir, d’un simple coup de fil au patron de la boîte.
 
@@ -30,7 +30,7 @@ Le seul point commun, c’est moi. Donc, on y retrouve un peu le même esprit (p
 
 ## Qu’est-ce qui vous a pris de vous lancer dans l’aventure de Compétence Mac, alors que d’autres, et non des moindre (Univers Mac, pour ne pas le citer), venaient de se casser les dents ?
 
-David: 
+**David Bosman**: 
 ### L’envie
 
 Tiger m’a réconcilié avec Apple, après une rupture assez violente quelques années plus tôt (avant OS X). J’avais retrouvé le goût des Mac, et je voulais “travailler” du Mac, parler du Mac.
@@ -47,7 +47,7 @@ C’est bête à dire, mais sans le boss… C’est lui qui supporte tout (y com
 
 Rencontrer les bonnes personnes. Quand on a décidé de lancer le magazine, j’ai proposé à Audrey de rentrer dans la boîte, pour m’aider. Je savais que ça l’intéressait, c’était important.
 
-A l’époque Stéphanie Guillaume travaillait encore chez nous. Ca aussi, c’était important.
+À l’époque Stéphanie Guillaume travaillait encore chez nous. Ca aussi, c’était important.
 
 Je me souviens de la nuit qu’on a passé tous les trois à préparer la maquette du numéro 1 sur le… PC de Stéphanie (enfin, Audrey et moi on avait nos Mac) :-D
 
@@ -64,7 +64,7 @@ J’ai perdu cette naïveté, comme on perd ses illusions d’enfance, en même 
 
 ## Certains ont criés “au fou”, que cela n’allait pas marcher. Qu’avez-vous envie de leur répondre maintenant ?
 
-David: Là encore, je ne peux parler que pour moi: « fou » ? Pourquoi pas. On m’a appelé de bien des façons, nettement moins gentilles, y compris dans ma boîte.
+**David Bosman**: Là encore, je ne peux parler que pour moi: « fou » ? Pourquoi pas. On m’a appelé de bien des façons, nettement moins gentilles, y compris dans ma boîte.
 
 Dire de quelqu’un qu’il est fou, ce n’est souvent rien de plus qu’une façon de le “classer” sans se poser de questions. En ce qui me concerne, me traiter de fou, ce serait une façon un peu simpliste de dire que j’essaye de vivre mes rêves.
 
@@ -74,7 +74,7 @@ Même si ce n’est pas tous les jours facile, chaque matin je suis heureux d’
 
 ## Par rapport aux objectifs que vous vous étiez fixés lors du lancement de Compétence Mac, vous vous situez où ?
 
-David: 
+**David Bosman**: 
 L’accueil est excellent! Le retour des lecteurs est réjouissant et d’un niveau remarquable. Y compris quand ils sont critiques (on a beaucoup appris et ça a fait changer le mag, et il va encore évoluer).
 
 En ce qui concerne le contenu, J’avais 2 objectifs :
@@ -97,7 +97,7 @@ Plus de ventes = plus de moyens = plus de bonnes choses dans le mag et sur le si
 
 ## Comment décidez-vous des sujets que vous allez aborder dans les numéros de Compétence Mac ?
 
-David
+**David Bosman**
 Simple: il faut que ça me botte. En réalité c’est un peu plus complexe que ça, mais c’est clair que je ne publie pas de sujets qui m’emmerdent.
 
 Concrètement, j’ai une (immense) liste de sujets et une idée assez précise de la façon dont j’aimerais qu’ils soient traités. J’en parle aux auteurs, en essayant de ne pas les influencer pour qu’ils m’expliquent leur propre vision. Ca me permet de voir tout de suite qui peut écrire sur quoi, et aussi de découvrir ce que j’ai oublié, les endroits où je me plante. Sans parler des idées que je n’aurai tout simplement pas eues !
@@ -112,11 +112,11 @@ Par exemple, j’ai un dossier sur la télé que je traîne depuis longtemps car
 
 ## Comment se passe votre collaboration avec Audrey ?
 
-David : Très bien. Enfin, je trouve. On est très proche et très différent à la fois, c’est stimulant :-) . On a le même désir : améliorer le mag. Et on s’entend bien, alors…
+**David Bosman** : Très bien. Enfin, je trouve. On est très proche et très différent à la fois, c’est stimulant :-) . On a le même désir : améliorer le mag. Et on s’entend bien, alors…
 
 ## Quelles sont les autres personnes qui travaillent régulièrement avec vous pour Compétence Mac ?
 
-David : En interne, il y a Audrey et moi (je parle en terme de contenu, pas gestion/impression/diffusion/distribution. Là, il y a un peu plus de monde: Mikkel, Suzanne, Olivier,…).
+**David Bosman** : En interne, il y a Audrey et moi (je parle en terme de contenu, pas gestion/impression/diffusion/distribution. Là, il y a un peu plus de monde: Mikkel, Suzanne, Olivier,…).
 
 Ça semble peu, surtout qu’on bosse aussi sur nos autres magazines, mais il faut bien penser que l’équipe se compose en réalité de tous les auteurs extérieurs ! Sans eux… pas de magazine.
 
@@ -124,7 +124,7 @@ Chaque article porte une signature, et tous les collaborateurs sont listés dans
 
 ## Comment choisissez-vous vos rédacteurs ?
 
-David : J’aime ce qu’ils font ou comment ils le font et/ou j’ai l’impression que ça intéressera nos lecteurs… C’est le seul “CV” qui m’intéresse. Et pas besoin d’avoir déjà publié dans un autre magazine, un site suffit.
+**David Bosman**: J’aime ce qu’ils font ou comment ils le font et/ou j’ai l’impression que ça intéressera nos lecteurs… C’est le seul “CV” qui m’intéresse. Et pas besoin d’avoir déjà publié dans un autre magazine, un site suffit.
 
 J’ai contacté Audrey parce que j’aimais bien ses tutos vidéo…
 
@@ -132,7 +132,7 @@ C’est le hasard des rencontres (réelles ou en ligne) et des recommandations. 
 
 ## En recherchez-vous encore ? Pour quel genre d’article ? Quelles sont vos critères de sélection ?
 
-David : 
+**David Bosman** : 
 J’en cherche toujours.
 
 Mes critères ? voir réponse précédente :)
@@ -152,16 +152,16 @@ Si vous avez envie d’écrire n’hésitez pas à me contacter ! Je ne vous dem
 
 ## Que réservez-vous comme surprise à vos lecteur pour la 2ième année ?(Vous avez parlé vaguement sur votre blog d’un projet carrément fou . Pourriez-vous nous en dire plus maintenant ?)
 
-David: Non. Je ne peux pas.
+**David Bosman**: Non. Je ne peux pas.
 
 Je peux te dire que le magazine continuera à évoluer, et qu’on compte bien donner un coup de fouet au site Web.
 
-A ce propos, n’oubliez pas le concours pour gagner des abonnements et un iPod! :
+À ce propos, n’oubliez pas le concours pour gagner des abonnements et un iPod! :
 http://www.competencemac.com/index.php?2009/03/19/298-ou-lisez-vous-competence-mac
 
 ## Peut-on espérer des numéros un peu plus “pro”, consacré à Mac OS X Serveur, ou au développement pour iPhone, par exemple ?
 
-David : OSX Serveur, je n’y crois pas trop: on vit des ventes. Il y a combien d’utilisateurs d’OSX Serveur en France ? Mais je veux bien discuter de l’idée!
+**David Bosman** : OSX Serveur, je n’y crois pas trop: on vit des ventes. Il y a combien d’utilisateurs d’OSX Serveur en France ? Mais je veux bien discuter de l’idée!
 
 Par contre, des sujets plus techniques, ça oui.
 
@@ -169,7 +169,7 @@ La programmation, puisque tu en parles, est un sujet que j’ai sous le coude de
 
 ## Pourquoi devrais-je acheter Compétence Mac ? Quels sont ses atouts, ses + par rapport aux autres revues Mac ?
 
-David : Alors là ! Personne ne “devrait” acheter un magazine, faut avoir l’envie  ;-)
+**David Bosman** : Alors là ! Personne ne “devrait” acheter un magazine, faut avoir l’envie  ;-)
 
 On ne se compare pas autres magazines Mac, tout simplement parce qu’on ne “fabrique” pas le magazine “contre” eux, ni par rapport à eux.
 
@@ -180,27 +180,27 @@ Ouvrez-le, prenez-le temps de le feuilleter et faites-vous une idée.
 
 ## Envisagez-vous de passer au rythme d’un numéro par mois ? Expliquez pourquoi.
 
-Non. On travaille déjà beaucoup trop comme ça. Si ça ne tenait qu’à moi, on sortirait moins souvent :-D
+**David Bosman**: Non. On travaille déjà beaucoup trop comme ça. Si ça ne tenait qu’à moi, on sortirait moins souvent :-D
 
 ## Avez-vous des anecdotes à nous raconter concernant le lancement de Compétence Mac ?
 
-La 4ème de couv. est presque vide parce nous ne sommes jamais tombés d’accord sur ce qu’on allait y mettre. Et finalement ça donne plutôt bien.
+**David Bosman**: La 4ème de couv. est presque vide parce nous ne sommes jamais tombés d’accord sur ce qu’on allait y mettre. Et finalement ça donne plutôt bien.
 
 ## Questions vous concernant vous en particulier : A quand remonte votre première rencontre avec le Mac ?
 
-C’était avec Apple, avant le Mac, en fait. En 1982 ou 83, avec un Apple II que m’avait offert par mon papa. J’avais 12 ou 13 ans. Puis, longtemps après, j’ai un Classic. Woaw !
+**David Bosman**: C’était avec Apple, avant le Mac, en fait. En 1982 ou 83, avec un Apple II que m’avait offert mon papa. J’avais 12 ou 13 ans. Puis, longtemps après, j’ai eu un Classic. Woaw !
 
 Depuis l’Apple II, je suis tombé amoureux de l’informatique, et de Apple malgré des hauts et des bas qui m’en ont éloigné durant plusieurs années (Apple, ton SAV m’a tuer).
 
 ## Quelle est, à part Compétence Mac, votre revue Mac préférée ? Et pourquoi ?
 
-Sauf exception, je ne lis plus de magazines Mac depuis le lancement du nôtre. Pas par peur d’être influencé, mais par besoin d’air: je passe déjà beaucoup de temps dans l’univers Apple, ce n’est pas pour en lire durant mon temps libre. Je regarde les couvertures, chez mon revendeur ;)
+**David Bosman**: Sauf exception, je ne lis plus de magazines Mac depuis le lancement du nôtre. Pas par peur d’être influencé, mais par besoin d’air: je passe déjà beaucoup de temps dans l’univers Apple, ce n’est pas pour en lire durant mon temps libre. Je regarde les couvertures, chez mon revendeur ;)
 
 Mais avant ça, je lisais de temps en temps “Vous et votre Mac” (super magazine! Excellents auteurs), ou encore “A vos Mac” (bourré d’astuces).
 
 ## Quel est votre site Mac préféré ?
 
-l y en a plusieurs. Mais si je dois en citer un seul : MacGénération. Pour moi, c’est le meilleur site francophone « Mac », même si pour tel ou tel point il y a des sites plus pointus.
+**David Bosman**: Il y en a plusieurs. Mais si je dois en citer un seul : [MacGénération]. Pour moi, c’est le meilleur site francophone « Mac », même si pour tel ou tel point il y a des sites plus pointus.
 
 Je n’ai plus le temps d’y passer souvent, mais j’étais un assidu.
 
@@ -212,6 +212,7 @@ Mais il y en a d’autres. J’ai l’impression de commettre une énorme injust
 
 ## Quel est votre logiciel Mac préféré ?
 
+**David Bosman**
 Cette fois, si je dois choisir parmi tous ceux que j’aime, j’exige de pouvoir en nommer deux. C’est pas négociable ;-)
 
 ### Scrivener
@@ -220,7 +221,7 @@ Le traitement de texte le plus révolutionnaire depuis l’invention du… trait
 
 Je l’ai acheté moins d’une heure après l’avoir téléchargé en version d’essai et, à l’époque, il était encore en version beta pas finie ;)
 
-A ce prix, c’est l’affaire du siècle. Et comme je l’ai écrit dans un test : à lui seul, il vaut la peine d’acheter un Mac. Je connais plusieurs auteurs qui l’ont fait… sans le regretter.
+À ce prix, c’est l’affaire du siècle. Et comme je l’ai écrit dans un test : à lui seul, il vaut la peine d’acheter un Mac. Je connais plusieurs auteurs qui l’ont fait… sans le regretter.
 
 ### Quicksilver
 
@@ -242,4 +243,4 @@ Tu ne me l’as pas demandé, mais ce que j’aime le plus sur Mac : les applica
 
 ## Un tout grand merci, David, pour vos réponses
 
-
+[MacGénération]: https://macg.co "le site de Mac Génération"
