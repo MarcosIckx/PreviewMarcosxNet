@@ -1,9 +1,19 @@
+{%- assign debugMode = include.debug | default: false -%}
 {%- assign archive_year = include.year | default: site.time| date:"%Y" | string -%}
 {%- assign counter_posts = 0 -%}
 {%- for entry in site.posts -%}
   {%- assign yearOfEntry = entry.date | date: "%Y" | string -%}
-  {%- if yearOfEntry contains year %}
+  {%- if debugMode -%}
+     <div class="debug">
+       yearOfEntry {{ yearOfEntry }}
+       archive_year {{ archive_year }}  
+     </div>
+  {%- endif -%}
+  {%- if yearOfEntry contains archive_year -%}
     {%- assign counter_posts = counter_posts| plus:1  -%}
+    {%- if debugMode -%} 
+      <div class="debug">{{ counter_posts }}</div>
+    {%- endif -%}
   {%- endif -%}
 {%- endfor -%}
 <span class="counter">{{ counter_posts }}</span>
