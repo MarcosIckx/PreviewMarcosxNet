@@ -1,5 +1,7 @@
 {%- assign debugMode = include.debug | default: false -%}
-{%- assign archive_year = include.year.id | default: site.time| date:"%Y" | string -%}
+{%- assign yearId= include.year.id | string -%}
+{%- assign defaultYear= site.time | date:"%Y" | string -%}
+{%- assign archive_year = yearId | default: defaultYear -%}
   {%- if debugMode -%}
      <div class="debug">
        archive_year {{ archive_year }}  
