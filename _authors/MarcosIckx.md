@@ -5,6 +5,7 @@ userName: MarcosIckx
 name: Marcos Ickx
 twitterId: MarcosIckx
 website: https://blog.marcosx.net
+redirect_from: /apropos/
 ---
 
 ## Bonjour à tous. Je me présente. Je m'appelle Marcos Ickx!!!
