@@ -26,7 +26,7 @@ links:
 
 Il y a 15 ans, le 12 mars 2008, sortait en kiosque le premier numéro de @Competencemac.
 
-Un an plus tard, @DavidBosman avait accepté de répondre à mes questions.
+Un an plus tard, David Bosman (@david_boslan) avait accepté de répondre à mes questions.
 
 Je vous propose de découvrir ou redécouvrir l´interview qui avait été fait à l´époque.
 
