@@ -3,7 +3,7 @@ layout: post
 title: "Apple Studio Display : ce que j´en pense personellement"
 description: "Que penser de l´Apple Studio Display ?"
 date: 2022-04-09
-redirect_from; /2022/04/09/AppleStudioDisplay.html
+redirect_from: /2022/04/09/AppleStudioDisplay.html
 tags: [Écran, Apple Studio Display]
 category: Matériel
 ---
