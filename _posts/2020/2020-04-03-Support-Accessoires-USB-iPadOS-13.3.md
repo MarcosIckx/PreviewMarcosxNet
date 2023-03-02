@@ -5,6 +5,7 @@ description: Voyons comment sont gérés les accessoires USB sous iPadOS 13
 date: 2020-04-03
 tags: [Accessoires, USB, iPadOS13]
 category: iPadOS
+redirect_from: /2020/04/03/Support-Accessoires-USB-iPadOS-13.3.html
 liens:
   Lien-1:
     id: Lien-1
