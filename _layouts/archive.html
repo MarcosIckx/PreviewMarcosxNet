@@ -6,7 +6,10 @@ layout: default
   {%- assign yearOfEntry = entry.date | date: "%Y" | string -%}
   {%- if yearOfEntry contains year %}
     {%- include entry.html -%}
+    {%- increment counter_posts -%}
   {%- endif -%}
 {%- endfor -%}
+
+<p>total: {{counter_posts}}</p>
 
 {%- include previous-next.html debug=false -%}
