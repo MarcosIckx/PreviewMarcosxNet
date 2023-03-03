@@ -266,8 +266,15 @@ video {
   margin-right: auto;
 }
 
+figure.picture {
+    background-color: var(--bg-box-color);
+}
 figcaption {
   font-size: 1.1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
   font-style: italic;
   text-align: justify;
 }
