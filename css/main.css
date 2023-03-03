@@ -50,6 +50,12 @@ body {
     font-size: 1.5rem;
 }
 
+figcaption {
+  font-size: 1.0rem;
+  font-style: italic;
+  text-align: justify;
+  text-shadow: 2px 2px 4px #aaa;
+}
 div.debug {
   float: right;
   width: 30%;
