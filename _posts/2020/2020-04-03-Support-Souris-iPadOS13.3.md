@@ -3,9 +3,14 @@ layout: post
 title: Support de la souris sous iPadOS 13.3
 description: Voyons comment est géré la souris sous iPadOS 13.3
 date: 2020-04-03
- 
 tags: [Accessoires, Souris, iPadOS13]
 category: iPadOS
+liens:
+  coins-actifs:
+    id:coins-actifs
+    url: /2020/04/03/nouveaute-iPadOS13.3-Les-coins-actifs/
+    title: "Une nouveauté iPadOS 13.3 : les coins actifs"
+    alt: "les coins actifs nous rendent plus productifs"
 images:
   img-1: 
     id: iPadOS-Version-13.3.1
@@ -169,7 +174,11 @@ Par contre, le support de la molette permet de naviguer plus rapidement dans une
 iPadOS 13.3 nous réserve également une autre surprise.
 les coins actifs.
 
-Mais cela, ce sera l´objet de notre prochain article. 
+Mais cela, ce sera l´objet de la partie finale de notre article.
+
+{% include link.html 
+    link=page.liens.coins-actifs
+%}
 
 
 
