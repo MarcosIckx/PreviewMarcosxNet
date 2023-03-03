@@ -7,72 +7,89 @@ redirect_from: /2019/08/01/Support-Accessoires-USB-iOS-12.html
 tags: [Accessoires, USB, iOS12]
 category: iOS
 liens:
-  - id: Amazon-Adaptateur-Lightning-USB3
+  lien-1: 
+    id: Amazon-Adaptateur-Lightning-USB3
     url: https://www.amazon.fr/gp/product/B01DGDNL2G/
     alt: Adaptateur Lightning USB3 d´Apple
     title: "Lien vers Amazon.fr pour l´Adaptateur Lightning USB3 d´Apple"
-  - id: Amazon-Clavier-Trackpad-Dongle
+  lien-2: 
+    id: Amazon-Clavier-Trackpad-Dongle
     url: https://www.amazon.fr/gp/product/B071L2CL4Y/
     alt: mini clavier trackpad avec dongle USB
     title: "Lien vers Amazon.fr pour mini clavier trackpad avec dongle USB"
-  - id: Amazon-Hub-USB-3.0-7Ports
+  lien-3: 
+    id: Amazon-Hub-USB-3.0-7Ports
     url: https://www.amazon.fr/gp/product/B07JGRTPJS/
     alt: Hub USB 3.0 7 Ports avec alimentation 24 Watts
     title: "Lien vers Amazon.fr pour Hub USB 7 ports"
-  - id: Amazon-Casque-Micro-USB
+  lien-4: 
+    id: Amazon-Casque-Micro-USB
     url: https://www.amazon.fr/dp/B0775S8X5C/
     alt: Casque Micro Plantronics
     title: Lien vers Amazon.fr pour Casque Micro USB Plantronics
-  - id: sgamel
+  lien-5: 
+    id: sgamel
     url: https://twitter.com/sgamel
     alt: Sylvain Gamel
     title: le compte twitter de Sylvain Gamel
-  - id: macOS-10.13.4-Disables-DisplayLink
+  lien-6: 
+    id: macOS-10.13.4-Disables-DisplayLink
     url: https://plugable.com/2018/03/30/macos-10-13-4-disables-displaylink-duet-display-devices/
     alt: Apple avait tout cassé avec macOS 10.13.4
     title: "Lien vers article concernant le support d´écran DisplayLink"
 images:
-  - id: 1
+  img-1: 
+    id: 1
     url: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Adaptateur-lightning-usb3.jpg
     alt: Photo de l’adaptateur Lightning-USB 3 d’Apple
     title: "Photo Adaptateur Lightning - USB3 d´Apple"
-  - id: 2
+  img-2: 
+    id: 2
     url: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Alerte-miseajour-accessoire.jpg
     alt: Alerte Mise à Jour d'accesoire disponible
     title:  "Alerte pour indiquer qu'une Mise à jour du firmware est disponible pour l'accessoire"
-  - id: 3
+  img-3: 
+    id: 3
     url: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Reglages-General-Information.jpg
     alt: Nouvelle entrée dans Réglages > Général > Informations pour l'adaptateur Lightning - USB 3
     title: "La nouvelle entrée dans Informations pour l'adaptateur Lighning-USB3"
-  - id: 4
+  img-4: 
+    id: 4
     url: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Version-Programme-Interne-Adaptateur-1.0.1.jpg
     alt: Version du programme interne de l'adaptateur Lightning - USB 3
     title: "Version du programme interne de l'adaptateur Lightning - USB 3 lors de son premoer branchement"
-  - id: 5
+  img-5: 
+    id: 5
     url: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Version-Programme-Interne-Adaptateur-1.0.5.jpeg
     alt: Version du programme interne de l'adaptateur Lightning - USB 3 après mise à jour
     title: "Version du programme interne de l'adaptateur Lightning - USB 3 après la mise a jour"
-  - id: 6
+  img-6: 
+    id: 6
     url: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Clavier-trackpad-dongle-usb.jpeg
     alt: Clavier/Trackpad avec Dongle USB
     title: "Photo du mini clavier trackpad avec dongle USB"
-  - id: 7
+  img-7: 
+    id: 7
     url: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Icone-Apple-music-casque.jpeg
     alt: Le symbole 🎧 apparait dans l'icône de l'App Musique à la droite du Dock
     title: "L'App Musique dans le Dock avec le symbole 🎧"
-  - id: 8
+  img-8: 
+    id: 8
     url: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Reglages-Ethernet.jpeg
     alt: Dans les Réglages, entre Wi-Fi et Bluetooth apparait une entrée Ethernet dont l'interface est nommée USB iPhone
     title: "Entrée Ethernet dans les réglages"
-  - id: 9
+  img-9: 
+    id: 9
     url: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Reglages-Ethernet-details.jpeg
     alt: Les infos détaillées de la connection Ethernet
     title: "Les infos détaillées de la connection Ethernet"
-  - id: 10
+  img-10: 
+    id: 10
     url: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/cablage-iPhone.jpeg
     alt: Le Hub USB connecté à l'adaptateur Lightning - USB d'un coté pour l'alimenter. D'un autre coté pour faire office de Hub USB. Et le clavier/trackpad, l'iPhone et le casque micro branchés au Hub USB
     title: "Le câblage. Photo prise avec l'iPhone SE"
-  - id: 11
+  img-11: 
+    id: 11
     url: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/cablage-iPad.jpeg
     alt: Le HUb USB connecté à l'adaptateur Lightning - USB d'un coté pour l'alimenter. D'un autre coté poir faire office de Hub USB. Et le clavier/Trackpad, l'iPhone, le casque micro, et finalement la clef USB. Tout cela branché au Hub USB
     title: "Le câblage. Photo prise avec l'iPad 2018"
@@ -83,7 +100,7 @@ otherLinks:
 
 En prévision de la sortie d’iPadOS, je me suis acheté l’adaptateur lightning-USB 3
 
-{% include picture.html link=page.links[0] img=page.images[0]  %}
+{% include picture.html link=page.liens.lien-1 img=page.images.img-1  %}
 
 avant que ce ne soit la ruée et qu’ils soient en rupture de stock.
 
