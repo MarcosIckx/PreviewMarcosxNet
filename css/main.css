@@ -50,12 +50,6 @@ body {
     font-size: 1.5rem;
 }
 
-figcaption {
-  font-size: 1.0rem;
-  font-style: italic;
-  text-align: justify;
-  text-shadow: 2px 2px 4px #aaa;
-}
 div.debug {
   float: right;
   width: 30%;
@@ -272,11 +266,15 @@ video {
   margin-right: auto;
 }
 
-
+figcaption {
+  font-size: 1.1rem;
+  font-style: italic;
+  text-align: justify;
+}
 /* Indique comment afficher les images 
 selon qu´elles sont dans un paragraphe 
 ou dans un lien */
-p>img, a>img, a>picture {
+p>img, a>img, a>picture, figure>picture {
   border: 0.1rem solid var(--highlight-color-2);
   border-radius: 0.3rem;
   padding: 0.4rem;
@@ -287,9 +285,10 @@ p>img, a>img, a>picture {
   transition: 0.5s;
 }
 
+
 /* si les images sont dans un paragraphe, 
 on applique un effet d´grandissement */
-p>img:hover {
+p>img:hover, figure>picture:hover {
    -webkit-transition: width 0.5s ease-in-out;
    -moz-transition: width 0.5s ease-in-out;
    -o-transition: width 0.5s ease-in-out;
@@ -299,13 +298,12 @@ p>img:hover {
   margin-left: none;
   margin-right: none;
 }
-p>img:hover::after {
+p>img:hover::after, figure>picture:hover::after {
    -webkit-transition: width 0.5s ease-in-out;
    -moz-transition: width 0.5s ease-in-out;
    -o-transition: width 0.5s ease-in-out;
    transition: width 0.5s ease-in-out;
 }
-
 
 a>img:hover, a>picture:hover {
   border: 0.3rem solid var(--highlight-color-1);
