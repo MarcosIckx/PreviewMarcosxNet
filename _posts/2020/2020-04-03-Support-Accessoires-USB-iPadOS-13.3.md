@@ -74,7 +74,7 @@ otherLinks:
       url: /2019/08/01/Support-Accessoires-USB-iOS-12/
 ---
 
-L'année passée, [{{ page.liens["Lien-1"].alt }}][{{ page.liens["Lien-1"].id }}].
+L'année passée, {% include link.html link=page.liens.lien-1 %}
 
 Cette année, je profite du fait que je suis confiné à la maison
 pour vous refaire un test mais cette fois-ci sous iPadOS 13.3.1.
@@ -275,4 +275,3 @@ Aura-t-on une belle surprise ?
 
 À voir.
 
-[{{ page.liens["Lien-1"].id }}]:  page.liens["Lien-1"].url }} "{{ page.liens["Lien-1"].title }}"
