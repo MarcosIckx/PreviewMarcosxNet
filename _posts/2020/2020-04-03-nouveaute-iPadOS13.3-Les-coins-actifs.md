@@ -23,8 +23,10 @@ videos:
     type: video/mp4
     title: "Lien vers video illustrant comment utiliser les coins actifs sous iPadOS 13"
 otherLinks: 
-    - title: Support des accessoires USB sous iPadOS 13.3
-      url: /2020/04/03/Support-Accessoires-USB-iPadOS-13.3.html
+  - title: Support des accessoires USB sous iPadOS 13.3
+    url: /2020/04/03/Support-Accessoires-USB-iPadOS-13.3/
+  - title: Support de la souris sous iPadOS 13.3
+    url: /2020/04/03/Support-Souris-iPadOS13.3/
 ---
 
 iPadOS 13.3 a rajouté une fonctionnalité qui va de pair avec le supprt de la souris. 
@@ -90,3 +92,6 @@ Voyons cela en action.
 
 Les coins actifs, c’est juste 👌
 
+Voilà, c'était le troisième et dernier arricle consacré à iOS 13.3.
+
+Vous pouvez retrouver les liens vers la partie 1 et 2 ci-après.
