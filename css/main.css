@@ -268,6 +268,8 @@ video {
 
 figure.picture {
     background-color: var(--bg-box-color);
+    min-width: 100%;
+    max-width: 100%;
 }
 figcaption {
   font-size: 1.1rem;
@@ -285,6 +287,7 @@ p>img, a>img, a>picture, figure>picture {
   border: 0.1rem solid var(--highlight-color-2);
   border-radius: 0.3rem;
   padding: 0.4rem;
+  min-width: 80%;
   max-width: 80%;
   display: block;
   margin-left: auto;
@@ -314,6 +317,7 @@ p>img:hover::after, figure>picture:hover::after {
 
 a>img:hover, a>picture:hover {
   border: 0.3rem solid var(--highlight-color-1);
+  min-width: 80%;
   max-width: 80%;
 }
 
