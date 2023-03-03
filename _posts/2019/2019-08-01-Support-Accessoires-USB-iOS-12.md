@@ -184,10 +184,9 @@ Essayons maintenant d’y connecter un hub USB alimenté.
 
 Qui servira non seulement à alimenter l’iPad mais aussi à brancher le dongle USB du clavier.
 
-
 J’ai opté pour ce hub USB 3.0 7 ports avec alimentation 24W.
 
-[Hub USB 3.0 7 Ports avec alimentation 24 Watts][Amazon-Hub-USB-3.0-7Ports]
+{% include link.html link=page.liens.lien-3 %}
 
 Je branche donc ce hub à la prise murale.
 
@@ -216,11 +215,11 @@ Mais j’ai encore 5 ports USB de libres.
 Et si on branchait un casque-micro USB ?
 
 J’ai un casque plantronics similaire à celui mentionné dans le lien sous la main 
-[Casque Micro Plantronics][Amazon-Casque-Micro-USB]
+
+{% include link.html link=page.liens.lien-4 %}
 
 À peine branché, l’icône de l’App Musique apparaît dans le dock avec le symbole des écouteurs 🎧. Un très bon signe.
 Et ça marche.
-
 
 {% include picture.html img=page.images.img-7 %}
 
@@ -268,7 +267,7 @@ Si quelqu’un a une idée du pourquoi.
 
 Qu’il me fasse signe.
 
-[Sylvain Gamel][sgamel] m'a demandé si j'avais activé le partage de connexion sur l'iPhone.
+Sylvain Gamel, @sgamel, m'a demandé si j'avais activé le partage de connexion sur l'iPhone.
 
 Je reviens de faire le test, et non, malgré activation du partage de connexion, je n’arrive pas à établir de connexion réseau filaire entre iPad et iPhone.
 
@@ -312,7 +311,7 @@ Je referai le test une fois iPadOS disponible pour vérifier cela encore une foi
 
 Sur macOS, il faut installer un driver pour que les écrans DisplayLink soient reconnus.
 
-Et [Apple avait tout cassé avec macOS 10.13.4][macOS-10.13.4-Disables-DisplayLink].
+Et {% include link.html link=page.liens.lien-6 %}
 
 Et ceux qui avait acheté duet display étaient vus.
 
@@ -342,12 +341,6 @@ Et avoir toujours cet adaptateur qui pendouille à l’iPad, c’est pas vraimen
 Combien de temps tiendra-t-il ?
 Mystère.
 
-
-[macOS-10.13.4-Disables-DisplayLink]: https://plugable.com/2018/03/30/macos-10-13-4-disables-displaylink-duet-display-devices/ "Lien vers article concernant le support d´écran DisplayLink"
-
-[Amazon-Casque-Micro-USB]: https://www.amazon.fr/dp/B0775S8X5C/ "Lien vers Amazon.fr pour Casque Micro USB"
-
-[Amazon-Hub-USB-3.0-7Ports]: https://www.amazon.fr/gp/product/B07JGRTPJS/ "Lien vers Amazon.fr pour Hub USB 7 ports"
 
 
 
