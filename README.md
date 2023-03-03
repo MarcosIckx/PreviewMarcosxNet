@@ -219,11 +219,17 @@ j´ai également profité de ces changements pour
 
 en attendand, le site commence à être indexé, ce qui est très bien.
   
-17 février 2023
+## 17 février 2023
 Ajout d'une entrée dns pour authentifier auprès de Bing que je suis bien le propriétaire du site.
 ça devrait du coup aider à mieux référencer le site sur ce moteur de recherche aussi.
 Du moins, je l'espère.
- 
+
+
+## 2 mars 2023
+- Correction d´un bug empechant les moteurs d'identifier l´url canonical
+- Ajout d´un compteur d´articles par année d´archive
+- Ajoit d´un redirect_from sur certaines pages pour éviter un 404.
+
 ## TO DO LIST
 
 Pas mal de choses dans ma todo list
