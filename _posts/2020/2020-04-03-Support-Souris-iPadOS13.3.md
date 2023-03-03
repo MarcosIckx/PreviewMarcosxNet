@@ -7,7 +7,7 @@ tags: [Accessoires, Souris, iPadOS13]
 category: iPadOS
 liens:
   coins-actifs:
-    id:coins-actifs
+    id: coins-actifs
     url: /2020/04/03/nouveaute-iPadOS13.3-Les-coins-actifs/
     title: "Une nouveauté iPadOS 13.3 : les coins actifs"
     alt: "les coins actifs nous rendent plus productifs"
