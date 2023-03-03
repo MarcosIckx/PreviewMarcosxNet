@@ -18,12 +18,12 @@ liens:
     title: Lien vers article concernant la gestion des accessoires USB sous iOS 12
     alt: ce que je disais à ce propos dans l'article de 2019 consacré à l'adaptateur Lightning - USB 3 et iOS 12
   souris:
-    id:souris
+    id: souris
     url: /2020/04/03/Support-Souris-iPadOS13.3/
     title: Support de la souris sous iPadOS 13.3
     alt: Voyons en détail comment est gérée la souris sous iPadOS 13.3
   coins-actifs:
-    id:coins-actifs
+    id: coins-actifs
     url: /2020/04/03/nouveaute-iPadOS13.3-Les-coins-actifs/
     title: "Une nouveauté iPadOS 13.3 : les coins actifs"
     alt: les coins actifs nous rendent plus productifs
@@ -43,7 +43,7 @@ otherLinks:
     url: /2019/08/01/Support-Accessoires-USB-iOS-12/
   - title: Support de la souris sous iPadOS 13.3
     url: /2020/04/03/Support-Souris-iPadOS13.3/
-  - title: Une nouveauté iPadOS 13.3 : les coins actifs
+  - title: "Une nouveauté iPadOS 13.3 : les coins actifs"
     url: /2020/04/03/nouveaute-iPadOS13.3-Les-coins-actifs/
 ---
 
