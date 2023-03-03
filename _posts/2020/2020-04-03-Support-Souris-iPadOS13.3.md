@@ -3,16 +3,12 @@ layout: post
 title: Support de la souris sous iPadOS 13.3
 description: Voyons comment est géré la souris sous iPadOS 13.3
 date: 2020-04-03
-redirect_from: /2020/04/03/Support-Accessoires-USB-iPadOS-13.3.html
+ 
 tags: [Accessoires, Souris, iPadOS13]
 category: iPadOS
-liens:
-  - id: Lien-1
-    url: /2019/08/01/Support-Accessoires-USB-iOS-12.html
-    alt: j'avais testé le branchement de certains accessoires USB sous iOS12
-    title: Lien vers article concernant la gestion des accessoires USB sous iOS 12
 images:
-  - id: iPadOS-Version-13.3.1
+  img-1: 
+    id: iPadOS-Version-13.3.1
     alt: "version d'iPadOS dans les réglages : 13.3.1"
     url: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/iPadOS-Version-13.3.1.jpeg
     title: "Version 13.3.1 d'iPadOS"
@@ -48,10 +44,12 @@ videos:
     type: video/mp4
     title: "Lien vers vidéo illustrant comment cacher le bouton d'accueil"
 otherLinks: 
-    - title: Support des accessoires USB sous iOS 12
-      url: /2019/08/01/Support-Accessoires-USB-iOS-12.html
+    - title: "Support des accessoires USB sous iOS 12"
+      url: /2019/08/01/Support-Accessoires-USB-iOS-12/
     - title: "Les coins actifs sous iPadOS 13.3 nous permettent d´être productif"
-      url: /2020/04/03/nouveaute-iPadOS13.3-Les-coins-actifs.html
+      url: /2020/04/03/nouveaute-iPadOS13.3-Les-coins-actifs/
+    - title: "Support des accessoires USB sous iPadOS 13.3"
+      url: /2020/04/03/Support-Accessoires-USB-iPadOS-13.3/
 ---
 
 Avec iPadOS 13.3, on peut maintenant contrôler l´iPad à l´aide d´une souris.
@@ -59,7 +57,7 @@ Comment la configurer ?
 Comment l´utiliser ?
 C´est ce que je vais vous expliquer aujourd'hui dans cet article.
 
-![version d'iPadOS dans les réglages : 13.3.1]
+{% include picture.html img=page.images.img-1 %}
 
 
 ## Un curseur, sans souris
@@ -174,7 +172,4 @@ les coins actifs.
 Mais cela, ce sera l´objet de notre prochain article. 
 
 
-[Lien-1]: /2019/08/01/Support-Accessoires-USB-iOS-12.html "Lien vers article concernant la gestion des accessoires USB sous iOS 12"
-
-[version d'iPadOS dans les réglages : 13.3.1]: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/iPadOS-Version-13.3.1.jpeg "Version 13.3.1 d'iPadOS"
 
