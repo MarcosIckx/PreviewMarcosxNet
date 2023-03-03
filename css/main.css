@@ -270,7 +270,7 @@ video {
 /* Indique comment afficher les images 
 selon qu´elles sont dans un paragraphe 
 ou dans un lien */
-p>img, a>img {
+p>img, a>img, a>picture {
   border: 0.1rem solid var(--highlight-color-2);
   border-radius: 0.3rem;
   padding: 0.4rem;
@@ -301,7 +301,7 @@ p>img:hover::after {
 }
 
 
-a>img:hover {
+a>img:hover, a>picture:hover {
   border: 0.3rem solid var(--highlight-color-1);
   max-width: 80%;
 }
