@@ -76,6 +76,9 @@ Image 1 - pas de Lien 1 :
 
 {% include picture.html img=page.images.img-1 %}
 
+Image 1 - pas de Lien 1 - reference via array :
+
+{% include picture.html img=page.images["img-1"] %}
 Image 1 - Lien 1 :
 
 {% include picture.html link=page.links.link-1 img=page.images.img-1  %}
