@@ -78,12 +78,12 @@ images:
     title: "Le câblage. Photo prise avec l'iPad 2018"
 otherLinks:
    - title: Support des accessoires USB sous iOS 13.3
-     url: /2020/04/03/Support-Accessoires-USB-iPadOS-13.3.html
+     url: /2020/04/03/Support-Accessoires-USB-iPadOS-13.3/
 ---
 
 En prévision de la sortie d’iPadOS, je me suis acheté l’adaptateur lightning-USB 3
 
-[![Photo de l’adaptateur Lightning-USB 3 d’Apple]][Amazon-Adaptateur-Lightning-USB3]
+{% include picture.html link=page.links[0] img=page.images[0]  %}
 
 avant que ce ne soit la ruée et qu’ils soient en rupture de stock.
 
