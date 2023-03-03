@@ -8,8 +8,9 @@ title: Rapport images mentionnées dans post mais non trouvées
 
 {% for post in site.posts %}
   {% if post.images %}
-## {{post.title}} / {{ post.url }}
+## {{ post.title }} / {{ post.url }}
   {% for image in post.images %}
+### {{ image }} 
     {% if staticUrlList contains image.url %}
       ✅ image {{image.url}} is referenced in {{post.url }}  and can be found
     {% else %}
