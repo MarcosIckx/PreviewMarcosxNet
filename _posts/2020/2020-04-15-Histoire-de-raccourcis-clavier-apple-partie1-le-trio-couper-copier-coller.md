@@ -5,17 +5,44 @@ date: 2020-04-15
 redirect_from: /2020/04/15/Histoire-de-raccourcis-clavier-apple-partie1-le-trio-couper-copier-coller.html
 tags: [Raccourcis Clavier, Petites Histoires]
 category: Raccourcis Clavier
+liens:
+  article-touche-cmd: 
+    id: article-touche-cmd
+    url: https://www.macg.co/aapl/2020/02/dou-vient-la-touche-commande-de-nos-claviers-111943 
+    title: "D’où vient la touche commande Cmd (⌘) de nos claviers ?"
+    alt: "un article que j’ai trouvé fabuleusement bien écrit et raconté par Jean-Baptiste Leheup"
+  xerox-1: 
+    id: xerox-1
+    url: https://www.macg.co/aapl/2020/01/lisa-et-macintosh-et-si-xerox-avait-en-fait-tout-invente-111081 
+    title: "Lisa et Macintosh: Et si Xerox avait en fait tout inventé - Partie 1: La visite au PARC"
+    alt: "La visite au PARC"
+  xerox-2: 
+    id: xerox-2
+    url: https://www.macg.co/aapl/2020/01/lisa-et-macintosh-et-si-xerox-avait-en-fait-tout-invente-partie-2-111085 
+    title: "Lisa et Macintosh: Et si Xerox avait en fait tout inventé - Partie 2: La naissance du Lisa"
+    alt: "La naissance du Lisa"
+  xerox-3: 
+    id: xerox-3
+    url: https://www.macg.co/aapl/2020/01/lisa-et-macintosh-et-si-xerox-avait-en-fait-tout-invente-partie-3-111087 
+    title: "Lisa et Macintosh: Et si Xerox avait en fait tout inventé - Partie 3: Le procès"
+    alt: "Le procès"
+  larry-tesler-1: 
+    id: larry-tesler-1
+    url: https://www.macg.co/ailleurs/2020/02/deces-de-larry-tesler-lhomme-qui-naimait-pas-les-modes-112053 
+    title: "Larry Tesler, l’homme qui n’aimait pas les modes"
+    alt: "Larry Tesler, l’homme qui n’aimait pas les modes"
+  larry-tesler-2: 
+    id: larry-tesler-2
+    url: https://www.macg.co/ailleurs/2020/02/1985-quand-larry-tesler-racontait-laventure-du-lisa-112057 
+    title: "Quand Larry Tesler racontait l’aventure du Lisa"
+    alt: "Quand Larry Tesler racontait l’aventure du Lisa"
 otherLinks:
    - title: "Un Raccourci clavier qui gagne à être connu : Cmd E"
-     url: /2022/11/13/Raccourci-Clavier-Cmd-E.html
+     url: /2022/11/13/Raccourci-Clavier-Cmd-E/
 ---
-
-
 ## Introduction
 
-J’avais lu sur MacG au début de cette année 2020
-[un article que j’ai trouvé fabuleusement bien écrit et raconté par Jean-Baptiste Leheup][article-touche-cmd]
-, retraçant l’histoire de la touche ⌘ 
+J’avais lu sur MacG au début de cette année 2020 {% include link.html link=page.liens.article-touche-cmd %}, retraçant l’histoire de la touche ⌘ 
 aussi appelée la touche commande, 
 ou touche pomme car à l’époque du Lisa, 
 c’était le symbole  qui figurait sur cette touche, 
@@ -25,18 +52,16 @@ Et plus ou moins à la même époque, Jean-Baptiste Leheup,
 toujours lui, a publié, toujours sur MacG, 
 une série d’ articles intitulés «Xerox, le vrai père du Macintosh ?»
 
-1. [La visite au PARC][xerox-1]
-1. [La naissance du Lisa][xerox-2]
-1. [Le procès][xerox-3]
+1. {% include link.html link=page.liens.xerox-1 %}
+1. {% include link.html link=page.liens.xerox-2 %}
+1. {% include link.html link=page.liens.xerox-3 %}
 
 Ensuite, en février, MacG a écrit 
 deux articles consacré à Larry Tesler 
 suite à son décès.
 
-* [Larry Tesler, l’homme qui n’aimait pas les modes][larry-tesler-1]
-* [Quand Larry Tesler racontait l’aventure du Lisa][larry-tesler-2]
-
-
+* {% include link.html link=page.liens.larry-tesler-1 %}
+* {% include link.html link=page.liens.larry-tesler-2 %}
 
 
 Mais j’avais lu ces différents articles passionnants qui racontaient 
@@ -44,7 +69,7 @@ l’histoire du Mac et du Lisa, sans pour autant aller plus loin.
 
 Or, vendredi passé, le 10 avril 2020, 
 MacGénération annonce la précommande d’un nouveau livre 
-écrit par Audrey Couleau elle-même et consacré aux raccourcis clavier sur Mac.
+écrit par @AudreyCouleau elle-même et consacré aux raccourcis clavier sur Mac.
 
 
 et là, de suite, les articles de Jean-Baptiste Leheup sur la touche Commande ⌘, le naissance du Lisa et kes articlss consacrés à Larry Tesler me reviennent en mémoire.
@@ -58,7 +83,7 @@ Voilà donc sans plus attendre la fabuleuse histoire du trio Couper/Copier/Colle
 
 
 Dans les années 60 et 70, comme nous le rappelle trop  brièvement Florian Innocente dans l’article
-[Décès de Larry Tesler, l’homme qui n’aimait pas les modes][Larry-Tesler-1], 
+{% include link.html link=page.liens.larry-tesler-1 %}, 
 les éditeurs de texte suivaient une logique de Mode.
 
 Pour faire simple, l’utilisateur devait rentrer en mode action (pour une action bien précise)
@@ -165,11 +190,3 @@ Les caractères de contrôles n’étant pas des caractères qui pouvaient être
 Et donc, le symbole ^ était le symbole le plus approprié pour la touche de contrôle CTRL.
 
 Voilà, je suis bien conscient que cet article n’est pas publiable tel quel mais je suis sûr que Jean-Baptise Leheup pourra en faire un article merveilleux, voire même 2 articles (un sur la touche CTRL et un autre sur le copier/coller).
-
-[article-touche-cmd]: https://www.macg.co/aapl/2020/02/dou-vient-la-touche-commande-de-nos-claviers-111943 "D’où vient la touche commande ⌘ de nos claviers"
-[xerox-1]: https://www.macg.co/aapl/2020/01/lisa-et-macintosh-et-si-xerox-avait-en-fait-tout-invente-111081 "Lisa et Macintosh: Et si Xerox avait en fait tout inventé - Partie 1: La visite au PARC"
-[xerox-2]: https://www.macg.co/aapl/2020/01/lisa-et-macintosh-et-si-xerox-avait-en-fait-tout-invente-partie-2-111085 "Lisa et Macintosh: Et si Xerox avait en fait tout inventé - Partie 2: La naissance du Lisa"
-[xerox-3]: https://www.macg.co/aapl/2020/01/lisa-et-macintosh-et-si-xerox-avait-en-fait-tout-invente-partie-3-111087 "Lisa et Macintosh: Et si Xerox avait en fait tout inventé - Partie 3: Le procès"
-[larry-tesler-1]: https://www.macg.co/ailleurs/2020/02/deces-de-larry-tesler-lhomme-qui-naimait-pas-les-modes-112053 "Larry Tesler, l’homme qui n’aimait pas les modes"
-[larry-tesler-2]: https://www.macg.co/ailleurs/2020/02/1985-quand-larry-tesler-racontait-laventure-du-lisa-112057 "Quand Larry Tesler racontait l’aventure du Lisa"
-
