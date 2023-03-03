@@ -270,6 +270,8 @@ figure.picture {
     background-color: var(--bg-box-color);
     min-width: 100%;
     max-width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
 }
 figcaption {
   font-size: 1.1rem;
