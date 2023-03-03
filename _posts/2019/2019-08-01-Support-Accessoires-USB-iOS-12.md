@@ -47,7 +47,7 @@ images:
     id: 2
     url: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Alerte-miseajour-accessoire.jpg
     alt: Alerte Mise à Jour d'accesoire disponible
-    title:  "Alerte pour indiquer qu'une Mise à jour du firmware est disponible pour l'accessoire"
+    title: "Alerte pour indiquer qu'une Mise à jour du firmware est disponible pour l'accessoire"
   img-3: 
     id: 3
     url: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Reglages-General-Information.jpg
@@ -113,7 +113,7 @@ Il m’affiche un message disant que l’écran doit être déverrouillé pour q
 Je déverrouille donc l’écran de mon iPad.
 Et hop, je vois surgir cette popup. 
 
-![Alerte Mise à Jour d'accesoire disponible]
+{% include picture.html img=page.images.img-2 %}
 
 
 Je choisi de mettre à jour plus tard.
@@ -122,7 +122,7 @@ En attendant, je vais dans les Réglages > Général > Informations.
 
 Une nouvelle ligne apparaît pour l’adaptateur. 
 
-![Nouvelle entrée dans Réglages > Général > Informations pour l'adaptateur Lightning - USB 3]
+{% include picture.html img=page.images.img-3 %}
 
 Et dans les infos détaillées, on apprend que la version du programme interne est la version 1.0.1.
 
