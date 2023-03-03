@@ -121,13 +121,14 @@ on oublie.
 ### activation de certains plugins whitelisté
 
 j´ai activé 3 plugins
-1. le premier me permet de juste taper @identifiant_twitter, et ça devient un lien vers le compte twitter de la personne.
-2. le deuxième devrait me permettre de créer des liens relatifs.
+
+1. le premier, **jekyll-mentions**, me permet de juste taper @identifiant_twitter, et ça devient un lien vers le compte twitter de la personne.
+2. le deuxième, **jekyll-relative-links**, devrait me permettre de créer des liens relatifs.
 et donc, post_url fichier.md deviendrait superflu.
 j'ai essayé de l'utiliser mais je n'ai pas réussi à le faire fonctionner. Je vais devoir creuser cela.
-3. le troisième, et le dernier, permet de créer des pages de redirection. Ce quii sera très utile dans mon cas, et ce poir 2 raisons: 
+3. le troisième, et le dernier, **jekyll-redirect-from**,  permet de créer des pages de redirection. Ce quii sera très utile dans mon cas, et ce poir 2 raisons: 
   1. j´ai changé le permalink pour qu´il soit plus propre. Du coup, les ancieenes urls donnet une 404. Dommage.
-  2. je suis en train de réimporté dans mon blog les anciens posts écrits à l´époque dans wordpress. Mais ceux-ci n´ont pas la même structure de l´URL que ceux de maintenant. Et donc, ça provoque également une 404 au lieu d´afficher le bon lien.
+  2. je suis en train de réimporter dans mon blog tous les anciens posts écrits à l´époque dans wordpress. Mais ceux-ci n´ont pas exactement la même structure de l´URL que ceux de maintenant. Et donc, ça risque de provoquer également des 404 au lieu d´afficher le bon lien.
 
 ## 3 février 2023
 jˆai modifié quelque peu la page dˆerreur 404 pour que 
