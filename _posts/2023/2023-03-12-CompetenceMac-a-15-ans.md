@@ -30,5 +30,5 @@ Un an plus tard, David Bosman (@david_boslan) avait accepté de répondre à mes
 
 Je vous propose de découvrir ou redécouvrir l´interview qui avait été fait à l´époque.
 
+{% include link.html link=page.links.interview %}
 
-[{{page.links.interview.title}}]({{page.links.interview.url}} "{{page.links.interview.alt}}")
