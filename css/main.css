@@ -266,7 +266,6 @@ video {
   margin-right: auto;
 }
 figure{
-  background-color: var(--bg-box-color);
   margin: 0%;
   width: 100%;
 }
@@ -282,6 +281,7 @@ figcaption {
   margin-left: auto;
   margin-right: auto;
   padding: 1rem;
+  background-color: var(--bg-box-color);
   font-style: italic;
   text-align: center;
 }
