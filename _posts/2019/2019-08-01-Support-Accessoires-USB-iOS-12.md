@@ -126,7 +126,7 @@ Une nouvelle ligne apparaît pour l’adaptateur.
 
 Et dans les infos détaillées, on apprend que la version du programme interne est la version 1.0.1.
 
-![Version du programme interne de l'adaptateur Lightning - USB 3]
+{% include picture.html img=page.images.img-4 %}
 
 Mais rien à cet endroit ne m’indique qu’une nouvelle version du programme interne de l’adaptateur est disponible et rien ne me permet maintenant d’appliquer la mise à jour.
 
@@ -152,7 +152,7 @@ Bref, voilà, la mise à jour est faite.
 
 La version du programme interne de l’adaptateur est donc passé de la version 1.0.1 à 1.0.5.
 
-![Version du programme interne de l'adaptateur Lightning - USB 3 après mise à jour]
+{% include picture.html img=page.images.img-5 %}
 
 ## En route pour quelques tests.
 
@@ -160,7 +160,7 @@ La version du programme interne de l’adaptateur est donc passé de la version 
 
 J’avais acheté en 2017 un petit clavier/trackpad pour dépanner quelqu’un (la moitié de l’écran de sa tablette Android ne répondait plus au toucher)
 
-[![Clavier/Trackpad avec Dongle USB]][Amazon-Clavier-Trackpad-Dongle]
+{% include picture.html img=page.images.img-6 link=page.liens.lien-2 %}
 
 C’est avec un dongle USB et transmission entre clavier et le dongle.
 
@@ -222,7 +222,7 @@ J’ai un casque plantronics similaire à celui mentionné dans le lien sous la 
 Et ça marche.
 
 
-![Le symbole 🎧 apparait dans l'icône de l'App Musique à la droite du Dock]
+{% include picture.html img=page.images.img-7 %}
 
 Essayons maintenant le micro. Je lance donc l’app Dictaphone, j’appuie sur le bouton record. Et ça enregistre ma voix depuis le micro-casque. Superbe nouvelle.
 
@@ -252,9 +252,9 @@ Du coup, j’ai découvert que la photo de  fond d’écran de mon iPhone n’é
 
 Mais j’ai découvert également ceci:
 
-![Dans les Réglages, entre Wi-Fi et Bluetooth apparait une entrée Ethernet dont l'interface est nommée USB iPhone]
+{% include picture.html img=page.images.img-8 %}
 
-![Les infos détaillées de la connection Ethernet]
+{% include picture.html img=page.images.img-9 %}
 
 Oui. Mon iPad a maintenant une connection câblée ethernet via l’iPhone connecté en USB. 
 
@@ -333,9 +333,9 @@ Pour résumer, j’ai donc l’iPad connecté via les prises lightning et USB de
 
 Par contre, point de vue câblage, on est d’accord que c’est juste l’horreur. 
 
-![Le Hub USB connecté à l'adaptateur Lightning - USB d'un coté pour l'alimenter. D'un autre coté pour faire office de Hub USB. Et le clavier/trackpad, l'iPhone et le casque micro branchés au Hub USB]
+{% include picture.html img=page.images.img-10 %}
 
-![Le HUb USB connecté à l'adaptateur Lightning - USB d'un coté pour l'alimenter. D'un autre coté poir faire office de Hub USB. Et le clavier/Trackpad, l'iPhone, le casque micro, et finalement la clef USB. Tout cela branché au Hub USB]
+{% include picture.html img=page.images.img-11 %}
 
 Et avoir toujours cet adaptateur qui pendouille à l’iPad, c’est pas vraiment le top. 
 
@@ -349,33 +349,5 @@ Mystère.
 
 [Amazon-Hub-USB-3.0-7Ports]: https://www.amazon.fr/gp/product/B07JGRTPJS/ "Lien vers Amazon.fr pour Hub USB 7 ports"
 
-[Amazon-Clavier-Trackpad-Dongle]: https://www.amazon.fr/gp/product/B071L2CL4Y/ "Lien vers Amazon.fr pour mini clavier trackpad avec dongle USB"
-
-[Amazon-Adaptateur-Lightning-USB3]: https://www.amazon.fr/gp/product/B01DGDNL2G/ "Lien vers Amazon.fr pour l´Adaptateur Lightning USB3 d´Apple"
 
 
-[Photo de l’adaptateur Lightning-USB 3 d’Apple]: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Adaptateur-lightning-usb3.jpg "Photot Adaptateur Lightning - USB3 d´Apple"
-
-[Alerte Mise à Jour d'accesoire disponible]: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Alerte-miseajour-accessoire.jpg "Alerte pour indiquer qu'une Mise à jour du firmware est disponible pour l'accessoire"
-
-
-[Nouvelle entrée dans Réglages > Général > Informations pour l'adaptateur Lightning - USB 3]: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Reglages-General-Information.jpg "La nouvelle entrée dans Informations pour l'adaptateur Lighning-USB3"
-
-[Version du programme interne de l'adaptateur Lightning - USB 3]: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Version-Programme-Interne-Adaptateur-1.0.1.jpg "Version du programme interne de l'adaptateur Lightning - USB 3 lors de son premoer branchement"
-
-[Version du programme interne de l'adaptateur Lightning - USB 3 après mise à jour]: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Version-Programme-Interne-Adaptateur-1.0.5.jpeg "Version du programme interne de l'adaptateur Lightning - USB 3 après la mise a jour"
-
-[Clavier/Trackpad avec Dongle USB]: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Clavier-trackpad-dongle-usb.jpeg "Photo du mini clavier trackpad avec dongle USB"
-
-[Le symbole 🎧 apparait dans l'icône de l'App Musique à la droite du Dock]: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Icone-Apple-music-casque.jpeg "L'App Musique dans le Dock avec le symbole 🎧"
-
-
-[Dans les Réglages, entre Wi-Fi et Bluetooth apparait une entrée Ethernet dont l'interface est nommée USB iPhone]: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Reglages-Ethernet.jpeg "Entrée Ethernet dans les réglages"
-
-[Les infos détaillées de la connection Ethernet]: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/Reglages-Ethernet-details.jpeg "Les infos détaillées de la connection Ethernet"
-
-[sgamel]: https://twitter.com/sgamel "Le compte twitter de Sylvain Gamel"
-
-[Le Hub USB connecté à l'adaptateur Lightning - USB d'un coté pour l'alimenter. D'un autre coté pour faire office de Hub USB. Et le clavier/trackpad, l'iPhone et le casque micro branchés au Hub USB]: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/cablage-iPhone.jpeg "Le câblage. Photo prise avec l'iPhone SE"
-
-[Le HUb USB connecté à l'adaptateur Lightning - USB d'un coté pour l'alimenter. D'un autre coté poir faire office de Hub USB. Et le clavier/Trackpad, l'iPhone, le casque micro, et finalement la clef USB. Tout cela branché au Hub USB]: /img/posts/2019/08/01/Support-Accessoires-USB-iOS-12/cablage-iPad.jpeg "Le câblage. Photo prise avec l'iPad 2018"
