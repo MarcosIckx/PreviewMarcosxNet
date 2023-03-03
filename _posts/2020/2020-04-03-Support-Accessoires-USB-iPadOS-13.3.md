@@ -13,11 +13,13 @@ liens:
     alt: j'avais testé le branchement de certains accessoires USB sous iOS12
     title: Lien vers article concernant la gestion des accessoires USB sous iOS 12
 images:
-  - id: iPadOS-Version-13.3.1
+  img1: 
+    id: iPadOS-Version-13.3.1
     alt: "version d'iPadOS dans les réglages : 13.3.1"
     url: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/iPadOS-Version-13.3.1.jpeg
     title: "Version 13.3.1 d'iPadOS"
-  - id: App-Fichiers-Cle-USB
+  img2: 
+    id: App-Fichiers-Cle-USB
     alt: L'App Fichier où l'on voit la clef USB à gauche, et son contenu à droite
     url: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/App-Fichiers-Cle-USB.jpeg
     title: "L'App Fichier où l'on voit la clef USB à gauche, et son contenu à droite"
@@ -81,7 +83,7 @@ Je voulais faire ce test avant de faire la mise à jour vers iPadOS 13.4.1 car A
 
 Mais on en reparlera plus tard.
 
-{% include picture.html img=page.images[0] %}
+{% include picture.html img=page.images.img-1 %}
 
 
 ## Clavier/Trackpad 
@@ -105,7 +107,7 @@ Heureusement que non.
 
 En fait, il nous faut ouvrir l'App Fichiers pour y voir la clef et son contenu.
 
-{% include picture.html img=page.images[1] %}
+{% include picture.html img=page.images.img-2 %}
 
 Et contrairement à ce qui se pasait sous iOS 12, cette fois-ci, je peux voir tous les fichiers, et plus seulement les fichiers vidéo et audio.
 
