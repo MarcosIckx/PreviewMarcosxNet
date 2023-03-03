@@ -266,11 +266,11 @@ video {
   margin-right: auto;
 }
 figure{
+  background-color: var(--bg-box-color);
   margin: 0%;
   width: 100%;
 }
 figure.picture {
-    background-color: var(--bg-box-color);
     min-width: 98%;
     max-width: 98%;
     margin-left: 1%;
