@@ -226,9 +226,9 @@ Du moins, je l'espère.
 
 
 ## 2 mars 2023
-- Correction d´un bug empechant les moteurs d'identifier l´url canonical
+- Correction d´un bug empêchant les moteurs d'identifier l´url canonical
 - Ajout d´un compteur d´articles par année d´archive
-- Ajoit d´un redirect_from sur certaines pages pour éviter un 404.
+- Ajout d´un redirect_from sur certaines pages pour éviter une page d'erreur 404 sur certaines pages qui étaient déjà indexées par certains moteurs de recherche.
 
 ## TO DO LIST
 
