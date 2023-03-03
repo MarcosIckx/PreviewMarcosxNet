@@ -9,16 +9,16 @@ redirect_from: /2020/04/03/Support-Accessoires-USB-iPadOS-13.3.html
 liens:
   Lien-1:
     id: Lien-1
-    url: /2019/08/01/Support-Accessoires-USB-iOS-12.html
+    url: /2019/08/01/Support-Accessoires-USB-iOS-12/
     alt: j'avais testé le branchement de certains accessoires USB sous iOS12
     title: Lien vers article concernant la gestion des accessoires USB sous iOS 12
 images:
-  img1: 
+  img-1: 
     id: iPadOS-Version-13.3.1
     alt: "version d'iPadOS dans les réglages : 13.3.1"
     url: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/iPadOS-Version-13.3.1.jpeg
     title: "Version 13.3.1 d'iPadOS"
-  img2: 
+  img-2: 
     id: App-Fichiers-Cle-USB
     alt: L'App Fichier où l'on voit la clef USB à gauche, et son contenu à droite
     url: /img/posts/2020/04/03/Support-Accessoires-USB-iPadOS-13.3/App-Fichiers-Cle-USB.jpeg
@@ -71,7 +71,7 @@ videos:
     title: "Lien vers video illustrant comment utiliser les coins actifs sous iPadOS 13"
 otherLinks: 
     - title: Support des accessoires USB sous iOS 12
-      url: /2019/08/01/Support-Accessoires-USB-iOS-12.html
+      url: /2019/08/01/Support-Accessoires-USB-iOS-12/
 ---
 
 L'année passée, [{{ page.liens["Lien-1"].alt }}][{{ page.liens["Lien-1"].id }}].
@@ -275,4 +275,4 @@ Aura-t-on une belle surprise ?
 
 À voir.
 
-[{{ page.liens["Lien-1"].id }}]: /2019/08/01/Support-Accessoires-USB-iOS-12.html "{{ page.liens["Lien-1"].title }}"
+[{{ page.liens["Lien-1"].id }}]:  page.liens["Lien-1"].url }} "{{ page.liens["Lien-1"].title }}"
