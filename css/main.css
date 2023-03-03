@@ -290,8 +290,8 @@ selon qu´elles sont dans un paragraphe
 ou dans un lien */
 p>img, a>img, picture>img {
   border: 0.1rem solid var(--highlight-color-2);
-  border-radius: 0.3rem;
-  padding: 0.4rem;
+  border-radius: 0.6rem;
+  padding: 1.8rem;
   min-width: 80%;
   max-width: 80%;
   display: block;
@@ -308,10 +308,12 @@ p>img:hover, figure>picture>img:hover {
    -moz-transition: width 0.8s ease-in-out;
    -o-transition: width 0.8s ease-in-out;
    transition: width 0.8s ease-in-out;
-  min-width: 100%;
-  max-width: 100%;
-  margin-left: none;
-  margin-right: none;
+  border: 0.3rem solid var(--highlight-color-2);
+  padding: 0.3rem;
+  min-width: 98%;
+  max-width: 98%;
+  margin-left: -0.3rem;
+  margin-right: -0.3rem;
 }
 p>img:hover::after, figure>picture>img:hover::after {
    -webkit-transition: width 0.8s ease-in-out;
