@@ -1,0 +1,19 @@
+{%- comment -%}
+~~~
+Parameters:
+link: information concerning the link (optional)
+     url: the url of the link that will be open when we click on the image (mandatory)
+     alt: alternate text of the url (optional)
+     title: description of the link (optional)
+that will generate the following
+´´´
+<a href="url" title="title">alt</a>
+´´´
+~~~
+{%- endcomment -%}
+{%- assign debugMode = include.debug | default: page.debug | default: site.debug -%}
+{%- assign linkInfo= include.link -%}
+
+<a href="{{ linkInfo.url }}" title="{{ linkInfo.title }}">{{ linkInfo.alt }}</a>
+
+
