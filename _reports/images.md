@@ -11,9 +11,9 @@ title: Rapport images mentionnées dans post mais non trouvées
 ## {{ post.title }} / {{ post.url }}
   {% for image in post.images %}
 ### {{ image }} 
-first : {{image.first}}
-first.first : {{image.first.first}}
 last : {{image.last}}
+last.first : {{image.last.first}}
+last.url : {{image.last.url}}
 
     {% if staticUrlList contains image.url %}
       ✅ image {{image.url}} is referenced in {{post.url }}  and can be found
