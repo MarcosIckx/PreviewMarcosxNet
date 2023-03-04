@@ -14,11 +14,11 @@ title: Rapport images mentionnées dans post mais non trouvées
 last : {{image.last}}
 last.first : {{image.last.first}}
 last.url : {{image.last.url}}
-
-    {% if staticUrlList contains image.url %}
-      ✅ image {{image.url}} is referenced in {{post.url }}  and can be found
+{% assign imageUrl = image.last.url | default: image.url %}
+    {% if staticUrlList contains imageUrl %}
+      ✅ image {{imageUrl}} is referenced in {{post.url }}  and can be found
     {% else %}
-      ❌ image {{image.url}} is referenced in {{post.url }}  but cannot be found
+      ❌ image {{imageUrl}} is referenced in {{post.url }}  but cannot be found
     {% endif %}
   {% endfor %}
  {% endif %}
