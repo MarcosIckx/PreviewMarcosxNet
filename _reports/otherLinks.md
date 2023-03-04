@@ -5,7 +5,7 @@ title: Rapport otherLinks
 
 {% for post in site.posts %}
   {% if post.otherLinks %}
-## {{ post.url }}
+## <a href="{{ post.url }}">{{ post.url }}</a>
     {% for link in post.otherLinks %}
 ### {{ link.title }}
       {% assign last = link.url | split: "/" | last %}
