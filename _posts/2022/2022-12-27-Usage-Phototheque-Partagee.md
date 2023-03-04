@@ -83,5 +83,3 @@ leur propre but et finalité, et d’avoir maintenant une photothèque personnel
 Et vous ? 
 
 Utilisez-vous la photothèque partagée ?
-
-Répondez-moi sur Twitter: @MarcosIckx
