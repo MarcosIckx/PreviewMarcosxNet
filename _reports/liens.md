@@ -15,12 +15,13 @@ title: Rapport liens mentionnés dans post mais non trouvés
     {% assign firstPartOfUrl = linkUrl | split:"/" | first %}
     {% if firstPartOfUrl == ""  %}
       {% if postUrlList contains linkUrl %}
-        ✅ link <a href="{{ linkUrl }}">{{ linkUrl }}</a> is referenced in {{ post.url }}  and can be found
+✅ valid link : 
       {% else %}
-        ❌ link <a href="{{ linkUrl }}">{{ linkUrl }}</a> is referenced in {{ post.url }}  but cannot be found
+❌ invalid link :
       {% endif %}
+<a href="{{ linkUrl }}">{{ linkUrl }}</a> 
     {% else %}
-      <a href="{{ linkUrl }}">{{ linkUrl }}</a> is external to our website so must be manually checked.
+<a href="{{ linkUrl }}">{{ linkUrl }}</a> is external to our website so must be manually checked.
     {% endif %}
   {% endfor %}
  {% endif %}
