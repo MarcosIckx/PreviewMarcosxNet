@@ -7,15 +7,17 @@ title: Rapport otherLinks
   {% if post.otherLinks %}
 ## <a href="{{ post.url }}">{{ post.url }}</a>
     {% for link in post.otherLinks %}
-### {{ link.title }}
-      {% assign last = link.url | split: "/" | last %}
-compare {{ last }} 
-      {% if last == "" %}
-✅{{link.url}}
-      {% elsif last contains "index.html" %}
-❎{{link.url}}
+      {% assign linkUrl = link.last.url | default: link.url  %}
+      {% assign firstPartOfUrl = linkUrl | split:"/" | first %}
+      {% if firstPartOfUrl == ""  %}
+        {% if postUrlList contains linkUrl %}
+✅ link found :
+        {% else %}
+❌ link not found : {% endif %}
+<a href="{{ linkUrl }}">{{ linkUrl }}</a>
       {% else %}
-❌{{link.url}}
+<a href="{{ linkUrl }}">{{ linkUrl }}</a> 
+is external to our website so must be manually checked.
       {% endif %}
     {% endfor %}
   {% endif %}
