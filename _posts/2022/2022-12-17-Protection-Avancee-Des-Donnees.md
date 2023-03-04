@@ -11,8 +11,8 @@ images:
     url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Protection-Standard-des-Donnees.png 
     alt: "Image servant à illustrer le fait que les clefs pour déchiffrer les données iCloud sont stockées sur les serveurs d'Apple"
   Tableau-Recapitulatif-Protection-Standard:
-  url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Tableau-Protection-Standard.png 
-  alt: "Tableau Récapitulatif de la Protection Standard des Données iCloud"
+    url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Tableau-Protection-Standard.png 
+    alt: "Tableau Récapitulatif de la Protection Standard des Données iCloud"
 
   Protection-Avancee-des-Donnees:
     url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Protection-Avancee-des-Donnees.png 
@@ -20,6 +20,21 @@ images:
   Tableau-Recapitulatif-Protection-Avancee:
     url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Tableau-Protection-Avancee.png
     alt: "Tableau Récapitulatif de la Protection Avancée des Données iCloud"
+
+  Tableau-Versions-OS:
+    url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Versions-OS.png 
+    alt: "Tableau indiquant quelle version d´OS il faut pour chacun des appareils Apple"
+  Capture-Reglages-PAD-Liste-Appareils:
+    url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Capture-Reglages-PAD-Liste-Appareils.png 
+    alt: "Capture d´écran Réglages / identifiant Apple / Sécurité / Protection Avancée des Données / Invitation à mettre à jour ses appareils. Pour chaque appareil, il invitera à faire la mise à jour, si la version peut être installée ou à enlever l'appareil de la liste si la mise à jour ne peut se faire sur cet appareil"
+  Capture-Reglages-Liste-Appareils:
+    url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Capture-Reglages-Liste-Appareils.png 
+    alt: "Capture d´écran Réglages / Identifiant Apple / Liste des appareils dont les appareils Windows]"
+    title: "Capture d´écran des Réglages / Identifiant Apple / Liste des appareils. On y voit deux appareils tournant sous Windows. Il faudra être sûr qu´elles auront la dernière version de iCloud pour Windows."
+
+  Formation-Audrey:
+    url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Formation-Identifiant-Apple-AudreyCouleau.jpeg
+    alt: "Image Formation gratuite de Audrey Couleau concernant l´identifiant Apple"
 
 liens:
   Source-Apple-1: 
@@ -228,17 +243,19 @@ Voilà les versions minimales des OS pour pouvoir activer la Protection Avancée
 - Apple TV : tvOS 16.2
 - Apple Watch : watchOS 9.2
 
-![Tableau Versions OS]
+{% include picture.html img=page.images.Tableau-Versions-OS %}
 
 Vous auree droit à un récapitulatifs de la situation de vos appareils, indiquant en-dessous de chacun, s´il vous faudra le supprimer de la liste car il ne peut être mis à jour ou s´il doit être mis à jour car n´a pas la dernière version installée.
 
-![Capture d´écran Réglages / identifiant Apple / Sécurité / Protection Avancée des Données / Invitation à mettre à jour ses appareils]
+{% include picture.html img=page.images.Capture-Reglages-PAD-Liste-Appareils %}
+
 
 ### 5. Avoir la dernière version de iCloud pour Windows en date de décembre 2022.
 
 Si vous avez un appareil Windows sur lequel votre identifiant est enregistré, il faudra onligatoirement qu’il ait la dernière version en date de iCloud pour Windows.
 Sinon, vous ne pourrez pas activer la Protection Avancée des Données.
-![Capture d´écran Réglages / Identifiant Apple / Liste des appareils dont les appareils Windows]
+
+{% include picture.html img=page.images.Capture-Reglages-Liste-Appareils %}
 
 ### 6. Avoir activé l'Identification à deux facteurs
 
@@ -253,7 +270,8 @@ Mais c’est déjà une obligation pour pouvoir activer l'identification à deux
 
 P.S. si vous désirez en savoir plus votre identifiant Apple et la double authentification, la formation, offerte gratuitement par @AudreyCouleau, vous sera d'une grande utilité.
 
-[![Formation Gratuite Identifiant Apple par Audrey Couleau]][Formation-Identifiant-AudreyCouleau]
+{% include picture.html img=page.images.Formation-Audrey link=page.liens.Formation-Identifiant-AudreyCouleau %}
+
 
 ### 7. Avoir configuré  la récupération du compte 
 
@@ -501,16 +519,7 @@ Merci à Laurent @lolopb, Julien @_JuCos, David @SaezDavid, Audrey @AudreyCoulea
 N´hésitez pas à me contacter sur Twitter : @MarcosIckx
 
 
-  
-[Tableau Versions OS]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Versions-OS.png "Tableau indiquant quelle version d´OS il faut pour chacun des appareils Apple"
-
-[Capture d´écran Réglages / identifiant Apple / Sécurité / Protection Avancée des Données / Invitation à mettre à jour ses appareils]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Capture-Reglages-PAD-Liste-Appareils.png "Capture d´écran Réglages / identifiant Apple / Sécurité / Protection Avancée des Données / Invitation à mettre à jour ses appareils. Pour chaque appareil, il invitera à faire la mise à jour, si la version peut être installée ou à enlever l'appareil de la liste si la mise à jour ne peut se faire sur cet appareil"
-
-[Capture d´écran Réglages / Identifiant Apple / Liste des appareils dont les appareils Windows]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Capture-Reglages-Liste-Appareils.png "Capture d´écran des Réglages / Identifiant Apple / Liste des appareils. On y voit deux appareils tournant sous Windows. Il faudra être sûr qu´elles auront la dernière version de iCloud pour Windows."
-
 [Capture d´écran Réglages / Identifiant Apple / Sécurité / Authentification à deux facteurs]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Capture-Reglages-2FA.png "Capture d´écran de la page Réglages / Identifiant / Sécurité / Authentification à deux facteurs sous iPadOS"
-
-[Formation Gratuite Identifiant Apple par Audrey Couleau]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Formation-Identifiant-Apple-AudreyCouleau.jpeg "Image Formation gratuite de Audrey Couleau concernant l´identifiant Apple"
 
 [Capture d´écran Réglages / Identifiant Apple / Sécurité / Récupération de Compte]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Capture-Reglages-Recuperation-Compte.png "Capture d´écran Réglages / Identifiant Apple / Sécurité / Récupération de Compte où l´on est invité à rajouter un contact ou utiliser une clé de secours"
 [Capture d´écran Réglages / Identifiant Apple / Sécurité / fenêtre Ajout Contact de Récupération]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Capture-Reglages-Ajout-Contact-Recuperation.png "Capture d´écran Réglages / Identifiant Apple / Sécurité  / fenêtre Ajout Contact de Récupération où l'on peut choisir entre les membres de la famille déjà connus ou alors de choisir une autre personne."
