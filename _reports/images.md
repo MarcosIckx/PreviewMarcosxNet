@@ -10,11 +10,7 @@ title: Rapport images mentionnées dans post mais non trouvées
   {% if post.images %}
 ## {{ post.title }} / {{ post.url }}
   {% for image in post.images %}
-### {{ image }} 
-last : {{image.last}}
-last.first : {{image.last.first}}
-last.url : {{image.last.url}}
-{% assign imageUrl = image.last.url | default: image.url %}
+    {% assign imageUrl = image.last.url | default: image.url %}
     {% if staticUrlList contains imageUrl %}
       ✅ image {{imageUrl}} is referenced in {{post.url }}  and can be found
     {% else %}
