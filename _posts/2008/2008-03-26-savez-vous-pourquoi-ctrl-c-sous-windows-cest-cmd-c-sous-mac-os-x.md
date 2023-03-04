@@ -1,7 +1,13 @@
 ---
 date: 2008-03-26
 category: Matériel
+tags: [clavier, raccourcis clavier]
 title: Savez-vous pourquoi Ctrl-C sous Windows, c’est Cmd-C sous Mac OS X ?
+otherLinks: 
+   - title: "Histoire de raccourcis clavier célèbres - Partie 1 : Couper/Copier/Coller"
+     url: /2020/04/15/Histoire-de-raccourcis-clavier-apple-partie1-le-trio-couper-copier-coller/
+   - title: "Un Raccourci clavier qui gagne à être connu : Cmd E"
+     url: /2022/11/13/Raccourci-Clavier-Cmd-E/
 ---
 
 Savez-vous pourquoi les raccourcis clavier pour faire un Copier/Coller, c’est Ctrl-C / Ctrl-V sous Windows, mais Cmd-C/Cmd-V sous Mac OS X. Alors que la touche Ctrl existe également sous Mac OS X.
