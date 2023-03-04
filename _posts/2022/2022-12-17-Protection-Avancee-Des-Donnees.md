@@ -89,7 +89,7 @@ images:
     url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/privacy-avant-activation-PAD-2.png
     title: "Capture d´écran privacy.apple.com où l´accès à iCloud.com est activé suite"
   privacy-apres-activation-PAD-1:
-    alt: "Capture d´écran privacy.apple.com où l´accès à iCloud.com est désactivé
+    alt: "Capture d´écran privacy.apple.com où l´accès à iCloud.com est désactivé"
     url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/privacy-apres-activation-PAD-1.png
     title: "Capture d´écran privacy.apple.com où l´accès à iCloud.com est désactivé"
   privacy-apres-activation-PAD-2:
