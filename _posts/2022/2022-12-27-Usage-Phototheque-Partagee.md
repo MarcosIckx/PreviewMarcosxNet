@@ -6,11 +6,15 @@ date: 2022-12-27
 twitterLink: https://twitter.com/marcosickx/status/1607775049876144128
 image:
   url: /img/posts/2022/12/27/phototheque-partagee/Introduction.PNG
+images:
+  intro:
+    alt: "Quelle est l'utilité d'une Photothèque Partagée avec personne ?"
+    url: /img/posts/2022/12/27/phototheque-partagee/Introduction.PNG
+    title: "Capture d´écran de l´app Photo avec encadré par dessus posant la question suivante : Quelle est l´utilité d´une Photothèque Partagée avec Personne ?"
 tags: [iCloud, Photos, iOS16]
 category: Photos
 ---
-
-![Quelle est l'utilité d'une Photothèque Partagée avec personne ?]
+{% include picture.html img=page.images.intro %}
 
 La photothèque partagée est l’une des nouveautés d’iOS 16, iPadOS 16 et macOS Ventura 
 dont je ne voyais pas trop à quoi elle pourrait personnellement me servir.
@@ -80,5 +84,4 @@ Et vous ?
 
 Utilisez-vous la photothèque partagée ?
 
-
-[Quelle est l'utilité d'une Photothèque Partagée avec personne ?]: /img/posts/2022/12/27/phototheque-partagee/Introduction.PNG "Capture d´écran de l´app Photo avec encadré par dessus posant la question suivante : Quelle est l´utilité d´une Photothèque Partagée avec Personne ?"
+Répondez-moi sur Twitter: @MarcosIckx
