@@ -7,17 +7,17 @@ update: 2023-02-05
 image:
   url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Protection-Avancee-des-Donnees.png
 images:
-  Protection-Standard-des-Données:
+  Protection-Standard-des-Donnees:
     url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Protection-Standard-des-Donnees.png 
     alt: "Image servant à illustrer le fait que les clefs pour déchiffrer les données iCloud sont stockées sur les serveurs d'Apple"
-  Tableau-Récapitulatif-Protection-Standard:
+  Tableau-Recapitulatif-Protection-Standard:
   url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Tableau-Protection-Standard.png 
   alt: "Tableau Récapitulatif de la Protection Standard des Données iCloud"
 
-  Protection-Avancée-des-Données:
+  Protection-Avancee-des-Donnees:
     url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Protection-Avancee-des-Donnees.png 
     alt: "Image servant à illustrer le fait que les clefs pour déchiffrer les données iCloud ne sont plus stockées sur les serveurs d'Apple mais sur votre appareil Apple"
-  Tableau-Récapitulatif-Protection-Avancée:
+  Tableau-Recapitulatif-Protection-Avancee:
     url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Tableau-Protection-Avancee.png
     alt: "Tableau Récapitulatif de la Protection Avancée des Données iCloud"
 
@@ -102,7 +102,7 @@ Car Apple possédait les clés 🔑 lui permettant de déchiffrer certaines de v
 
 C'est ce qu'Apple appelle la Protection **Standard** des Données iCloud.
 
-{% include picture.html img=page.images.Protection-Standard-des-Données %}
+{% include picture.html img=page.images.Protection-Standard-des-Donnees %}
 
 ### Quelles sont les données protégées par la Protection Standard des Données iCloud ?
 
@@ -142,13 +142,13 @@ Par contre, Apple ne stocke pas sur ses serveurs les clés 🔑permettant de dé
 
 Soit 14 types de données, sur 26. Juste au dessus de la moitier.
 
-{% include picture.html img=page.images.Tableau-Récapitulatif-Protection-Standard %}
+{% include picture.html img=page.images.Tableau-Recapitulatif-Protection-Standard %}
 
 ### Quelles sont les données protégées par la Protection Avancée des Données iCloud ?
 
 Avec la Protection Avancée des Données iCloud, la majorité des informations stockées sur iCloud seront chiffrées de bout en bout (sous certaines conditions, mais on y reviendra plus tard).
-
-{% include picture.html img=page.images.Protection-Avancée-des-Données %}
+ 
+{% include picture.html img=page.images.Protection-Avancee-des-Donnees %}
 
 Seules les données de Mails, Contacts et Calendriers pourront encore être transmises en clair aux autorités par Apple.
 
@@ -196,7 +196,7 @@ Soit un total de **23** types de données (sur **26**) dont Apple n'aura plus le
 
 Seuls vos e-mails, contacts et calendriers pourront encore être vues aux yeux d'Apple et donc communiqués aux autorités.
 
-{% include picture.html img=page.images.Tableau-Récapitulatif-Protection-Avancée %}
+{% include picture.html img=page.images.Tableau-Recapitulatif-Protection-Avancee %}
 
 ## Quelles sont les conditions à remplir pour pouvoir activer la Protection Avancées des Données iCloud ?
 
