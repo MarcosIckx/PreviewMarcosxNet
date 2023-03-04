@@ -31,10 +31,75 @@ images:
     url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Capture-Reglages-Liste-Appareils.png 
     alt: "Capture d´écran Réglages / Identifiant Apple / Liste des appareils dont les appareils Windows]"
     title: "Capture d´écran des Réglages / Identifiant Apple / Liste des appareils. On y voit deux appareils tournant sous Windows. Il faudra être sûr qu´elles auront la dernière version de iCloud pour Windows."
-
+  Capture-Reglages-2FA: 
+    alt: "Capture d´écran Réglages / Identifiant Apple / Sécurité / Authentification à deux facteurs"
+    url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Capture-Reglages-2FA.png 
+    title: "Capture d´écran de la page Réglages / Identifiant / Sécurité / Authentification à deux facteurs sous iPadOS"
+  Capture-Reglages-Recuperation-Compte: 
+    alt: "Capture d´écran Réglages / Identifiant Apple / Sécurité / Récupération de Compte"
   Formation-Audrey:
     url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Formation-Identifiant-Apple-AudreyCouleau.jpeg
     alt: "Image Formation gratuite de Audrey Couleau concernant l´identifiant Apple"
+
+    url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Capture-Reglages-Recuperation-Compte.png 
+    title: "Capture d´écran Réglages / Identifiant Apple / Sécurité / Récupération de Compte où l´on est invité à rajouter un contact ou utiliser une clé de secours"
+  Capture-Reglages-Ajout-Contact-Recuperation:
+    alt: "Capture d´écran Réglages / Identifiant Apple / Sécurité / fenêtre Ajout Contact de Récupération"
+    url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Capture-Reglages-Ajout-Contact-Recuperation.png 
+    title: "Capture d´écran Réglages / Identifiant Apple / Sécurité  / fenêtre Ajout Contact de Récupération où l'on peut choisir entre les membres de la famille déjà connus ou alors de choisir une autre personne."
+  Capture-Reglages-Contact-Recuperation:
+    alt: "Capture d´écran Réglages / Identifiant Apple / Sécurité / Contact de Récupération"
+    url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Capture-Reglages-Contact-Recuperation.png 
+    title: "Capture de l´écran récapitulatif de Réglages / Identifiant Apple / Sécurité / Contact de Récupération qui rappelle que cette personne de confiance n´aura pas accès à vos données mais pourra vous aider à récupérer l´accès à vos données."
+  Capture-Reglages-ADP-NA: 
+    alt: "Capture d´écran Réglages / Identifiant Apple / Sécurité / Protection Avancée des Données iCloud Pas Disponible"
+    url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Capture-Reglages-ADP-NA.png 
+    title: "Capture d'écran Réglages / Identifiant Apple / Sécurité indiquant que la  Protection Avancée des Données iCloud n´est pas disponible car l´appareil a été rajouté trop récemment dans la liste des appareils de confiance"
+  Capture-Reglages-PAD:
+    alt: "Capture d´écran Réglages / Identifiant Apple / Sécurité / Activer la Protection Avancée des Données"
+    url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Capture-Reglages-PAD.png 
+    title: "Capture d´écran Réglages / Identifiant Aplle / Sécurité / Activer la Protection Avancée des Données où il est rappelé que celle-ci n´est pas encore disponible dans votre pays ou région"
+  Capture-iCloud-Acces-Desactive: 
+    alt: Capture d´écran de la page iCloud.com lorsque l´accès aux données est désactivé
+    url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Capture-iCloud-Acces-Desactive.png 
+    title: "Capture d´écran de la page iCloud.com lorsque l´accès aux données est désactivé. on y lit ceci : Bonsoir, vous avez désactivé la fonctionnalité Accéder aux données iCloud sur le Web. Pour accéder aux données sur iCloud.com, vous devrez activer l’accès sur le web dans les réglages iCloud de votre appareil."
+  Capture-iCloud-Find: 
+    alt: Capture d´écran iCloud.com/find
+    url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Capture-iCloud-Find.png 
+    title: "Capture d'écran de la page web iCloud.com/find qui permet de retrouver ses appareils sur la carte du monde"
+  Capture-Reglages-Acces-Donnees-iCloud:
+    alt: "Capture d´écran Réglages / Identifiant Apple / iCloud / Accès Données iCloud sur le web activé"
+    url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Capture-Reglages-Acces-Donnees-iCloud.png 
+    title: "Capture d´écran de Réglages / Identifiant Apple / iCloud où l´on voit que l´option Accès Données iCloud sur le web est activée"
+  Capture-Reglages-Confirmation-Acces-Donnees-iCloud:
+    alt: "Capture d´écran Réglages / Identifiant Apple / iCloud / Confirmation Accès Données iCloud sur le web"
+    url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Capture-Reglages-Confirmation-Acces-Donnees-iCloud.png 
+    title: "Capture d´écran Réglages / Identifiant Apple / iCloud / demande de confirmation d´activer l´accès aux données iCloud sur le web"
+
+  Capture-iCloud-Se-Fier:
+    alt: fCapture d´écran iCloud.com où il est demandé de se fier au navigateur"
+    url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Capture-iCloud-Se-Fier.png
+    title: "Capture d´écran iCloud.com où il est demandé de se fier au navigateur. Si on s'y fie, il ne faudra plus saisir de code de calidation lors de la prochaine connexion."
+  privacy-avant-activation-PAD-1:
+    alt: "Capture d´écran privacy.apple.com où l´accès à iCloud.com est activé"
+    url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/privacy-avant-activation-PAD-1.png 
+    title: "Capture d´écran privacy.apple.com où l´accès à iCloud.com est activé"
+  privacy-avant-activation-PAD-2:
+    alt: Capture d´écran privacy.apple.com où l´accès à iCloud.com est activé suite"
+    url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/privacy-avant-activation-PAD-2.png
+    title: "Capture d´écran privacy.apple.com où l´accès à iCloud.com est activé suite"
+  privacy-apres-activation-PAD-1:
+    alt: "Capture d´écran privacy.apple.com où l´accès à iCloud.com est désactivé
+    url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/privacy-apres-activation-PAD-1.png
+    title: "Capture d´écran privacy.apple.com où l´accès à iCloud.com est désactivé"
+  privacy-apres-activation-PAD-2:
+    alt: "Capture d´écran privacy.apple.com où l´accès à iCloud.com est désactivé suite"
+    url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/privacy-apres-activation-PAD-2.png 
+    title: "Capture d´écran privacy.apple.com où l´accès à iCloud.com est déactivé suite"
+  Tableau-Obtenir-Copie-Donnees:
+    alt: "Tableau Obtention Copie Données via privacy.apple.com"
+    url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Tableau-Obtenir-Copie-Donnees.png 
+    title: "Tableau qui résume quelles sont les données pour lesquelles on peut ontenir une copie selon que l´accès aux données iCloud via le web esr activé ou pas"
 
 liens:
   Source-Apple-1: 
@@ -265,8 +330,7 @@ De plus, tous vos appareils Apple doivent être protégés à l’aide d’un mo
 
 Mais c’est déjà une obligation pour pouvoir activer l'identification à deux facteurs, donc cela ne devrait pas être un frein.
 
-![Capture d´écran Réglages / Identifiant Apple / Sécurité / Authentification à deux facteurs]
-
+{% include picture.html img=page.images.Capture-Reglages-2FA %}
 
 P.S. si vous désirez en savoir plus votre identifiant Apple et la double authentification, la formation, offerte gratuitement par @AudreyCouleau, vous sera d'une grande utilité.
 
@@ -278,7 +342,7 @@ P.S. si vous désirez en savoir plus votre identifiant Apple et la double authen
 Pour pouvoir activer la Protection Avancée des Données,
 Il faudra également avoir configuré la récupération du compte.
 
-![Capture d´écran Réglages / Identifiant Apple / Sécurité / Récupération de Compte]
+{% include picture.html img=page.images.Capture-Reglages-Recuperation-Compte %}
 
 Deux possibilités s'offrent à vous :
 
@@ -311,14 +375,13 @@ Il faut savoir que le contact de récupération doit :
 Apple vous suggerera par défaut les membres de votre famille, mais vous pouvez rajouter d’autres personnes, ce que je vous conseille **_fortement_**.
 
 
-![Capture d´écran Réglages / Identifiant Apple / Sécurité / fenêtre Ajout Contact de Récupération]
+{% include picture.html img=page.images.Capture-Reglages-Ajout-Contact-Recuperation %}
 
 Choisissez une personne de confiance pour vous aider à recouvrer l'accès à votre compte en cas d'oubli de votre mot de passe ou du code de votre appareil. 
 La personne choisie doit avoir au moins 13 ans et posséder un appareil Apple.
 (Et avoir activé iMessage, ce qui n’est pas indiqué sur cet écran)
 
-![Capture d´écran Réglages / Identifiant Apple / Sécurité / Contact de Récupération]
-
+{% include picture.html img=page.images.Capture-Reglages-Contact-Recuperation %}
 
 #### Obtenir une clé de secours
 
@@ -334,7 +397,7 @@ C´est donc plus risqué que de définir un ou plusieurs contacts de récupérat
 
 L’activation de la Protection Avancée des Données iCloud ne peut pas se faire sur un appareil qui a été récemment rajouté à la liste des appareils de confiance. Apparemment, il faudra patienter un délai de 45 jours.
 
-![Capture d´écran Réglages / Identifiant Apple / Sécurité / Protection Avancée des Données iCloud Pas Disponible]
+{% include picture.html img=page.images.Capture-Reglages-ADP-NA %}
 
 Ceci est une mesure de protection pour éviter que quelqu'un rajoute un appareil à votre liste d'appareil de confiance pour ensuite activer la Protection Avancée des Données iCloud et vous priver ainsi de la possibilité d'accéder à vos données.
 
@@ -344,7 +407,7 @@ En mettant un délai de 45 jours, Apple vous donne le temps de voir qu'un intru 
 L’activation de la Protection Avancée des Données iCloud dépendra également de la région à laquelle votre identifiant est lié. 
 En effet, l’activation ne sera possible cette année 2022 que aux États-Unis. Les autres pays suivront progressivement au début 2023.
 
-![Capture d´écran Réglages / Identifiant Apple / Sécurité / Activer la Protection Avancée des Données]
+{% include picture.html img=page.images.Capture-Reglages-PAD %}
 
 En attendant que cela soit disponible dans votre région, vous pouvez déjà prendre le temps de vérifier que toutes les autres conditîons soient remplies.
 
@@ -380,25 +443,25 @@ Si l’accès à vos données iCloud sur le web est désactivé, voilà le genre
 > vous devrez activer l’accès sur le web 
 > dans les réglages iCloud de votre appareil.
 
-![Capture d´écran de la page iCloud.com lorsque l´accès aux données est désactivé]
+{% include picture.html img=page.images.Capture-iCloud-Acces-Desactive %}
 
 Vous noterez qu’aucun lien depuis cette page vous permet d’arriver sur la page pour localiser vos appareils.
 
 Mais rassurez vous, la page {% include link.html link=page.liens.iCloud-find %} est toujours bien accessible et disponible pour retrouver vos appareils.
 
-![Capture d´écran iCloud.com/find]
+{% include picture.html img=page.images.Capture-iCloud-Find %}
 
 ### Possibilité de réactiver l'accès aux données iCloud via le web.
 
 Apple offre la possibilité de réactiver l'accès aux données iCloud via le web.
 
-[Capture d´écran Réglages / Identifiant Apple / iCloud / Accès Données iCloud sur le web activé]
+{% include picture.html img=pCapture-Reglages-Acces-Donnees-iCloud %}
 
-![Capture d´écran Réglages / Identifiant Apple / iCloud / Confirmation Accès Données iCloud sur le web]
+{% include picture.html img=page.images.Capture-Reglages-Confirmation-Acces-Donnees-iCloud %}
 
 Mais il faut alors être conscient de plusieurs points :
 
-![Capture d´écran iCloud.com où il est demandé de se fier au navigateur]
+{% include picture.html img=page.images.Capture-iCloud-Se-Fier %}
 
 1. il vous faudra toujours confirmer l’accès à l’aide d’un de vos appareils de confiance. (Plus moyen de se fier au navigateur, comme c’était le cas jusqu’à présent)
 
@@ -461,9 +524,9 @@ vous pouvez demander l’obtention d’une copie des données suivantes :
 16. Photos iCloud
 17. Tap to Pay on iPhone
 
-![Capture d´écran privacy.apple.com où l´accès à iCloud.com est activé]
+{% include picture.html img=page.images.privacy-avant-activation-PAD-1 %}
 
-![Capture d´écran privacy.apple.com où l´accès à iCloud.com est activé suite]
+{% include picture.html img=page.images.privacy-avant-activation-PAD-2 %}
 
 Si l’accès aux données iCloud via web est **désactivé**, 
 ainsi que la Protection Avancée des Données iCloud, 
@@ -477,11 +540,12 @@ vous ne pourrez plus demander l’obtention d’une copie pour :
 15. Mail iCloud
 16. Photos iCloud
 
-![Capture d´écran privacy.apple.com où l´accès à iCloud.com est désactivé]
 
-![Capture d´écran privacy.apple.com où l´accès à iCloud.com est désactivé suite]
+{% include picture.html img=page.images.privacy-apres-activation-PAD-1 %}
 
-![Tableau Obtention Copie Données via privacy.apple.com]
+{% include picture.html img=page.images.privacy-apres-activation-PAD-2 %}
+
+{% include picture.html img=page.images.Tableau-Obtenir-Copie-Donnees %}
 
 Si l'accès aux données iCloud via web est **activé** 
 et que la Protection Avancée des Données iCloud est **activée**, 
@@ -517,31 +581,3 @@ J'espère pouvoir tester cela une fois que ce sera disponible dans la région o�
 Merci à Laurent @lolopb, Julien @_JuCos, David @SaezDavid, Audrey @AudreyCouleau et Sylvain @sgamel pour leur retour, aide, encouragements, qui a permi d´avoir le document que vous lisez.
 
 N´hésitez pas à me contacter sur Twitter : @MarcosIckx
-
-
-[Capture d´écran Réglages / Identifiant Apple / Sécurité / Authentification à deux facteurs]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Capture-Reglages-2FA.png "Capture d´écran de la page Réglages / Identifiant / Sécurité / Authentification à deux facteurs sous iPadOS"
-
-[Capture d´écran Réglages / Identifiant Apple / Sécurité / Récupération de Compte]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Capture-Reglages-Recuperation-Compte.png "Capture d´écran Réglages / Identifiant Apple / Sécurité / Récupération de Compte où l´on est invité à rajouter un contact ou utiliser une clé de secours"
-[Capture d´écran Réglages / Identifiant Apple / Sécurité / fenêtre Ajout Contact de Récupération]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Capture-Reglages-Ajout-Contact-Recuperation.png "Capture d´écran Réglages / Identifiant Apple / Sécurité  / fenêtre Ajout Contact de Récupération où l'on peut choisir entre les membres de la famille déjà connus ou alors de choisir une autre personne."
-[Capture d´écran Réglages / Identifiant Apple / Sécurité / Contact de Récupération]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Capture-Reglages-Contact-Recuperation.png "Capture de l´écran récapitulatif de Réglages / Identifiant Apple / Sécurité / Contact de Récupération qui rappelle que cette personne de confiance n´aura pas accès à vos données mais pourra vous aider à récupérer l´accès à vos données."
-
-[Capture d´écran Réglages / Identifiant Apple / Sécurité / Protection Avancée des Données iCloud Pas Disponible]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Capture-Reglages-ADP-NA.png "Capture d'écran Réglages / Identifiant Apple / Sécurité indiquant que la  Protection Avancée des Données iCloud n´est pas disponible car l´appareil a été rajouté trop récemment dans la liste des appareils de confiance"
-
-[Capture d´écran Réglages / Identifiant Apple / Sécurité / Activer la Protection Avancée des Données]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Capture-Reglages-PAD.png "Capture d´écran Réglages / Identifiant Aplle / Sécurité / Activer la Protection Avancée des Données où il est rappelé que celle-ci n´est pas encore disponible dans votre pays ou région"
-
-[Capture d´écran de la page iCloud.com lorsque l´accès aux données est désactivé]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Capture-iCloud-Acces-Desactive.png "Capture d´écran de la page iCloud.com lorsque l´accès aux données est désactivé. on y lit ceci : Bonsoir, vous avez désactivé la fonctionnalité Accéder aux données iCloud sur le Web. Pour accéder aux données sur iCloud.com, vous devrez activer l’accès sur le web dans les réglages iCloud de votre appareil."
-
-[Capture d´écran iCloud.com/find]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Capture-iCloud-Find.png "Capture d'écran de la page web iCloud.com/find qui permet de retrouver ses appareils sur la carte du monde"
-
-[Capture d´écran Réglages / Identifiant Apple / iCloud / Accès Données iCloud sur le web activé]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Capture-Reglages-Acces-Donnees-iCloud.png "Capture d´écran de Réglages / Identifiant Apple / iCloud où l´on voit que l´option Accès Données iCloud sur le web est activée"
-[Capture d´écran Réglages / Identifiant Apple / iCloud / Confirmation Accès Données iCloud sur le web]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Capture-Reglages-Confirmation-Acces-Donnees-iCloud.png "Capture d´écran Réglages / Identifiant Apple / iCloud / demande de confirmation d´activer l´accès aux données iCloud sur le web"
-
-[Capture d´écran iCloud.com où il est demandé de se fier au navigateur]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Capture-iCloud-Se-Fier.png "Capture d´écran iCloud.com où il est demandé de se fier au navigateur. Si on s'y fie, il ne faudra plus saisir de code de calidation lors de la prochaine connexion."
-
-[Capture d´écran privacy.apple.com où l´accès à iCloud.com est activé]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/privacy-avant-activation-PAD-1.png "Capture d´écran privacy.apple.com où l´accès à iCloud.com est activé"
-[Capture d´écran privacy.apple.com où l´accès à iCloud.com est activé suite]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/privacy-avant-activation-PAD-2.png "Capture d´écran privacy.apple.com où l´accès à iCloud.com est activé suite"
-
-[Capture d´écran privacy.apple.com où l´accès à iCloud.com est désactivé]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/privacy-apres-activation-PAD-1.png "Capture d´écran privacy.apple.com où l´accès à iCloud.com est désactivé"
-[Capture d´écran privacy.apple.com où l´accès à iCloud.com est désactivé suite]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/privacy-apres-activation-PAD-2.png "Capture d´écran privacy.apple.com où l´accès à iCloud.com est déactivé suite"
-
-[Tableau Obtention Copie Données via privacy.apple.com]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Tableau-Obtenir-Copie-Donnees.png "Tableau qui résume quelles sont les données pour lesquelles on peut ontenir une copie selon que l´accès aux données iCloud via le web esr activé ou pas"
