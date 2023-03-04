@@ -6,6 +6,7 @@ date: 2022-12-17
 update: 2023-02-05
 image:
   url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Protection-Avancee-des-Donnees.png
+
 liens:
   Source-Apple-1: 
     url: https://support.apple.com/fr-fr/guide/security/sec973254c5f/web 
@@ -31,6 +32,27 @@ liens:
     url: https://support.apple.com/fr-fr/HT208072 
     title: "Lien vers la page de support Apple Comment Générer une clé de secours"
     alt: Comment Générer une clé de secours
+  Formation-Identifiant-AudreyCouleau:
+    url: https://www.appleavecaudrey.fr/view/courses/identifiant-apple-gratuit 
+    title: "Lien vers le tutoriel gratuit de Audrey Couleau concernant l'identifiant Apple, et où est abordé l'authentification à deux facteurs"
+    alt: "Formation Gratuite : Tout savoir sur votre identifiant Apple, par Audrey Couleau"
+  Twitter-Fil-MarcosIckx: 
+    url: https://twitter.com/marcosickx/status/1603786967396880395 
+    title: "Lien vers le fil Twitter, agrémenté d´images et captures d´écran où vous retrouverez ce qui a donné naissance à cet article"
+    alt: Le fil Twitter, agrémenté d´images et captures d´écran où vous retrouverez ce qui a donné naissance à cet article"
+  iCloud: 
+    url: https://icloud.com 
+    title: "La page principale du site iCloud"
+    alt: iCloud.com
+  iCloud-find: 
+    url: https://icloud.com/find/ 
+    title: "La page de iCloud permettant de retrouver ses appareils liés à son identifiant Apple"
+    alt: "icloud.com/find/"
+  privacy-apple-com:
+    url: https://privacy.apple.com 
+    title: "La page d´Apple consacrée aux données et à la confidentialité"
+    alt: "privacy.apple.com"
+
 videos:
   - id: animation-cles-PAD
     url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/animation-cles-PAD.mp4
@@ -298,18 +320,18 @@ En attendant que cela soit disponible dans votre région, vous pouvez déjà pre
 Ainsi, le jour où l'activation de la Protection Avancée des Données sera possible, vous n'aurez qu'à l'activer.
 
 
-## La Protection Avancée des Données et [iCloud.com]
+## La Protection Avancée des Données et {% include link.html link=page.liens.iCloud %}
 
 {% include video.html 
     videoNr=1
 %}
 
 ### L'accès aux Données iCloud sur le web désactivé par défaut
-Il est important de savoir que lorsque la Protection Avancée des Données [iCloud] est activée, l'accès aux données iCloud sur le web sera également désactivé.
+Il est important de savoir que lorsque la Protection Avancée des Données {% include link.html link=page.liens.iCloud %} est activée, l'accès aux données iCloud sur le web sera également désactivé.
 
-Cela signifie que si vous, ou quelqu'un d'autre, vous connecter sur [iCloud.com] à l'aide de votre identifiant Apple, vous ne pourrez pas accéder à vos données iCloud.
+Cela signifie que si vous, ou quelqu'un d'autre, vous connecter sur {% include link.html link=page.liens.iCloud %} à l'aide de votre identifiant Apple, vous ne pourrez pas accéder à vos données iCloud.
 
-Si vous avez l´habitude de vous connecter sur [iCloud.com] pour accéder à vos données iCloud depuis un ordinateur distant, vous désirerez très certainement réactiver l'accès à vos données iCloud sur le web.
+Si vous avez l´habitude de vous connecter sur {% include link.html link=page.liens.iCloud %} pour accéder à vos données iCloud depuis un ordinateur distant, vous désirerez très certainement réactiver l'accès à vos données iCloud sur le web.
 
 Il est intéressant de noter que depuis iOS 16.2, iPadOS 16.2 ou macOS Ventura 13.1, vous pouvez désactiver par vous-même l'accès à vos données iCloud sur le web, sans être obligé d'activer la Protection Avancée des Données iCloud.
 
@@ -317,13 +339,13 @@ Il est intéressant de noter que depuis iOS 16.2, iPadOS 16.2 ou macOS Ventura 1
 Mais ça permet de réduire les possibilités de vols de données à distance.
 
 
-Si l’accès à vos données iCloud sur le web est désactivé, voilà le genre de message que vous verrez lorsque vous vous connecterez à votre compte via [iCloud.com].
+Si l’accès à vos données iCloud sur le web est désactivé, voilà le genre de message que vous verrez lorsque vous vous connecterez à votre compte via {% include link.html link=page.liens.iCloud %}.
 
 > **Bonsoir**,
 >    **Vous avez désactivé la fonctionnalité 
 >    accéder aux données iCloud sur le web.**
 > 
-> Pour accéder aux données sur [iCloud.com], 
+> Pour accéder aux données sur {% include link.html link=page.liens.iCloud %}, 
 > vous devrez activer l’accès sur le web 
 > dans les réglages iCloud de votre appareil.
 
@@ -331,7 +353,7 @@ Si l’accès à vos données iCloud sur le web est désactivé, voilà le genre
 
 Vous noterez qu’aucun lien depuis cette page vous permet d’arriver sur la page pour localiser vos appareils.
 
-Mais rassurez vous, la page [icloud.com/find/] est toujours bien accessible et disponible pour retrouver vos appareils.
+Mais rassurez vous, la page {% include link.html link=page.liens.iCloud-find %} est toujours bien accessible et disponible pour retrouver vos appareils.
 
 ![Capture d´écran iCloud.com/find]
 
@@ -351,7 +373,7 @@ Mais il faut alors être conscient de plusieurs points :
 
 2. Il faudra que cet appareil de confiance soit connecté à internet durant toute l’heure qui suit (sic) pour permettre aux serveurs d’Apple d'y récupérer les clés de service appropriées.
 
-Ces clés de services serviront à [iCloud.com] à déchiffrer le document pour pouvoir ensuite vous le présenter dans le navigateur.
+Ces clés de services serviront à {% include link.html link=page.liens.iCloud %} à déchiffrer le document pour pouvoir ensuite vous le présenter dans le navigateur.
 
 ### Le chiffrement de bout en bout pas toujours garantit
 
@@ -372,11 +394,11 @@ Par exemple :
 Mais quid de la bibliothèque photo partagée ? Je n’ai pas trouvé de réponse pour le moment à ce sujet.
 
 
-## La Protection Avancée des Données iCloud et [privacy.apple.com]
+## La Protection Avancée des Données iCloud et {% include link.html link=page.liens.privacy-apple-com %}
 
 Si vous avez désactivé l’accès à vos données iCloud sur le web, 
 vous n’aurez plus la possibilité d’obtenir une copie de 
-toutes vos données iCloud via la page [privacy.apple.com].
+toutes vos données iCloud via la page {% include link.html link=page.liens.privacy-apple-com %}.
 
 Et ce, méme si la Protection Avancée des Données iCloud n'a pas été activée, 
 
@@ -448,48 +470,22 @@ J'espère pouvoir tester cela une fois que ce sera disponible dans la région o�
 ## Sources Apple
 
 1. {% include link.html link=page.liens.Source-Apple-1 %}
-1. {% include link.html link=page.liens.Source-Apple-2 %}
-1. {% include link.html link=page.liens.Source-Apple-3 %}
-1. {% include link.html link=page.liens.Source-Apple-4 %}
-1. {% include link.html link=page.liens.Source-Apple-5 %}
-1. {% include link.html link=page.liens.Source-Apple-6 %}
-
-
-
-
+2. {% include link.html link=page.liens.Source-Apple-2 %}
+3. {% include link.html link=page.liens.Source-Apple-3 %}
+4. {% include link.html link=page.liens.Source-Apple-4 %}
+5. {% include link.html link=page.liens.Source-Apple-5 %}
+6. {% include link.html link=page.liens.Source-Apple-6 %}
 
 ## Liens Utiles
 
-1. [Formation Gratuite : Tout savoir sur votre identifiant Apple, par Audrey Couleau][Formation-Identifiant-AudreyCouleau]
-2. [Le fil Twitter, agrémenté d´images et captures d´écran où vous retrouverez ce qui a donné naissance à cet article][Twitter-Fil-MarcosIckx]
+1. {% include link.html link=page.liens.Formation-Identifiant-AudreyCouleau %}
+2. {% include link.html link=page.liens.Twitter-Fil-MarcosIckx %}
 
 ## Remerciements
 
 Merci à Laurent @lolopb, Julien @_JuCos, David @SaezDavid, Audrey @AudreyCouleau et Sylvain @sgamel pour leur retour, aide, encouragements, qui a permi d´avoir le document que vous lisez.
 
 N´hésitez pas à me contacter sur Twitter : @MarcosIckx
-
-
-[Formation-Identifiant-AudreyCouleau]: https://www.appleavecaudrey.fr/view/courses/identifiant-apple-gratuit "Lien vers le tutoriel gratuit de Audrey Couleau concernant l'identifiant Apple, et où est abordé l'authentification à deux facteurs"
-
-[Twitter-Fil-MarcosIckx]: https://twitter.com/marcosickx/status/1603786967396880395 "Lien vers le fil Twitter, agrémenté d´images et captures d´écran où vous retrouverez ce qui a donné naissance à cet article"
-
-[Source-Apple-1]: https://support.apple.com/fr-fr/guide/security/sec973254c5f/web "Liens vers la page du guide de sécurité concernant Protection Avancée des Données iCloud"
-[Source-Apple-2]: https://support.apple.com/fr-fr/HT202303 "Lien vers la page de support Apple Présentation de la sécurité des données iCloud"
-[Source-Apple-3]: https://support.apple.com/fr-fr/HT212523 "Lien vers la page de support Apple Gérer l’accès à vos données iCloud sur le Web"
-[Source-Apple-4]: https://support.apple.com/fr-fr/HT204915 "Lien vers la page de support Apple Identification à deux facteurs pour l’identifiant Apple"
-[Source-Apple-5]: https://support.apple.com/fr-fr/HT212513 "Lien vers la page de support Apple Créer un contact de récupération de compte"
-[Source-Apple-6]: https://support.apple.com/fr-fr/HT208072 "Lien vers la page de support Apple Comment Générer une clé de secours"
-
-[Laurent]: https://twitter.com/lolopb "Le compte Twitter de Laurent"
-[David]: https://twitter.com/DavTechFr "Le'compte Twitter de David"
-[Julien]: https://twitter.com/_JuCos_ "Le commpte Twitter de Julien"
-[Sylvain]: https://twitter.com/sgamel "Le compte Twitter de Sylvain Gamel"
-[MarcosIckx]: https://twitter.com/MarcosIckx "Le compte Twitter de Marcos Ickx"
-
-[iCloud.com]: https://icloud.com "La page principale de iCloud"
-[iCloud.com/find/]: https://icloud.com/find/ "La page de iCloud permettant de retrouver ses appareils liés à son identifiant Apple"
-[privacy.apple.com]: https://privacy.apple.com "La page d´Apple consacrée aux données et à la confidentialité"
 
 
 [Protection Standard des Données]: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Protection-Standard-des-Donnees.png "Image servant à illustrer le fait que les clefs pour déchiffrer les données iCloud sont stockées sur les serveurs d'Apple"
