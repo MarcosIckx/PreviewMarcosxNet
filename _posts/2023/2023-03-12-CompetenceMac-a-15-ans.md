@@ -10,17 +10,17 @@ tags: [Compétence Mac, Léopard ]
 category: Magazines
 pictures_base_url: /img/posts/2023/03/12/15-ans-competence-mac/
 images:
-  img-1: 
+  img-1:
     url: Couverture-CompetenceMac-1.jpg
-    alt: Couverture du numéro 1 de Compétence Mac
-    title: Couverture du numéro 1 de Compétence Mac
-   img-2: 
+    alt: "Couverture du numéro 1 de Compétence Mac"
+    title: "Couverture du numéro 1 de Compétence Mac"
+  img-2:
     url: CM1-16.png
-    alt: Miniatures des couvertures des numéros 1 à 16
-   img-3: 
+    alt: "Miniatures des couvertures des numéros 1 à 16"
+  img-3:
     url: CM17-32.png
     alt: Miniatures des couvertures des numéros 17 à 32
-   img-4: 
+  img-4:
     url: CM33-48.png
     alt: Miniatures des couvertures des numéros 33 à 48
 links:
@@ -35,8 +35,6 @@ links:
 Il y a 15 ans, le 12 mars 2008, sortait en kiosque le tout premier numéro de @Competencemac.
 
 Depuis lors, pas mal de numéros ont été publiés, puisqu´en avril sort le numéro 80.
-
-
 
 {% include picture.html img=page.images.img-2 %}
 {% include picture.html img=page.images.img-3 %}
