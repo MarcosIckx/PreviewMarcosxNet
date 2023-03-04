@@ -57,6 +57,22 @@ images:
     id: Miniature-saezdavid-2-fois-16-pages
     url: /img/posts/2022/10/31/Module-Impression-iOS16/Miniature-David-2-fois-16-pages.jpeg 
     title: "Miniature de l'impresssion des vignette de David Saez on l'on a au final 2 blocs de 16 pages sur une feuille A4."
+liens:
+   livre-bonus-ggete:
+     id: livre-bonus-ggete
+     alt: un livre bonus
+     url: https://blog.gete.net/2019/02/07/livre-bonus-macos-70-astuces-en-stock-option/ 
+     title: "LIVRE BONUS : MACOS, 70 ASTUCES EN STOCK… OPTION, de Guillaume Gete"
+   historique-vvmac:
+     id: historique-vvmac
+     alt: l´historique du site VVmac hebdo
+     url: https://www.vvmac.com/pages/historique.php 
+     title: "historique des numéros de VVMac hebdo"
+   vvmac-10:
+     id: vvmac-10
+     alt: le numéro 10 de VVMac hebdo
+     url: https://www.vvmac.com/pages/LL_NUMEROS/01028378427466324787/VVMac_hebdo_010.pdf 
+     title: "VVMac hebdo numéro 10, disponible gratuitement" 
 tags: [Imprimante, iOS16, iPadOS16]
 category: AirPrint
 ---
@@ -112,7 +128,7 @@ On a le choix entre :
 
 ### Exemple avec un PDF de Guillaume Gete
 Du coup, ca permet d´avoir, sur quelques feuilles, l'idée générale d´un document sans pour autant que les personnes puissent vraiment lire le contenu.
-Voici ce que cela donne avec [un livre bonus] de [@ggete]
+Voici ce que cela donne avec {% include link.html link=page.liens.livre-bonus-ggete %} de @ggete.
 
 Ci-dessous, le même fichier mais où on a demandé d’avoir 9 pages sur une feuille.
 Ça donne 3 rangées de 3 pages sur une feuille A4 en portrait.
@@ -134,24 +150,24 @@ Vu que le document n´a que 8 pages, on a donc sur une feuille A4 en mode portra
 
 ### Exemple avec le numéro 10 de VVMac
 
-Voici un autre exemple avec [le numéro 10 de VVMac hebdo], numéro consacré aux Mac M1, que vous pouvez télécharger gratuitement depuis [l´historique du site VVmac hebdo] de [@VVMAC_FR]
+Voici un autre exemple avec {% include link.html link=page.liens.vvmac-10 %}, numéro consacré aux Mac M1, que vous pouvez télécharger gratuitement depuis {% include link.html link=page.liens.historique-vvmac %} de @VVMAC_FR.
 
 Ci-dessous, capture d’écran du PDF obtenu après avoir passé le numéro 010 de VVMac hebdo, que vous pouvez télécharger gratuitement depuis 
-[l´historique du site VVmac hebdo]
+{% include link.html link=page.liens.historique-vvmac %}
 La premier fois que je le fais passer par le module d’impression, je choisi 9 pages par feuille, sans bordure.
 Le résultat, je le fais passer une deuxième fois par le module d’impression, avec 2 pages par feuille.
 Le résultat est 17 pages en miniatures tenant sur une seule feuille A4, ce qui donne une idée assez précise de l’ensemble de l’hebdo sans qu’on puisse vraiment lire le contenu.
 
 {% include picture.html img=page.images.Miniature-VVMac-hebdo-10-2-fois-9-pages %}
 
-Ci-dessous, capture d’écran du PDF obtenu après avoir passé le numéro 010 de VVMac hebdo, que vous pouvez télécharger gratuitement depuis [l´historique du site VVmac hebdo]
+Ci-dessous, capture d’écran du PDF obtenu après avoir passé le numéro 010 de VVMac hebdo, que vous pouvez télécharger gratuitement depuis {% include link.html link=page.liens.historique-vvmac %}
 La premier fois que je le fais passer par le module d’impression, je choisi 16 pages par feuille, sans bordure.
 Le résultat, je le fais passer une deuxième fois par le module d’impression, avec 2 pages par feuille.
 Le résultat est 17 pages en miniatures tenant sur une seule feuille A4, ce qui donne une idée assez précise de l’ensemble de l’hebdo sans qu’on puisse vraiment lire le contenu.
 
 {% include picture.html img=page.images.Miniature-VVMac-hebdo-10-2-fois-16-pages %}
 
-Ci-dessous, capture d’écran du PDF obtenu après avoir passé le numéro 010 de VVMac hebdo, que vous pouvez télécharger gratuitement depuis [l´historique du site VVmac hebdo]
+Ci-dessous, capture d’écran du PDF obtenu après avoir passé le numéro 010 de VVMac hebdo, que vous pouvez télécharger gratuitement depuis {% include link.html link=page.liens.historique-vvmac %}
 Je le fais passer par le module d’impression, je choisi 16 pages par feuille, avec bordure.
 Le résultat est 17 pages en miniatures tenant sur deux feuille A4, mais ci-dessous on ne voit que la premiere feuille.
 
@@ -160,12 +176,12 @@ Le résultat est 17 pages en miniatures tenant sur deux feuille A4, mais ci-dess
 
 ### Exemple avec les vignettes du podcast de iWeek La Semaine Apple
 
-Ici, ce sont quelques vignettes des numéros de [@iWeekNews] #iweekLQI et [@iFiveFR] qui grâce au nouveau module d’impression ont été regroupée en planche sur une page A4.
+Ici, ce sont quelques vignettes des numéros de @iWeekNews #iweekLQI et @iFiveFR qui grâce au nouveau module d’impression ont été regroupée en planche sur une page A4.
 
 {% include picture.html img=page.images.Miniature-iWeekNews-4-fois-16-pages %}
 
 ### Exemple avec les vignettes du podcast de David Saez
-Un dernier exemple avec les vignettes de [@saezdavid]
+Un dernier exemple avec les vignettes de @saezdavid
 
 ci-dessous, 32 vignettes sauvegardées dans ma photothèque et que j’ai fait passé par le module d’impression pour obtenir cette planche.
 On fait d´abord l´impression des photos qu´on repasse dans le module d´impression poir avoor 16 pages par feuille et ensuite 2 pages par feuille. Et voilà le resultat.
@@ -182,13 +198,4 @@ Et voilà la capture d’écran de la planche qu’on obtient à l’arrivée.
 Et vous, que pensez-vous du nouveau module d´impression d´iOS16 / iPadOS 16 ?
 
 
-[un livre bonus]: https://blog.gete.net/2019/02/07/livre-bonus-macos-70-astuces-en-stock-option/ "LIVRE BONUS : MACOS, 70 ASTUCES EN STOCK… OPTION, de Guillaume Gete"
-[l´historique du site VVmac hebdo]: https://www.vvmac.com/pages/historique.php "historique des numéros de VVMac hebdo"
-[le numéro 10 de VVMac hebdo]: https://www.vvmac.com/pages/LL_NUMEROS/01028378427466324787/VVMac_hebdo_010.pdf "VVMac hebdo numéro 10, disponible gratuitement"
 
-
-[@ggete]: https://twitter.com/ggete "Le compte Twitter de Guillaume Gete"
-[@VVMAC_FR]: https://twitter.com/VVMAC_FR "Le compte Twitter de VVMac hebdo"
-[@iWeekNews]: https://twitter.com/iWeekNews "Le compte Twitter de iWeek, la semaine Apple, et iWeek, la quotidienne iWeek"
-[@iFiveFR]: https://twitter.com/iFiveFR "Le compte Twitter de iFive, ancien nom de la quotidienne iWeek"
-[@saezdavid]: https://twitter.com/SaezDavid "Le compte Twitter de David Saez, podcasteur de « C'est Pour Ma Pomme »"
