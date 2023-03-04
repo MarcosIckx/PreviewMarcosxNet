@@ -1,7 +1,10 @@
 ---
 title: Rapport otherLinks
 ---
-
+{% assign postUrlList = "" | split: "," %}
+{% for post in site.posts %}
+  {% assign postUrlList = postUrlList | push: post.url %}
+{% endfor %}
 
 {% for post in site.posts %}
   {% if post.otherLinks %}
