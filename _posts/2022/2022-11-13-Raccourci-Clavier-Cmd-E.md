@@ -11,7 +11,7 @@ image:
   url: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Accroche-Raccourci-Clavier-Cmd-E.png
 liens:
   LarryTesler-1: 
-    id: LarryTesler-1: 
+    id: LarryTesler-1
     url: https://www.macg.co/ailleurs/2020/02/deces-de-larry-tesler-lhomme-qui-naimait-pas-les-modes-112053 
     title: "Larry Tesler : l’homme qui n’aimait pas les modes"
     alt: "Larry Tesler : l’homme qui n’aimait pas les modes"
