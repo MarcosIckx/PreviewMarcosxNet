@@ -6,6 +6,31 @@ date: 2022-12-17
 update: 2023-02-05
 image:
   url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/Protection-Avancee-des-Donnees.png
+liens:
+  Source-Apple-1: 
+    url: https://support.apple.com/fr-fr/guide/security/sec973254c5f/web 
+    title: "Liens vers la page du guide de sécurité concernant Protection Avancée des Données iCloud"
+    alt: Protection Avancée des Données iCloud
+  Source-Apple-2: 
+    url: https://support.apple.com/fr-fr/HT202303 
+    title: "Lien vers la page de support Apple Présentation de la sécurité des données iCloud"
+    alt: Présentation de la sécurité des données iCloud
+  Source-Apple-3:
+    url: https://support.apple.com/fr-fr/HT212523 
+    title: "Lien vers la page de support Apple Gérer l’accès à vos données iCloud sur le Web"
+    alt: Gérer l’accès à vos données iCloud sur le Web
+  Source-Apple-4: 
+    url: https://support.apple.com/fr-fr/HT204915 
+    title: "Lien vers la page de support Apple Identification à deux facteurs pour l’identifiant Apple"
+    alt: Identification à deux facteurs pour l’identifiant Apple
+  Source-Apple-5: 
+    url: https://support.apple.com/fr-fr/HT212513 
+    title: "Lien vers la page de support Apple Créer un contact de récupération de compte"
+    alt: Créer un contact de récupération de compte
+  Source-Apple-6:
+    url: https://support.apple.com/fr-fr/HT208072 
+    title: "Lien vers la page de support Apple Comment Générer une clé de secours"
+    alt: Comment Générer une clé de secours
 videos:
   - id: animation-cles-PAD
     url: /img/posts/2022/12/17/Protection-Avancee-Des-Donnees/animation-cles-PAD.mp4
@@ -191,7 +216,7 @@ Mais c’est déjà une obligation pour pouvoir activer l'identification à deux
 ![Capture d´écran Réglages / Identifiant Apple / Sécurité / Authentification à deux facteurs]
 
 
-P.S. si vous désirez en savoir plus votre identifiant Apple et la double authentification, la formation, offerte gratuitement par [@AudreyCouleau][Audrey], vous sera d'une grande utilité.
+P.S. si vous désirez en savoir plus votre identifiant Apple et la double authentification, la formation, offerte gratuitement par @AudreyCouleau, vous sera d'une grande utilité.
 
 [![Formation Gratuite Identifiant Apple par Audrey Couleau]][Formation-Identifiant-AudreyCouleau]
 
@@ -422,12 +447,12 @@ J'espère pouvoir tester cela une fois que ce sera disponible dans la région o�
 
 ## Sources Apple
 
-1. [Protection Avancée des Données iCloud][Source-Apple-1]
-2. [Présentation de la sécurité des données iCloud][Source-Apple-2]
-3. [Gérer l’accès à vos données iCloud sur le Web][Source-Apple-3]
-4. [Identification à deux facteurs pour l’identifiant Apple][Source-Apple-4]
-5. [Créer un contact de récupération de compte][Source-Apple-5]
-6. [Comment Générer une clé de secours] [Source-Apple-6]
+1. {% include link.html link=page.liens.Source-Apple-1 %}
+1. {% include link.html link=page.liens.Source-Apple-2 %}
+1. {% include link.html link=page.liens.Source-Apple-3 %}
+1. {% include link.html link=page.liens.Source-Apple-4 %}
+1. {% include link.html link=page.liens.Source-Apple-5 %}
+1. {% include link.html link=page.liens.Source-Apple-6 %}
 
 
 
@@ -440,9 +465,9 @@ J'espère pouvoir tester cela une fois que ce sera disponible dans la région o�
 
 ## Remerciements
 
-Merci à [Laurent], [Julien], [David], [Audrey] et [Sylvain] pour leur retour, aide, encouragements, qui a permi d´avoir le document que vous lisez.
+Merci à Laurent @lolopb, Julien @_JuCos, David @SaezDavid, Audrey @AudreyCouleau et Sylvain @sgamel pour leur retour, aide, encouragements, qui a permi d´avoir le document que vous lisez.
 
-[N´hésitez pas à me contacter sur Twitter][MarcosIckx]
+N´hésitez pas à me contacter sur Twitter : @MarcosIckx
 
 
 [Formation-Identifiant-AudreyCouleau]: https://www.appleavecaudrey.fr/view/courses/identifiant-apple-gratuit "Lien vers le tutoriel gratuit de Audrey Couleau concernant l'identifiant Apple, et où est abordé l'authentification à deux facteurs"
@@ -459,7 +484,6 @@ Merci à [Laurent], [Julien], [David], [Audrey] et [Sylvain] pour leur retour, a
 [Laurent]: https://twitter.com/lolopb "Le compte Twitter de Laurent"
 [David]: https://twitter.com/DavTechFr "Le'compte Twitter de David"
 [Julien]: https://twitter.com/_JuCos_ "Le commpte Twitter de Julien"
-[Audrey]: https://twitter.com/AudreyCouleau "Le compte Twitter de Audrey Couleau"
 [Sylvain]: https://twitter.com/sgamel "Le compte Twitter de Sylvain Gamel"
 [MarcosIckx]: https://twitter.com/MarcosIckx "Le compte Twitter de Marcos Ickx"
 
