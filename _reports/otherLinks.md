@@ -8,7 +8,7 @@ title: Rapport otherLinks
 ## {{ post.url }}
     {% for link in post.otherLinks %}
 ### {{ link.title }}
-      {% assign last = link.url | split "/" | last %}
+      {% assign last = link.url | split: "/" | last %}
 compare {{ last }} 
       {% if last == "" %}
 ✅{{link.url}}
