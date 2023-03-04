@@ -13,9 +13,9 @@ title: Rapport liens mentionnés dans post mais non trouvés
   {% for link in links %}
     {% assign linkUrl = link.last.url | default: link.url %}
     {% assign firstPartOfUrl = linkUrl | split:"/" | first %}
-    {% if firstPartOfUrl = "" # relative url. So, should be a post or a page %}
+    {% if firstPartOfUrl == "" # relative url. So, should be a post or a page %}
       {% assign lastPartOfUrl = linkUrl | split:"/" | last %}
-      {% if lastPartOfUrl = "" # ok. we should never mention something else. %}
+      {% if lastPartOfUrl == "" # ok. we should never mention something else. %}
       {% else %}
         ❌ relative url is not finishing by /. please take action to fix it.
       {% endif %}
