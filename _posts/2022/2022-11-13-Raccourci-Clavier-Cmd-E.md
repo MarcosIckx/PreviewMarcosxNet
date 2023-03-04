@@ -9,6 +9,46 @@ category: Raccourcis Clavier
 epingle: 1
 image:
   url: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Accroche-Raccourci-Clavier-Cmd-E.png
+liens:
+  LarryTesler-1: 
+    id: LarryTesler-1: 
+    url: https://www.macg.co/ailleurs/2020/02/deces-de-larry-tesler-lhomme-qui-naimait-pas-les-modes-112053 
+    title: "Larry Tesler : l’homme qui n’aimait pas les modes"
+    alt: "Larry Tesler : l’homme qui n’aimait pas les modes"
+  LarryTesler-2: 
+    id: LarryTesler-2
+    url: https://www.macg.co/ailleurs/2020/02/1985-quand-larry-tesler-racontait-laventure-du-lisa-112057 
+    title: "1985 : Quand Larry Tesler raccontait l’aventure du Lisa"
+    alt: "1985 : Quand Larry Tesler raccontait l’aventure du Lisa"
+images:
+  img-1: 
+    alt: Un raccourci clavier qui gagne à être connu
+    url: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Accroche-Raccourci-Clavier-Cmd-E.png 
+    title: "Command-E : Un raccourci clavier qui gagne à être connu"
+  img-2:
+    alt: Capture d´écran d´une note dans l´app Notes où on a un texte avec des occurences de pom-E. Le but étant de remplacer certaines de ces occurrences par cmd-E.
+    url: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Raccourci-clavier-Notes-1.png 
+    title: "Capture d´écran de l´app Notes avec menu contextuel"
+  img-3:
+    alt: Capture d´écran de la fenêtre Rechercher sous iOS 15
+    url: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Rechercher-Remplacer-1.png
+    title: "Capture d´écran de la fenêtre Rechercher sous iOS 15. Avec les fleches Haut et Bas situées à gauche pour rechercher l´occurrence précédente ou suivante. On y voit aussi le nombre d´occurrences trouvées, et le texte recherché. À droite, le bouton OK"
+  img-4:
+    alt: Menu Contextuel Rechercher la sélection
+    url: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Rechercher-Remplacer-2.png 
+    title: "Capture d´écran d´une note où on a sélectionné le texte pom-E et l'on voit dans le menu contextuel l'option Rechercher la sélection, encadrée en rouge sur la capture d'écran."
+  img-5:
+    alt: Barre de recherche avec le champ de recherche prérempli avec la sélection
+    url: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Rechercher-Remplacer-3.png 
+    title: "Capture d´écran de la même note après avoir choisi Rechercher la sélection. Au dessus du clavier virtuel apparait la barre de recherche (encadré en rouge surnla capture d´écran). On y voit le champ de recherche pré-rempli avec le texte sélectionné, le nombre d´occurrences trouvées et les flèches haut et bas pour passer à l´occurrence précédente ou suivante."
+  img-6:
+    alt: Option Barre de recherche pour activer Rechercher et Remplacer
+    url: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Rechercher-Remplacer-4.png
+    title: "Capture d´écran où l´on voit la barre de recherche avec un menu dévoilant des options (encadré en rouge sur la capture d´écran) dont celle de Rechercher et Remplacer. Une nouveauté iOS 16."
+  img-7:
+    alt: La barre de Rechercher et Remplacer
+    url: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Rechercher-Remplacer-5.png
+    title: "Capture d´écran où l´on voit au dessus du clavier virtuel la barre de Rechercher Remplacer (encadrée en rouge sur la capture d´écran). À la droite du champ de recherche, on a maintenant le champ qui accueillera le texte de remplacement. À droite de ce champ se situe un bouton Remplacer. En appuyant sur celui-ci, on remplacera lˋoccurrence du texte recherché par le texte de remplacement."
 videos:
   - id: Cmd-E-Rechercher-Mauvaise-methode
     url: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Cmd-E-Rechercher-Mauvaise-methode.mp4
@@ -54,10 +94,10 @@ videos:
     title: Comment faire l´équivalent de Rechercher et Remplacer du texte sélectionné sans clavier externe ?
 otherLinks: 
    - title: "Histoire de raccourcis clavier célèbres - Partie 1 : Couper/Copier/Coller"
-     url: /2020/04/15/Histoire-de-raccourcis-clavier-apple-partie1-le-trio-couper-copier-coller.html
+     url: /2020/04/15/Histoire-de-raccourcis-clavier-apple-partie1-le-trio-couper-copier-coller/
 ---
 
-![Un raccourci clavier qui gagne à être connu]
+{% include picture.html img=page.images.img-1 %}
 
 Ce raccourcis clavier, Cmd-E, ou ⌘E, est un raccourci clavier fort méconnu mais qui peut vous faire gagner énormément de temps.
 
@@ -107,7 +147,7 @@ L’avantage de cette méthode est que
 
 On va illustrer cela en remplaçant dans une note « pom-E » par « cmd-E »
 
-![Capture d´écran d´une note dans l´app Notes où on a un texte avec des occurences de pom-E. Le but étant de remplacer certaines de ces occurrences par cmd-E.]
+{% include picture.html img=page.images.img-2 %}
 
 Voilà les différentes étapes
 1. Sélection du texte « cmd-E »
@@ -151,16 +191,16 @@ Sous iOS 15, Apple ne proposait rien de comparable.
 
 On avait juste le raccourci clavier ⌘F pour ouvrir la fenêtre de recherche. Mais il fallait taper le texte à rechercher.
 
-![Capture d´écran de la fenêtre Rechercher sous iOS 15]
+{% include picture.html img=page.images.img-3 %}
 
 Sous iOS 16, on a maintenant la possibilité de rechercher le texte sélectionné, ce qui va ouvrir la fenêtre de recherche avec le texte sélectionné déjà rempli dans le champ de recherche.
 C’est l’équivalent de l’enchaînement des raccourcis clavier ⌘E et ⌘F.
 
 Et ça permet donc de rechercher les occurrences d’un texte, sans que celui-ci vienne remplacer le contenu du presse papier.
 
-![Menu Contextuel Rechercher la sélection]
+{% include picture.html img=page.images.img-4 %}
 
-![Barre de recherche avec le champ de recherche prérempli avec la sélection]
+{% include picture.html img=page.images.img-5 %}
 
 Voyons cela en vidéo :
 {% include video.html 
@@ -172,9 +212,10 @@ Comment faire le rechercher/remplacer si on n’a pas de clavier à portée de m
 
 À nouveau, grâce à une nouveauté introduite dans iOS 16 de la fenêtre de recherche qui permet de rechercher et remplacer du texte.
 
-![Option Barre de recherche pour activer Rechercher et Remplacer]
+{% include picture.html img=page.images.img-6 %}
 
-![La barre de Rechercher et Remplacer]
+
+{% include picture.html img=page.images.img-7 %}
 
 Imaginons, comme tantôt que l’on désire remplacer l’expression pom-E par cmd-E.
 
@@ -204,23 +245,8 @@ Merci à eux, même si cela reste encore perfectible.
 
 Plus d’information sur Larry Tesler:
 
-- [Larry Tesler : l’homme qui n’aimait pas les modes][LarryTesler-1]
-- [1985 : Quand Larry Tesler raccontait l’aventure du Lisa][LarryTesler-2]
+- {% include link.html link=page.liens.LarryTesler-1 %}
+- {% include link.html link=page.liens.LarryTesler-2 %}
 
-[LarryTesler-1]: https://www.macg.co/ailleurs/2020/02/deces-de-larry-tesler-lhomme-qui-naimait-pas-les-modes-112053 "Larry Tesler : l’homme qui n’aimait pas les modes"
 
-[LarryTesler-2]: https://www.macg.co/ailleurs/2020/02/1985-quand-larry-tesler-racontait-laventure-du-lisa-112057 "1985 : Quand Larry Tesler raccontait l’aventure du Lisa"
 
-[Un raccourci clavier qui gagne à être connu]: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Accroche-Raccourci-Clavier-Cmd-E.png "Command-E : Un raccourci clavier qui gagne à être connu"
-
-[Capture d´écran d´une note dans l´app Notes où on a un texte avec des occurences de pom-E. Le but étant de remplacer certaines de ces occurrences par cmd-E.]: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Raccourci-clavier-Notes-1.png "Capture d´écran de l´app Notes avec menu contextuel"
-
-[Capture d´écran de la fenêtre Rechercher sous iOS 15]: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Rechercher-Remplacer-1.png "Capture d´écran de la fenêtre Rechercher sous iOS 15. Avec les fleches Haut et Bas situées à gauche pour rechercher l´occurrence précédente ou suivante. On y voit aussi le nombre d´occurrences trouvées, et le texte recherché. À droite, le bouton OK"
-
-[Menu Contextuel Rechercher la sélection]: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Rechercher-Remplacer-2.png "Capture d´écran d´une note où on a sélectionné le texte pom-E et l'on voit dans le menu contextuel l'option Rechercher la sélection, encadrée en rouge sur la capture d'écran."
-
-[Barre de recherche avec le champ de recherche prérempli avec la sélection]: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Rechercher-Remplacer-3.png "Capture d´écran de la même note après avoir choisi Rechercher la sélection. Au dessus du clavier virtuel apparait la barre de recherche (encadré en rouge surnla capture d´écran). On y voit le champ de recherche pré-rempli avec le texte sélectionné, le nombre d´occurrences trouvées et les flèches haut et bas pour passer à l´occurrence précédente ou suivante."
-
-[Option Barre de recherche pour activer Rechercher et Remplacer]: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Rechercher-Remplacer-4.png "Capture d´écran où l´on voit la barre de recherche avec un menu dévoilant des options (encadré en rouge sur la capture d´écran) dont celle de Rechercher et Remplacer. Une nouveauté iOS 16."
-
-[La barre de Rechercher et Remplacer]: /img/posts/2022/11/13/Raccourci-Clavier-Cmd-E/Rechercher-Remplacer-5.png "Capture d´écran où l´on voit au dessus du clavier virtuel la barre de Rechercher Remplacer (encadrée en rouge sur la capture d´écran). À la droite du champ de recherche, on a maintenant le champ qui accueillera le texte de remplacement. À droite de ce champ se situe un bouton Remplacer. En appuyant sur celui-ci, on remplacera lˋoccurrence du texte recherché par le texte de remplacement."
