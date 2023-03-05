@@ -1,4 +1,4 @@
-# Bienvenue sur le repository qui sert à générer le site de [blog.marcosx.net]
+# Bienvenue sur le repository qui sert à générer le preview du site de [blog.marcosx.net]
 
 Il y a bien longtemps, j´avais un site, [www.marcosx.net], hébergé chez OVH et 
 ça tournait sous une toute vieille version de wordpress, avec un theme dynamique 
@@ -304,8 +304,7 @@ c'est à dire qu´en fonction
 - des dates, il mentionnerait des articles ayant des choses en communs.
 
 [www.marcosx.net]: https://www.marcosx.net
-[blog.marcosx.net]: https://blog.marcosx.net
-[marcosx.github.io]: https://marcosx.github.io
+[blog.marcosx.net]: https://preview.marcosx.net
 [github]: https://github.com
 [marcosickx.github.io]: https://github.com/MarcosIckx/MarcosIckx.github.io/
 [GitHub Pages]: https://docs.github.com/fr/pages
