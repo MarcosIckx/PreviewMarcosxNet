@@ -59,6 +59,7 @@ div.debug {
 /* Règles pour barre de navigation (nav) au-dessus des pages. */
 /* ligne séparatrice pour bien séparer la barre de menu du reste */
 nav {
+  background-color: red;
   border-bottom: 0.1250rem solid var(--footer-color);
   font-size: 1rem;
 }
@@ -130,6 +131,7 @@ on le limite au footer du body car, comme on le verra plus tard,
 on a des footer par article et par secrion aussi.
 mais ils nˆauront pas le même reglage,*/
 body>footer {
+    background-color: red;
     border-top: 0.1250rem solid var(--footer-color);
     font-size: 1rem;
 }
