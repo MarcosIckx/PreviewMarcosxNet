@@ -8,13 +8,13 @@ future: true
 debug: false
 
 # titre du site
-title: Le Blog de Marcos Ickx
+title: Le Blog de Marcos Ickx PREVIEW
 # nom du site
-name: Le Blog de Marcos Ickx
+name: Le Blog de Marcos Ickx PREVIEW
 # description du site
-description: Je parle ici de tout et de rien mais toujours en lien avec Apple et ses produits. Principalement l´iPad, mais pas que.
+description: PREVIEW du blog de Marcos Ickx 
 # url du site
-url: https://blog.marcosx.net
+url: https://preview.marcosx.net
 # auteur du site, par defaut
 author: Marcos Ickx
 
