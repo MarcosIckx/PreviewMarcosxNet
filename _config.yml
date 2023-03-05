@@ -1,3 +1,6 @@
+future: true
+
+
 # J´ai certains layout, pages ou include qui rajoutent un peu de debug
 # dans un div de class debug.
 # Ça me permet de voir où certaines choses clochent
