@@ -1,12 +1,2 @@
 user-agent: *
-disallow: /Tests/
-disallow: /reports/
-disallow: /_pages/
-disallow: /apropos/
-disallow: /videos/
-disallow: /2019/08/01/Support-Accessoires-USB-iOS-12.html
-disallow: /2020/04/03/Support-Accessoires-USB-iPadOS-13.3.html
-disallow: /2020/04/03/nouveaute-iPadOS13.3-Les-coins-actifs.html
-disallow: /2020/04/15/Histoire-de-raccourcis-clavier-apple-partie1-le-trio-couper-copier-coller.html
-disallow: /2022/11/13/Raccourci-Clavier-Cmd-E.html
-sitemap: https://blog.marcosx.net/sitemap.xml
+disallow: /
