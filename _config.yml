@@ -127,21 +127,21 @@ defaults:
       path: ""
       type: "archives"
     values:
-      layout: "archive"
+      layout: "collections/archive"
 
   -
     scope:
       path: ""
       type: "authors"
     values:
-      layout: "author"
+      layout: "collections/author"
 
   -
     scope:
       path: ""
       type: "reports"
     values:
-      layout: "report"
+      layout: "collections/report"
     
   -
     scope:
