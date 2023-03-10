@@ -31,10 +31,10 @@ images;
     url: https://marcosx.net/blogs/wp-content/uploads/2010/05/cote-droit-mbp.jpg
     alt: le coté droit du MacBook Pro
     title: le coté droit du MqcBook Pro
-   img-8:
-     url: https://marcosx.net/blogs/wp-content/uploads/2010/05/cote-gauche-mbp.jpg
-     alt: le coté gauche du MacBook Pro
-     title: le coté droit du MacBook Pro
+  img-8:
+    url: https://marcosx.net/blogs/wp-content/uploads/2010/05/cote-gauche-mbp.jpg
+    alt: le coté gauche du MacBook Pro
+    title: le coté droit du MacBook Pro
 ---
 Apple va tenir un évènement ce mardi 14 octobre à 19 heures, pour dévoiler les nouveaux portables de la marque.
 
