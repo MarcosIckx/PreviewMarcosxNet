@@ -33,47 +33,16 @@ Voici donc les différences entre les anciens MacBook (Novembre 2007) et les nou
 
 Voici ce que vous pouviez acheter lundi :
 
-Modèle	MacBook Blanc 13″ A
-MB061LL/B	MacBook Blanc 13″ B
-MB062LL/B	MacBook Noir 13″
-MB063LL/B
-Résolution	1280*800	1280*800	1280*800
-Processeur	Core2Duo
-2Ghz
-4Mo Cache
-(Intel T7300, 65nm, 800Mhz)
-
-Core2Duo
-2.2Ghz
-4Mo Cache
-(Intel T7500, 65nm, 800Mhz)
-
-Core2Duo
-2.2Ghz
-4Mo Cache
-(Intel T7500, 65nm, 800Mhz)
-
-Mémoire	1Go
-667Mhz	1Go
-667Mhz	1Go
-667Mhz
-Disque Dur	80Go
-Serial ATA
-5400tpm	120Go
-Serial ATA
-5400tpm	160Go
-Serial ATA
-5400tpm
-Lecteur Optique	Combo Drive	SuperDrive 8x	SuperDrive 8x
-Carte Graphique	Intel GMA X3100
-144Mo de Mémoire Partagée	Intel GMA X3100
-144Mo de Mémoire Partagée	Intel GMA X3100
-144Mo de Mémoire Partagée
-Connectivité	2 Ports USB,
-1 Port FireWire400	2 Ports USB,
-1 Port FireWire400	2 Ports USB,
-1 Port FireWire400
-Prix	1049€	1249€	1449€
+| Modèle	| MacBook Blanc 13″ A MB061LL/B	| MacBook Blanc 13″ B MB062LL/B	| MacBook Noir 13″ MB063LL/B |
+| -- | -- | -- | -- |
+| Résolution	|1280*800	1280*800	| 1280*800 |
+Processeur	| Core2Duo 2Ghz 4Mo Cache (Intel T7300, 65nm, 800Mhz) | Core2Duo 2.2Ghz 4Mo Cache (Intel T7500, 65nm, 800Mhz) | Core2Duo 2.2Ghz 4Mo Cache (Intel T7500, 65nm, 800Mhz) |
+|Mémoire	|1Go 667Mhz	|1Go 667Mhz	|1Go 667Mhz |
+| Disque Dur |	80Go Serial ATA 5400tpm	| 120Go Serial ATA 5400tpm	| 160Go Serial ATA 5400tpm |
+|Lecteur Optique	|Combo Drive	|SuperDrive 8x	| SuperDrive 8x |
+| Carte Graphique	| Intel GMA X3100 144Mo de Mémoire Partagée	| Intel GMA X3100 144Mo de Mémoire Partagée	| Intel GMA X3100 144Mo de Mémoire Partagée |
+| Connectivité	| 2 Ports USB, 1 Port FireWire400	| 2 Ports USB, 1 Port FireWire400	| 2 Ports USB, 1 Port FireWire400 |
+| Prix	| 1049€	| 1249€	| 1449€ |
 
 Et voici ce qu’on peut acheter maintenant :
 
