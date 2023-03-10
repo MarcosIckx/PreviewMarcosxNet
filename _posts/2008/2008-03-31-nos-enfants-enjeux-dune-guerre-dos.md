@@ -2,6 +2,11 @@
 date: 2008-03-31
 category: Technologie
 title: Nos enfants, enjeux d’une guerre d’OS
+images:
+  img-1:
+    url: https://marcosx.net/blogs/wp-content/uploads/2010/05/Schema-Reseau-CyberClass.jpg
+    title: Schéma Réseau CyberClass
+    alt: Schéma Réseau CyberClass
 ---
 La Wallonie désire équiper ses écoles, via le programme [CyberClasse], d’un réseau équipé de 40.000 postes de travail, et de 3.300 serveurs.
 
@@ -26,6 +31,7 @@ Gérard Guillaume :
 
 Par contre, concernant les serveurs, les jeux sont faits.
   
+{% include picture.html img=page.images.img-1 %}
 
 On sait déjà que c’est Apple qui fournit le matériel (des XServer avec Mac OS X Server, bien évidemment) pour les 3.300 serveurs. Ce serveur fera tourner un logiciel, [CyberMedia] qui devrait faciliter grander l’administration des postes de travail dont il aura la charge.
 La solution Apple fut retenue 
