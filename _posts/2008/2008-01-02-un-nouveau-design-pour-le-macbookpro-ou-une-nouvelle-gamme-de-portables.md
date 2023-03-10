@@ -2,8 +2,14 @@
 date: 2008-01-02
 category: Matériel
 title: Un nouveau design pour le MacBookPro ou une nouvelle gamme de portables ?
+images:
+  img-1:
+    url: https://marcosx.net/blogs/wp-content/uploads/2008/01/MBPro-2008-Applesfera.jpg
+    alt: image macbook pro 
+    title: Applesfera a publié une image de ce qui pourrait etre le nouveau design des MacBook Pro
 ---
 
+{% include picture.html img=page.images.img-1 %}
 
 MacWorld 2008, le salon entièrement dédié au Mac, se tiendra cette année du 15 au 18 janvier au Moscone Center à San Francisco.
 
