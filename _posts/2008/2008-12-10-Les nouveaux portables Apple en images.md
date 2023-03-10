@@ -2,7 +2,7 @@
 date: 2008-12-10
 category: Matériel
 title: Les nouveaux portables Apple en images
-images;
+images:
   img-1:
     url: https://marcosx.net/blogs/wp-content/uploads/2010/05/dessus-mb.jpg
     alt: le dessus du MacBook
