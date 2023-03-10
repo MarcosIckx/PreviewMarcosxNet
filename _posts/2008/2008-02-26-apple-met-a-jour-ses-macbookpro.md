@@ -72,8 +72,8 @@ Voici ce que vous pouviez acheter lundi :
 
 |Modèle	|MacBookPro 15″ A MA895*/A	|MacBookPro 15″ B MA896*/A	|MacBookPro 17″ MA897*/A|
 |--|--|--|--|
-| Résolution	|1440*900	| 1440*900	|1680*1050 1920*1200 |
-| Processeur	| Core2Duo 2.2Ghz 4Mo Cache (Intel T7500, 65nm, 800Mhz) | Core2Duo 2.4Ghz 4Mo Cache (Intel T7700, 65nm, 800Mhz) | Core2Duo 2.4Ghz 4Mo Cache (Intel T7700, 65nm, 800Mhz) |
+| Résolution	|1440*900	| 1440*900	|**1680*1050 1920*1200** |
+| Processeur	| Core2Duo 2.2Ghz 4Mo Cache (Intel T7500, 65nm, 800Mhz) | Core2Duo **2.4Ghz** 4Mo Cache (Intel **T7700**, 65nm, 800Mhz) | Core2Duo **2.4Ghz** 4Mo Cache (Intel **T7700**, 65nm, 800Mhz) |
 | Mémoire	|2 x 1Go 667Mhz	| 2 x 1Go 667Mhz	| 2 x 1Go 667Mhz |
 |Disque Dur	| 120Go Serial ATA 5400tpm	|**160Go** Serial ATA 5400tpm| 	**160Go** Serial ATA 5400tpm |
 | Lecteur Optique	| SuperDrive 8x| 	SuperDrive 8x | 	SuperDrive 8x |
@@ -85,10 +85,10 @@ Et voici ce qu’on peut acheter maintenant :
 
 | Modèle	| MacBookPro 15″ A MB133LL/A	| MacBookPro 15″ B MB134LL/A	| MacBookPro 17″ MB166LL/A |
 |--|--|--|--|
-| Résolution	| 1440*900	1440*| 900	| 1680*1050 1920*1200 |
-| Processeur	| Core2Duo 2.4Ghz 3Mo Cache (Intel T8300, 45nm, 800Mhz) |Core2Duo 2.5Ghz 6Mo Cache (Intel T9300, 45nm, 800Mhz) | Core2Duo 2.5Ghz 6Mo Cache (Intel T9300, 45nm, 800Mhz) |
-| Mémoire	| 2 x1Go 667Mhz	| 2 x 1Go 667Mhz	| 2 x 1Go 667Mhz |
-| Disque Dur	| ***200Go*** Serial ATA 5400tpm	| ***250Go*** Serial ATA 5400tpm	| ***250Go*** Serial ATA 5400tpm |
+| Résolution	| 1440*900	1440*| 900	| __1680*1050 1920*1200__ |
+| Processeur	| Core2Duo *2.4Ghz* *3Mo* Cache (Intel *T8300, 45nm*, 800Mhz) |Core2Duo ***2.5Ghz*** *6Mo* Cache (Intel T9300, 45nm, 800Mhz) | Core2Duo 2.5Ghz 6Mo Cache (Intel *T9300*, *45nm*, 800Mhz) |
+| Mémoire	| 2x1Go 667Mhz	| 2x1Go 667Mhz	| 2x1Go 667Mhz |
+| Disque Dur	| *200Go* Serial ATA 5400tpm	| ***250Go*** Serial ATA 5400tpm	| ***250Go*** Serial ATA 5400tpm |
 | Lecteur Optique	| SuperDrive 8x	| SuperDrive 8x	| SuperDrive 8x|
 |Carte Graphique| GeForce 8600M *256Mo* GDDR3	 | GeForce 8600M ***512Mo*** GDDR3	|GeForce 8600M ***512Mo*** GDDR3 |
 | Connectivité|	2 Ports USB, 1 Port FireWire400, 1 Port FireWire800, un emplacement ExpressCard/34 |2 Ports USB, 1 Port FireWire400, 1 Port FireWire800 un emplacement ExpressCard/34 | **3 Ports USB**, 1 Port FireWire400, 1 Port FireWire800 un emplacement ExpressCard/34 |
