@@ -2,11 +2,18 @@
 title: Les possesseurs de Mac sont beaucoup plus satisfaits que les autres
 date: 2007-08-22
 category: Matériel
+images:
+  img-1:
+     url: https://marcosx.net/blogs/wp-content/uploads/2010/05/taux-satisfaction-ordinateurs-aout-2007.jpg
+     alt: taux satisfzction ordinateurs 
+     title: graphe taux sastifaction ordinateurs
 ---
 
 [étude américaine]: https://web.archive.org/web/20160905073226/http://www.appleinsider.com/articles/07/08/21/apple_seeing_unprecedented_surge_in_macbook_demand.html
 
 Selon une [étude américaine], portant sur 6 marques d’ordinateurs, 86% des possesseurs (récents, puisque acheté durant les 3 derniers mois) d’un Apple se disent TRES SATISFAIT. Soit, loin devant la 2ième marque, où seuls 56% se disent très satisfait. Dell fermant la marche, avec seulement 44% de très satisfait.
+
+{% include picture.html img=page.images.img-1 %}
 
 Maintenant, l’enquête ne nous dit pas si un tel écart est du uniquement du fait de la machine, ou si l’OS livré avec a joué un rôle important dans ces réponses.
 
