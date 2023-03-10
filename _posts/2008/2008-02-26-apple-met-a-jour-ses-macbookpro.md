@@ -36,60 +36,27 @@ Voici ce que vous pouviez acheter lundi :
 | Modèle	| MacBook Blanc 13″ A MB061LL/B	| MacBook Blanc 13″ B MB062LL/B	| MacBook Noir 13″ MB063LL/B |
 | -- | -- | -- | -- |
 | Résolution	|1280*800	1280*800	| 1280*800 |
-Processeur	| Core2Duo 2Ghz 4Mo Cache (Intel T7300, 65nm, 800Mhz) | Core2Duo 2.2Ghz 4Mo Cache (Intel T7500, 65nm, 800Mhz) | Core2Duo 2.2Ghz 4Mo Cache (Intel T7500, 65nm, 800Mhz) |
+Processeur	| Core2Duo 2Ghz 4Mo Cache (Intel T7300, 65nm, 800Mhz) | Core2Duo **2.2Ghz** 4Mo Cache (Intel **T7500**, 65nm, 800Mhz) | Core2Duo **2.2Ghz** 4Mo Cache (Intel **T7500**, 65nm, 800Mhz) |
 |Mémoire	|1Go 667Mhz	|1Go 667Mhz	|1Go 667Mhz |
-| Disque Dur |	80Go Serial ATA 5400tpm	| 120Go Serial ATA 5400tpm	| 160Go Serial ATA 5400tpm |
-|Lecteur Optique	|Combo Drive	|SuperDrive 8x	| SuperDrive 8x |
+| Disque Dur |	80Go Serial ATA 5400tpm	| **120Go** Serial ATA 5400tpm	| **160Go** Serial ATA 5400tpm |
+|Lecteur Optique |Combo Drive	| **SuperDrive 8x**	| **SuperDrive 8x** |
 | Carte Graphique	| Intel GMA X3100 144Mo de Mémoire Partagée	| Intel GMA X3100 144Mo de Mémoire Partagée	| Intel GMA X3100 144Mo de Mémoire Partagée |
 | Connectivité	| 2 Ports USB, 1 Port FireWire400	| 2 Ports USB, 1 Port FireWire400	| 2 Ports USB, 1 Port FireWire400 |
-| Prix	| 1049€	| 1249€	| 1449€ |
+| Prix	| 1049€	| **1249€**	| **1449€** |
 
 Et voici ce qu’on peut acheter maintenant :
 
-Modèle	MacBook Blanc 13″ A
-MB402*/A	MacBook Blanc 13″ B
-MB403*/A	MacBook Noir 13″
-MB404*/A
-Résolution	1280*800	1280*800	1280*800
-Processeur	Core2Duo
-2.1Ghz
-3Mo Cache
+| Modèle	| MacBook Blanc 13″ A MB402*/A	| MacBook Blanc 13″ B MB403*/A	| MacBook Noir 13″ MB404*/A |
+|--|--|--|--|
+|Résolution	| 1280*800	| 1280*800	| 1280*800 |
+| Processeur	|Core2Duo *2.1Ghz* 3Mo Cache (Intel *T8100, 45nm*, 800Mhz)| Core2Duo ***2.4Ghz*** 3Mo Cache (Intel ***T8300, 45nm***, 800Mhz)| Core2Duo ***2.4Ghz*** 3Mo Cache (Intel ***T8300, 45nm***, 800Mhz) |
+| Mémoire	2*512Mo 667Mhz	|***2*1Go*** 667Mhz	| ***2*1Go*** 667Mhz |
+| Disque Dur	| *120Go* Serial ATA 5400tpm	| ***160Go*** Serial ATA 5400tpm	| ***250Go*** Serial ATA 5400tpm |
+|Lecteur Optique	|Combo drive	|**SuperDrive 8x**	|**SuperDrive 8x**|
+| Carte Graphique	| Intel GMA X3100 144Mo de Mémoire Partagée	| Intel GMA X3100 144Mo de Mémoire Partagée	| Intel GMA X3100 144Mo de Mémoire Partagée |
+|Connectivité	| 2 Ports USB, 1 Port FireWire400	| 2 Ports USB, 1 Port FireWire400	| 2 Ports USB, 1 Port FireWire400 |
+| Prix	| *999€*	| ***1199€*** | 	***1399€*** |
 
-(Intel T8100, 45nm, 800Mhz)
-
-Core2Duo
-2.4Ghz
-3Mo Cache
-
-(Intel T8300, 45nm, 800Mhz)
-
-Core2Duo
-2.4Ghz
-3Mo Cache
-
-(Intel T8300, 45nm, 800Mhz)
-
-Mémoire	2*512Mo
-667Mhz	2*1Go
-667Mhz	2*1Go
-667Mhz
-Disque Dur	120Go
-Serial ATA
-5400tpm	160Go
-Serial ATA
-5400tpm	250Go
-Serial ATA
-5400tpm
-Lecteur Optique	Combo drive	SuperDrive 8x	SuperDrive 8x
-Carte Graphique	Intel GMA X3100
-144Mo de Mémoire Partagée	Intel GMA X3100
-144Mo de Mémoire Partagée	Intel GMA X3100
-144Mo de Mémoire Partagée
-Connectivité	2 Ports USB,
-1 Port FireWire400	2 Ports USB,
-1 Port FireWire400	2 Ports USB,
-1 Port FireWire400
-Prix	999€	1199€	1399€
 (en **gras**, la différence entre le modèle de base (le 13″ blanc A) et le modèle courant)
 
 (en *italique*, la différence par rapport au modèle de l’ancienne gamme)
@@ -103,119 +70,33 @@ Nous allons commencer par vous expliquer les différences entre les anciens MacB
 
 Voici ce que vous pouviez acheter lundi :
 
-Modèle	MacBookPro 15″ A
-MA895*/A	MacBookPro 15″ B
-MA896*/A	MacBookPro 17″
-MA897*/A
-Résolution	1440*900	1440*900	1680*1050
-1920*1200
-Processeur	Core2Duo
-2.2Ghz
-4Mo Cache
-(Intel T7500, 65nm, 800Mhz)
+|Modèle	|MacBookPro 15″ A MA895*/A	|MacBookPro 15″ B MA896*/A	|MacBookPro 17″ MA897*/A|
+|--|--|--|--|
+| Résolution	|1440*900	| 1440*900	|1680*1050
+1920*1200 |
+| Processeur	| Core2Duo 2.2Ghz 4Mo Cache (Intel T7500, 65nm, 800Mhz) | Core2Duo 2.4Ghz 4Mo Cache (Intel T7700, 65nm, 800Mhz) | Core2Duo 2.4Ghz 4Mo Cache (Intel T7700, 65nm, 800Mhz) |
+| Mémoire	|2*1Go 667Mhz	| 2*1Go 667Mhz	| 2*1Go 667Mhz |
+|Disque Dur	| 120Go Serial ATA 5400tpm	|160GoSerial ATA 5400tpm| 	160Go Serial ATA 5400tpm |
+| Lecteur Optique	| SuperDrive 8x| 	SuperDrive 8x | 	SuperDrive 8x |
+| Carte Graphique	| GeForce 8600M 128Mo GDDR3| 	GeForce 8600M 256Mo GDDR3 |	GeForce 8600M 256Mo GDDR3 |
+| Connectivité	| 2 Ports USB, 1 Port FireWire400, 1 Port FireWire800
+un emplacement ExpressCard/34 | 2 Ports USB, 1 Port FireWire400, 1 Port FireWire800 un emplacement ExpressCard/34 | 3 Ports USB, 1 Port FireWire400, 1 Port FireWire800, un emplacement ExpressCard/34 |
+|Prix |	1899€ |	2399€ |2699€ 2799€ si 1920*1200 |
 
-Core2Duo
-2.4Ghz
-4Mo Cache
-(Intel T7700, 65nm, 800Mhz)
-
-Core2Duo
-2.4Ghz
-4Mo Cache
-(Intel T7700, 65nm, 800Mhz)
-
-Mémoire	2*1Go
-667Mhz	2*1Go
-667Mhz	2*1Go
-667Mhz
-Disque Dur	120Go
-Serial ATA
-5400tpm	160Go
-Serial ATA
-5400tpm	160Go
-Serial ATA
-5400tpm
-Lecteur Optique	SuperDrive 8x	SuperDrive 8x	SuperDrive 8x
-Carte Graphique	GeForce 8600M
-128Mo GDDR3	GeForce 8600M
-256Mo GDDR3	GeForce 8600M
-256Mo GDDR3
-Connectivité	2 Ports USB,
-1 Port FireWire400,
-1 Port FireWire800
-un emplacement ExpressCard/34
-
-2 Ports USB,
-1 Port FireWire400,
-1 Port FireWire800
-un emplacement ExpressCard/34
-
-3 Ports USB,
-1 Port FireWire400,
-1 Port FireWire800
-un emplacement ExpressCard/34
-
-Prix	1899€	2399€	2699€
-2799€ si 1920*1200
 Et voici ce qu’on peut acheter maintenant :
 
-Modèle	MacBookPro 15″ A
-MB133LL/A	MacBookPro 15″ B
-MB134LL/A	MacBookPro 17″
-MB166LL/A
-Résolution	1440*900	1440*900	1680*1050
-1920*1200
-Processeur	Core2Duo
-2.4Ghz
-3Mo Cache
+| Modèle	| MacBookPro 15″ A MB133LL/A	| MacBookPro 15″ B MB134LL/A	| MacBookPro 17″ MB166LL/A |
+|--|--|--|--|
+| Résolution	| 1440*900	1440*| 900	| 1680*1050
+1920*1200 |
+| Processeur	| Core2Duo 2.4Ghz 3Mo Cache (Intel T8300, 45nm, 800Mhz) |Core2Duo 2.5Ghz 6Mo Cache (Intel T9300, 45nm, 800Mhz) | Core2Duo 2.5Ghz 6Mo Cache (Intel T9300, 45nm, 800Mhz) |
+| Mémoire	| 2*1Go 667Mhz	| 2*1Go 667Mhz	| 2*1Go 667Mhz |
+| Disque Dur	| 200Go Serial ATA 5400tpm	| 250Go Serial ATA 5400tpm	| 250Go Serial ATA 5400tpm |
+| Lecteur Optique	| SuperDrive 8x	| SuperDrive 8x	| SuperDrive 8x|
+|Carte Graphique| GeForce 8600M 256Mo GDDR3	 | GeForce 8600M 512Mo GDDR3	|GeForce 8600M 512Mo GDDR3 |
+| Connectivité|	2 Ports USB, 1 Port FireWire400, 1 Port FireWire800, un emplacement ExpressCard/34 |2 Ports USB, 1 Port FireWire400, 1 Port FireWire800 un emplacement ExpressCard/34 | 3 Ports USB, 1 Port FireWire400, 1 Port FireWire800 un emplacement ExpressCard/34 |
+| Prix	| 1799€ | 	2199€ |	 2499€ 2589€ si 1920*1200|
 
-(Intel T8300, 45nm, 800Mhz)
-
-Core2Duo
-2.5Ghz
-6Mo Cache
-
-(Intel T9300, 45nm, 800Mhz)
-
-Core2Duo
-2.5Ghz
-6Mo Cache
-
-(Intel T9300, 45nm, 800Mhz)
-
-Mémoire	2*1Go
-667Mhz	2*1Go
-667Mhz	2*1Go
-667Mhz
-Disque Dur	200Go
-Serial ATA
-5400tpm	250Go
-Serial ATA
-5400tpm	250Go
-Serial ATA
-5400tpm
-Lecteur Optique	SuperDrive 8x	SuperDrive 8x	SuperDrive 8x
-Carte Graphique	GeForce 8600M
-256Mo GDDR3	GeForce 8600M
-512Mo GDDR3	GeForce 8600M
-512Mo GDDR3
-Connectivité	2 Ports USB,
-1 Port FireWire400,
-1 Port FireWire800
-un emplacement ExpressCard/34
-
-2 Ports USB,
-1 Port FireWire400,
-1 Port FireWire800
-un emplacement ExpressCard/34
-
-3 Ports USB,
-1 Port FireWire400,
-1 Port FireWire800
-un emplacement ExpressCard/34
-
-Prix	1799€	2199€	2499€
-2589€ si 1920*1200
 (en **gras**, la différence entre le modèle de base (le 15″ A) et le modèle courant)
 
 (en *italique*, la différence par rapport au modèle de l’ancienne gamme)
