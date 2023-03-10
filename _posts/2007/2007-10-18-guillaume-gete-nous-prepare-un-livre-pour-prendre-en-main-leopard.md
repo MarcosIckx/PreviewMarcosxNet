@@ -24,5 +24,5 @@ J’ai beaucoup aimé la réflexion qu’il a fait dans ce même billet :
 
 Son livre devrait être disponible au plus tard début 2008.
 
-{% include picture.html page.images.img-1 %}
+{% include picture.html img=page.images.img-1 %}
 
