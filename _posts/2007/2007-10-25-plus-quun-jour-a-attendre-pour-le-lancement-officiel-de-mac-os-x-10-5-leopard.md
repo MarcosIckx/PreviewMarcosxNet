@@ -3,6 +3,11 @@ title: Plus qu’un jour à attendre pour le lancement officiel de Mac OS X 10.5
 date: 2007-10-25
 tags: [Léopard]
 category: macOS
+images:
+  img-1:
+    url: https://marcosx.net/blogs/wp-content/uploads/2010/05/Leopard-1-jour.png
+    alt: compte à rebour Leopard
+    title: compte à rebours indiquant 24 heures avant la sortie de Mac OS X Leopard
 ---
 
 Comme vous pouvez le constater, il faut attendre exactement 24 heures pour que soit officialisé la naissance de Mac OS X 10.5, Léopard.
